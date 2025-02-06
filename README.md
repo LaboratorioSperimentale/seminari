@@ -5,6 +5,6 @@
 
   # LaboratorioSperimentale's Website
 
-  Visit **[website url](#)** 🚀
+  Visit **[laboratoriosperimentale.github.io/seminari](https://laboratoriosperimentale.github.io/seminari)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
