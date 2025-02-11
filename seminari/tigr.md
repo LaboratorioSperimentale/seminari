@@ -4,6 +4,11 @@ author: Silvia
 ---
 
 # Il corpus TIGR: un corpus video per lo studio dell'italiano parlato
+
+## INSERIRE TABELLA RIASSUNTIVA
+
+
+
 ## Introduzione al corpus TIGR
 Il corpus d'italiano parlato TIGR è stato raccolto negli anni 2021 e 2022  nei cantoni svizzeri Ticino e Grigioni (da qui il nome) e nasce all'interno di un progetto di ricerca condotto dall'Università della Svizzera Italiana (USI), **InfinIta - La categorizzazione delle fonti di informazione nell'interazione faccia a faccia. Una indagine basata sul corpus di italiano parlato TIGR** (per l'abstract e le pubblicazioni scientifiche: https://data.snf.ch/grants/grant/192771). Il progetto, finanziato dalla Swiss National Science Foundation (SNSF), terminerà il 31 agosto 2025.
 Come si legge sul sito dell'USI (E QUI METTEREI IL COLLEGAMENTO IPERTESTUALE AL SITO), il corpus TIGR "documenta interazioni faccia a faccia in situazioni non sperimentali di vario genere: conversazioni a tavola, preparazione di cibo, lezioni e incontri di tutoring, interviste, per 23,5 ore in totale".
@@ -46,7 +51,7 @@ Sono diversi i motivi che hanno spinto alla creazione di un corpus video:
 Per conoscere la struttura del TIGR nel contesto del progetto InfinIta e lo statuto del corpus tra i vari corpora linguistici esistenti, si rimanda all'articolo [_Composizione del corpus_](https://sharetigr.usi.ch/it/news/feeds/37812).
 
 Design iniziale del corpus TIGR (2020)
-![plain image](/images/seminar-images/image-10.png)
+![plain image](/images/seminar-images/tigr/image-10.png)
 
 
 Secondo il disegno iniziale, l'idea era di includere diversi tipi di interazione: intervista, conversazione a tavola, preparazione di un pasto, lavori di gruppo e lezioni; per un totale di 28 ore e 39 eventi.
@@ -55,7 +60,7 @@ Però strada facendo ci sono stati dei riadattamenti del design del corpus a cau
 Alla fine del processo sono state ottenute 23h 30' di videoregistrazione, per un totale di 23 eventi e 115 parlanti.
 
 La versione finale del corpus TIGR
-![plain image](/images/seminar-images/image-11.png)
+![plain image](/images/seminar-images/tigr/image-11.png)
 
 Per quanto riguarda i contesti didattici, sono state registrate lezioni di tre tipi:
 - sessioni di tutoring in architettura,
@@ -118,30 +123,30 @@ Per quanto riguarda le misure di de-identificazione dei dati inseriti dai partec
 Di seguito si riportano alcuni grafici sui principali dati sociolinguistici che riguardano il campione di parlanti considerato.
 
 - #### Genere e età
-  ![plain image](/images/seminar-images/image-15.png)
+  ![plain image](/images/seminar-images/tigr/image-15.png)
 
   _Come si può vedere dal grafico a sinistra,  il corpus è abbastanza bilanciato con una presenza femminile (53%) di poco superiore a quella maschile (47%)._
   _Nel grafico a destra vengono mostrate le fascie d'età, con una sovrarappresentazione della fascia degli studenti universitari (20-29)._
 
 - #### Origine dei parlanti
-  ![plain image](/images/seminar-images/image-16.png)
+  ![plain image](/images/seminar-images/tigr/image-16.png)
 
   _La maggior parte dei partecipanti ha frequentato la scuola elementare in Italia e in Svizzera._
 
-  ![plain image](/images/seminar-images/image-17.png)
+  ![plain image](/images/seminar-images/tigr/image-17.png)
   _Qui vengono mostrati i dati specifici sulle regioni italiane e sui cantoni svizzeri in cui i parlanti hanno frequentato la scuola elementare. Nonostante un certo bias geografico per quanto riguarda l'Italia, con Lombardia e Piemonte in testa, diverse regioni sono rappresentate, sia del centro sia del sud._
   _In merito alla Svizzera, la maggior parte dei parlanti ha frequentato la scuola elementare nei cantoni Ticino e Grigioni._
 
 - #### Luogo di lavoro o studio in Svizzera
-  ![plain image](/images/seminar-images/image-18.png)
+  ![plain image](/images/seminar-images/tigr/image-18.png)
   _La maggior parte dei parlanti svolge la sua attività principale (studio o lavoro) in Ticino (64%). Al secondo posto troviamo i Grigioni (34%)._
 
 - #### Repertorio linguistico
-  ![plain image](/images/seminar-images/image-19.png)
+  ![plain image](/images/seminar-images/tigr/image-19.png)
   _La maggior parte dei parlanti ha dichiarato di essere plurilingue (due, tre o addirittura più di quattro lingue nel repertorio). La lista delle lingue conosciute dai partecipanti sono riportate nel grafico di destra._
 
 - #### Istruzione e professione
-  ![plain image](/images/seminar-images/image-20.png)
+  ![plain image](/images/seminar-images/tigr/image-20.png)
   _Il livello di istruzione principale è la scuola secondaria di secondo grado. Trattandosi per la maggio parte di studenti universitari, era l'ultimo grado di istruzione completato._
 
 
@@ -180,32 +185,32 @@ Alla guida interna sono stati aggiunti:
 
 Di seguito sono riportate alcune delle convenzioni GAT2 utilizzate nella trascrizione delle registrazioni
 
-![plain image](/images/seminar-images/image-21.png)
+![plain image](/images/seminar-images/tigr/image-21.png)
 
-![plain image](/images/seminar-images/image-22.png)
+![plain image](/images/seminar-images/tigr/image-22.png)
 
 Da notare l'annotazione del comportamento non verbale (guarda nell'immagine sopra in  "Laughter and crying") che funziona con la logica del tag.
 
-![plain image](/images/seminar-images/image-23.png)
+![plain image](/images/seminar-images/tigr/image-23.png)
 
 Inoltre, sono state adottate convenzioni di trascrizione multimodale di Modada per il tier "ambient noises", come nel seguente esempio:
 
-![plain image](/images/seminar-images/image-24.png)
+![plain image](/images/seminar-images/tigr/image-24.png)
 
 
 #### Misure di de-identificazione di persone e luoghi nella trascrizione
 
 Sono stati attribuiti **pseudonimi** solo ai partecipanti all'interazione in corso, come si vede nell'esempio di seguito:
 
-![plain image](/images/seminar-images/image-25.png)
+![plain image](/images/seminar-images/tigr/image-25.png)
 
 Per i nomi delle altre persone è stato adottato il formato PERSONNAME, numerato progressivamente:
 
-![plain image](/images/seminar-images/image-26.png)
+![plain image](/images/seminar-images/tigr/image-26.png)
 
 Stessa cosa è stata fatta per i nomi di luoghi, adottando il formato PLACENAME:
 
-![plain image](/images/seminar-images/image-27.png)
+![plain image](/images/seminar-images/tigr/image-27.png)
 
 Idem per le istituzioni, per le quali si è adottato il formato INSTITUTIONNAME
 
@@ -224,7 +229,7 @@ Esempio a 1:10:42 fino a 01:11:48 -> crea collegamento ipertestuale
 Come esportare la trascrizione da ELAN e creare un formato leggibile?
 Come abbiamo visto, la prima trascrizione avviene su ELAN. Da questa trascrizione possono derivate altri due tipi di trascrizione:
 - una trascrizione in stile "dialogo teatrale" e formato TXT, come questa:
-  ![plain image](/images/seminar-images/image-28.png)
+  ![plain image](/images/seminar-images/tigr/image-28.png)
 
 
   Questo tipo di trascrizione offre un'approssimazione grafica dell'organizzazione della conversazione in turni e una buona base per un'analisi sequenziale.
@@ -240,7 +245,7 @@ Come abbiamo visto, la prima trascrizione avviene su ELAN. Da questa trascrizion
   La soluzione è stata quella di condurre una **procedura semi-automatica (script Python)**
   - la trascrizione veniva esportata da ELAN come trascrizione in formato "tradizionale" e con l'allineamento verticale delle parentesi quadre
   - Attraverso degli script sono stati eliminati i timecode tranne quelli che segnano i tempi iniziali dei segmenti (creati su ELAN), che compaiono all'incirca ogni 10 secondi. Sono, poi, state collocate delle ancore "((TC))" nel testo, come si vede in questo esempio
-  ![plain image](/images/seminar-images/image-29.png)
+  ![plain image](/images/seminar-images/tigr/image-29.png)
   - Sono stati eliminati i nomi di parlanti superflui e sono stati concatenati i segmenti
   - Si è formattato manualmente le trascrizioni quando presentavano sovrapposizioni di più di due parlanti
 
@@ -264,8 +269,8 @@ La procedura comprende i seguenti step, elencati in ordine di precedenza:
 La condivisione e il riuso dei dati è un ciclo: dei ricercatori producono dati per altri ricercatori che li riusano.
 I due momenti di condivisione e riuso sono rappresentati graficamente nelle immagini qui sotto:
 
-![plain image](/images/seminar-images/image-31.png)
-![plain image](/images/seminar-images/image-32.png)
+![plain image](/images/seminar-images/tigr/image-31.png)
+![plain image](/images/seminar-images/tigr/image-32.png)
 
 Dal punto di vista tecnico le infrastrutture digitali (sono quelle che si vedono nel mezzo) sono cruciali in questo processo.
 Nella condivisione e nel riuso dei dati sono contemplati tre mezzi:
@@ -277,7 +282,7 @@ Un quarto mezzo potrebbe essere rappresentato dalle "data sessions", ovvero inco
 
 L'invio di dati tramite e-mail non assicura che i dati siano reperibili e accessibili a chi non li conosca già. Quindi si considera questa modalità non aderente ai principi FAIR, come invece sono le prime due, cioè il repositorio e la piattaforma digitale. Infatti, il catalogo e la regolazione degli accessi assicurano la reperibilità e l'accesso ai dati.
 
-![plain image](/images/seminar-images/image-33.png)
+![plain image](/images/seminar-images/tigr/image-33.png)
 
 ### Il repositorio
 
@@ -291,7 +296,7 @@ Ad ogni livello ci sono dei metadati, alcuni obbligatori e altri facoltativi, ch
 
 
 
-![plain image](//images/seminar-images/image-34.png)
+![plain image](//images/seminar-images/tigr/image-34.png)
 
 Nell'immagine sopra i dataset che verrano caricati.
 Ci sarà un dataset generale di documentazione che contiene la documentazione del corpus intero (documentazione metodologica, consensi informati, ecc.).
@@ -305,7 +310,7 @@ Il dataset è l'unità scaricabile.
 
 Il repositorio mette a disposizione dei campi predefiniti, alcuni obbligatori alcuni facoltativi. Si è pensato di aggiungere anche delle tabelle (in formato CSV) con i metadati per ogni singolo evento.
 
-![plain image](/images/seminar-images/image-35.png)
+![plain image](/images/seminar-images/tigr/image-35.png)
 
 Come si vede nell'immagine per ogni singolo evento il cuore è la tabella più centrale con le caratteristiche di base dell'evento (come il numero di partecipanti, il genere di interazione, e così via). La tabella centrale rinvia poi a una serie di altre tabelle. A sinistra si vedono due tabelle con i parlanti e i luoghi del TIGR. I parlanti del TIGR sono collegati al singolo evento tramite l'elenco dei partecipanti all'evento.
 L'evento è poi associabile all'elenco dei file video, all'elenco dei file audio e all'elenco delle trascrizioni.
@@ -341,18 +346,6 @@ Riferimenti:
 - Selting, M., Auer, P., Barth-Weingarten, D., Bergmann, J., Bergmann, P., Birkner, K., Couper-Kuhlen, E., Deppermann, A., Gilles, P., Günthner, S., Hartung, M., Kern, F., Mertzlufft, C., Meyer, C., Morek, M., Oberzaucher, F., Peters, J., Quasthoff, U., Schütte, W., & Uhmann, S. (2011). A system for transcribing talk-in-interaction: GAT 2 translated and adapted for English by Elizabeth Couper-Kuhlen and Dagmar Barth-Weingarten. Gesprächsforschung, 12, 1-51. http://www.gespraechsforschung-online.de/heft2011/heft2011.html
 
 A proposito, invece, delle tecniche di de-identificazione si riporta il link al sito del corpus **De-identificazione**.
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
