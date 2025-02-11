@@ -3,7 +3,7 @@
 
 # LaboratorioSperimentale's Website
 
-Lo scopo del Laboratorio Sperimentale è assistere i membri del Dipartimento LILEC nelle loro ricerche e di promuovere la creazione di risorse digitali presso il Dipartimento. Il Laboratorio mette a disposizione dei ricercatori gli strumenti necessari per una serie di finalità, tra cui:
+Lo scopo del **Laboratorio Sperimentale** (presso il Dipartimento di Lingue, Letterature e Culture Moderne dell'Università di Bologna) è è un laboratorio di ricerca allestito grazie all'Iniziativa Dipartimenti di Eccellenza MIUR (L. 232 del 01/12/2016). Il Laboratorio è dotato di attrezzatura hardware e software di ultima generazione per la ricerca sperimentale, computazionale e applicata negli ambiti della linguistica, dei translation e cultural studies, e più in generale delle Digital Humanities, anche applicate a letteratura e filologia. Il Laboratorio mette a disposizione dei ricercatori gli strumenti necessari per una serie di finalità, tra cui:
 
 - la raccolta, l’elaborazione e l’analisi di corpora di testi orali, scritti e digitali;
 - lo studio empirico-sperimentale del linguaggio e del testo/discorso in tutte le sue manifestazioni;
@@ -12,7 +12,7 @@ Lo scopo del Laboratorio Sperimentale è assistere i membri del Dipartimento LIL
 - la modellizzazione e la visualizzazione di dati linguistici e bibliografici;
 - l’estrazione di dati dal web e da corpora paralleli di traduzione per l’elaborazione di dizionari plurilingui specialistici.
 
-Il Laboratorio inoltre organizza eventi formativi che hanno l’obiettivo di dotare i membri del LILEC di un know-how (inter)disciplinare teorico-pratico negli ambiti di propria competenza, promuovendo una riflessione metodologica ampia sulla diversità dei dati linguistici e testuali.
+Il Laboratorio inoltre organizza **eventi formativi** che hanno l’obiettivo di dotare di sostenere la diffusione di un know-how (inter)disciplinare teorico-pratico negli ambiti di propria competenza, promuovendo una riflessione metodologica ampia sulla diversità dei dati linguistici e testuali.
 
 {% include section.html %}
 
