@@ -1,17 +1,4 @@
 ---
-title: Awards
-description: Our lab has received international praise for our contributions to science.
-nav:
-  order: 1
-  tooltip: Praise and laurels
-header: images/header-for-this-page.jpg
-footer: images/footer-for-this-page.jpg
-header-dark: false
-footer-dark: false
-redirect_from:
-  - accolades
----
----
 ---
 
 IL **[Laboratorio Sperimentale](https://site.unibo.it/laboratorio-sperimentale/it)** (**Dipartimento di Lingue, Letterature e Culture Moderne** - **[UNIVERSITA' DI BOLOGNA](https://www.unibo.it/it)**) è un laboratorio di ricerca allestito grazie all'Iniziativa Dipartimenti di Eccellenza MIUR (L. 232 del 01/12/2016). Il Laboratorio è dotato di attrezzatura hardware e software di ultima generazione per la ricerca sperimentale, computazionale e applicata, negli ambiti della linguistica, dei translation e cultural studies, e più in generale delle Digital Humanities, anche applicate a letteratura e filologia.
