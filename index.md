@@ -6,8 +6,14 @@ Il Laboratorio inoltre organizza **[eventi formativi](https://site.unibo.it/labo
 
 {% include section.html %}
 
-## Highlights
+## Tabella Seminari
 
+| Data | Titolo | Speaker | Link |
+| ---  | ---     | ----    | ---- |
+| 20/01/2023 | Grew | Bruno Guillaume | [pagina](seminari/grew.html), [tool](https://grewmatch.com), [data](...) |
+
+
+<!--
 {% capture text %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -77,4 +83,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   link="team"
   title="Our Team"
   text=text
-%}
+%} -->

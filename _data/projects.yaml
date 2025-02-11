@@ -1,16 +1,16 @@
-- title: Cool Dataset
-  subtitle: a subtitle
-  group: featured
+- title: Graph rewriting with GREW
+  subtitle: Bruno Guillaume
+  group: "2024"
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  link: seminari/grew.html
+  description: [INSERIRE ABSTRACT]
   repo: greenelab/lab-website-template
   tags:
-    - resource
+    - tool
 
 - title: Cool Package
   subtitle: a subtitle
-  group: featured
+  group: "2023"
   image: images/photo.jpg
   link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
