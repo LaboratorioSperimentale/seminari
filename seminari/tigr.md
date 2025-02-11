@@ -1,5 +1,6 @@
 ---
 title: "Il corpus TIGR: un corpus video per lo studio dell'italiano parlato"
+author: Silvia
 ---
 
 # Il corpus TIGR: un corpus video per lo studio dell'italiano parlato
