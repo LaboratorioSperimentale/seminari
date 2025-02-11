@@ -3,7 +3,7 @@
 
 # LaboratorioSperimentale's Website
 
-Lo scopo del **Laboratorio Sperimentale** (presso il Dipartimento di Lingue, Letterature e Culture Moderne dell'Università di Bologna) è è un laboratorio di ricerca allestito grazie all'Iniziativa Dipartimenti di Eccellenza MIUR (L. 232 del 01/12/2016). Il Laboratorio è dotato di attrezzatura hardware e software di ultima generazione per la ricerca sperimentale, computazionale e applicata negli ambiti della linguistica, dei translation e cultural studies, e più in generale delle Digital Humanities, anche applicate a letteratura e filologia. Il Laboratorio mette a disposizione dei ricercatori gli strumenti necessari per una serie di finalità, tra cui:
+Lo scopo del **Laboratorio Sperimentale** (presso il _**Dipartimento di Lingue, Letterature e Culture Moderne**_ dell'**UNIVERSITA' DI BOLOGNA**) è è un laboratorio di ricerca allestito grazie all'Iniziativa Dipartimenti di Eccellenza MIUR (L. 232 del 01/12/2016). Il Laboratorio è dotato di attrezzatura hardware e software di ultima generazione per la ricerca sperimentale, computazionale e applicata negli ambiti della linguistica, dei translation e cultural studies, e più in generale delle Digital Humanities, anche applicate a letteratura e filologia. Il Laboratorio mette a disposizione dei ricercatori gli strumenti necessari per una serie di finalità, tra cui:
 
 - la raccolta, l’elaborazione e l’analisi di corpora di testi orali, scritti e digitali;
 - lo studio empirico-sperimentale del linguaggio e del testo/discorso in tutte le sue manifestazioni;
