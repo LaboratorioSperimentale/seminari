@@ -3,7 +3,7 @@ Author: marco
 # Annotazione e Analisi di Testi Digitali con CATMA 7
 
 ## 1. Introduzione: Cos'è Catma?
-[CATMA](https://catma.de/) (Computer Assisted Text Markup Analysis) è un **tool di annotazione gratuito e open-source**, particolarmente utile per l'annotazione manuale di tegiulia/interfaccia RStudio-1.png giulia/interfaccia RStudio.pngsti. A differenza di altri tool, CATMA consente anche di lavorare su progetti di gruppo. I testi e le annotazioni possono essere analizzati con diversi criteri e query, quali ad esempio la frequenza di una parola, la categoria di annotazione o la prossimità fra parole.
+[CATMA](https://catma.de/) (Computer Assisted Text Markup Analysis) è un **tool di annotazione gratuito e open-source**, particolarmente utile per l'annotazione manuale di testi. A differenza di altri tool, CATMA consente anche di lavorare su progetti di gruppo. I testi e le annotazioni possono essere analizzati con diversi criteri e query, quali ad esempio la frequenza di una parola, la categoria di annotazione o la prossimità fra parole.
 ![alt text](<1 Catma Logo.PNG>)
 *Fig. 1: Logo di CATMA*
 
