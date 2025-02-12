@@ -165,6 +165,15 @@
   tags:
     - tool
 
+- title: Digital Text Annotation and Analysis with CATMA 7
+  subtitle: Mari  Akazawa
+  group: "2024"
+  image: images/logos/catma1.png
+  link: seminari/catma_final.html
+  description: CATMA (Computer Assisted Text Markup Analysis) è un tool di annotazione gratuito e open-source, particolarmente utile per l'annotazione manuale di testi. A differenza di altri tool, CATMA consente anche di lavorare su progetti di gruppo.
+  tags:
+    - tool
+
 - title: "The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction"
   subtitle: Johanna Miecznikowski, Elena Battaglia
   group: "2024"
