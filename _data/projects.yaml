@@ -173,6 +173,7 @@
   description: CATMA (Computer Assisted Text Markup Analysis) è un tool di annotazione gratuito e open-source, particolarmente utile per l'annotazione manuale di testi. A differenza di altri tool, CATMA consente anche di lavorare su progetti di gruppo.
   tags:
     - tool
+    - annotazione
 
 - title: "The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction"
   subtitle: Johanna Miecznikowski, Elena Battaglia
@@ -192,12 +193,11 @@
   group: "2024"
   image: images/logos/R_logo.png
   link: seminari/R_01.html
-  description: *R* è un *linguaggio di programmazione* e un ambiente per il calcolo statistico e la grafica; è una open source, flessibile, facilmente utilizzabile ed estendibile tramite pacchetti. 
-  tags: 
-    - tool 
+  description: R è un linguaggio di programmazione e un ambiente per il calcolo statistico e la grafica; è una open source, flessibile, facilmente utilizzabile ed estendibile tramite pacchetti.
+  tags:
+    - tool
     - resource
     - programmazione
-    
 
 
-    
+
