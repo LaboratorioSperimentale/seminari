@@ -171,6 +171,9 @@
   image: images/logos/default.png
   link: seminari/tigr.html
   description: |
-    The TIGR corpus of spoken Italian includes 23.5 hours of video-recorded and transcribed discourse and was gathered by a team of linguists at USI (Università della Svizzera italiana). The seminar describes the corpus design and some changes it underwent during fieldwork; transcription conventions and techniques; workflows of transcript processing in view of qualitative analysis and annotation; de-identification measures; scenarios of data reuse; the organization of the data and metadata on LaRS.
+    Il corpus TIGR include conversazioni video-registrate di italiano parlato. Il seminario illustra il design del corpus; le tecniche e le fasi di trascrizione adottate; le misure di de-identificazione; il riuso dei dati; l'organizzazione dei dati e dei metadati.
   tags:
-    - resource
+    - risorsa
+    - corpus
+    - dati video-registrati
+    
