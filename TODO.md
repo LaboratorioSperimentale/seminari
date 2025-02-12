@@ -1,5 +1,3 @@
-1. SCRIVERE TRAFILETTO INIZIALE
-
 1. Tagliare i video su teams
    * Marco -> CATMA
    * Giulia -> R/Jasp (magari lo dividiamo in due)
