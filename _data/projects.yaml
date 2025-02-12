@@ -183,6 +183,9 @@
     Il corpus TIGR include conversazioni video-registrate di italiano parlato. Il seminario illustra il design del corpus; le tecniche e le fasi di trascrizione adottate; le misure di de-identificazione; il riuso dei dati; l'organizzazione dei dati e dei metadati.
   tags:
     - resource
+    - risorsa
+    - corpus
+    - dati video-registrati
 
 - title: "Il progetto R per l'informatica statistica"
   subtitle: Flavio Pisciotta
@@ -196,7 +199,5 @@
     - programmazione
     
 
-    - risorsa
-    - corpus
-    - dati video-registrati
+
     
