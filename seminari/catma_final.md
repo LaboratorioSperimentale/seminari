@@ -15,8 +15,6 @@
   caption="Logo di CATMA"
   width="400px"
 %}
-<!-- ![plain image{caption=Logo di CATMA}](/images/seminar-images/catma_final/1 Catma Logo.PNG)
-*Fig. 1: Logo di CATMA* -->
 
 Il programma è composto da **quattro moduli**, qui brevemente descritti (ma saranno maggiormente approfonditi in seguito):
 
@@ -30,9 +28,12 @@ Il programma è composto da **quattro moduli**, qui brevemente descritti (ma sar
 
 ## 2. Registrazione and Log-in
 Anzitutto, bisogna creare il proprio [account CATMA](https://app.catma.de/): puoi scegliere di usare il tuo **account Google** o una **e-mail privata**. Dopo la registrazione verrà inviata una e-mail di verifica all'indirizzo usato in fase di registrazione. Dopo aver verificato l'indirizzo e-mail, sarà possibile completare il profilo scegliendo uno username e una password.
-![alt text](images/seminar-images/catma_final/2 Sign up Options.PNG)
-*Fig. 2: Opzioni di registrazione su CATMA*
 
+{%
+  include figure.html
+  image="images/seminar-images/catma_final/2 Sign up Options.PNG"
+  caption="Opzioni di registrazione su CATMA"
+%}
 
 ## 3. Panoramica Generale
 Una volta effettuato l'accesso, sarà possibile scegliere fra *"Nuovo Progetto"* o *"Unisciti ad un progetto"* (in quest'ultimo caso, il proprietario del progetto dovrà aggiungerti tramite il tuo username o mediante un invito in tempo reale). Sul lato sinistro dello schermo vi è una barra laterale con tutti i moduli precedentemente menzionati, che saranno attivati non appena si sceglie il progetto su cui si vuole lavorare.
