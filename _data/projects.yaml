@@ -174,3 +174,15 @@
     The TIGR corpus of spoken Italian includes 23.5 hours of video-recorded and transcribed discourse and was gathered by a team of linguists at USI (Università della Svizzera italiana). The seminar describes the corpus design and some changes it underwent during fieldwork; transcription conventions and techniques; workflows of transcript processing in view of qualitative analysis and annotation; de-identification measures; scenarios of data reuse; the organization of the data and metadata on LaRS.
   tags:
     - resource
+
+- title: "Il progetto R per l'informatica statistica"
+  subtitle: Flavio Pisciotta
+  group: "2024"
+  image: images/logos/R_logo.png
+  link: seminari/R_01.html
+  description: *R* è un *linguaggio di programmazione* e un ambiente per il calcolo statistico e la grafica; è una open source, flessibile, facilmente utilizzabile ed estendibile tramite pacchetti. 
+  tags: 
+    - tool 
+    - resource
+    - programmazione
+    
