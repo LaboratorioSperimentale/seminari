@@ -12,7 +12,7 @@ Il Laboratorio inoltre organizza **[eventi formativi](https://site.unibo.it/labo
 | ---        | ---                    | ----            | ----                  | ---       |
 |13-15/11/2019 | Creare ed esplorare un corpus di testi con SketchEngine | [Riccardo Billero](https://www.unibo.it/sitoweb/riccardo.billero/), Università di Firenze | |
 |11/11/2020 | Per un uso consapevole dei software citazionali | Claudio Fabbri, Università di Bologna |  | |
-|20/11/2020 | How to use NVivo for content analysis | [Patrick Goethals](https://research.flw.ugent.be/en/patrick.goethals), Ghent University | [unibo]() | |
+|20/11/2020 | How to use NVivo for content analysis | [Patrick Goethals](https://research.flw.ugent.be/en/patrick.goethals), Ghent University | [unibo](https://urldn.com/bmI5r) | |
 |11/12/2020 | Experimental methods and behavioural data in linguistics | Florent Perek, University of Birmingham |  |
 |21/01/2021 | La trascrizione del parlato con ELAN | Silvia Ballarè, Università di Bologna |  |
 |09/02/2021 | Introduzione a R come strumento per l’analisi statistica dei dati linguistici | Claudia Roberta Combei, Università di Bologna |  |
