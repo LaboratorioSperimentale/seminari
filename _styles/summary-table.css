@@ -1,0 +1,32 @@
+.summary-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
+  color: var(--dark-gray);
+}
+
+.summary-table .portrait {
+  margin: 0;
+}
+
+.summary-table .icon {
+  margin-right: 0.5em;
+}
+
+.summary-table a {
+  color: inherit;
+}
+
+.summary-table a:hover {
+  color: var(--primary);
+}
+
+.summary-table > span {
+  text-align: center;
+  white-space: nowrap;
+}
+
+/*# sourceMappingURL=summary-table.css.map */
