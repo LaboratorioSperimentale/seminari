@@ -3,6 +3,19 @@ section {
   transition: background var(--transition), color var(--transition);
 }
 
+section[data-size=card] {
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section[data-size=card] h2 {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
 section[data-size=wide] {
   padding: 40px;
 }

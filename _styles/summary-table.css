@@ -8,25 +8,20 @@
   color: var(--dark-gray);
 }
 
-.summary-table .portrait {
-  margin: 0;
+.summary-table table {
+  border-collapse: collapse;
+  margin: 20px 0;
 }
 
-.summary-table .icon {
-  margin-right: 0.5em;
-}
-
-.summary-table a {
-  color: inherit;
-}
-
-.summary-table a:hover {
-  color: var(--primary);
-}
-
-.summary-table > span {
+.summary-table th, td {
+  border: 1px solid black;
+  padding: 10px;
   text-align: center;
-  white-space: nowrap;
+  font-size: 18px;
+}
+
+.summary-table th {
+  background-color: #f2f2f2;
 }
 
 /*# sourceMappingURL=summary-table.css.map */
