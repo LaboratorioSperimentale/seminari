@@ -4,6 +4,17 @@
   <body>
     {% include header.html %}
     <main>
+      {%
+        include post-info.html
+        title=page.title
+        author=page.author
+        updated=page.last_modified_at
+      %}
+
+      {%
+        include summary-table.html
+        speaker=page.speaker
+      %}
 
       {% include content.html content=content %}
     </main>

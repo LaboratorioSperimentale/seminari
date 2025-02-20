@@ -1,4 +1,5 @@
 ---
+layout: seminar
 title: "Il corpus TIGR: un corpus video per lo studio dell'italiano parlato"
 author: silviamantovani
 ---

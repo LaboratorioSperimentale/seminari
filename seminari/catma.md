@@ -1,6 +1,8 @@
 ---
   title: Annotazione e Analisi di Testi Digitali con CATMA 7
   author: marcoesposito
+  speaker: Johanna Miecznikowski, Elena Battaglia
+  layout: seminar
 ---
 
 This page is also availabe in [english](en/catma_en.html)

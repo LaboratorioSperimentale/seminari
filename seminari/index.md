@@ -21,20 +21,20 @@ In questa pagina c'è la lista di tutti i seminari che si sono tenuti presso il 
 
 {% include list.html component="card" data="projects" filter="group == '2025'" %}
 
-{% include section.html %}
+{% include section.html size="card" %}
 
 ## Seminari 2024
 
 {% include list.html component="card" data="projects" filter="group == '2024'" %}
 
-{% include section.html %}
+{% include section.html size="card" %}
 
 
 ## Seminari 2022
 
 {% include list.html component="card" data="projects" filter="group == '2023'" %}
 
-{% include section.html %}
+{% include section.html size="card" %}
 
 ## Seminari 2021
 
