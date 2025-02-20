@@ -6,11 +6,17 @@ Il Laboratorio inoltre organizza **[eventi formativi](https://site.unibo.it/labo
 
 {% include section.html %}
 
-## Tabella Seminari
+## Seminari disponibili
 
 | Data       | Titolo                 | Speaker         | Video                 | Materiali |
 | ---        | ---                    | ----            | ----                  | ---       |
+| 30/09/2024 | Analisi dei dati linguistici con R e JASP: dalla sintesi dei dati alla statistica inferenziale | [Flavio Pisciotta](https://www.dipsumdills.it/en/teacher/flavio-pisciotta), Università degli Studi di Salerno | | [code](https://github.com/LaboratorioSperimentale/Formazione-seminario_R_Jasp) |
 | 06/09/2024 | The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction | [Johanna Miecznikowski](https://search.usi.ch/it/persone/ac8f4424bc40c3a8f9184f72ff606e46/miecznikowski-fuenfschilling-johanna), [Elena Battaglia](https://search.usi.ch/it/persone/9f04e935085ef74d0f7bbcb805b1ee27/battaglia-elena), Università della Svizzera Italiana | | |
+| 21/06/2024 | Digital Text Annotation and Analysis with CATMA 7 | [Mari Akazawa](https://www.linglit.tu-darmstadt.de/institutlinglit/mitarbeitende/akazawa_linglit/standardseite_akazawa_linglit.de.jsp), TU-Darmstadt e forText | | |
+
+
+## Coming soon
+
 | 13-15/11/2019 | Creare ed esplorare un corpus di testi con SketchEngine | [Riccardo Billero](https://www.unibo.it/sitoweb/riccardo.billero/), Università di Firenze | |
 | 11/11/2020 | Per un uso consapevole dei software citazionali | Claudio Fabbri, Università di Bologna |  | |
 | 20/11/2020 | How to use NVivo for content analysis | [Patrick Goethals](https://research.flw.ugent.be/en/patrick.goethals), Ghent University | [unibo](https://urldn.com/bmI5r) | |
@@ -46,11 +52,9 @@ Il Laboratorio inoltre organizza **[eventi formativi](https://site.unibo.it/labo
 | 16/05/2022 | "A-linement"  Un tool di importazione e allineamento sottotitoli per la ricerca scientifica | Francesco Vitucci e Michele Zangheri, Università di Bologna |  |
 | 27/05/2022 | Resources and challenges for studying linguistic diversity | Harald Hammarström, Uppsala University |  |
 | 20/06/2024 | CLARIN per la gestione FAIR dei dati linguistici | Francesca Frontini (ILC - CNR), Dott.ssa Giulia Pedonese (ILC - CNR) | |
-| 21/06/2024 | Digital Text Annotation and Analysis with CATMA 7 | Mari Akazawa, ??? | |
 | 03/07/2024 | Graph Rewriting for corpus development and maintenance | Bruno Guillaume, ??? | |
 | 17/07/2024 | Focus on eye-tracking | Davide Crepaldi, ???, Jon W. Carr, ??? | |
 | 10/09/2024 | Conducting priming experiments with PCIbex | Alice Blumenthal-Dramé, ??? | |
-| 30/09/2024 | Analisi dei dati linguistici con R e JASP: dalla sintesi dei dati alla statistica inferenziale | Flavio Pisciotta, ??? | |
 | 07/09/2024 | An overview of the Universal Dependencies resources and tools | Marie-Catherine de Marneffe, ??? | |
 | 21/11/2024 | Tu chiamale se vuoi emozioni: metodi e strumenti per l’analisi emotiva dei testi | Eliana Di Palma, ??? | |
 | 21/01/2025 | Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole | Maria Montefinese, Università di Padova |  |

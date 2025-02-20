@@ -1,8 +1,9 @@
-Author: esmeralda
+---
+title: "Analisi dei dati linguistici con R e Jasp: dalla sintesi dei dati alla statistica inferenziale"
+author: esmeraldadivenere
+---
 
-# Analisi dei dati linguistici con Jasp
-
-
+## Analisi dei dati linguistici con Jasp
 
 > [Analisi dei dati linguistici con R e JASP dalla sintesi dei dati alla statistica inferenziale.mp4](https://liveunibo.sharepoint.com/:v:/s/Labsperimentaleprova873/EUy_5AgykQlPkkiCgUIEznkBSFPAX7H67Lx8KrVijHTMIQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RDznAe)
 > Durata intera: 04:00:00. Porzione di video su Jasp: 03:08:06-03:35:08.
@@ -10,18 +11,14 @@ Author: esmeralda
 > Ulteriori materiali: https://github.com/LaboratorioSperimentale/Formazione-seminario_R_Jasp
 
 
-
-
-
-## 1. Introduzione: Cos'è Jasp?
+## Introduzione: Cos'è Jasp?
 
 [JASP](https://jasp-stats.org/) un programma open source gratuito, supportato dall’università di Amsterdam.
 
 JASP offre procedure di analisi standard sia nella forma classica che in quella bayesiana. Presenta un layout del foglio di calcolo e un'interfaccia intuitiva drag-and-drop, una divulgazione progressiva per una maggiore comprensione e un output annotato per comunicare i risultati.
 
 
-
-## 2. Caricare Dataset su Jasp
+## Caricare Dataset su Jasp
 
 Per caricare un dataset su Jasp: cliccare le tre linee > Open > Computer – e da lì scegliere il proprio dataset.
 
@@ -31,7 +28,7 @@ Per assegnare un tipo diverso a una variabile, si clicca su “Analyses”.
 
 
 
-## 3. Sintesi
+## Sintesi
 
 A partire da *Descriptives > Descriptive statistics > Statistics*, è possibile effettuare diversi tipi di sintesi, come segue.
 
@@ -45,11 +42,9 @@ Range interquartile: *Descriptives > Descriptive statistics > Statistics > Dispe
 
 
 
-## 4. Rappresentazione
+## Rappresentazione
 
 Per la rappresentazione delle **variabili nominali**, è utile la sezione Frequencies > Contingency tables. I grafici per le variabili nominali non sono disponibili quando si ha un incrocio di due variabili, ma solo valore per valore delle celle.
-
-
 
 Per la rappresentazione delle **variabili ratio**, esistono diversi tipi di grafici, in base alla tipologia di variabili.
 
@@ -61,17 +56,11 @@ Istogramma: *Descriptives > Flexplot (inserire solo variabile dipendente ratio)*
 
 Boxplot: *Descriptives > Descriptive statistics > Customizable Plots > Boxplots*
 
-
-
 *inserire immagini???*
 
-
-
-## 5. Test
+## Test
 
 La sezione T-Test permette di scegliere fra diversi tipi di T-Test (Classical / Bayesan), che si usano per confrontare le medie di più gruppi, ma esistono diversi modi per effettuare test.
-
-
 
 Test di Shapiro-Wilk: *T-Tests > One Sample T-Test > Assumption checks > Normality*
 
@@ -89,11 +78,8 @@ One way ANOVA: *ANOVA*
 
 Kruskal-Wallis test: *ANOVA > Nonparametrics*
 
-
-
 Coefficiente di correlazione di Pearson (r): *Regression > Correlation > Sample Correlation Coefficients > Pearson’s r e Additional options > Display pairwise*
 
 Coefficiente di correlazione di Spearman (rho): *Regression > Correlation > Sample Correlation Coefficients > Spearman’s rho e Additional options > Display pairwise*
 
 Coefficiente di correlazione di Kendall (tau): *Regression > Correlation > Sample Correlation Coefficients > Kendall’s tau e Additional options > Display pairwise*
-

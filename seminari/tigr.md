@@ -167,6 +167,7 @@ Nei Grigioni sono stati registrati 4 eventi in 1 piccolo centro e altri 4 eventi
 Si precisa che il corpus non è disegnato per documentare la variazione diatopica dell'italiano parlato in Svizzera.
 
 ### Misure di de-identificazione del luogo di registrazione:
+
 - il luogo di registrazione viene descritto solamente dal Cantone e dalle dimensioni del centro abitato (> o <10,000 abitanti).
 
 
@@ -182,11 +183,13 @@ Per informarsi sulla strumentazione utilizzata per le registrazioni e sulla post
 
 Per la trascrizione è stato utilizzato il software ELAN, v. 6.7.
 È stato inoltre adottato il sistema GAT2 (Gesprächsanalytische Transkriptionssystem):
+
 - funzionale a una trascrizione tramite software e machine-readable
 - integrato in editor digitali (per esempio EXMARaLDA)
 - dotato di tre livelli di granularità: minimal script, basic script e fine script (quello più dettagliato e usato per il corpus TIGR)
 
 Alla guida interna sono stati aggiunti:
+
 - una lista di lemmi per uniformare la grafia delle interiezioni
 - la trascrizione del raddoppiamento fonosintattico (ex., _va bbene_, _e nniente_ )
 - l'uso del simbolo ~ per le interruzioni udibili di una parola (in particolare, glottal stop), per esempio in esitazioni o ripartenze
@@ -242,10 +245,10 @@ Esempio a 1:10:42 fino a 01:11:48 -> crea collegamento ipertestuale
 
 Come esportare la trascrizione da ELAN e creare un formato leggibile?
 Come abbiamo visto, la prima trascrizione avviene su ELAN. Da questa trascrizione possono derivate altri due tipi di trascrizione:
+
 - una trascrizione in stile "dialogo teatrale" e formato TXT, come questa:
   [#TODO sostituire immagine con figure]
   ![plain image](/images/seminar-images/tigr/image-28.png)
-
 
   Questo tipo di trascrizione offre un'approssimazione grafica dell'organizzazione della conversazione in turni e una buona base per un'analisi sequenziale.
   Inoltre, costituisce un input per l'annotazione delle fonti di informazione all'interno del progetto InfinIta, eseguita nel programma INCEpTION.
