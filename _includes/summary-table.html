@@ -1,5 +1,53 @@
-<div class="post-info">
-  {% if include.author %}
+<div class="summary-table">
+  <table>
+    <tr>
+      <th>Speaker:</th>
+      <td>
+        {% if include.speaker %}
+          {% assign speakers = include.speaker
+            | join: ","
+            | split: ","
+            | array_filter
+          %}
+          {% for speaker in speakers %}
+            {% assign member = site.members
+              | where_exp: "member", "member.slug == speaker"
+              | first
+            %}
+            {% if member %}
+              {% include portrait.html lookup=speaker style="tiny" %}
+            {% else %}
+            <span>{{ speaker }}</span>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </td>
+    </tr>
+    <tr>
+      <th>Video:</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Durata:</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Licenza:</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Download:</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Lingua alternativa:</th>
+      <td></td>
+    </tr>
+  </table>
+
+
+
+  <!-- {% if include.author %}
     {% assign authors = include.author
       | join: ","
       | downcase
@@ -37,15 +85,15 @@
       {% include icon.html icon="fa-solid fa-clock-rotate-left" %}
       <span>{{ updated }}</span>
     </span>
-  {% endif %}
+  {% endif %} -->
 </div>
 
-{% if include.tags %}
+<!-- {% if include.tags %}
   {% include tags.html tags=include.tags link="blog" %}
-{% endif %}
+{% endif %} -->
 
-{% if title %}
+<!-- {% if title %}
 <div>
   <h1>{{ title }}</h1>
 </div>
-{% endif %}
+{% endif %} -->

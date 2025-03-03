@@ -9,6 +9,21 @@ section {
   transition: background var(--transition), color var(--transition);
 }
 
+section[data-size="card"] {
+  padding: $padding;
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section[data-size="card"] h2{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  // display: center;
+}
+
 section[data-size="wide"] {
   padding: $padding;
 }
