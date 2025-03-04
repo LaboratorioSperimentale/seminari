@@ -31,3 +31,34 @@
     - tool
     - resource
     - programmazione
+
+
+- title: "Tu chiamale se vuoi emozioni: metodi e strumenti per l’analisi emotiva dei testi"
+  subtitle: Eliana di Palma
+  group: "2024"
+  image: images/logos/default.png
+  link: seminari/tuchiamale.html
+  description:
+  tags:
+    - tool
+    - resource
+
+
+- title: "Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole"
+  subtitle: Maria Montefinese
+  group: "2025"
+  image: images/logos/default.png
+  link: seminari/smallworld.html
+  description:
+  tags:
+    - tool
+    - resource
+
+- title: "La Trascrizione del Parlato con ELAN"
+  subtitle: Silvia Ballarè
+  group: "2021"
+  image: images/logos/logoelan.png
+  link: seminari/elantrascrizione.html
+  description: Il seminario è una presentazione di alcune nozioni di base in merito alla trascrizione e al sistema Jefferson (fornendo alcune possibili soluzioni ai problemi più comuni), nonché delle funzioni di base del software ELAN.
+  tags:
+    - tool
