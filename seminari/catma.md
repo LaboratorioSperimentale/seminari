@@ -124,7 +124,7 @@ Vediamo alcune funzioni importanti di questo modulo:
 - **Overlapping tags**: Puoi anche applicare tag diversi ad uno stesso passaggio di testo.
 - **Commenti**: Un'altra importante funzione è la possibilità di scrivere commenti su un passaggio di testo presente nel documento. Per farlo è necessario semplicemente selezionare il passaggio di testo in questione e cliccare sull'icona del commento che appare.
 
-## 7. Modulo Analisi
+## Modulo Analisi
 In questa sezione puoi esplorare i testi e le annotazioni con le **query** e le **opzioni di visualizzazione**. Avrai il query builder sul lato sinistro dello schermo e le opzioni di visualizzazione sul lato destro.
 
 {%
