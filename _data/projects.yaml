@@ -59,6 +59,6 @@
   group: "2021"
   image: images/logos/logoelan.png
   link: seminari/elantrascrizione.html
-  description: Il seminario è una presentazione di alcune nozioni di base in merito alla trascrizione e al sistema Jefferson (fornendo alcune possibili soluzioni ai problemi più comuni), nonché delle funzioni di base del software ELAN.
+  description: Il seminario è una presentazione di alcune nozioni di base della trascrizione e del sistema Jefferson, nonché di alcun funzioni di base del software ELAN.
   tags:
     - tool
