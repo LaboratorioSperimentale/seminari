@@ -1,4 +1,7 @@
-Author: esmeralda
+---
+  title: Digital Text Annotation and Analysis with CATMA 7
+  author: esmeraldadivenere
+---
 
 ### Table of contents
 - [Catma](#catma)
@@ -19,6 +22,7 @@ _________________
 ### Account and Login
 Go to the website https://catma.de/ and click on "Work with CATMA". You can create an account using a private e-mail or a Google account.
 
+[#TODO sostituire immagine con figure]
 <img src="Catma-Sign.PNG" width="916.8" height="412">
 
 After signing up, you will receive a verification e-mail to the address used for registration. Once your e-mail address has been verified, you will be able to complete your profile by choosing username and pasword.
@@ -30,11 +34,13 @@ _________________
 After you have logged into your account, you will be taken to the project overview.
 You will receive an overview of existing projects which are coloured in grey and you will see that you have the option to either **join** a project or to **create** a new project.
 
+[#TODO sostituire immagine con figure]
 <img src="Catma-Home.PNG" width="882" height="416.4">
 
 There is also a sidebar which is still deactivated but which will be activated as soon as you have entered your project and it guides you through the different modules.
 On entering the project module by selecting a project, you will be able to manage its components and each component class is displayed in a tile.
 
+[#TODO sostituire immagine con figure]
 <img src="Catma-Project.PNG" width="903.6" height="418.8">
 
 There is a tile for Documents & Annotations, one for the Tagsets belonging to this project and one for the Project Members.
@@ -61,6 +67,7 @@ _________________
 If you want to create a tag set you have to switch into the tags module. The tags module displays the tagsets of your projects. You can see which of these tagsets are currently selected as well as the exit (?) ones, by extending the grey ledge on the left. To add a new tag to a tagset, select the tagset, click on the plus icon, then "Add Tag" and choose a name (if you want, you can add properties).
 You can create **subtags** and **properties** for your tags. A subtag is a tag that is sub ordinated to another tag in the tag hierarchy and properties are means to further qualify an annotation (you can add properties to a sub tag as well as normal tags).
 
+[#TODO sostituire immagine con figure]
 <img src="Catma-Tags.PNG" width="914.4" height="419.4">
 
 _________________
@@ -83,6 +90,7 @@ _________________
 ### Analyze module
 In the analyse module you can explore texts and annotations with queries and visualisations. You will have the query builder on the left side and the visualisation options on the right side.
 Queries allow you to analyse, explore and evaluate text or annotation data. To execute a query on documents or annotation collections you have three options:
+
 - Select a predefined query
 - Use the query builder to create your own query
 - Type in a query directly (if you're familiar with cATMAì's query language)
@@ -90,5 +98,3 @@ Queries allow you to analyse, explore and evaluate text or annotation data. To e
 Once your query has been executed, you can explore your results displayed in a box beneath the query fields wth a headline with the query itself, a timestamp, and the total number of results.
 
 Another option to explore your query's results is by using the Visualisations.
-
-
