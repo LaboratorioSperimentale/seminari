@@ -31,3 +31,25 @@
     - tool
     - resource
     - programmazione
+
+
+- title: "Tu chiamale se vuoi emozioni: metodi e strumenti per l’analisi emotiva dei testi"
+  subtitle: Eliana di Palma
+  group: "2024"
+  image: images/logos/default.png
+  link: seminari/tuchiamale.html
+  description:
+  tags:
+    - tool
+    - resource
+
+
+- title: "Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole"
+  subtitle: Maria Montefinese
+  group: "2025"
+  image: images/logos/default.png
+  link: seminari/smallworld.html
+  description:
+  tags:
+    - tool
+    - resource
