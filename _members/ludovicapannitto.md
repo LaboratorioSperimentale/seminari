@@ -1,8 +1,8 @@
 ---
-name: Johanna Miecznikowski
-image: images/photo.jpg
-role: speaker
-affiliation: CdL in ...
+name: Ludovica Pannitto
+image: /images/avatars/ludovica.jpg
+role: lab-manager
+affiliation: Laboratorio Sperimentale (UniBO)
 links:
   home-page: https://janesmith.com
 ---
