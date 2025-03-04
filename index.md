@@ -13,6 +13,9 @@ Il Laboratorio inoltre organizza **[eventi formativi](https://site.unibo.it/labo
 | 30/09/2024 | Analisi dei dati linguistici con R e JASP: dalla sintesi dei dati alla statistica inferenziale | [Flavio Pisciotta](https://www.dipsumdills.it/en/teacher/flavio-pisciotta), Università degli Studi di Salerno | | [code](https://github.com/LaboratorioSperimentale/Formazione-seminario_R_Jasp) |
 | 06/09/2024 | The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction | [Johanna Miecznikowski](https://search.usi.ch/it/persone/ac8f4424bc40c3a8f9184f72ff606e46/miecznikowski-fuenfschilling-johanna), [Elena Battaglia](https://search.usi.ch/it/persone/9f04e935085ef74d0f7bbcb805b1ee27/battaglia-elena), Università della Svizzera Italiana | | |
 | 21/06/2024 | Digital Text Annotation and Analysis with CATMA 7 | [Mari Akazawa](https://www.linglit.tu-darmstadt.de/institutlinglit/mitarbeitende/akazawa_linglit/standardseite_akazawa_linglit.de.jsp), TU-Darmstadt e forText | | |
+| 21/01/2021 | La trascrizione del parlato con ELAN | Silvia Ballarè, Università di Bologna |  |
+| 21/11/2024 | Tu chiamale se vuoi emozioni: metodi e strumenti per l’analisi emotiva dei testi | Eliana Di Palma, ??? | |
+| 21/01/2025 | Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole | Maria Montefinese, Università di Padova |  |
 
 
 ## Coming soon
@@ -21,7 +24,6 @@ Il Laboratorio inoltre organizza **[eventi formativi](https://site.unibo.it/labo
 | 11/11/2020 | Per un uso consapevole dei software citazionali | Claudio Fabbri, Università di Bologna |  | |
 | 20/11/2020 | How to use NVivo for content analysis | [Patrick Goethals](https://research.flw.ugent.be/en/patrick.goethals), Ghent University | [unibo](https://urldn.com/bmI5r) | |
 | 11/12/2020 | Experimental methods and behavioural data in linguistics | Florent Perek, University of Birmingham |  |
-| 21/01/2021 | La trascrizione del parlato con ELAN | Silvia Ballarè, Università di Bologna |  |
 | 09/02/2021 | Introduzione a R come strumento per l’analisi statistica dei dati linguistici | Claudia Roberta Combei, Università di Bologna |  |
 | 11/02/2021 | Words, constructions & associations: A beginner’s guide to Collostructional Analysis | Susanne Flach, Universität Zürich & Université de Neuchâtel |  |
 | 25/02/2021 | Introduction to statistical modelling for linguists with R | Bodo Winter, University of Birmingham |  |
@@ -56,8 +58,7 @@ Il Laboratorio inoltre organizza **[eventi formativi](https://site.unibo.it/labo
 | 17/07/2024 | Focus on eye-tracking | Davide Crepaldi, ???, Jon W. Carr, ??? | |
 | 10/09/2024 | Conducting priming experiments with PCIbex | Alice Blumenthal-Dramé, ??? | |
 | 07/09/2024 | An overview of the Universal Dependencies resources and tools | Marie-Catherine de Marneffe, ??? | |
-| 21/11/2024 | Tu chiamale se vuoi emozioni: metodi e strumenti per l’analisi emotiva dei testi | Eliana Di Palma, ??? | |
-| 21/01/2025 | Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole | Maria Montefinese, Università di Padova |  |
+
 
 <!--
 {% capture text %}
