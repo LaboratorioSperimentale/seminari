@@ -58,7 +58,12 @@ Alla fine del processo sono state ottenute 23h 30' di videoregistrazione, per un
 
 [#TODO sostituire immagine con figure]
 La versione finale del corpus TIGR
-![plain image](/images/seminar-images/tigr/image-11.png)
+
+{%
+  include figure.html
+  image="images/seminar-images/tigr/image-11.png"
+  caption="Opzioni di registrazione su CATMA"
+%}
 
 Per quanto riguarda i contesti didattici, sono state registrate lezioni di tre tipi:
 
@@ -241,6 +246,10 @@ Vedi esempio video al minuto 1:07:06 fino a 1:09:56.
 Il problema di come trascrivere le sovrapposizioni si pone in particolare nel caso degli schismi. Non si tratta solamente di conversazioni parallele, ma a volte c'è anche uno spostamento associato. Facciamo l'esempio delle conversazioni a tavola: quando due persone si alzano e vanno in cucina e altre due rimangono a tavola si hanno due conversazioni parallele. La stessa cosa accade durante le lezioni di restauro quando due gruppi lavorano in due parti diverse della chiesa.
 
 Esempio a 1:10:42 fino a 01:11:48 -> crea collegamento ipertestuale
+
+Per saperne di più sul processo di trascrizione si rimanda ai seguenti articoli:
+
+
 
 #### La derivazione di trascrizioni in formato testo in stile "dialogo teatrale"
 

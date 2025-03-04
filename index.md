@@ -1,8 +1,10 @@
 ---
 ---
 
-IL **[Laboratorio Sperimentale](https://site.unibo.it/laboratorio-sperimentale/it)** (**[Dipartimento di Lingue, Letterature e Culture Moderne](https://lingue.unibo.it/it)** - **[Università Di Bologna](https://www.unibo.it/it)**) è un laboratorio di ricerca allestito grazie all'Iniziativa Dipartimenti di Eccellenza MIUR (L. 232 del 01/12/2016). Il Laboratorio è dotato di attrezzatura hardware e software di ultima generazione per la ricerca sperimentale, computazionale e applicata, negli ambiti della linguistica, dei translation e cultural studies, e più in generale delle Digital Humanities, anche applicate a letteratura e filologia.
-Il Laboratorio inoltre organizza **[eventi formativi](https://site.unibo.it/laboratorio-sperimentale/it/agenda)** che hanno l’obiettivo di dotare di sostenere la diffusione di un know-how (inter)disciplinare teorico-pratico negli ambiti di propria competenza, promuovendo una riflessione metodologica ampia sulla diversità dei dati linguistici e testuali.
+Il **[Laboratorio Sperimentale](https://site.unibo.it/laboratorio-sperimentale/it)** del [**LILEC**](https://lingue.unibo.it/it) - **[Università Di Bologna](https://www.unibo.it/it)** è un laboratorio di ricerca dotato di attrezzatura hardware e software per l'analisi di dati linguistici.
+
+Questa pagina raccoglie gli **[eventi formativi](https://site.unibo.it/laboratorio-sperimentale/it/agenda)** organizzati nel tempo dal Laboratorio, con l’obiettivo di dotare di sostenere la diffusione di un know-how (inter)disciplinare teorico-pratico negli ambiti di propria competenza, promuovendo una riflessione metodologica ampia sulla diversità dei dati linguistici e testuali. Gli eventi formativi promossi dal Laboratorio Sperimentale comprendono seminari, scuole estive di formazione e knowledge base e sono raccolti nella tabella qui sotto. Nella tabella potrete trovare il titolo del seminario, il link al video e i materiali forniti dai relatori liberamente scaricabili. Alcuni video sono fruibili da tutti, mentre per altri l'accesso è consentito solo a utenti UniBO.
+La sezione [**Seminari del Laboratorio**](https://laboratoriosperimentale.github.io/seminari/seminari/) nel menu di navigazione vi porterà a una pagina contenente delle card per ogni seminario o pacchetto formativo. Ogni card è contrassegnata da dei tag, come per esempio _tool_ o _resource_, a seconda del contenuto del seminario e conduce a un testo in cui è esposta in maniera dettagliata l'argomento del seminario. I contenuti testuali che troverete in questa pagina sono stati prodotti nell'ambito dei tirocini formativi curriculari proposti presso il Laboratorio Sperimentale.
 
 {% include section.html %}
 
@@ -13,6 +15,9 @@ Il Laboratorio inoltre organizza **[eventi formativi](https://site.unibo.it/labo
 | 30/09/2024 | Analisi dei dati linguistici con R e JASP: dalla sintesi dei dati alla statistica inferenziale | [Flavio Pisciotta](https://www.dipsumdills.it/en/teacher/flavio-pisciotta), Università degli Studi di Salerno | | [code](https://github.com/LaboratorioSperimentale/Formazione-seminario_R_Jasp) |
 | 06/09/2024 | The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction | [Johanna Miecznikowski](https://search.usi.ch/it/persone/ac8f4424bc40c3a8f9184f72ff606e46/miecznikowski-fuenfschilling-johanna), [Elena Battaglia](https://search.usi.ch/it/persone/9f04e935085ef74d0f7bbcb805b1ee27/battaglia-elena), Università della Svizzera Italiana | | |
 | 21/06/2024 | Digital Text Annotation and Analysis with CATMA 7 | [Mari Akazawa](https://www.linglit.tu-darmstadt.de/institutlinglit/mitarbeitende/akazawa_linglit/standardseite_akazawa_linglit.de.jsp), TU-Darmstadt e forText | | |
+| 21/01/2021 | La trascrizione del parlato con ELAN | Silvia Ballarè, Università di Bologna |  |
+| 21/11/2024 | Tu chiamale se vuoi emozioni: metodi e strumenti per l’analisi emotiva dei testi | Eliana Di Palma, ??? | |
+| 21/01/2025 | Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole | Maria Montefinese, Università di Padova |  |
 
 
 ## Coming soon
@@ -21,7 +26,6 @@ Il Laboratorio inoltre organizza **[eventi formativi](https://site.unibo.it/labo
 | 11/11/2020 | Per un uso consapevole dei software citazionali | Claudio Fabbri, Università di Bologna |  | |
 | 20/11/2020 | How to use NVivo for content analysis | [Patrick Goethals](https://research.flw.ugent.be/en/patrick.goethals), Ghent University | [unibo](https://urldn.com/bmI5r) | |
 | 11/12/2020 | Experimental methods and behavioural data in linguistics | Florent Perek, University of Birmingham |  |
-| 21/01/2021 | La trascrizione del parlato con ELAN | Silvia Ballarè, Università di Bologna |  |
 | 09/02/2021 | Introduzione a R come strumento per l’analisi statistica dei dati linguistici | Claudia Roberta Combei, Università di Bologna |  |
 | 11/02/2021 | Words, constructions & associations: A beginner’s guide to Collostructional Analysis | Susanne Flach, Universität Zürich & Université de Neuchâtel |  |
 | 25/02/2021 | Introduction to statistical modelling for linguists with R | Bodo Winter, University of Birmingham |  |
@@ -56,8 +60,7 @@ Il Laboratorio inoltre organizza **[eventi formativi](https://site.unibo.it/labo
 | 17/07/2024 | Focus on eye-tracking | Davide Crepaldi, ???, Jon W. Carr, ??? | |
 | 10/09/2024 | Conducting priming experiments with PCIbex | Alice Blumenthal-Dramé, ??? | |
 | 07/09/2024 | An overview of the Universal Dependencies resources and tools | Marie-Catherine de Marneffe, ??? | |
-| 21/11/2024 | Tu chiamale se vuoi emozioni: metodi e strumenti per l’analisi emotiva dei testi | Eliana Di Palma, ??? | |
-| 21/01/2025 | Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole | Maria Montefinese, Università di Padova |  |
+
 
 <!--
 {% capture text %}
