@@ -1,8 +1,8 @@
 ---
-name: Johanna Miecznikowski
+name: Carmelo Caruso
 image: images/photo.jpg
-role: speaker
-affiliation: CdL in ...
+role: lab-manager
+affiliation: Laboratorio Sperimentale (UniBO)
 links:
   home-page: https://janesmith.com
 ---

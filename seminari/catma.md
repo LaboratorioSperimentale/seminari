@@ -153,7 +153,7 @@ Le query ti permettono di analizzare, esplorare o valutare dati relativi al test
 {%
   include figure.html
   image="images/seminar-images/catma_final/13 Query about collocation.PNG"
-  caption="Crea la tua query (in questo caso, ho creato una query per collocazione in modo da vedere quante volte la parola "he" appare in prossimità della parola "has" in un intervallo di 5 token)"
+  caption="Crea la tua query (in questo caso, ho creato una query per collocazione in modo da vedere quante volte la parola 'he' appare in prossimità della parola 'has' in un intervallo di 5 token)"
 %}
 
 - Puoi **scrivere direttamente una query**, se hai una certa familiarità con il linguaggio delle query su CATMA. Ad esempio, se si ha intenzione di vedere solo le parole del documento con una frequenza maggiore di 20, bisogna semplicemente digitare “*freq20*” nell'apposito spazio.
@@ -218,7 +218,7 @@ Infine, ti verrà chiesto di scegliere una raccolta di annotazioni per documento
 %}
 
 ## Esportazione dei dati
-Se vuoi usare i tuoi risultati in un testo o una presentazione, puoi esportare e scaricare i tuoi dati su CATMA. Qui puoi vedere in quale sezione bisogna andare a seconda di ciò che devi scaricare: 
+Se vuoi usare i tuoi risultati in un testo o una presentazione, puoi esportare e scaricare i tuoi dati su CATMA. Qui puoi vedere in quale sezione bisogna andare a seconda di ciò che devi scaricare:
 - **Esportare annotazioni**: Modulo Progetto (dati disponibili in .txt, .xml e .csv)
 - **Esportare i risultati delle query**: Modulo Analisi (disponibile in .txt, .xml and .csv)
 - **Esportare le opzioni di visualizzazione**: Modulo Analisi (il wordcloud e il grafico di distribuzione sono disponibili in .svg e .png, mentre la visualizzazione KWIC è disponibile in .csv).
