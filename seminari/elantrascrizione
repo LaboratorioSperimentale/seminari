@@ -18,7 +18,14 @@ In base ai nostri obiettivi e a come decidiamo di usare il nostro programma, ott
 Il nostro focus sarà principalmente riguardo la trascrizione conversazionale e il sistema Jefferson.
 
 ### 2.1 Principali differenze fra scritto e parlato
-![alt text](image-1.png)
+![alt text](/images/seminar-images/elantrascrizione/image-1.png)
+
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/image-1.png"
+  caption="Confronto fra scritto e parlato"
+%}
+
 Naturalmente, prima di iniziare la trascrizione bisogna tenere a mente alcune differenze sostanziali fra le produzioni in forma parlata e in forma scritta. Anzitutto, il fatto che il parlato venga organizzato in diretta fa sì che ci sia poco tempo per pianificare (ad esempio, possono esserci false partenze o progetti sintattici non portati a termine). Bisogna quindi capire come rappresentare questo tipo di caratteristiche. In più, la produzione e la ricezione sono contemporanee: pertanto, nel caso di compresenza di più parlanti all'interno di una registrazione, diverse produzioni in forma parlata possono sovrapporsi (e bisogna dunque trovare un modo per rappresentare anche questo tipo di situazioni).
 
 ### 2.2 Problemi più comuni
@@ -45,7 +52,7 @@ Vediamo il sistema Jefferson, qui usato per la trascrizione. È sicuramente il *
 
  ![alt text](image-2.png)
 
-Qui vediamo una lista dei simboli più usati nel sistema Jefferson (in allegato c’è il PDF con l'elenco completo). Bisogna però fare una precisazione: notiamo che nella lista è presente un simbolo per rappresentare una pausa breve, ma non una pausa lunga. Quest'ultima è assente nella lista poiché non viene rappresentata mediante un simbolo, ma si inseriscono direttamente due unità diverse (e quindi la pausa viene rappresentata dall'interruzione delle unità).
+Qui vediamo una lista dei simboli più usati nel sistema Jefferson. Bisogna però fare una precisazione: notiamo che nella lista è presente un simbolo per rappresentare una pausa breve, ma non una pausa lunga. Quest'ultima è assente nella lista poiché non viene rappresentata mediante un simbolo, ma si inseriscono direttamente due unità diverse (e quindi la pausa viene rappresentata dall'interruzione delle unità).
 
 ## 3. ELAN
 **ELAN** è un **software gratuito**, la cui funzione principale è quella di permettere la **trascrizione del parlato**. Ad un livello più avanzato si può utilizzare anche per effettuare ricerche all'interno delle trascrizioni (interrogazione del corpus) e per creare annotazioni su più livelli (ad esempio, posso decidere di creare delle glosse). È uno dei software più diffusi per la trascrizione del parlato, per cui online sono reperibili molti strumenti di supporto accessibili gratuitamente. (INSERIRE LINK)

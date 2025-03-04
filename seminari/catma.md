@@ -43,8 +43,12 @@ Per utilizzare il tool, bisogna creare il proprio [account CATMA](https://app.ca
 Una volta effettuato l'accesso, sarà possibile scegliere fra *"Nuovo Progetto"* o *"Unisciti ad un progetto"* (in quest'ultimo caso, il proprietario del progetto dovrà aggiungerti tramite il tuo username o mediante un invito in tempo reale). Sul lato sinistro dello schermo vi è una barra laterale con tutti i moduli precedentemente menzionati, che saranno attivati non appena si sceglie il progetto su cui si vuole lavorare.
 
 [#TODO sostituire immagine con figure]
-![alt text](images/seminar-images/catma_final/3 Project Overview.PNG)
-*Fig. 3: Schermata Home di CATMA*
+{%
+  include figure.html
+  image="images/seminar-images/catma_final/3 Project Overview.PNG"
+  caption="Schermata Home di CATMA"
+%}
+
 
 
 ## Modulo Progetto
@@ -141,7 +145,7 @@ Dopo aver scelto una query o averne creata una, i risultati appariranno in un ri
 *Fig. 13: Risultati della query*
 
 ### Opzioni di Visualizzazione
-insCATMA offre quattro diverse possibilità di visualizzazione per i risultati della tua query/ins (che appaiono sul lato destro dello schermo in questo modulo):
+CATMA offre quattro diverse possibilità di visualizzazione per i risultati della tua query (che appaiono sul lato destro dello schermo in questo modulo):
 
 - **Visualizzazione KeyWord in Context (KWIC)**: Quest'opzione mostra i tuoi risultati nel loro contesto testuale (sia a destra che a sinistra) sotto forma di tabella. Cliccando due volte su una riga della tabella KWIC, puoi passare direttamente al Modulo Annotazione per vedere quel passaggio specifico. Puoi anche usare la visualizzazione KWIC per creare annotazioni semi-automaticamente (ne parleremo più nel dettaglio in seguito). Assicurati di selezionare la query esatta sul lato sinistro dello schermo.
 [#TODO sostituire immagine con figure]
