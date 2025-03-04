@@ -164,6 +164,11 @@ Vediamo dunque alcuni dei comandi che servono per la trascrizione (tra i materia
   caption="Casella di Selection Mode"
 %}
 - **ALT + N**: A tal punto dobbiamo creare la nostra unità. Ciò significa che dobbiamo individuare quella che noi consideriamo essere un'unità di parlato che vogliamo trascrivere e selezionarla con la selection mode che abbiamo visto; dopodiché, una volta che abbiamo selezionato lo spazio che vogliamo trascrivere, dobbiamo <ins>creare una sorta di campo di testo all'interno di quello spazio selezionato</ins>, così che possiamo scriverci dentro quello che vogliamo. Per creare il campo di testo nello spazio selezionato, usiamo la combinazione ALT + N (oppure, una volta selezionato lo spazio, si può cliccare col tasto destro del mouse e premere su “New Annotation”). Premendo invio, l’unità trascritta si salva.
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/14 selezione.PNG"
+  caption="Inserire una casella di testo"
+%}
 - **ALT + Mouse (in orizzontale)**: Volendo possiamo anche allargare o stringere la nostra unità con la combinazione ALT + mouse, premendo il tasto sinistro di quest'ultimo e spostando il cursore in senso orizzontale.
 - **CTRL/⌘ + su/giù**: Questa combinazione serve per spostarsi da un tier all’altro in verticale (ad esempio, quando vogliamo trascrivere ciò che dice un parlante diverso da quello associato al tier su cui ci troviamo).
 - **ALT + Mouse (in verticale)**: Può capitare di trascrivere le parole di un parlante nel tier sbagliato. Premendo ALT e il tasto destro del mouse, possiamo spostare l’unità da un tier all'altro (dunque in verticale). 
@@ -184,3 +189,5 @@ Un'altra cosa che può aiutare nella visualizzazione è il cursore in basso a de
 Un'altra cosa che può aiutare nella visualizzazione è il cursore in basso a destra, grazie al quale si può modificare la visualizzazione delle unità (restringendole o allargandole). Ciò vuol dire che la durata dell’unità si mantiene sull'asse temporale, ma diventa possibile visualizzare tutte le parole che prima non si riuscivano a vedere. In sostanza, con queste funzioni si alterà la modalità di visualizzazione delle unità, ma non le unità stesse.
 - **Cancellare l'unità creata**: Per cancellare un'unità creata bisogna selezionarla cliccandoci sopra (in tal modo, l’unità dovrebbe diventare blu), per poi cliccare su “Delete Annotation”.
 - **Il programma non legge il file mp3**: Tra i problemi che possono emergere durante la trascrizione, può capitare che ELAN non legga il file mp3 o che si blocchi. Il modo migliore per risolvere questo problema è cambiare il formato dell'audio, quindi convertirlo in formato .wav (è possibile farlo con Audacity, di cui abbiamo già parlato). Ovviamente, una volta cambiato il formato dell'audio bisogna riassociare nuovamente la trascrizione alla nuova traccia, e per fare ciò bisogna seguire questa sequenza: *Edit > Linked Files*.
+
+### 3.10 Funzioni Avanzate
