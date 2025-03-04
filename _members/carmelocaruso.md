@@ -1,6 +1,6 @@
 ---
 name: Carmelo Caruso
-image: /images/avatars/carmelo-caruso.jpg
+image: /images/avatars/carmelo-caruso.jpeg
 role: lab-manager
 affiliation: Laboratorio Sperimentale (UniBO)
 links:
