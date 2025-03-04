@@ -154,13 +154,15 @@ A questo punto la cosa da fare è creare i tier successivi in base al numero di 
 Una cosa che spesso viene fatta è scegliere un codice alfanumerico per ogni tier, mentre nello spazio “participant” scriviamo il nome vero e proprio del partecipante (nel caso in cui non volessimo poi vederlo sulla trascrizione).
 
 ### 3.8 La Trascrizione e i Comandi Essenziali
-A questo punto possiamo avviare la trascrizione vera e propria. 
-![alt text](image-12.png)
-![alt text](image-15.png)
-Anzitutto bisogna precisare che tutti questi comandi qui riportati possono essere eseguiti anche col mouse. L’utilizzo della tastiera può risultare difficile all’inizio, in quanto bisogna memorizzare le diverse combinazioni di tasti per ogni specifico comando, ma risulta molto più vantaggiosa in seguito. 
+A questo punto possiamo avviare la trascrizione vera e propria. Anzitutto bisogna precisare che tutti questi comandi qui riportati possono essere eseguiti anche col mouse. L’utilizzo della tastiera può risultare difficile all’inizio, in quanto bisogna memorizzare le diverse combinazioni di tasti per ogni specifico comando, ma risulta molto più vantaggiosa in seguito. 
 Vediamo dunque alcuni dei comandi che servono per la trascrizione (tra i materiali c’è un PDF in cui c’è la lista completa delle combinazioni di tasti):
 - **CTRL + Spazio**: avvia/stoppa la traccia audio.
-- **CTRL/⌘ + K**: Seleziona/deseleziona la selection mode. Per individuare la stringa di parlato che vogliamo trascrivere bisogna entrare in selection mode, che può essere attivata o disattivata anche spuntando la casella apposita.
+- **CTRL/⌘ + K**: Seleziona/deseleziona la selection mode. Per individuare la stringa di parlato che vogliamo trascrivere bisogna entrare in selection mode, che può essere attivata o disattivata anche spuntando la casella apposita. A questo punto, quando si avvia/stoppa la traccia audio, si avvia/stoppa anche la selezione.
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/13 Select Mode.PNG"
+  caption="Casella di Selection Mode"
+%}
 - **ALT + N**: A tal punto dobbiamo creare la nostra unità. Ciò significa che dobbiamo individuare quella che noi consideriamo essere un'unità di parlato che vogliamo trascrivere e selezionarla con la selection mode che abbiamo visto; dopodiché, una volta che abbiamo selezionato lo spazio che vogliamo trascrivere, dobbiamo <ins>creare una sorta di campo di testo all'interno di quello spazio selezionato</ins>, così che possiamo scriverci dentro quello che vogliamo. Per creare il campo di testo nello spazio selezionato, usiamo la combinazione ALT + N (oppure, una volta selezionato lo spazio, si può cliccare col tasto destro del mouse e premere su “New Annotation”). Premendo invio, l’unità trascritta si salva.
 - **ALT + Mouse (in orizzontale)**: Volendo possiamo anche allargare o stringere la nostra unità con la combinazione ALT + mouse, premendo il tasto sinistro di quest'ultimo e spostando il cursore in senso orizzontale.
 - **CTRL/⌘ + su/giù**: Questa combinazione serve per spostarsi da un tier all’altro in verticale (ad esempio, quando vogliamo trascrivere ciò che dice un parlante diverso da quello associato al tier su cui ci troviamo).
@@ -170,7 +172,11 @@ Vediamo dunque alcuni dei comandi che servono per la trascrizione (tra i materia
 
 ### 3.9 I Problemi più comuni
 - **Cambiare le combinazioni di tasti**: In alcuni casi, le combinazioni di tasti precedentemente viste possono non funzionare, in quanto non tutte le tastiere funzionano allo stesso modo. In molti casi il problema può essere risolto svolgendo semplicemente l’azione col mouse, ma volendo ELAN offre anche l’opportunità di modificare le combinazioni di tasti associate a specifici comandi. Ad esempio, supponiamo che con la combinazione ALT + N io non riesca a creare il campo di testo nell’area selezionata: eseguendo il percorso *Edit > Preferences > Edit Shortcuts*, possiamo vedere quale combinazione di tasti è associata a quella specifica funzione ed eventualmente possiamo cambiarla a nostro piacimento.
-  ![alt text](image-16.png)
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/image-16.png"
+  caption="Cambiare le Shortcut della tastiera"
+%}
 - **Cambiare la velocità di riproduzione**: Se l’audio è troppo lento o troppo veloce, nella sezione in alto è possibile trovare il tasto “rate”, col quale si può modificare la velocità di riproduzione.
 In alcuni casi la visualizzazione di ELAN è piccola. Per ingrandire solo la visualizzazione si può cliccare col tasto destro del mouse, selezionare “font size” e regolare la grandezza del testo. 
 Un'altra cosa che può aiutare nella visualizzazione è il cursore in basso a destra, grazie al quale si può modificare la visualizzazione delle unità (restringendole o allargandole). Ciò vuol dire che la durata dell’unità si mantiene sull'asse temporale, ma diventa possibile visualizzare tutte le parole che prima non si riuscivano a vedere.
