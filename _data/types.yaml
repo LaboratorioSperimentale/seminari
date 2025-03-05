@@ -24,7 +24,7 @@ programmer:
 
 lab-manager:
   icon: fa-solid fa-code
-  description: Programmer
+  description: Lab Manager
 
 mascot:
   icon: fa-solid fa-dog
