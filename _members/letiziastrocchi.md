@@ -1,6 +1,6 @@
 ---
 name: Letizia Strocchi
-image: images/photo.jpg
+image: images/avatars/letizia.png
 role: tirocinante
 affiliation: CdL in ...
 links:
