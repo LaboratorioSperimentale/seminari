@@ -1,13 +1,10 @@
 ---
-name: Ludovica Pannitto
-image: /images/avatars/ludovica.jpg
-role: lab-manager
-affiliation: Laboratorio Sperimentale (UniBO)
+name: Flavio Pisciotta
+image: images/photo.jpg
+role: speaker
+affiliation: CdL in ...
 links:
-  home-page: https://ellepannitto.github.io
-  email: ludovica.pannitto@unibo.it
-  google-scholar: 8oLH83IAAAAJ&hl
-
+  home-page: https://janesmith.com
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

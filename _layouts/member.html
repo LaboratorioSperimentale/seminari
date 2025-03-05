@@ -20,6 +20,10 @@ layout: default
 
 {{ content }}
 
+
+
+<!-- {% include section.html size="card" %} -->
+
 {% assign aliases = page.aliases
   | default: page.name
   | default: page.title
@@ -27,10 +31,10 @@ layout: default
   | split: ","
   | array_filter
 %}
-
+<!--
 {% capture search -%}
   research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %}
+{%- endcapture %} -->
 
 <!-- <p class="center">
   <a href="{{ search | relative_url | uri_escape }}">

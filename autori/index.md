@@ -1,5 +1,5 @@
 ---
-title: Autori
+title: Team
 nav:
   order: 4
   tooltip: About our team
