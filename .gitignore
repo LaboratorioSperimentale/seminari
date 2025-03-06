@@ -11,4 +11,4 @@ package.json
 package-lock.json
 yarn.lock
 node_modules
-*cache*
+_cite/.cache/cache.db
