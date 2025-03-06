@@ -2,6 +2,7 @@
 layout: seminar
 title: "Il corpus TIGR: un corpus video per lo studio dell'italiano parlato"
 author: silviamantovani
+speaker: Johanna Miecznikowski, Elena Battaglia
 ---
 
 ## Il corpus TIGR

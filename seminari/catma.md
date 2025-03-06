@@ -1,11 +1,11 @@
 ---
   title: Annotazione e Analisi di Testi Digitali con CATMA 7
   author: marcoesposito
-  speaker: Johanna Miecznikowski, Elena Battaglia
+  speaker: Mari Akazawa
   layout: seminar
 ---
 
-This page is also availabe in [english](en/catma_en.html)
+This page is also availabe in [english](en/catma.html)
 
 ## Cos'è Catma?
 
@@ -47,8 +47,6 @@ Una volta effettuato l'accesso, sarà possibile scegliere fra *"Nuovo Progetto"*
   image="images/seminar-images/catma_final/3 Project Overview.PNG"
   caption="Schermata Home di CATMA"
 %}
-
-
 
 ## Modulo Progetto
 
