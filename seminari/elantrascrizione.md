@@ -191,3 +191,47 @@ Un'altra cosa che può aiutare nella visualizzazione è il cursore in basso a de
 - **Il programma non legge il file mp3**: Tra i problemi che possono emergere durante la trascrizione, può capitare che ELAN non legga il file mp3 o che si blocchi. Il modo migliore per risolvere questo problema è cambiare il formato dell'audio, quindi convertirlo in formato .wav (è possibile farlo con Audacity, di cui abbiamo già parlato). Ovviamente, una volta cambiato il formato dell'audio bisogna riassociare nuovamente la trascrizione alla nuova traccia, e per fare ciò bisogna seguire questa sequenza: *Edit > Linked Files*.
 
 ### 3.10 Funzioni Avanzate
+Vediamo adesso alcune delle funzioni più avanzate di ELAN.
+#### 3.10.1 Vedere tutte le unità associate a un tier
+ELAN permette di vedere assieme tutto ciò che abbiamo trascritto per quanto riguarda un unico parlante. Per fare questo, bisogna andare su “***Grid***”: si apre così una visualizzazione a griglia di tutte le unità presenti all’interno di un tier.
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/16 file griglia.PNG"
+  caption="Visualizzazione a griglia delle unità associate a un tier"
+%}
+
+#### 3.10.2 La strutturazione dei tier
+I tier possono avere diversi tipi di struttura. La strutturazione più semplice dei tier è quella che prevede l’associazione di un unico tier ad ogni parlante. Tuttavia, è possibile anche creare un quadro molto più complesso: è infatti possibile creare una serie di **tier dipendenti** dal tier che abbiamo associato a un parlante, creando così dei “sotto-tier”. In sostanza, è possibile creare un’**architettura interna** dei tier. Vediamo alcuni casi in cui questa funzione può essere utile:
+- **Comunicazione non verbale**: posso fare un tier relativo solo ai movimenti del corpo di un determinato parlante. 
+- **Commenti**: Questa funzione può tornare utile anche nel momento in cui decido di lasciare dei commenti, andando dunque ad inserirli proprio in un tier dipendente (usandolo come un vero e proprio block notes)
+- **IPA**: se voglio trascrivere delle parti con l’alfabeto IPA, posso farlo andando ad inserirle in un apposito tier.
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/17 strutturazione tier.PNG"
+  caption="Esempio di tier complesso"
+%}
+Vediamo un esempio. Qui abbiamo un tier molto complesso, in quanto vediamo una serie di “sotto-tier” associati ad un unico parlante. Tali tier contengono molti tipi di informazioni: nel primo tier vi è una trascrizione ortografica; nel secondo tier le parole vengono separate; nel terzo tier le singole parole sono annotate per parte del discorso; nel quarto tier abbiamo la trascrizione IPA e così via.
+
+Vediamo dunque come aggiungere dei tier dipendenti.
+La prima cosa da fare è creare un tier che segue la scansione temporale a cui voglio poi associarlo. Anzitutto andiamo su ***Type > Add New Tier Type***. Nella finestra che si apre andiamo poi su ***Stereotype*** e selezioniamo ***Time subdivision***, inserendo anche il nome del tipo.  
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/18 tier dipendente.PNG"
+  caption="Add New Tier Type"
+%}
+
+A questo punto, una volta che abbiamo creato il nuovo type possiamo creare il nuovo tier. Seguiamo dunque gli stessi passaggi di prima (Tier > Add New Tier), ma questa volta bisogna specificare a quale tier dipende il “sotto-tier” che stiamo creando. Per farlo, nella riga “***Parent Tier***” dobbiamo selezionare il tier a cui vogliamo associarlo.
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/19 tier dipendente.PNG"
+  caption="Add New Tier"
+%}
+
+A questo punto, ci si ritrova con tutti i tier allineati. Per avere un tipo di visualizzazione in cui si rende evidente “quale tier dipende da quale tier”, bisogna seguire il seguente percorso: **Click destro sui tier** ***> Sort Tiers > Sort by Hierarchy***.
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/20 tier dipendente.PNG"
+  caption="Tier ordinati per gerarchia"
+%}
+
+#### 3.10.3 Divisione per Parola

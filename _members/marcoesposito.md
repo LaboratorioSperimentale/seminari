@@ -1,6 +1,6 @@
 ---
 name: Marco Esposito
-image: images/photo.jpg
+image: images/avatars/avatarmarco.png
 role: tirocinante
 affiliation: CdL in ...
 aliases:
