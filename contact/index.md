@@ -36,7 +36,7 @@ nav:
 {% capture col2 %}
 
 {% include section.html %}
-# {% include icon.html icon="fa-solid fa-users" %} Lab Technicians
+# {% include icon.html icon="fa-solid fa-users" %} Lab Staff
 <!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
 {% include list.html data="members" component="portrait" filter="role == 'lab-manager'" %}
 {% endcapture %}
