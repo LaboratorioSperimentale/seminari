@@ -1,5 +1,5 @@
 ---
-name: Carmelo Caruso
+name: Ana Pano
 image: /images/avatars/ana-pano-alaman.png
 role: Lab Board Member
 affiliation: Università di Bologna
