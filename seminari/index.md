@@ -5,7 +5,7 @@ nav:
   tooltip: Software, datasets, and more
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Seminari
+# Seminari
 
 In questa pagina c'è la lista di tutti i seminari che si sono tenuti presso il Laboratorio Sperimentale...
 

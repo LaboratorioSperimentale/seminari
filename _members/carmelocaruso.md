@@ -2,7 +2,7 @@
 name: Carmelo Caruso
 image: /images/avatars/carmelo-caruso.jpeg
 role: lab-manager
-affiliation: Laboratorio Sperimentale (UniBO)
+affiliation: Università di Bologna
 links:
   home-page: https://janesmith.com
 ---

@@ -1,6 +1,8 @@
 ---
+  layout: seminar
   title: Digital Text Annotation and Analysis with CATMA 7
   author: esmeraldadivenere
+  speaker: Mari Akazawa
 ---
 
 ### Table of contents
