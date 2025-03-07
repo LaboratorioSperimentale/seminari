@@ -1,13 +1,10 @@
 ---
-name: Ludovica Pannitto
-image: /images/avatars/ludovica.jpg
-role: lab-manager
+name: Francesca Masini
+image: /images/avatars/francesca-masini.jpeg
+role: Lab Scientific Coordinator
 affiliation: Università di Bologna
 links:
-  home-page: https://ellepannitto.github.io
-  email: ludovica.pannitto@unibo.it
-  google-scholar: 8oLH83IAAAAJ&hl
-
+  home-page: https://www.unibo.it/sitoweb/francesca.masini
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

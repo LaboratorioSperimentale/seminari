@@ -1,13 +1,10 @@
 ---
-name: Ludovica Pannitto
-image: /images/avatars/ludovica.jpg
-role: lab-manager
+name: Valeria Zotti
+image: /images/avatars/valeria-zotti.png
+role: Lab Board Member
 affiliation: Università di Bologna
 links:
-  home-page: https://ellepannitto.github.io
-  email: ludovica.pannitto@unibo.it
-  google-scholar: 8oLH83IAAAAJ&hl
-
+  home-page: https://www.unibo.it/sitoweb/valeria.zotti
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

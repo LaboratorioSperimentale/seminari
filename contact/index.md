@@ -1,9 +1,34 @@
 ---
-title: Contatti
+title: Board
 nav:
-  order: 5
+  order: 4
   tooltip: Email, address, and location
 ---
+
+# {% include icon.html icon="fa-solid fa-users" %}
+
+
+
+{% include section.html %}
+
+<!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
+{% include list.html data="members" component="portrait" filter="role == 'Lab Scientific Coordinator'" %}
+
+{% include section.html %}
+
+<!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
+{% include list.html data="members" component="portrait" filter="role == 'lab-manager'" %}
+
+
+
+{% include section.html %}
+
+<!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
+{% include list.html data="members" component="portrait" filter="role == 'Lab Board Member'" %}
+
+
+
+<!-- 
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
@@ -74,4 +99,4 @@ consectetur adipiscing elit
 sed do eiusmod tempor
 {% endcapture %}
 
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+{% include cols.html col1=col1 col2=col2 col3=col3 %} -->
