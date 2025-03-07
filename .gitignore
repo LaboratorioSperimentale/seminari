@@ -11,4 +11,6 @@ package.json
 package-lock.json
 yarn.lock
 node_modules
-*cache*
+_cite/.cache/cache.db
+_cite/.cache/cache.db-shm
+_cite/.cache/cache.db-wal

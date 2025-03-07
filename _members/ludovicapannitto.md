@@ -2,7 +2,7 @@
 name: Ludovica Pannitto
 image: /images/avatars/ludovica.jpg
 role: lab-manager
-affiliation: Laboratorio Sperimentale (UniBO)
+affiliation: Università di Bologna
 links:
   home-page: https://ellepannitto.github.io
   email: ludovica.pannitto@unibo.it

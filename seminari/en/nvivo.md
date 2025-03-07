@@ -1,4 +1,8 @@
-Author: esmeralds
+---
+layout: seminar
+title: "TBD"
+author: esmeraldadivenere
+---
 
 # NVIVO
 
