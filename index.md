@@ -16,7 +16,7 @@ La sezione [**Seminari del Laboratorio**](https://laboratoriosperimentale.github
 | 06/09/2024 | The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction | [Johanna Miecznikowski](https://search.usi.ch/it/persone/ac8f4424bc40c3a8f9184f72ff606e46/miecznikowski-fuenfschilling-johanna), [Elena Battaglia](https://search.usi.ch/it/persone/9f04e935085ef74d0f7bbcb805b1ee27/battaglia-elena), Università della Svizzera Italiana | | |
 | 21/06/2024 | Digital Text Annotation and Analysis with CATMA 7 | [Mari Akazawa](https://www.linglit.tu-darmstadt.de/institutlinglit/mitarbeitende/akazawa_linglit/standardseite_akazawa_linglit.de.jsp), TU-Darmstadt e forText | | |
 | 21/01/2021 | La trascrizione del parlato con ELAN | Silvia Ballarè, Università di Bologna |  |
-| 21/11/2024 | Tu chiamale se vuoi emozioni: metodi e strumenti per l’analisi emotiva dei testi | Eliana Di Palma, ??? | |
+| 21/11/2024 | Tu chiamale se vuoi emozioni: metodi e strumenti per l’analisi emotiva dei testi | Eliana Di Palma, Sapienza Università di Roma | | [ELIta](https://github.com/elianadipalma/ELIta)
 | 21/01/2025 | Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole | Maria Montefinese, Università di Padova |  |
 
 
