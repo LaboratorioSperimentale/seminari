@@ -1,5 +1,5 @@
 ---
-title: Board
+title: Chi siamo
 nav:
   order: 4
   tooltip: Email, address, and location
@@ -36,7 +36,7 @@ nav:
 {% capture col2 %}
 
 {% include section.html %}
-# {% include icon.html icon="fa-solid fa-users" %} Lab Staff
+# {% include icon.html icon="fa-solid fa-users" %} Staff del Laboratorio
 <!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
 {% include list.html data="members" component="portrait" filter="role == 'lab-manager'" %}
 {% endcapture %}
@@ -44,13 +44,23 @@ nav:
 {% include cols.html col1=col1 col2=col2 %}
 
 
-
 {% include section.html %}
-# {% include icon.html icon="fa-solid fa-users" %} Board Members
+# {% include icon.html icon="fa-solid fa-users" %} Componenti Board del Laboratorio 
 <!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
 {% include list.html data="members" component="portrait" filter="role == 'Lab Board Member'" %}
+{% include section.html %}
+
+# {% include icon.html icon="fa-solid fa-users" %} Membri Passati e in Visita
+<!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
+{% include list.html data="members" component="portrait" filter="role == 'old - Lab Manager'" %}
 
 {% include section.html %}
-# {% include icon.html icon="fa-solid fa-users" %} Membri Passati e in visita
+
 <!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
-{% include list.html data="members" component="portrait" filter="role == 'Lab Board Member'" %}
+{% include list.html data="members" component="portrait" filter="role == 'old - Lab Board Member'" %}
+
+
+{% include section.html %}
+
+<!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
+{% include list.html data="members" component="portrait" filter="role == 'old - Visiting'" %}
