@@ -1,6 +1,6 @@
 ---
 name: Eliana di Palma
-image: images/photo.jpg
+image: images/avatars/elianadipalmaavatar.png
 role: speaker
 affiliation: Sapienza Università di Roma
 links: 
