@@ -1,77 +1,56 @@
 ---
-title: Contatti
+title: Board
 nav:
-  order: 5
+  order: 4
   tooltip: Email, address, and location
 ---
-
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="lilec.lab@unibo.it"
+  link="lilec.lab@unibo.it"
 %}
 {%
   include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  type="home-page"
+  text="Laboratorio Sperimentale LILEC"
+  link="https://site.unibo.it/laboratorio-sperimentale/"
 %}
 {%
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  text="Studio 76, Dipartimento LILEC"
+  link="https://maps.app.goo.gl/uNU8UD6skxLo29V96"
 %}
-
-{% include section.html %}
 
 {% capture col1 %}
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
+{% include section.html %}
+# {% include icon.html icon="fa-solid fa-users" %} Referente Scientifico
 
+<!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
+{% include list.html data="members" component="portrait" filter="role == 'Lab Scientific Coordinator'" %}
 {% endcapture %}
 
 {% capture col2 %}
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
+{% include section.html %}
+# {% include icon.html icon="fa-solid fa-users" %} Lab Technicians
+<!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
+{% include list.html data="members" component="portrait" filter="role == 'lab-manager'" %}
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
 
-{% include section.html dark=true %}
 
-{% capture col1 %}
-Lorem ipsum dolor sit amet
-consectetur adipiscing elit
-sed do eiusmod tempor
-{% endcapture %}
 
-{% capture col2 %}
-Lorem ipsum dolor sit amet
-consectetur adipiscing elit
-sed do eiusmod tempor
-{% endcapture %}
+{% include section.html %}
+# {% include icon.html icon="fa-solid fa-users" %} Board Members
+<!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
+{% include list.html data="members" component="portrait" filter="role == 'Lab Board Member'" %}
 
-{% capture col3 %}
-Lorem ipsum dolor sit amet
-consectetur adipiscing elit
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+{% include section.html %}
+# {% include icon.html icon="fa-solid fa-users" %} Membri Passati e in visita
+<!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
+{% include list.html data="members" component="portrait" filter="role == 'Lab Board Member'" %}

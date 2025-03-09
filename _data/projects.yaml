@@ -37,7 +37,7 @@
   subtitle: Eliana di Palma
   group: "2024"
   image: images/logos/default.png
-  link: seminari/tuchiamale.html
+  link: seminari/emozioni.html
   description:
   tags:
     - tool
@@ -53,3 +53,12 @@
   tags:
     - tool
     - resource
+
+- title: "La Trascrizione del Parlato con ELAN"
+  subtitle: Silvia Ballarè
+  group: "2021"
+  image: images/logos/logoelan.png
+  link: seminari/elantrascrizione.html
+  description: Il seminario è una presentazione di alcune nozioni di base della trascrizione e del sistema Jefferson, nonché di alcun funzioni di base del software ELAN.
+  tags:
+    - tool

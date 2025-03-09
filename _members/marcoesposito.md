@@ -1,6 +1,6 @@
 ---
 name: Marco Esposito
-image: images/photo.jpg
+image: images/avatars/avatarmarco.png
 role: tirocinante
 affiliation: CdL in ...
 aliases:
@@ -9,11 +9,4 @@ links:
   home-page: https://janesmith.com
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
-Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
-Elit at imperdiet dui accumsan.
-Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
-Vitae elementum curabitur vitae nunc sed velit dignissim sodales.
-Lacinia at quis risus sed vulputate odio ut.
-Magna eget est lorem ipsum.
+Marco Esposito è uno studente dell'Università di Bologna, iscritto al corso di laurea di Lingue e Letterature Straniere. Nell'anno accademico 2024/2025 ha svolto il tirocinio curricolare presso il Laboratorio Sperimentale.

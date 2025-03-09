@@ -22,6 +22,18 @@ programmer:
   icon: fa-solid fa-code
   description: Programmer
 
+lab-manager:
+  icon: fa-solid fa-code
+  description: Lab Manager
+
+Lab Board Member:
+  icon: fa-solid fa-graduation-cap
+  description: Lab Board Member
+
+Lab Scientific Coordinator:
+  icon: fa-solid fa-graduation-cap
+  description: Lab Scientific Coordinator
+
 mascot:
   icon: fa-solid fa-dog
   description: Mascot
@@ -29,6 +41,10 @@ mascot:
 tirocinante:
   icon: fa-solid fa-pencil
   description: Tirocinante
+
+speaker:
+  icon: fa-solid fa-graduation-cap
+  description: Relatore
 
 # general
 

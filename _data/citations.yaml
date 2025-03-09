@@ -245,12 +245,3 @@
   image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
   plugin: sources.py
   file: sources.yaml
-- id: http://www.lrec-conf.org/proceedings/lrec2004/pdf/480.pdf
-  title: ''
-  authors: []
-  publisher: ''
-  date: ''
-  link: http://www.lrec-conf.org/proceedings/lrec2004/pdf/480.pdf
-  type: paper
-  plugin: sources.py
-  file: sources_tigr.yaml

@@ -2,18 +2,20 @@
 title: LABORATORIO SPERIMENTALE
 subtitle: Dipartimento di Lingue, Letterature e Culture Moderne
 description: # Laboratorio Sperimentale's Website
-header: images/orizzontale trasp.png
-footer: images/background.jpg
+header: images/orizzontale bande bianche.png
+footer: images/orizzontale bande bianche.png
 proofer: false
 
 # site social media and other links
 links:
-  email: lilec.lab@unibo.it
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  
+  home-page: https://site.unibo.it/laboratorio-sperimentale/it/
+  #orcid: 0000-0001-8713-9213
+  #google-scholar: ETJoidYAAAAJ
   github: LaboratorioSperimentale
-  twitter: LaboratorioSperimentale
-  youtube: LaboratorioSperimentale
+  #twitter: LaboratorioSperimentale
+  #youtube: LaboratorioSperimentale
+  email: lilec.lab@unibo.it
 
 ### jekyll settings
 

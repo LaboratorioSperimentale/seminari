@@ -1,14 +1,24 @@
-# citation metadata for the template itself
+# citation metadata for the lab website
 
-title: "Lab Website Template"
-version: 1.3.4
-date-released: 2025-02-03
-url: "https://github.com/greenelab/lab-website-template"
+title: "Seminari del Laboratorio Sperimentale"
+version: 1.0.9
+date-released: 2025-03-05
+url: "https://laboratoriosperimentale.github.io/seminari/"
 authors:
-  - family-names: "Rubinetti"
-    given-names: "Vincent"
-    orcid: "https://orcid.org/0000-0002-4655-3773"
-  - family-names: "Greene"
-    given-names: "Casey"
-    orcid: "https://orcid.org/0000-0001-8713-9213"
+  - family-names: "Pannitto"
+    given-names: "Ludovica"
+  - family-names: "Caruso"
+    given-names: "Carmelo"
+  - family-names: "Cirrito"
+    given-names: "Samuele"
+  - family-names: "Di Venere"
+    given-names: "Esmeralda"
+  - family-names: "Esposito"
+    given-names: "Marco"
+  - family-names: "Mantovani"
+    given-names: "Silvia"
+  - family-names: "Marmo"
+    given-names: "Giulia"
+  - family-names: "Strocchi"
+    given-names: "Letizia"
 cff-version: 1.2.0
