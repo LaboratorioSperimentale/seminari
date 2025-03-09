@@ -156,6 +156,7 @@ Di seguito si riportano alcuni grafici sui principali dati sociolinguistici che 
   include figure.html
   image="images/seminar-images/tigr/image-15.png"
   %}
+
   _Come si può vedere dal grafico a sinistra,  il corpus è abbastanza bilanciato con una presenza femminile (53%) di poco superiore a quella maschile (47%)._
   _Nel grafico a destra vengono mostrate le fascie d'età, con una sovrarappresentazione della fascia degli studenti universitari (20-29)._
 
@@ -165,7 +166,6 @@ Di seguito si riportano alcuni grafici sui principali dati sociolinguistici che 
   include figure.html
   image="images/seminar-images/tigr/image-16.png"
   %}
-
 
   _La maggior parte dei partecipanti ha frequentato la scuola elementare in Italia e in Svizzera._
   
@@ -357,11 +357,6 @@ Nella condivisione e nel riuso dei dati sono contemplati tre mezzi:
 Un quarto mezzo potrebbe essere rappresentato dalle "data sessions", ovvero incontri faccia a faccia dove si lavora sui dati.
 
 L'invio di dati tramite e-mail non assicura che i dati siano reperibili e accessibili a chi non li conosca già. Quindi si considera questa modalità non aderente ai principi FAIR, come invece sono le prime due, cioè il repositorio e la piattaforma digitale. Infatti, il catalogo e la regolazione degli accessi assicurano la reperibilità e l'accesso ai dati.
-
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-33.png"
-%}
 
 ### Il repositorio
 
