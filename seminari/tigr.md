@@ -3,7 +3,7 @@ layout: seminar
 title: "Il corpus TIGR: un corpus video per lo studio dell'italiano parlato"
 author: silviamantovani
 speaker: Johanna Miecznikowski, Elena Battaglia
-video: [The TIGR corpus: collection, transcription, processing and management of videorecorded data](https://liveunibo-my.sharepoint.com/personal/ludovica_pannitto_unibo_it/_layouts/15/stream.aspx?id=%2Fpersonal%2Fludovica%5Fpannitto%5Funibo%5Fit%2FDocuments%2FSEMINARI%20LAB%2FVideo%2F2024%2FThe%20TIGR%20corpus%20%2DCUT%2D%20collection%2C%20transcription%2C%20processing%20and%20management%20of%20videorecorded%20data%20for%20the%20study%20of%20Italian%20talk%20in%20interaction%20%281%29%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E8b327ce2%2D17b6%2D49a2%2Da13b%2D51095c65714c)
+video: [The TIGR corpus: collection, transcription, processing and management of videorecorded data](https://liveunibo-my.sharepoint.com/personal/ludovica_pannitto_unibo_it/_layouts/15/stream.aspx?id=%2Fpersonal%2Fludovica%5Fpannitto%5Funibo%5Fit%2FDocuments%2FSEMINARI%20LAB%2FVideo%2F2024%2FThe%20TIGR%20corpus%20%2DCUT%2D%20collection%2C%20transcription%2C%20processing%20and%20management%20of%20videorecorded%20data%20for%20the%20study%20of%20Italian%20talk%20in%20interaction%20%281%29%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E7b99235d%2D9c7d%2D4730%2D95a9%2D018671c3f478)
 lenght: 2h
 ---
 # Il corpus TIGR: un corpus video per lo studio dell'italiano parlato 
@@ -132,7 +132,7 @@ Per quanto riguarda le misure di deidentificazione dei partecipanti, sono stati 
 Inoltre, come è riportato sul sito del corpus alla voce "Deidentificazione", "in vista della loro condivisione sul repositorio, i documenti video saranno deidentificati in Adobe Premiere tramite l'applicazione di effetti video (p.es. Gaussian blur, Find edges) secondo i desideri espressi dai parlanti nelle loro dichiarazioni di consenso. Nelle tracce audio, si altereranno alcune voci secondo i desideri espressi nelle dichiarazioni di consenso e si sostituirà con rumore certi nomi e indicazioni temporali, nello specifico una serie di nomi di persone, istituzioni e luoghi nonché certe date che potrebbero facilitare l'identificazione delle e dei partecipanti. Questi interventi sono stati preparati in ELAN tramite l'annotazione dei passi problematici come _name_ in un'apposita traccia. Si userà uno script per leggere i tempi iniziali e finali dei segmenti annotati e istruire il programma Praat a elaborare l'insieme delle tracce audio negli intervalli in questione, cancellando il suono originale e inserendo frammenti di rumore. Nelle trascrizioni, l'informazione personale è stata sostituita da pseudonimi. I nomi dei partecipanti sono stati sostituiti da pseudonimi di simile lunghezza. Al posto di altre informazioni personali sono state inserite le diciture _personname_ / _institutionname_ / _placename_ / _datename_ accompagnate da indici, così da permettere riferimenti multipli alla stessa entità all'interno di una trascrizione."
 Di seguito sono riportati alcuni esempi:
 
-{%
+ {%
   include figure.html
   image="images/seminar-images/tigr/image-25.png"
 %}
@@ -181,31 +181,31 @@ Di seguito si riportano alcuni grafici sui principali dati sociolinguistici che 
 
 - ### Luogo di lavoro o studio in Svizzera
 
-  {%
+{%
   include figure.html
   image="images/seminar-images/tigr/image-18.png"
   caption="La regione di principale attività"
-  %}
+%}
 
   _La maggior parte dei parlanti svolge la sua attività principale (studio o lavoro) in Ticino (64%). Al secondo posto troviamo i Grigioni (34%)._
 
 - ### Repertorio linguistico
 
-  {%
+{%
   include figure.html
   image="images/seminar-images/tigr/image-19.png"
   caption="Repertorio linguistico dei partecipanti"
-  %}  
+%}  
 
   _La maggior parte dei parlanti ha dichiarato di essere plurilingue (due, tre o addirittura più di quattro lingue nel proprio repertorio). La lista delle lingue conosciute dai partecipanti sono riportate nel grafico di destra._
 
 - ### Istruzione e professione
 
-  {%
+{%
   include figure.html
   image="images/seminar-images/tigr/image-20.png"
   caption="Livello di istruzione"
-  %}
+%}
 
   _Il livello di istruzione principale è la scuola secondaria di secondo grado. Trattandosi per la maggio parte di studenti universitari, era l'ultimo grado di istruzione completato._
 
