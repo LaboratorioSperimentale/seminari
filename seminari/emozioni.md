@@ -45,3 +45,5 @@ AMORE è la combinazione di gioia e fiducia, **primary dyad**.
 
 ## 2. Individuare le emozioni secondo le dimensioni emotive
 
+
+
