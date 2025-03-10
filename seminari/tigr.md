@@ -74,6 +74,8 @@ Per quanto riguarda i contesti didattici, sono state registrate lezioni di tre t
 - lezioni di teatro, di musica e di restauro
 - lezioni di glottodidattica e di cultura generale nella scuola superiore in cui gli studenti si cimentavano in lavori di gruppo e presentazioni.
 
+COLLEGAMENTO IPERTESTUALE AGLI ESEMPI
+
 Ai parametri del design iniziale sono stati aggiunti l'**istituzionalità** e il **ruolo dei partecipanti**. Esistono tipi di interazione istituzionali, come l'intervista o una lezione, e tipi di interazione non istituzionali, come la preparazione di un pasto o la conversazione a tavola. Il parametro dell'istituzionalità influisce sul ruolo dei partecipanti, che può essere simmetrico, asimmetrico o variabile. Prendendo in considerazione quest'ultimo parametro, è possibile studiare la dimensione epistemica in relazione al ruolo dei partecipanti, e quindi capire, ad esempio, se un rapporto di asimmetria gerarchica determina anche un'asimmetria epistemica.
 Il movimento dei partecipanti e la manipolazione degli oggetti hanno a che fare con la multi-attività, la quale ha un effetto sull'organizzazione sequenziale del discorso.
 
@@ -220,10 +222,16 @@ Si precisa che il corpus non è disegnato per documentare la variazione diatopic
 ## Impostazione tecnica delle registrazioni, post-produzione e trascrizione
 
 ### Strumentazione utilizzata e post-produzione
-L'impostazione di base è stata quella di andare sul luogo della registrazione, installare i dispositivi e lasciare che i parlanti interagissero da soli. Solamente nelle interazioni didattiche e nelle interviste erano presenti anche i ricercatori.
+La prassi era quella di andare sul luogo della registrazione, installare i dispositivi e lasciare che i parlanti interagissero da soli. Solamente nelle interazioni didattiche e nelle interviste erano presenti anche i ricercatori.
 Una volta conclusesi le interazioni, i ricercatori venivano contattati dai partecipanti tramite Whatsapp.
 
-Per informarsi sulla strumentazione utilizzata per le registrazioni e sulla post-produzione si veda **collegamento ipertestuale con il sito del corpus "Registrazioni audio e video"** e l'articolo [_Dall'evento al dataset_](https://sharetigr.usi.ch/it/news/feeds/37851).
+In particolare, come viene illustrato sul sito dell'USI alla voce "Registrazioni audio e video", "per ogni evento del TIGR sono state fatte due riprese video da angolazioni differenti, usando delle telecamere Sony HXR-NX80//C. Le tracce audio sono da due a sei, secondo il numero di partecipanti all'evento. Sono state registrate con da due a quattro registratori tascabili Tentacle Track E muniti di microfono da bavero e con un microfono esterno Sony EGM-VG1 montato su una delle telecamere. Nel caso specifico dell'interazione in classe, l'équipe ha aggiunto un ulteriore microfono, del tipo Neumann TLM 127 ni-K, collocato in posizione centrale e collegato con l'altra telecamera. 
+
+I vari dispositivi sono stati sincronizzati prima dell'inizio della registrazione per ottenere una corrispondenza più precisa possibile tra immagine e suono. A questo fine sono stati impiegati generatori di timecode della marca Tentacle. Tali generatori sono parte integrante degli audioregistratori Tentacle Track E, che registrano direttamente un timecode numerico. Con le telecamere sono invece stati usati i dispositivi esterni Tentacle Sync, collegati tramite le connessioni per microfoni delle telecamere. Essi generano del timecode acustico che durante le riprese viene registrato nel corrispondente canale audio. Una componente cruciale del sistema Tentacle è un'applicazione mobile che comunica con tutti i dispositivi tramite bluetooth e permette di sincronizzarli da remoto nonché di avviare e interrompere le registrazioni. 
+
+Dopo le riprese, i file video sono stati elaborati dal programma Tentacle Timecode Tool per Windows. Il programma legge il segnale acustico che codifica il timecode, lo converte in informazione numerica e infine lo cancella, mantenendo solo il timecode numerico. In un'ulteriore fase di post-produzione, tutti i file video e audio sono sono stati importati in un progetto Adobe Premiere, dove sono stati allineati sulla base del timecode numerico e sono stati tagliati per ottenere tracce di uguale durata. 
+
+Le impostazioni tecniche di ogni evento e altri aspetti inerenti alla collezione dei dati sono stati descritti in una scheda, talvolta corredata da fotografie. La scheda registra la data e il luogo dell'evento, elenca i dispositivi usati e i codici identificatori anonimi dei partecipanti, riporta eventuali desideri di deidentificazione e contiene appunti su altri aspetti della situazione che l'équipe sul campo giudicava potenzialmente rilevanti per l'interpretazione dei dati. Una funzione importante della scheda è di associare i codici identificatori dei parlanti a una descrizione del loro aspetto e ai nomi dei microfoni da bavero. Essa contiene, infine, appunti su eventuali problemi tecnici riscontrati durante l'elaborazione dei file tramite TTT e in Adobe Premiere".
 
 ### La trascrizione
 
@@ -271,11 +279,10 @@ Inoltre, sono state adottate convenzioni di trascrizione multimodale di Modada p
 
 La segmentazione non rappresenta necessariamente un'unità significativa sul piano linguistico.
 La segmentazione è stata pensata per essere funzionale ad una trascrizione accurata, come nel caso di sovrapposizioni multiple.
-Vedi esempio video al minuto 1:07:06 fino a 1:09:56.
-
+COLLEGAMENTO IPERTESTUALE 1:00:04 a 1:02:14
 Il problema di come trascrivere le sovrapposizioni si pone in particolare nel caso degli schismi. Non si tratta solamente di conversazioni parallele, ma a volte c'è anche uno spostamento associato. Facciamo l'esempio delle conversazioni a tavola: quando due persone si alzano e vanno in cucina e altre due rimangono a tavola si hanno due conversazioni parallele. La stessa cosa accade durante le lezioni di restauro quando due gruppi lavorano in due parti diverse della chiesa.
 
-Esempio a 1:10:42 fino a 01:11:48 -> crea collegamento ipertestuale
+COLLEGAMENTO IPERTESTUALE 1:02:14 a 1:04:03
 
 
 #### La derivazione di trascrizioni in formato testo in stile "dialogo teatrale"
