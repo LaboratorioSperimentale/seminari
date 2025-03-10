@@ -132,7 +132,7 @@ Per quanto riguarda le misure di deidentificazione dei partecipanti, sono stati 
 Inoltre, come è riportato sul sito del corpus alla voce "Deidentificazione", "in vista della loro condivisione sul repositorio, i documenti video saranno deidentificati in Adobe Premiere tramite l'applicazione di effetti video (p.es. Gaussian blur, Find edges) secondo i desideri espressi dai parlanti nelle loro dichiarazioni di consenso. Nelle tracce audio, si altereranno alcune voci secondo i desideri espressi nelle dichiarazioni di consenso e si sostituirà con rumore certi nomi e indicazioni temporali, nello specifico una serie di nomi di persone, istituzioni e luoghi nonché certe date che potrebbero facilitare l'identificazione delle e dei partecipanti. Questi interventi sono stati preparati in ELAN tramite l'annotazione dei passi problematici come _name_ in un'apposita traccia. Si userà uno script per leggere i tempi iniziali e finali dei segmenti annotati e istruire il programma Praat a elaborare l'insieme delle tracce audio negli intervalli in questione, cancellando il suono originale e inserendo frammenti di rumore. Nelle trascrizioni, l'informazione personale è stata sostituita da pseudonimi. I nomi dei partecipanti sono stati sostituiti da pseudonimi di simile lunghezza. Al posto di altre informazioni personali sono state inserite le diciture _personname_ / _institutionname_ / _placename_ / _datename_ accompagnate da indici, così da permettere riferimenti multipli alla stessa entità all'interno di una trascrizione."
 Di seguito sono riportati alcuni esempi:
 
- {%
+{%
   include figure.html
   image="images/seminar-images/tigr/image-25.png"
 %}
@@ -154,10 +154,10 @@ Di seguito si riportano alcuni grafici sui principali dati sociolinguistici che 
 
 - ### Genere e età
 
-  {%
+{%
   include figure.html
   image="images/seminar-images/tigr/image-15.png"
-  %}
+%}
 
   _Come si può vedere dal grafico a sinistra,  il corpus è abbastanza bilanciato con una presenza femminile (53%) di poco superiore a quella maschile (47%)._
   _Nel grafico a destra vengono mostrate le fascie d'età, con una sovrarappresentazione della fascia degli studenti universitari (20-29)._
@@ -170,7 +170,7 @@ Di seguito si riportano alcuni grafici sui principali dati sociolinguistici che 
 %}
 
   _La maggior parte dei partecipanti ha frequentato la scuola elementare in Italia e in Svizzera._
-  
+
 {%
   include figure.html
   image="images/seminar-images/tigr/image-17.png"
