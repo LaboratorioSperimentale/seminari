@@ -170,6 +170,7 @@ include figure.html
 image="images/seminar-images/tigr/image-16.png"
 caption="La maggior parte dei partecipanti ha frequentato la scuola elementare in Italia e in Svizzera."
 %}
+
 {%
   include figure.html
   image="images/seminar-images/tigr/image-16.png"
@@ -180,15 +181,16 @@ caption="La maggior parte dei partecipanti ha frequentato la scuola elementare i
 include figure.html
 image="images/seminar-images/tigr/image-17.png"
 %}
-  _La maggior parte dei partecipanti ha frequentato la scuola elementare in Italia e in Svizzera._
+
+_La maggior parte dei partecipanti ha frequentato la scuola elementare in Italia e in Svizzera._
 
 {%
   include figure.html
   image="images/seminar-images/tigr/image-17.png"
 %}
 
-  _Qui vengono mostrati i dati specifici sulle regioni italiane e sui cantoni svizzeri in cui i parlanti hanno frequentato la scuola elementare. Nonostante un certo bias geografico per quanto riguarda l'Italia, con Lombardia e Piemonte in testa, diverse regioni sono rappresentate, sia del centro sia del sud._
-  _In merito alla Svizzera, la maggior parte dei parlanti ha frequentato la scuola elementare nei cantoni Ticino e Grigioni._
+_Qui vengono mostrati i dati specifici sulle regioni italiane e sui cantoni svizzeri in cui i parlanti hanno frequentato la scuola elementare. Nonostante un certo bias geografico per quanto riguarda l'Italia, con Lombardia e Piemonte in testa, diverse regioni sono rappresentate, sia del centro sia del sud._
+_In merito alla Svizzera, la maggior parte dei parlanti ha frequentato la scuola elementare nei cantoni Ticino e Grigioni._
 
 - ### Luogo di lavoro o studio in Svizzera
 
@@ -198,7 +200,7 @@ image="images/seminar-images/tigr/image-17.png"
   caption="La regione di principale attività"
 %}
 
-  _La maggior parte dei parlanti svolge la sua attività principale (studio o lavoro) in Ticino (64%). Al secondo posto troviamo i Grigioni (34%)._
+_La maggior parte dei parlanti svolge la sua attività principale (studio o lavoro) in Ticino (64%). Al secondo posto troviamo i Grigioni (34%)._
 
 - ### Repertorio linguistico
 
@@ -206,10 +208,9 @@ image="images/seminar-images/tigr/image-17.png"
   include figure.html
   image="images/seminar-images/tigr/image-19.png"
   caption="Repertorio linguistico dei partecipanti"
-  %}
-%}  
+%} 
 
-  _La maggior parte dei parlanti ha dichiarato di essere plurilingue (due, tre o addirittura più di quattro lingue nel proprio repertorio). La lista delle lingue conosciute dai partecipanti sono riportate nel grafico di destra._
+_La maggior parte dei parlanti ha dichiarato di essere plurilingue (due, tre o addirittura più di quattro lingue nel proprio repertorio). La lista delle lingue conosciute dai partecipanti sono riportate nel grafico di destra._
 
 - ### Istruzione e professione
 
@@ -219,7 +220,7 @@ image="images/seminar-images/tigr/image-17.png"
   caption="Livello di istruzione"
 %}
 
-  _Il livello di istruzione principale è la scuola secondaria di secondo grado. Trattandosi per la maggio parte di studenti universitari, era l'ultimo grado di istruzione completato._
+_Il livello di istruzione principale è la scuola secondaria di secondo grado. Trattandosi per la maggio parte di studenti universitari, era l'ultimo grado di istruzione completato._
 
 
 ## Luoghi dove sono stati registrati gli eventi del TIGR
