@@ -164,17 +164,17 @@ Di seguito si riportano alcuni grafici sui principali dati sociolinguistici che 
 
 - ### Origine dei parlanti
 
-  {%
+{%
   include figure.html
   image="images/seminar-images/tigr/image-16.png"
-  %}
+%}
 
   _La maggior parte dei partecipanti ha frequentato la scuola elementare in Italia e in Svizzera._
   
-  {%
+{%
   include figure.html
   image="images/seminar-images/tigr/image-17.png"
-  %}
+%}
 
   _Qui vengono mostrati i dati specifici sulle regioni italiane e sui cantoni svizzeri in cui i parlanti hanno frequentato la scuola elementare. Nonostante un certo bias geografico per quanto riguarda l'Italia, con Lombardia e Piemonte in testa, diverse regioni sono rappresentate, sia del centro sia del sud._  
   _In merito alla Svizzera, la maggior parte dei parlanti ha frequentato la scuola elementare nei cantoni Ticino e Grigioni._
