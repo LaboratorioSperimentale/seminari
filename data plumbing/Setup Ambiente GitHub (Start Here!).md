@@ -1,42 +1,44 @@
 
-# KEYWORDS
-- Progetti Collaborativi, Condivisione, Editor di Testo, Versioning, Formato Markdown, Github, Client Git, Visual Studio Code
+#### KEYWORDS: Progetti Collaborativi, Editor di Testo, Versioning, Markdown, Github, Visual Studio Code
 
 # 3 STRUMENTI FONDAMENTALI PER PROGETTI COLLABORATIVI 
 Un progetto collaborativo presuppone, innanzitutto, di poter condividere risorse (files). A tal fine esistono strumenti che consentono la condivisione in maniera efficiente e affidabile. 
 
-Una soluzione possibile si basa su un repository centralizzato Gitbub il quale, oltre alla condivisione, fornisce tanti altri servizi fra cui il "versioning": è possibile cioè avere delle "fotografie" temporali del contenuto di un file. Queste "fotografie" consentono, come fossero dei backup, di riprendere, in qualunque momento, una versione specifica del file ad un istante temporale specifico. 
+Una soluzione possibile si basa su Gitbub un repository (spazio cloud) centralizzato che consente di condividere files e, nel caso di file in formato testuale, consente il "versioning" (cioè, ogni operazione di salvataggio sul repository centralizzato è come fosse un punto di backup specifico cui è possibile ritornare in caso di necessità). 
 
-Per realizzare quanto sopra (e molto molto altro) occorre dotarsi di 3 strumenti:
-1. un account su Github
-2. un editor di testo evoluto/estendibile da installare sul nostro computer (es: Visual Studio Code)
-3. un client Github da installare sul nostro computer
+# PREPARAZIONE DELL'AMBIENTE DI LAVORO
+Procediamo quindi con:
+1. creazione di un un account **Github**;
+2. installare **Visual Studio Code** (editor di testo evoluto!) sul proprio computer;
+3. installare un **client Git** da sul proprio computer
+isto.
 
-Al fine di arricchire i file di testo di elementi di stile/formattazione (titoli, sottotitoli, elenchi, tabelle, link) si utilizzerà il formato testuale denominato "markdown" (estensione tipica di file: .md).
-
-Ultimo, ma non meno importante, giova sottolineare che l'architettura sopra descritta è "indifferente" al sistema operativo utilizzato nel senso che è realizzabile su tutti i principali sistemi operativi (Windows, Mac, Linux) ed è free, nessuno dei componenti citati richiede l'acquisto.
-
-
-# CREAZIONE ACCOUNT GITHUB
+### CREAZIONE ACCOUNT GITHUB
 - Andare sul sito https://github.com/ e creare un proprio **account github** ("Sign up for Github")
 
 ![](attachment/9066b619504b39fb26cf907c1b632f80.png)
 
-# INSTALLAZIONE EDITOR DI TESTO, VISUAL STUDIO CODE
+### INSTALLAZIONE VISUAL STUDIO CODE (VSC)
 - scaricare ed installare la versione di Visual Studio Code adatta al proprio sistema operativo da:
 	- https://code.visualstudio.com/Download
 - dopo aver scaricato il software effettuare l'usuale doppio-click col mouse sul file eseguibile (**Windows**) normalmente disponibile nella cartella **Download** 
 
 ![](attachment/c2d15c1f0ada905c71a914894734702f.png)
-# INSTALLAZIONE CLIENT GIT
+
+### INSTALLAZIONE CLIENT GIT
 - scaricare ed installare la versione di **Git** adatta al proprio sistema operativo da:
 	- https://git-scm.com/downloads
-- - dopo aver scaricato il software effettuare l'usuale doppio-click col mouse sul file eseguibile (**Windows**) normalmente disponibile nella cartella **Download**
+  - dopo aver scaricato il software effettuare l'usuale doppio-click col mouse sul file eseguibile (**Windows**) normalmente disponibile nella cartella **Download**
 
 ![](attachment/b427e1ab5bdbd8f0d4b6eb818374f700.png)
 
+- Il client git sul nostro computer ci consentirà di interagire, utilizzando Visual Studio Code, con il repository GitHub centralizzato.
 
-# CONNESSIONE DI VISUAL STUDIO CODE A GITHUB (viene fatta una sola volta poi resta attiva... fino a disconnessione esplicita)
+# CONFIGURAZIONE DELLA COLLABORAZIONE DELL'AMBIENTE DI LAVORO
+Ora che disponiamo di un account Git possiamo configurare VSC e GIT in modo da interagire con il repository GitHub.
+
+
+### CONNESSIONE DI VISUAL STUDIO CODE A GITHUB (viene fatta una sola volta poi resta attiva... fino a disconnessione esplicita)
 - Vogliamo consentire a Visual Studio Code di interagire col repository Github, utilizzando le utility (comandi) che il pacchetto Client Git ci mette a disposizione.
 
 ![](attachment/852ef0ea433f7a4853090b9481038566.png)
@@ -47,7 +49,7 @@ Ultimo, ma non meno importante, giova sottolineare che l'architettura sopra desc
 - Viene richiamata la pagina web di login del browser di default
 ![](attachment/c623d5faf7ed1728f9b8fea02034d730.png)
 
-# VOGLIAMO ORA CLONARE LA CARTELLA PRESENTE SU GITHUB IN LOCALE
+### VOGLIAMO ORA CLONARE LA CARTELLA PRESENTE SU GITHUB IN LOCALE
 1. Accediamo al nostro github (dopo che abbiamo accettato l'invito via mail conseguente a qualcuno che ci condivide una cartella github!) e andiamo nella cartella condivisa (click sul pulsante CODE -verde- e copiamo la path HTTPS, che è il link alla specifica cartella "formazione-knowledge base"):
 ![](attachment/29a0caf14e22512fc5c0c56562035928.png)
 1. Da Visual Studio Code apriamo un terminale: menu Terminal > New Terminal 
@@ -78,7 +80,7 @@ Ultimo, ma non meno importante, giova sottolineare che l'architettura sopra desc
 
 
 
-# APERTURA E VISUALIZZAZIONE DELLA CARTELLA GITHUB CLONATA (ORA DISPONIBILE IN LOCALE)
+### APERTURA E VISUALIZZAZIONE DELLA CARTELLA GITHUB CLONATA (ORA DISPONIBILE IN LOCALE)
  - per aprire il clone locale la dobbiamo trovare entro il nostro file system
 - nel terminale digitiamo: **pwd**. Questo comando da come risposta dove ci troviamo 
 - nel mio caso mi restituisce la mia home: /home/car 
