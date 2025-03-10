@@ -4,7 +4,7 @@ image: images/photo.jpg
 role: speaker
 affiliation: Università della Svizzera Italiana
 links:
-  home-page: https://janesmith.com
+  home-page: https://search.usi.ch/it/persone/ac8f4424bc40c3a8f9184f72ff606e46/miecznikowski-fuenfschilling-johanna
 ---
 
 Johanna Miecznikowski-Fuenfschilling, dopo la laurea in Filologia italiana, Filologia russa e Linguistica francese all'Università di Basilea è stata assistente di Linguistica francese e di Linguistica Generale presso questa stessa università. A Basilea ha lavorato sulle biografie linguistiche di parlanti plurilingui (cfr. il volume Leben mit mehreren Sprachen. Sprachbiographien / Vivre avec plusieurs langues. Biographies langagières, Bern, Peter Lang, 2004, curato insieme a Rita Franceschini) e sulla costruzione interattiva del discorso scientifico in ambiente plurilingue, e ha conseguito, nel 2002, il dottorato in Linguistica francese (cfr. Le traitement de problèmes lexicaux lors de discussions scientifiques en situation plurilingue. Procédés interactionnels et effets sur le développement du savoir, Bern, Peter Lang, 2005). Dopo un soggiorno di ricerca presso l'Università di Torino, dedicato allo studio del condizionale e dei segnali discorsivi nella lingua parlata, l'Università di Basilea le ha conferito nel 2010 la venia legendi in Linguistica Romanza. Dal 2012 al 2016 è stata presidente dell’Associazione Svizzera di Linguistica Applicata.
