@@ -79,10 +79,7 @@ Qui vediamo una lista dei simboli più usati nel sistema Jefferson. Bisogna per�
 Il programma è scaricabile a questo [link](https://archive.mpi.nl/tla/elan/download). Quando si scarica il programma, il sito stesso mette a disposizione molto [materiale in PDF](https://archive.mpi.nl/tla/elan/documentation) che si può utilizzare per prendere confidenza con ELAN o per risolvere moltissimi dei problemi che possono emergere con col programma. 
 
 ### 3.2 Scaricare i materiali
-In allegato è possibile trovare **due file video** e **un file audio**, che possono essere utilizzati per compiere un esercizio di trascrizione e per familiarizzare con le funzioni base di ELAN.
-1.	Il primo video è composto da una serie di estratti da un dibattito presidenziale tra Trump e Biden, pertanto è in inglese. Ovviamente ci sono tre partecipanti, cioè i due candidati e il moderatore. Uno dei vantaggi di questo file è che i due partecipanti sono inquadrati sempre, il che è utile in caso di sovrapposizioni (poiché vediamo “chi parla quando”).
-2.	Il secondo video è un estratto di una puntata da Porta a Porta. Qui il dibattito è in italiano, ma ci sono ben cinque partecipanti. Inoltre, non sempre i parlanti sono inquadrati, per cui non sempre è facile capire chi sta parlando.
-3.	Il file audio è un’intervista tratta dal corpus parlato. Ci sono solo due parlanti coinvolti, l'intervistato e l'intervistatore.
+In allegato è possibile trovare **un file video** che può essere utilizzato per compiere un esercizio di trascrizione e per familiarizzare con le funzioni base di ELAN. Il video in questione è un estratto di "Lady Frankenstein", un film del 1971 diretto da **Mel Welles**.
 
 ### 3.3 Qualità e Formato dell'Audio
 Prima di andare avanti, è utile fare una premessa: la qualità della traccia audio, assieme ad altri fattori (come il numero di persone o il luogo in cui è stata registrata l'interazione), influisce molto sulla difficoltà della trascrizione. Per intervenire sulla qualità della traccia audio (ad esempio per alzare il volume o ridurre il disturbo) si possono usare moltissimi software, come ad esempio **Audacity** (scaricabile a questo [link](https://www.audacityteam.org/download/) gratuitamente).
