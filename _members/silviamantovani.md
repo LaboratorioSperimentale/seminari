@@ -1,6 +1,6 @@
 ---
 name: Silvia Mantovani
-image: images/photo.jpg
+image: images/avatars/avatar silvia.png
 role: tirocinante
 affiliation: CdL in ...
 aliases:
