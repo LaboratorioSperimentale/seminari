@@ -45,22 +45,11 @@ nav:
 
 
 {% include section.html %}
-# {% include icon.html icon="fa-solid fa-users" %} Componenti Board del Laboratorio 
-<!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
+# {% include icon.html icon="fa-solid fa-users" %} Componenti Board del Laboratorio
 {% include list.html data="members" component="portrait" filter="role == 'Lab Board Member'" %}
-{% include section.html %}
 
+
+{% include section.html %}
 # {% include icon.html icon="fa-solid fa-users" %} Membri Passati e in Visita
-<!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
-{% include list.html data="members" component="portrait" filter="role == 'old - Lab Manager'" %}
+{% include list.html data="members" component="portrait" filter="role == 'old - Lab Manager' or role == 'old - Lab Board Member' or role == 'old - Visiting'" %}
 
-{% include section.html %}
-
-<!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
-{% include list.html data="members" component="portrait" filter="role == 'old - Lab Board Member'" %}
-
-
-{% include section.html %}
-
-<!-- {% include list.html data="members" component="portrait" filter="role == 'pi'" %} -->
-{% include list.html data="members" component="portrait" filter="role == 'old - Visiting'" %}
