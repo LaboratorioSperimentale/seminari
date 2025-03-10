@@ -3,7 +3,7 @@ layout: seminar
 title: "Il corpus TIGR: un corpus video per lo studio dell'italiano parlato"
 author: silviamantovani
 speaker: Johanna Miecznikowski, Elena Battaglia
-video: [The TIGR corpus: collection, transcription, processing and management of videorecorded data](https://liveunibo-my.sharepoint.com/personal/ludovica_pannitto_unibo_it/_layouts/15/stream.aspx?id=%2Fpersonal%2Fludovica%5Fpannitto%5Funibo%5Fit%2FDocuments%2FSEMINARI%20LAB%2FVideo%2F2024%2FThe%20TIGR%20corpus%20%2DCUT%2D%20collection%2C%20transcription%2C%20processing%20and%20management%20of%20videorecorded%20data%20for%20the%20study%20of%20Italian%20talk%20in%20interaction%20%281%29%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E8b327ce2%2D17b6%2D49a2%2Da13b%2D51095c65714c)
+video: [The TIGR corpus: collection, transcription, processing and management of videorecorded data](https://liveunibo-my.sharepoint.com/personal/ludovica_pannitto_unibo_it/_layouts/15/stream.aspx?id=%2Fpersonal%2Fludovica%5Fpannitto%5Funibo%5Fit%2FDocuments%2FSEMINARI%20LAB%2FVideo%2F2024%2FThe%20TIGR%20corpus%20%2DCUT%2D%20collection%2C%20transcription%2C%20processing%20and%20management%20of%20videorecorded%20data%20for%20the%20study%20of%20Italian%20talk%20in%20interaction%20%281%29%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E7b99235d%2D9c7d%2D4730%2D95a9%2D018671c3f478)
 lenght: 2h
 ---
 # Il corpus TIGR: un corpus video per lo studio dell'italiano parlato
@@ -157,8 +157,10 @@ Di seguito si riportano alcuni grafici sui principali dati sociolinguistici che 
 Come si può vedere dal grafico a sinistra,  il corpus è abbastanza bilanciato con una presenza femminile (53%) di poco superiore a quella maschile (47%). Nel grafico a destra vengono mostrate le fascie d'età, con una sovrarappresentazione della fascia degli studenti universitari (20-29).
 
 {%
+{%
   include figure.html
   image="images/seminar-images/tigr/image-15.png"
+%}
 %}
 
 - **Origine dei parlanti**
@@ -169,44 +171,56 @@ image="images/seminar-images/tigr/image-16.png"
 caption="La maggior parte dei partecipanti ha frequentato la scuola elementare in Italia e in Svizzera."
 %}
 
+{%
+  include figure.html
+  image="images/seminar-images/tigr/image-16.png"
+%}
+
 
 {%
 include figure.html
 image="images/seminar-images/tigr/image-17.png"
 %}
 
-  _Qui vengono mostrati i dati specifici sulle regioni italiane e sui cantoni svizzeri in cui i parlanti hanno frequentato la scuola elementare. Nonostante un certo bias geografico per quanto riguarda l'Italia, con Lombardia e Piemonte in testa, diverse regioni sono rappresentate, sia del centro sia del sud._
-  _In merito alla Svizzera, la maggior parte dei parlanti ha frequentato la scuola elementare nei cantoni Ticino e Grigioni._
+_La maggior parte dei partecipanti ha frequentato la scuola elementare in Italia e in Svizzera._
+
+{%
+  include figure.html
+  image="images/seminar-images/tigr/image-17.png"
+%}
+
+_Qui vengono mostrati i dati specifici sulle regioni italiane e sui cantoni svizzeri in cui i parlanti hanno frequentato la scuola elementare. Nonostante un certo bias geografico per quanto riguarda l'Italia, con Lombardia e Piemonte in testa, diverse regioni sono rappresentate, sia del centro sia del sud._
+_In merito alla Svizzera, la maggior parte dei parlanti ha frequentato la scuola elementare nei cantoni Ticino e Grigioni._
 
 - ### Luogo di lavoro o studio in Svizzera
 
-  {%
+{%
   include figure.html
   image="images/seminar-images/tigr/image-18.png"
   caption="La regione di principale attività"
-  %}
+%}
 
-  _La maggior parte dei parlanti svolge la sua attività principale (studio o lavoro) in Ticino (64%). Al secondo posto troviamo i Grigioni (34%)._
+_La maggior parte dei parlanti svolge la sua attività principale (studio o lavoro) in Ticino (64%). Al secondo posto troviamo i Grigioni (34%)._
 
 - ### Repertorio linguistico
 
-  {%
+{%
   include figure.html
   image="images/seminar-images/tigr/image-19.png"
   caption="Repertorio linguistico dei partecipanti"
-  %}
+%} 
 
-  _La maggior parte dei parlanti ha dichiarato di essere plurilingue (due, tre o addirittura più di quattro lingue nel proprio repertorio). La lista delle lingue conosciute dai partecipanti sono riportate nel grafico di destra._
+_La maggior parte dei parlanti ha dichiarato di essere plurilingue (due, tre o addirittura più di quattro lingue nel proprio repertorio). La lista delle lingue conosciute dai partecipanti sono riportate nel grafico di destra._
 
 - ### Istruzione e professione
 
-  {%
+{%
   include figure.html
   image="images/seminar-images/tigr/image-20.png"
   caption="Livello di istruzione"
-  %}
+%}
 
-  _Il livello di istruzione principale è la scuola secondaria di secondo grado. Trattandosi per la maggio parte di studenti universitari, era l'ultimo grado di istruzione completato._
+_Il livello di istruzione principale è la scuola secondaria di secondo grado. Trattandosi per la maggio parte di studenti universitari, era l'ultimo grado di istruzione completato._
 
 
 ## Luoghi dove sono stati registrati gli eventi del TIGR
