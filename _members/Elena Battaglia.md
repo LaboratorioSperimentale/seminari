@@ -4,7 +4,7 @@ image: images/photo.jpg
 role: speaker
 affiliation: Università della Svizzera Italiana
 links:
-  home-page: https://janesmith.com
+  home-page: https://search.usi.ch/it/persone/9f04e935085ef74d0f7bbcb805b1ee27/battaglia-elena
 ---
 
 Elena Battaglia è assistente dottoranda in Linguistica italiana presso l'Istituto di studi italiani.
