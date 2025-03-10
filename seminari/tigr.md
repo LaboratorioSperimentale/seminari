@@ -163,10 +163,8 @@ Di seguito si riportano alcuni grafici sui principali dati sociolinguistici che 
 Come si può vedere dal grafico a sinistra,  il corpus è abbastanza bilanciato con una presenza femminile (53%) di poco superiore a quella maschile (47%). Nel grafico a destra vengono mostrate le fascie d'età, con una sovrarappresentazione della fascia degli studenti universitari (20-29).
 
 {%
-{%
   include figure.html
   image="images/seminar-images/tigr/image-15.png"
-%}
 %}
 
 - **Origine dei parlanti**
