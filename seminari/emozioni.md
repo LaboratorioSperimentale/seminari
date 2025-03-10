@@ -14,7 +14,7 @@ Il seminario verte sulla spiegazione del significato di emozione, definendone e 
 Ognuno di noi sa cos'è un'emozione, darne però la definizione non è così semplice. 
 
 *"Everyone knows what an emotion is, until one is asked to give a definition".* 
-**Fehr & Russell (1984)**
+Fehr & Russell (1984)
 
 In letteratura esistono due principali modalità per trattare le emozioni:
 - individuare e trattare il continuum emotivo a partire da poche emozioni di base
@@ -41,7 +41,7 @@ fiducia, paura, sorpresa, tristezza, disgusto, rabbia e aspettativa**. Le distri
 Al contrario di Ekman, per Plutchik queste emozioni sono combinabili. La presenza di più emozioni è definita **Diade**. 
 Esistono più diadi, più o meno probabili, che danno vita alle altre emozioni che noi conosciamo. Esistono quattro livelli di diadi: **diade primaria, diade secondaria, diade terziaria e diade opposta**. 
 
-AMORE è la combinazione di gioia e fiducia, **primary dyads**. 
+AMORE è la combinazione di gioia e fiducia, **primary dyad**. 
 
 ## 2. Individuare le emozioni secondo le dimensioni emotive
 
