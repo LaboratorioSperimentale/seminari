@@ -1,16 +1,23 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch; /* Ensures all cards match the tallest one */
+}
+
 .card {
-  display: inline-flex;
-  justify-content: stretch;
-  align-items: center;
+  display: flex;
   flex-direction: column;
+  justify-content: stretch;
   width: 350px;
-  max-width: calc(100% - 20px - 20px);
+  max-width: calc(100% - 40px);
   margin: 20px;
   background: var(--background);
   border-radius: var(--rounded);
   overflow: hidden;
   box-shadow: var(--shadow);
   vertical-align: top;
+  flex: 1; /* Allows cards to expand to match the tallest one */
 }
 
 .card[data-style=small] {
