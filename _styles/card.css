@@ -22,7 +22,7 @@
 }
 
 .card-image img {
-  aspect-ratio: 2/2;
+  aspect-ratio: 2/2; /* Carmelo: it was 3 / 2 */
   object-fit: cover;
   width: 100%;
 }
