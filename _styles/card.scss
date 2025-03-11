@@ -2,22 +2,25 @@
 ---
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Adjusts number of columns */
-  gap: 20px; /* Space between cards */
-  justify-content: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: stretch; /* Ensures all cards match the tallest one */
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: stretch;
-  align-items: center;
-  width: 100%; /* Makes sure the cards adjust */
-  background: var(--background);
-  border-radius: var(--rounded);
-  overflow: hidden;
-  box-shadow: var(--shadow);
+display: inline-flex;
+justify-content: stretch;
+align-items: center;
+flex-direction: column;
+width: 350px;
+max-width: calc(100% - 20px - 20px);
+margin: 20px;
+background: var(--background);
+border-radius: var(--rounded);
+overflow: hidden;
+box-shadow: var(--shadow);
+vertical-align: top;
 }
 
 
