@@ -416,7 +416,7 @@
       
     
       
-        <a href="/seminari/speakers/" data-tooltip="About our speakers">
+        <a href="/seminari/relatori/" data-tooltip="About our speakers">
           Relatori
         </a>
       
@@ -428,8 +428,8 @@
       
     
       
-        <a href="/seminari/autori/" data-tooltip="About our team">
-          Contributors
+        <a href="/seminari/tirocinanti/" data-tooltip="About our team">
+          Tirocinanti
         </a>
       
     
@@ -455,50 +455,116 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="seminari">Seminari</h1>
+    <div class="button-wrapper">
+    <a class="button" href="https://site.unibo.it/laboratorio-sperimentale/" data-tooltip="Home page" data-style="" aria-label="Home page">
+      <i class="icon fa-solid fa-house-user"></i>
+      
+        <span>Laboratorio Sperimentale LILEC</span>
+      
+    </a>
+  </div>
 
-<p>In questa pagina c’è la lista di tutti i seminari che si sono tenuti presso il Laboratorio Sperimentale…</p>
+<div class="button-wrapper">
+    <a class="button" href="https://maps.app.goo.gl/uNU8UD6skxLo29V96" data-tooltip="Our location on Google Maps for easy navigation" data-style="" aria-label="Our location on Google Maps for easy navigation">
+      <i class="icon fa-solid fa-map-location-dot"></i>
+      
+        <span>Dove siamo</span>
+      
+    </a>
+  </div>
 
-<div class="tags" data-link="/seminari/seminari/">
+<div class="button-wrapper">
+    <a class="button" href="https://outlook.office365.com/calendar/published/61a2deb19726492a81d5356649f8e8c9@unibo.it/51e45a320469475d820af1d087016d154227240899176452804/calendar.html" data-tooltip="Il calendario eventi del Laboratorio" data-style="" aria-label="Il calendario eventi del Laboratorio">
+      <i class="icon fa-solid fa-calendar-days"></i>
+      
+        <span>Calendario</span>
+      
+    </a>
+  </div>
+
+<div class="button-wrapper">
+    <a class="button" href="mailto:lilec.lab@unibo.it" data-tooltip="Email" data-style="" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+        <span>Scrivici</span>
+      
+    </a>
+  </div>
+
+<!-- 
+
+
+  <div
+    class="tags"
     
-      <a href="/seminari/?search=%22tag:%20tool%22" class="tag" data-tooltip='Show items with the tag "tool"'>
+    
+      data-link="/seminari/seminari/"
+    
+  >
+    
+      <a
+        href="/seminari/?search=&quot;tag: tool&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;tool&quot;"
+      >
         tool
       </a>
     
-      <a href="/seminari/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
+      <a
+        href="/seminari/?search=&quot;tag: resource&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;resource&quot;"
+      >
         resource
       </a>
     
-      <a href="/seminari/?search=%22tag:%20methodology%22" class="tag" data-tooltip='Show items with the tag "methodology"'>
+      <a
+        href="/seminari/?search=&quot;tag: methodology&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;methodology&quot;"
+      >
         methodology
       </a>
     
   </div>
 
-<div class="search-info"></div>
+ -->
+
+<!-- <div class="search-info"></div>
+ -->
+<!-- <div class="search-box">
+  <input
+    type="text"
+    class="search-input"
+    oninput="onSearchInput(this)"
+    placeholder="Search items on this page"
+  />
+  <button
+    disabled
+    data-tooltip="Clear search"
+    aria-label="clear search"
+    onclick="onSearchClear()"
+  >
+    <i class="icon fa-solid fa-magnifying-glass"></i>
+  </button>
+</div>
+ -->
   </section>
 
   
   
   
 
-  <section class="background" data-size="page">
+  <section class="background" data-size="card">
     <!--
   <background></background>
   <dark></dark>
-  <size></size>
+  <size>card</size>
 -->
-
-<div class="search-box">
-  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
-  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
-    <i class="icon fa-solid fa-magnifying-glass"></i>
-  </button>
-</div>
 
 <h2 id="seminari-2025">Seminari 2025</h2>
 
-<div class="card" data-style="">
+<div class="card" data-style="small">
   <a href="/seminari/seminari/smallworld.html" aria-label="Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole" class="card-image">
     <img src="/seminari/images/logos/default.png" alt="Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -511,7 +577,7 @@
     
 
     
-      <span class="card-subtitle">Maria Montefinese</span>
+      <span class="card-subtitle">M. Montefinese</span>
     
 
     
@@ -551,7 +617,7 @@
 
 <h2 id="seminari-2024">Seminari 2024</h2>
 
-<div class="card" data-style="">
+<div class="card" data-style="small">
   <a href="/seminari/seminari/tigr.html" aria-label="The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction" class="card-image">
     <img src="/seminari/images/logos/default.png" alt="The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -564,14 +630,9 @@
     
 
     
-      <span class="card-subtitle">Johanna Miecznikowski, Elena Battaglia</span>
+      <span class="card-subtitle">J. Miecznikowski, E. Battaglia</span>
     
 
-    
-      <p>
-        Il corpus TIGR include conversazioni video-registrate di italiano parlato. Il seminario illustra il design del corpus; le tecniche e le fasi di trascrizione adottate; le misure di de-identificazione; il riuso dei dati; l’organizzazione dei dati e dei metadati.
-
-      </p>
     
 
     
@@ -603,7 +664,7 @@
   </div>
 </div>
 
-<div class="card" data-style="">
+<div class="card" data-style="small">
   <a href="/seminari/seminari/catma.html" aria-label="Digital Text Annotation and Analysis with CATMA 7" class="card-image">
     <img src="/seminari/images/logos/catma1.png" alt="Digital Text Annotation and Analysis with CATMA 7" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -616,14 +677,9 @@
     
 
     
-      <span class="card-subtitle">Mari Akazawa</span>
+      <span class="card-subtitle">M. Akazawa</span>
     
 
-    
-      <p>
-        CATMA è un tool di annotazione gratuito e open-source, particolarmente utile per l’annotazione manuale di testi. A differenza di altri tool, CATMA consente anche di lavorare collaborativamente su progetti condivisi.
-
-      </p>
     
 
     
@@ -647,7 +703,7 @@
   </div>
 </div>
 
-<div class="card" data-style="">
+<div class="card" data-style="small">
   <a href="/seminari/seminari/R_01.html" aria-label="Il progetto R per l informatica statistica" class="card-image">
     <img src="/seminari/images/logos/R_logo.png" alt="Il progetto R per l informatica statistica" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -660,14 +716,9 @@
     
 
     
-      <span class="card-subtitle">Flavio Pisciotta</span>
+      <span class="card-subtitle">F. Pisciotta</span>
     
 
-    
-      <p>
-        R è un linguaggio di programmazione e un ambiente per il calcolo statistico e la grafica; è open source, flessibile, facilmente utilizzabile ed estendibile tramite pacchetti.
-
-      </p>
     
 
     
@@ -695,7 +746,7 @@
   </div>
 </div>
 
-<div class="card" data-style="">
+<div class="card" data-style="small">
   <a href="/seminari/seminari/emozioni.html" aria-label="Tu chiamale se vuoi emozioni: metodi e strumenti per l analisi emotiva dei testi" class="card-image">
     <img src="/seminari/images/logos/default.png" alt="Tu chiamale se vuoi emozioni: metodi e strumenti per l analisi emotiva dei testi" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -708,7 +759,7 @@
     
 
     
-      <span class="card-subtitle">Eliana di Palma</span>
+      <span class="card-subtitle">E. di Palma</span>
     
 
     
@@ -746,23 +797,9 @@
   <size>card</size>
 -->
 
-<h2 id="seminari-2022">Seminari 2022</h2>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="card">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size>card</size>
--->
-
 <h2 id="seminari-2021">Seminari 2021</h2>
 
-<div class="card" data-style="">
+<div class="card" data-style="small">
   <a href="/seminari/seminari/elantrascrizione.html" aria-label="La Trascrizione del Parlato con ELAN" class="card-image">
     <img src="/seminari/images/logos/logoelan.png" alt="La Trascrizione del Parlato con ELAN" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -775,14 +812,9 @@
     
 
     
-      <span class="card-subtitle">Silvia Ballarè</span>
+      <span class="card-subtitle">S. Ballarè</span>
     
 
-    
-      <p>
-        Il seminario è una presentazione di alcune nozioni di base della trascrizione e del sistema Jefferson, nonché di alcun funzioni di base del software ELAN.
-
-      </p>
     
 
     
@@ -801,46 +833,6 @@
     
   </div>
 </div>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
-
-<h2 id="seminari-2020">Seminari 2020</h2>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
-
-<h2 id="seminari-2019">Seminari 2019</h2>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
   </section>
 
 
