@@ -1,23 +1,20 @@
 .container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Adjusts number of columns */
+  gap: 20px; /* Space between cards */
   justify-content: center;
-  align-items: stretch; /* Ensures all cards match the tallest one */
 }
 
 .card {
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
   justify-content: stretch;
   align-items: center;
-  flex-direction: column;
-  width: 350px;
-  max-width: calc(100% - 20px - 20px);
-  margin: 20px;
+  width: 100%; /* Makes sure the cards adjust */
   background: var(--background);
   border-radius: var(--rounded);
   overflow: hidden;
   box-shadow: var(--shadow);
-  vertical-align: top;
 }
 
 .card[data-style=small] {
