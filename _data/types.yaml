@@ -102,6 +102,11 @@ search:
   text: Search
   tooltip: Search
 
+calendar:
+  icon: fa-solid fa-calendar-days
+  text: Calendar
+  tooltip: Calendar
+
 # social media
 
 orcid:

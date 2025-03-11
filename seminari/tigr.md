@@ -10,12 +10,9 @@ unibo: yes
 ---
 
 
-
-
-# Il corpus TIGR: un corpus video per lo studio dell'italiano parlato
 ## Introduzione al corpus TIGR
 
-Il corpus d'italiano parlato TIGR è stato raccolto negli anni 2021 e 2022  nei cantoni svizzeri Ticino e Grigioni (da qui il nome) e nasce all'interno di un progetto di ricerca condotto dall'Università della Svizzera Italiana (USI), **InfinIta - La categorizzazione delle fonti di informazione nell'interazione faccia a faccia. Una indagine basata sul corpus di italiano parlato TIGR** (per l'abstract e le pubblicazioni scientifiche: https://data.snf.ch/grants/grant/192771). Il progetto è stato finanziato dalla Swiss National Science Foundation (SNSF) e terminerà il 31 agosto 2025.
+Il corpus d'italiano parlato TIGR è stato raccolto negli anni 2021 e 2022 nei cantoni svizzeri Ticino e Grigioni (da qui il nome) e nasce all'interno di un progetto di ricerca condotto dall'Università della Svizzera Italiana (USI), **InfinIta - La categorizzazione delle fonti di informazione nell'interazione faccia a faccia. Una indagine basata sul corpus di italiano parlato TIGR** (per l'abstract e le pubblicazioni scientifiche: <https://data.snf.ch/grants/grant/192771>). Il progetto è stato finanziato dalla Swiss National Science Foundation (SNSF) e terminerà il 31 agosto 2025.
 Come si legge sul [sito dell'USI](https://sharetigr.usi.ch/it/st/corpus#), il TIGR documenta interazioni faccia a faccia in situazioni non sperimentali di vario genere: conversazioni a tavola, preparazione di cibo, lezioni e incontri di tutoring, interviste, per 23,5 ore in totale. Queste interazioni sono documentate attraverso non solo registrazioni audio, trascrizioni e dati sociolinguistici, ma anche **registrazioni video**.
 
 Per condividere il corpus con la comunità scientifica secondo i principi FAIR è nato [**ShareTIGR**](https://sharetigr.usi.ch/it/news/feeds/37644), un progetto specificamente dedicato agli _open research data_ (ORD). In ShareTIGR, verranno elaborati ulteriormente i dati, eliminando certe informazioni personali, preparando file audio-video maneggevoli, convertendo e formattando le trascrizioni, redigendo descrizioni a vari livelli e preparando metadati leggibili dai motori di ricerca. Infine, tutti i file verranno depositati su SWISSUbase, un repositorio scientifico svizzero per le scienze sociali e la linguistica. Gli utenti interessati potranno così scaricare i documenti e usarli ai fini delle proprie ricerche, dopo essersi registrati e aver firmato un accordo che precisa le modalità e gli scopi del riuso.
@@ -25,7 +22,6 @@ In parallelo al lavoro sui dati, l'esperienza di raccolta del corpus la è stata
 
 Per le pubblicazioni basate sui dati del TIGR si veda:
 [Pubblicazioni e presentazioni nelle quali sono stati usati i dati TIGR](https://sharetigr.usi.ch/it/st/publications)
-
 
 ## Il progetto InfinIta: perché è stato creato il corpus TIGR?
 
@@ -108,34 +104,39 @@ Prevedere fin dall'inizio la pubblicazione dei dati (video) richiede una rifless
 
 Qui di seguito, la struttura del documento di dichiarazione di consenso informato che è stato fatto firmare ai partecipanti.
 
-Parte A. Documento informativo
+* **Parte A. Documento informativo**
 
-1. Introduzione
-2. Descrizione del progetto di ricerca per un pubblico non specialista
-3. Descrizione dell'evento e modalità di video-registrazione
-4. Confidenzialità e protezione dei dati
-5. Conservazione e utilizzo dei dati
-6. Diritti dei partecipanti allo studio
-7. Contatti
+  1. Introduzione
+  2. Descrizione del progetto di ricerca per un pubblico non specialista
+  3. Descrizione dell'evento e modalità di video-registrazione
+  4. Confidenzialità e protezione dei dati
+  5. Conservazione e utilizzo dei dati
+  6. Diritti dei partecipanti allo studio
+  7. Contatti
 
-Parte B. Consenso informato
+* **Parte B. Consenso informato**
 
-Ogni partecipante registrata/o ha espresso il proprio consenso all'uso dei dati dopo essere messa/o a conoscenza degli scopi dell'indagine e delle modalità di diffusione dei dati. In caso il parlante avesse deciso di non essere riconoscibile, le opzioni di deidentificazione tra cui poteva scegliere erano due:
+  Ogni partecipante registrata/o ha espresso il proprio consenso all'uso dei dati dopo essere messa/o a conoscenza degli scopi dell'indagine e delle modalità di diffusione dei dati. In caso il parlante avesse deciso di non essere riconoscibile, le opzioni di deidentificazione tra cui poteva scegliere erano due:
 
-- **default**: pseudonimi nella trascrizione, silenzi nella traccia audio, misure di deidentificazione nei metadati
-- **misure supplementari**: alterazione della voce nella traccia audio (6 richieste), applicazione di filtri nella traccia video (15 richieste)
+  - **default**: pseudonimi nella trascrizione, silenzi nella traccia audio, misure di deidentificazione nei metadati
+  - **misure supplementari**: alterazione della voce nella traccia audio (6 richieste), applicazione di filtri nella traccia video (15 richieste)
 
 Per saperne di più a proposito della stesura del documento di dichiarazione di consenso informato da parte del team di InfinIta, si legga l'articolo [_Dichiarazioni di consenso informato_](https://sharetigr.usi.ch/it/news/feeds/38259).
 
 #### Misure di deidentificazione dei dati
 
 Per quanto riguarda le misure di deidentificazione dei partecipanti, sono stati adottati diversi provvedimenti:
+
 - Ad ogni partecipante è stato attrbuito un codice informatore nel formato inf-N.
 - L'età è stata ridotta a un intervallo.
 - Per quanto riguarda le informazioni sul luogo di provenienza, è stato inserito lo Stato (ad esempio, Svizzera) e il cantone (o la regione nel caso dell'Italia).
 - il luogo di registrazione viene descritto solamente dal Cantone e dalle dimensioni del centro abitato (> o <10,000 abitanti).
 
-Inoltre, come è riportato sul sito del corpus alla voce "Deidentificazione", "in vista della loro condivisione sul repositorio, i documenti video saranno deidentificati in Adobe Premiere tramite l'applicazione di effetti video (p.es. Gaussian blur, Find edges) secondo i desideri espressi dai parlanti nelle loro dichiarazioni di consenso. Nelle tracce audio, si altereranno alcune voci secondo i desideri espressi nelle dichiarazioni di consenso e si sostituirà con rumore certi nomi e indicazioni temporali, nello specifico una serie di nomi di persone, istituzioni e luoghi nonché certe date che potrebbero facilitare l'identificazione delle e dei partecipanti. Questi interventi sono stati preparati in ELAN tramite l'annotazione dei passi problematici come _name_ in un'apposita traccia. Si userà uno script per leggere i tempi iniziali e finali dei segmenti annotati e istruire il programma Praat a elaborare l'insieme delle tracce audio negli intervalli in questione, cancellando il suono originale e inserendo frammenti di rumore. Nelle trascrizioni, l'informazione personale è stata sostituita da pseudonimi. I nomi dei partecipanti sono stati sostituiti da pseudonimi di simile lunghezza. Al posto di altre informazioni personali sono state inserite le diciture _personname_ / _institutionname_ / _placename_ / _datename_ accompagnate da indici, così da permettere riferimenti multipli alla stessa entità all'interno di una trascrizione."
+Inoltre, come è riportato sul sito del corpus alla voce "Deidentificazione":
+
+    "in vista della loro condivisione sul repositorio, i documenti video saranno deidentificati in Adobe Premiere tramite l'applicazione di effetti video (p.es. Gaussian blur, Find edges) secondo i desideri espressi dai parlanti nelle loro dichiarazioni di consenso. Nelle tracce audio, si altereranno alcune voci secondo i desideri espressi nelle dichiarazioni di consenso e si sostituirà con rumore certi nomi e indicazioni temporali, nello specifico una serie di nomi di persone, istituzioni e luoghi nonché certe date che potrebbero facilitare l'identificazione delle e dei partecipanti. Questi interventi sono stati preparati in ELAN tramite l'annotazione dei passi problematici come _name_ in un'apposita traccia. Si userà uno script per leggere i tempi iniziali e finali dei segmenti annotati e istruire il programma Praat a elaborare l'insieme delle tracce audio negli intervalli in questione, cancellando il suono originale e inserendo frammenti di rumore. Nelle trascrizioni, l'informazione personale è stata sostituita da pseudonimi. I nomi dei partecipanti sono stati sostituiti da pseudonimi di simile lunghezza. Al posto di altre informazioni personali sono state inserite le diciture _personname_ / _institutionname_ / _placename_ / _datename_ accompagnate da indici, così da permettere riferimenti multipli alla stessa entità all'interno di una trascrizione."
+
+
 Di seguito sono riportati alcuni esempi:
 
 {%
@@ -167,12 +168,15 @@ Come si può vedere dal grafico a sinistra,  il corpus è abbastanza bilanciato 
   image="images/seminar-images/tigr/image-15.png"
 %}
 
-- **Origine dei parlanti**
+#### Origine dei parlanti
+
+La maggior parte dei partecipanti ha frequentato la scuola elementare in Italia e in Svizzera.
+Qui vengono mostrati i dati specifici sulle regioni italiane e sui cantoni svizzeri in cui i parlanti hanno frequentato la scuola elementare. Nonostante un certo bias geografico per quanto riguarda l'Italia, con Lombardia e Piemonte in testa, diverse regioni sono rappresentate, sia del centro sia del sud._
+In merito alla Svizzera, la maggior parte dei parlanti ha frequentato la scuola elementare nei cantoni Ticino e Grigioni.
 
 {%
 include figure.html
 image="images/seminar-images/tigr/image-16.png"
-caption="La maggior parte dei partecipanti ha frequentato la scuola elementare in Italia e in Svizzera."
 %}
 
 {%
@@ -180,23 +184,19 @@ caption="La maggior parte dei partecipanti ha frequentato la scuola elementare i
   image="images/seminar-images/tigr/image-16.png"
 %}
 
-
 {%
 include figure.html
 image="images/seminar-images/tigr/image-17.png"
 %}
-
-_La maggior parte dei partecipanti ha frequentato la scuola elementare in Italia e in Svizzera._
 
 {%
   include figure.html
   image="images/seminar-images/tigr/image-17.png"
 %}
 
-_Qui vengono mostrati i dati specifici sulle regioni italiane e sui cantoni svizzeri in cui i parlanti hanno frequentato la scuola elementare. Nonostante un certo bias geografico per quanto riguarda l'Italia, con Lombardia e Piemonte in testa, diverse regioni sono rappresentate, sia del centro sia del sud._
-_In merito alla Svizzera, la maggior parte dei parlanti ha frequentato la scuola elementare nei cantoni Ticino e Grigioni._
+#### Luogo di lavoro o studio in Svizzera
 
-- ### Luogo di lavoro o studio in Svizzera
+La maggior parte dei parlanti svolge la sua attività principale (studio o lavoro) in Ticino (64%). Al secondo posto troviamo i Grigioni (34%).
 
 {%
   include figure.html
@@ -204,9 +204,9 @@ _In merito alla Svizzera, la maggior parte dei parlanti ha frequentato la scuola
   caption="La regione di principale attività"
 %}
 
-_La maggior parte dei parlanti svolge la sua attività principale (studio o lavoro) in Ticino (64%). Al secondo posto troviamo i Grigioni (34%)._
+#### Repertorio linguistico
 
-- ### Repertorio linguistico
+La maggior parte dei parlanti ha dichiarato di essere plurilingue (due, tre o addirittura più di quattro lingue nel proprio repertorio). La lista delle lingue conosciute dai partecipanti sono riportate nel grafico di destra.
 
 {%
   include figure.html
@@ -214,9 +214,9 @@ _La maggior parte dei parlanti svolge la sua attività principale (studio o lavo
   caption="Repertorio linguistico dei partecipanti"
 %}
 
-_La maggior parte dei parlanti ha dichiarato di essere plurilingue (due, tre o addirittura più di quattro lingue nel proprio repertorio). La lista delle lingue conosciute dai partecipanti sono riportate nel grafico di destra._
+#### Istruzione e professione
 
-- ### Istruzione e professione
+Il livello di istruzione principale è la scuola secondaria di secondo grado. Trattandosi per la maggio parte di studenti universitari, era l'ultimo grado di istruzione completato.
 
 {%
   include figure.html
@@ -224,10 +224,8 @@ _La maggior parte dei parlanti ha dichiarato di essere plurilingue (due, tre o a
   caption="Livello di istruzione"
 %}
 
-_Il livello di istruzione principale è la scuola secondaria di secondo grado. Trattandosi per la maggio parte di studenti universitari, era l'ultimo grado di istruzione completato._
-
-
 ## Luoghi dove sono stati registrati gli eventi del TIGR
+
 Come è stato detto, la registrazione delle interazioni è avvenuta nei cantoni Ticino e Grigioni. Le località all'interno dei due cantoni sono determinate in modo opportunistico in base alla disponibilità dei parlanti. In una seconda fase della raccolta, la presa di contatto ad hoc con le istituzioni scolastiche ha permesso di ampliare la copertura geografica del corpus.
 
 In Ticino sono stati registrati 9 eventi in 7 piccoli centri e altri 9 eventi in 2 grandi centri, per un totale di 18 eventi in 9 località.
@@ -235,10 +233,10 @@ Nei Grigioni sono stati registrati 4 eventi in 1 piccolo centro e altri 4 eventi
 
 Si precisa che il corpus non è disegnato per documentare la variazione diatopica dell'italiano parlato in Svizzera.
 
-
 ## Impostazione tecnica delle registrazioni, post-produzione e trascrizione
 
 ### Strumentazione utilizzata e post-produzione
+
 La prassi era quella di andare sul luogo della registrazione, installare i dispositivi e lasciare che i parlanti interagissero da soli. Solamente nelle interazioni didattiche e nelle interviste erano presenti anche i ricercatori.
 Una volta conclusesi le interazioni, i ricercatori venivano contattati dai partecipanti tramite Whatsapp.
 
@@ -291,7 +289,6 @@ Inoltre, sono state adottate convenzioni di trascrizione multimodale di Modada p
   image="images/seminar-images/tigr/image-24.png"
 %}
 
-
 #### La segmentazione in Elan
 
 La segmentazione non rappresenta necessariamente un'unità significativa sul piano linguistico.
@@ -324,7 +321,8 @@ Come abbiamo visto, la prima trascrizione avviene su ELAN. Da questa trascrizion
   - se si intende esportare la trascrizione con il timecode, il file risulta illeggibile
   - la messa in sequenza automatica dei turni non è sempre intuitiva
 
-  La soluzione è stata quella di condurre una **procedura semi-automatica (script Python)**
+  La soluzione è stata quella di condurre una **procedura semi-automatica (script Python)**:
+
   - la trascrizione veniva esportata da ELAN come trascrizione in formato "tradizionale" e con l'allineamento verticale delle parentesi quadre
   - Attraverso degli script sono stati eliminati i timecode tranne quelli che segnano i tempi iniziali dei segmenti (creati su ELAN), che compaiono all'incirca ogni 10 secondi. Sono, poi, state collocate delle ancore "((TC))" nel testo, come si vede in questo esempio
 
@@ -344,13 +342,15 @@ Cos'è la tokenizzazione? È la divisione di un testo in "token", cioè unità l
 
 Per questa procedura di tokenizzazione delle trascrizioni si sta collaborando con l'azienda _Linguisticbits_ del Dr. Thomas Schmidt.
 La procedura comprende i seguenti step, elencati in ordine di precedenza:
+
 1. Ricongiungimento dei frammenti di parola creati ai confini dei segmenti in ELAN, che avverrà in maniera in parte automatica, grazie all'uso di un lessico estratto da ItTenTen, e in parte manuale
 2. Concatenazione dei segmenti ELAN in "contributi" (si tratta di un'approssimazione dell'unità "turno")
 3. Divisione automatica dei contributi in parole
 4. Conversione in un documento XML conforme all'ISO/TC 37/SC 4, 2016 (standard ISO per la trascrizione della lingua parlata, codice CLARIN: https://standards.clarin.eu/sis/views/view-format.xq?id=fTEISpoken).
-  A proposito degli standard ISO per la trascrizione della lingua parlata si cita l'articolo H. Hedeland & T. Schmidt. The TEI-based ISO Standard ‘Transcription of spoken language’as an Exchange Format within CLARIN and beyond. _Selected papers from the CLARIN Annual Conference 2021._Ed. M. Monachini & M. Eskevich. Linköping Electronic Conference Proceedings 189, pp. 34-35. DOI: https://doi.org/10.3384/9789179294441
+A proposito degli standard ISO per la trascrizione della lingua parlata si cita l'articolo H. Hedeland & T. Schmidt. The TEI-based ISO Standard ‘Transcription of spoken language’as an Exchange Format within CLARIN and beyond. _Selected papers from the CLARIN Annual Conference 2021._Ed. M. Monachini & M. Eskevich. Linköping Electronic Conference Proceedings 189, pp. 34-35. DOI: https://doi.org/10.3384/9789179294441
 
 Per saperne di più sul processo di trascrizione si rimanda ai seguenti articoli presenti nel blog:
+
 - [Morfologia delle trascrizioni, parte I: leggibili in che modo?](https://sharetigr.usi.ch/it/news/feeds/38046)
 - [Morfologia delle trascrizioni, parte II: codificare il tempo](https://sharetigr.usi.ch/it/news/feeds/38066)
 - [Morfologia delle trascrizioni, parte III: il primo script](https://sharetigr.usi.ch/it/news/feeds/37889)
@@ -374,6 +374,7 @@ I due momenti di condivisione e riuso sono rappresentati graficamente nelle imma
 
 Dal punto di vista tecnico le infrastrutture digitali (sono quelle che si vedono nel mezzo) sono cruciali in questo processo.
 Nella condivisione e nel riuso dei dati sono contemplati tre mezzi:
+
 1. repositorio
 2. piattaforma per la consultazione online
 3. l'invio dei dati a qualcuno tramite e-mail,
@@ -386,6 +387,7 @@ L'invio di dati tramite e-mail non assicura che i dati siano reperibili e access
 
 Nel caso del corpus TIGR verrà usato il **repositorio LaRS**, la sezione linguistica del repositorio [SWISSUbase](https://www.swissubase.ch/en/). Un articolo di approfondimento in inglese per chi fosse interessato: [_Exploring LaRS @ SWISSUbase_](https://sharetigr.usi.ch/it/news/feeds/37958).
 Il repositorio LaRS è organizzato secondo tre livelli gerarchici:
+
 1. Studi
 2. Dataset (entità scaricabile)
 3. Documenti
@@ -417,7 +419,6 @@ Il repositorio mette a disposizione dei campi predefiniti, alcuni obbligatori al
   image="images/seminar-images/tigr/image-35.png"
 %}
 
-
 Come si vede nell'immagine per ogni singolo evento il cuore è la tabella più centrale con le caratteristiche di base dell'evento (come il numero di partecipanti, il genere di interazione, e così via). La tabella centrale rinvia poi a una serie di altre tabelle. A sinistra si vedono due tabelle con i parlanti e i luoghi del TIGR. I parlanti del TIGR sono collegati al singolo evento tramite l'elenco dei partecipanti all'evento.
 L'evento è poi associabile all'elenco dei file video, all'elenco dei file audio e all'elenco delle trascrizioni.
 
@@ -426,5 +427,5 @@ L'evento è poi associabile all'elenco dei file video, all'elenco dei file audio
 Ovviamente il repositorio è uno scenario di riuso che suppone il download dei dati sul proprio computer. Questo ha i suoi vantaggi, come la grande libertà di quello che si può fare con questi dati, e i suoi svantaggi, come quello di doversi dotare sul proprio computer degli strumenti necessari per leggere i dati scaricati.
 La piattaforma online, al contrario, è percepita da molti come più comoda perché non richiede il download di alcun strumento di lettura dei dati.
 
-Nel contesto del [progetto FAIR-FI-LD](https://www.liri.uzh.ch/en/projects/FAIR-FI-LD.html) condotto dall'Università di Zurigo a cui partecipa tra gli altri anche l'USI (in particolare l'Istituto di Studi Italiani, o ISI), si vuole depositare il TIGR nel [LiRI Corpus Platform (o LCP)](https://www.liri.uzh.ch/en/services/LiRI-Corpus-Platform-LCP.html). Questa piattaforma online è stata creata dal LiRI (Linguistic Research Infrastructure), un dipartimento dell'Università di Zurigo. Per saperne di più sul LiRI e di che cosa si occupa, qui è riportata la home page del sito: https://www.liri.uzh.ch/en.html.
+Nel contesto del [progetto FAIR-FI-LD](https://www.liri.uzh.ch/en/projects/FAIR-FI-LD.html) condotto dall'Università di Zurigo a cui partecipa tra gli altri anche l'USI (in particolare l'Istituto di Studi Italiani, o ISI), si vuole depositare il TIGR nel [LiRI Corpus Platform (o LCP)](https://www.liri.uzh.ch/en/services/LiRI-Corpus-Platform-LCP.html). Questa piattaforma online è stata creata dal LiRI (Linguistic Research Infrastructure), un dipartimento dell'Università di Zurigo. Per saperne di più sul LiRI e di che cosa si occupa, qui è riportata la home page del sito: <https://www.liri.uzh.ch/en.html>.
 Grazie alla collaborazione con _Linguisticbits_, di cui si è parlato sopra, si sta cercando di definire una procedura di upload in LCP di trascrizioni XML tokenizzate.

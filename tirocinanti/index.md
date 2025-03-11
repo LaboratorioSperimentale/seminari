@@ -1,9 +1,10 @@
 ---
-title: Data Plumbing
+title: Tirocinanti
 nav:
-  order: 1
-  tooltip: Software, datasets, and more
+  order: 5
+  tooltip: About our team
 ---
+
 {%
   include button.html
   type="home-page"
@@ -31,4 +32,14 @@ nav:
   link="lilec.lab@unibo.it"
 %}
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Data Plumbing
+# {% include icon.html icon="fa-solid fa-users" %} GLI AUTORI DEL SITO
+
+Le pagine di questo sito vengono arricchite grazie all'attività che i tirocinanti e le tirocinanti svolgono presso il Laboratorio Sperimentale.
+
+Qui una lista per ringraziarl* tutt* &nbsp; <i class="fa-solid fa-heart fa-beat"></i> &nbsp; !
+
+
+{% include section.html %}
+## Anno accademico 2024/2025
+
+{% include list.html data="members" component="portrait" filter="role == 'tirocinante'" %}
