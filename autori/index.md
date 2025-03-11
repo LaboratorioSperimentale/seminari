@@ -7,7 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}GLI AUTORI DEL SITO
 
-Il sito 
+2025
+
+{% capture col1 %}
 
 {% include section.html %}
 

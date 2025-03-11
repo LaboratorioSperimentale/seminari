@@ -1,7 +1,7 @@
 <div class="summary-table">
   <table>
     <tr>
-      <th>Speaker:</th>
+      <!-- <th>Speaker:</th> -->
       <td>
         {% if include.speaker %}
           {% assign speakers = include.speaker
@@ -15,21 +15,32 @@
               | first
             %}
             {% if member %}
-              {% include portrait.html lookup=speaker style="tiny" %}
+            {% include portrait.html lookup=speaker style="tiny" %}
             {% else %}
-            <span>{{ speaker }}</span>
+            <span>
+            </i> {{ speaker }}</span>
             {% endif %}
           {% endfor %}
         {% endif %}
       </td>
     </tr>
     <tr>
-      <th>Video:</th>
-      <td></td>
+      <!-- <th></th> -->
+      <td>
+        {% if include.video %}
+        {% assign video = include.video %}
+        {% if include.unibo %}
+            <span><i class="fa-solid fa-video">
+            </i> -- <a href="{{ video }}"> {{include.video_title}} (accesso con credenziali UniBO)</a></span>
+        {% else %}
+        <span><a href="{{ video }}">{{include.video_title}} </a></span>
+        {% endif %}
+        {% endif %}
+      </td>
     </tr>
     <tr>
       <th>Durata:</th>
-      <td></td>
+      <td>{{ include.length }}</td>
     </tr>
     <tr>
       <th>Licenza:</th>
