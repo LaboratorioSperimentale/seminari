@@ -1,6 +1,33 @@
 ---
 ---
 
+{%
+  include button.html
+  type="home-page"
+  text="Laboratorio Sperimentale LILEC"
+  link="https://site.unibo.it/laboratorio-sperimentale/"
+%}
+{%
+  include button.html
+  type="address"
+  tooltip="Our location on Google Maps for easy navigation"
+  text="Dove siamo"
+  link="https://maps.app.goo.gl/uNU8UD6skxLo29V96"
+%}
+{%
+  include button.html
+  type="calendar"
+  tooltip="Il calendario eventi del Laboratorio"
+  text="Calendario"
+  link="https://outlook.office365.com/calendar/published/61a2deb19726492a81d5356649f8e8c9@unibo.it/51e45a320469475d820af1d087016d154227240899176452804/calendar.html"
+%}
+{%
+  include button.html
+  type="email"
+  text="Scrivici"
+  link="lilec.lab@unibo.it"
+%}
+
 Il **[Laboratorio Sperimentale](https://site.unibo.it/laboratorio-sperimentale/it)** del [**LILEC**](https://lingue.unibo.it/it) - **[Università Di Bologna](https://www.unibo.it/it)** è un laboratorio di ricerca dotato di attrezzatura hardware e software per l'analisi di dati linguistici.
 
 Questa pagina raccoglie gli **[eventi formativi](https://site.unibo.it/laboratorio-sperimentale/it/agenda)** organizzati nel tempo dal Laboratorio, con l’obiettivo di dotare di sostenere la diffusione di un know-how (inter)disciplinare teorico-pratico negli ambiti di propria competenza, promuovendo una riflessione metodologica ampia sulla diversità dei dati linguistici e testuali. Gli eventi formativi promossi dal Laboratorio Sperimentale comprendono seminari, scuole estive di formazione e knowledge base e sono raccolti nella tabella qui sotto. Nella tabella potrete trovare il titolo del seminario, il link al video e i materiali forniti dai relatori liberamente scaricabili. Alcuni video sono fruibili da tutti, mentre per altri l'accesso è consentito solo a utenti UniBO.

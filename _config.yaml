@@ -8,7 +8,7 @@ proofer: false
 
 # site social media and other links
 links:
-  
+
   home-page: https://site.unibo.it/laboratorio-sperimentale/it/
   #orcid: 0000-0001-8713-9213
   #google-scholar: ETJoidYAAAAJ
@@ -78,3 +78,9 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
+
+
+toc:
+  min_level: 2
+  max_level: 6
+  ordered_list: true
