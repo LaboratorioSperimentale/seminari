@@ -108,10 +108,10 @@ Questa è la visualizzazione che appare una volta aperto ELAN. Le righe qui ripo
 Vediamo un esempio:
 {%
   include figure.html
-  image="images/seminar-images/elantrascrizione/image-5.png"
-  caption="Tier del dibattito presidenziale"
+  image="images/seminar-images/elantrascrizione/esempiotier.png"
+  caption="Tier di un dialogo tratto dal film"
 %}
-In questo caso sono presenti quattro tier (Trump, Biden, il moderatore e il pubblico). Notiamo come gli applausi del pubblico siano contrassegnati dalle parentesi tonde doppie, in quanto con questo simbolo si indicano i comportamenti non verbali.
+In questo caso sono presenti solo due tier. Notiamo come le parole "will" e "it" appaiano tra parentesi quadre, in quanto questo è il simbolo del sistema Jefferson col quale si indica la sovrapposizione fra parlanti.
 
 ### 3.5 Aggiungere il file da trascrivere
 {%
