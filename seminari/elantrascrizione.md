@@ -190,10 +190,10 @@ Un'altra cosa che può aiutare nella visualizzazione è il cursore in basso a de
 ### 3.10 Funzioni Avanzate
 Vediamo adesso alcune delle funzioni più avanzate di ELAN.
 #### 3.10.1 Vedere tutte le unità associate a un tier
-ELAN permette di vedere assieme tutto ciò che abbiamo trascritto per quanto riguarda un unico parlante. Per fare questo, bisogna andare su “***Grid***”: si apre così una visualizzazione a griglia di tutte le unità presenti all’interno di un tier.
+ELAN permette di vedere assieme tutto ciò che abbiamo trascritto per quanto riguarda un unico parlante. Per fare questo, bisogna andare su “***Grid***” e selezionare un tier: si apre così una visualizzazione a griglia di tutte le unità presenti all’interno del tier scelto.
 {%
   include figure.html
-  image="images/seminar-images/elantrascrizione/16 file griglia.PNG"
+  image="images/seminar-images/elantrascrizione/grigliatier.png"
   caption="Visualizzazione a griglia delle unità associate a un tier"
 %}
 
@@ -204,10 +204,10 @@ I tier possono avere diversi tipi di struttura. La strutturazione più semplice 
 - **IPA**: se voglio trascrivere delle parti con l’alfabeto IPA, posso farlo andando ad inserirle in un apposito tier.
 {%
   include figure.html
-  image="images/seminar-images/elantrascrizione/17 strutturazione tier.PNG"
+  image="images/seminar-images/elantrascrizione/tiercomplesso.png"
   caption="Esempio di tier complesso"
 %}
-Vediamo un esempio. Qui abbiamo un tier molto complesso, in quanto vediamo una serie di “sotto-tier” associati ad un unico parlante. Tali tier contengono molti tipi di informazioni: nel primo tier vi è una trascrizione ortografica; nel secondo tier le parole vengono separate; nel terzo tier le singole parole sono annotate per parte del discorso; nel quarto tier abbiamo la trascrizione IPA e così via.
+Vediamo un esempio. Qui abbiamo un tier complesso, in quanto vediamo una serie di “sotto-tier” associati ad un unico parlante. Tali tier contengono molti tipi di informazioni: nel primo tier vi è una trascrizione ortografica; nel secondo tier abbiamo una trascrizione in IPA; nel terzo tier abbiamo una trascrizione del linguaggio non verbale.
 
 Vediamo dunque come aggiungere dei tier dipendenti.
 La prima cosa da fare è creare un tier che segue la scansione temporale a cui voglio poi associarlo. Anzitutto andiamo su ***Type > Add New Tier Type***. Nella finestra che si apre andiamo poi su ***Stereotype*** e selezioniamo ***Time subdivision***, inserendo anche il nome del tipo.  
@@ -232,3 +232,78 @@ A questo punto, ci si ritrova con tutti i tier allineati. Per avere un tipo di v
 %}
 
 #### 3.10.3 Divisione per Parola
+Possiamo anche decidere di creare un tier dipendente in cui le parole presenti nella trascrizione vengono suddivise. Per farlo, bisogna anzitutto creare un nuovo tipo di tier (*Type > Add New Tier Type*), ma questa volta in Stereotype bisogna selezionare ***Symbolic Subdivision***. 
+
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/21 divisione per parola.PNG"
+  caption="Add Type - Symbolic Subdivision"
+%}
+
+Prima di procedere, è necessario creare un nuovo sotto-tier dipendente dal tier di cui vogliamo la tokenizzazione. A questo punto dobbiamo andare su *Tier*, e nel menù che si apre selezioniamo ***Tokenize Tier***: nella finestra che si apre, selezioniamo il Source Tier (ossia il tier che vogliamo tokenizzare) e la destinazione (cioè in quale tier vogliamo inserire la divisione per token), e infine clicchiamo su Start.
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/tokenizetier.png"
+  caption="Tokenize Tier"
+%}
+
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/tierword.png"
+  caption="Tier con parole divise"
+%}
+
+La tokenizzazione, però, ha un problema: tutte le parole separate da un apostrofo (come ad esempio "it's" nella foto di sopra) vengono contate come un unico token. Per evitare questo problema ci sono due soluzioni:
+-	Mettiamo uno spazio dopo ogni apostrofo (in modo da separare le due parole e risolvere il problema a monte):
+-	Possiamo inserire lo spazio in un secondo momento: per farlo, seguiamo anzitutto il percorso *Search > Find (and replace)*. Dopodiché clicchiamo sull’icona del foglio con l’asterisco: da qui, nello spazio “that matches” cerchiamo tutti gli apostrofi e li sostituiamo con la combinazione apostrofo + spazio. A questo punto non ci resta che ri-tokenizzare il tier. Alla fine di ciò, troveremo le parole separate da un apostrofo conteggiate come due token distinti (N.B.: in alcuni casi, può capitare che la ricerca dell’apostrofo non dia risultati. Per risolvere questo problema bisogna spuntare la casella chiamata “Regular Expression”).
+
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/24 divisione per parola.PNG"
+  caption="Sostituzione dell'apostrofo con la combinazione 'apostrofo + spazio'"
+%}
+
+#### 3.10.4 Ricerca
+ELAN permette di fare ricerche molto raffinate, anche in base a quanto è strutturata la nostra annotazione. Possiamo fare una ricerca semplice per forme all’interno della trascrizione come abbiamo già descritto nel punto precedente (quindi seguendo il percorso *Search > Find (and replace)* oppure premendo CTRL/⌘+ F), ma possiamo anche fare ricerche su più file contemporaneamente (dunque usando i file delle nostre trascrizioni come se fossero un corpus).
+Per fare ciò andiamo anzitutto su ***Search > Search Multiple EAF***; dopodiché bisogna definire il dominio della ricerca. Dopo aver creato un nuovo dominio di ricerca su New Domain, possiamo aggiungere una cartella / un file e diamo il nome al dominio in quesitone. 
+
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/26 search.PNG"
+  caption="Definizione del dominio"
+%}
+
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/27 search.PNG"
+  caption="Definizione del dominio"
+%}
+
+A questo punto possiamo fare la ricerca in questione: cercando una parola (nell’esempio viene cercata la parola “se”), vedremo tutte le occorrenze di quella specifica parola all’interno dei nostri file. 
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/28 search.PNG"
+  caption="Esempio di ricerca"
+%}
+
+#### 3.10.5 Esportazione dei File
+Il formato della trascrizione è il file EAF, ma si possono utilizzare diversi formati. Tra i vari formati disponibili vi è il TXT, che permette di utilizzare il file su vari programmi usati per l’analisi linguistica. Per selezionare il formato, basta andare su File > Export e selezionare il formato che ci interessa.
+
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/29 export.PNG"
+  caption="Modalità di esportazione"
+%}
+
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/30 export.PNG"
+  caption="Modalità di esportazione"
+%}
+
+Esportando il file in TXT il risultato è questo: viene rappresentato verticalmente ciò che su ELAN appare orizzontalmente.
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/31 export.PNG"
+  caption="Visualizzazione del file esportato in TXT"
+%}
