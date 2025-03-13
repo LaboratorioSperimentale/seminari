@@ -1,23 +1,48 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+- title: Composizione del TIGR
+  type: blog-post
+  date: 2024-04-04
+  publisher: ShareTIGR
   buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
     - type: website
-      link: http://manubot.org/
-  tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+      link: https://sharetigr.usi.ch/it/news/feeds/37812
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+- title: Raccogliere dati linguistici ai tempi del COVID-19
+  type: blog-post
+  date: 2024-08-29
+  publisher: ShareTIGR
+  buttons:
+    - type: website
+      link: https://sharetigr.usi.ch/it/news/feeds/38556
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- title: "Il lavoro sul campo: ricerca e contatto dei partecipanti"
+  type: blog-post
+  date: 2024-07-18
+  publisher: ShareTIGR
+  buttons:
+    - type: website
+      link: https://sharetigr.usi.ch/it/news/feeds/38402
+
+- title: "Digitisation of the TIGR participant questionnaires"
+  type: blog-post
+  date: 2024-03-21
+  publisher: ShareTIGR
+  buttons:
+    - type: website
+      link: https://sharetigr.usi.ch/en/news/feeds/37690
+
+- title: "Social interaction is among people. Legal, technical, and ethical explorations about personal information and its removal in talk-in-interaction as data"
+  type: blog-post
+  date: 2023-08-28
+  publisher: CHORD talk in interaction
+  buttons:
+    - type: website
+      link: https://www.chord-talk-in-interaction.usi.ch/news/feeds/36387
+
+- title: "Dichiarazioni di consenso informato"
+  type: blog-post
+  date: 2024-07-25
+  publisher: ShareTIGR
+  buttons:
+    - type: website
+      link: https://sharetigr.usi.ch/it/news/feeds/38259
+

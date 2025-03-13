@@ -226,6 +226,11 @@ manubot:
   text: Manubot
   tooltip: Manubot
 
+blog-post:
+  icon: fa-solid fa-rss
+  text: blog post
+  tooltip: Blog Post
+
 # software
 
 docs:
