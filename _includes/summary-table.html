@@ -1,7 +1,6 @@
 <div class="summary-table">
   <table>
     <tr>
-      <th>Speaker:</th>
       <td>
         {% if include.speaker %}
           {% assign speakers = include.speaker
@@ -15,23 +14,35 @@
               | first
             %}
             {% if member %}
-              {% include portrait.html lookup=speaker style="tiny" %}
+            {% include portrait.html lookup=speaker style="tiny" %}
             {% else %}
-            <span>{{ speaker }}</span>
+            <span>
+            </i> {{ speaker }}</span>
             {% endif %}
           {% endfor %}
         {% endif %}
       </td>
     </tr>
     <tr>
-      <th>Video:</th>
-      <td></td>
+      <td>
+        {% if include.video %}
+        {% assign video = include.video %}
+        {% if include.unibo %}
+            <span><i class="fa-solid fa-video">
+            </i> -- <a href="{{ video }}"> {{include.video_title}} (accesso con credenziali UniBO)</a></span>
+        {% else %}
+        <span><a href="{{ video }}">{{include.video_title}} </a></span>
+        {% endif %}
+        {% endif %}
+      </td>
     </tr>
-    <tr>
-      <th>Durata:</th>
-      <td></td>
-    </tr>
-    <tr>
+
+        {% if include.length %}
+        <tr>
+          <td> <b>Durata:</b> {{include.length}}</td>
+        </tr>
+        {% endif %}
+    <!-- <tr>
       <th>Licenza:</th>
       <td></td>
     </tr>
@@ -42,58 +53,6 @@
     <tr>
       <th>Lingua alternativa:</th>
       <td></td>
-    </tr>
+    </tr> -->
   </table>
-
-
-
-  <!-- {% if include.author %}
-    {% assign authors = include.author
-      | join: ","
-      | downcase
-      | split: ","
-      | array_filter
-    %}
-    {% for author in authors %}
-      {% assign member = site.members
-        | where_exp: "member", "member.slug == author"
-        | first
-      %}
-      {% if member %}
-        {% include portrait.html lookup=author style="tiny" %}
-      {% else %}
-        <span data-tooltip="Author">
-          {% include icon.html icon="fa-solid fa-feather-pointed" %}
-          <span>{{ author }}</span>
-        </span>
-      {% endif %}
-    {% endfor %}
-  {% endif %}
-
-  {% assign published = include.published | date: "%B %d, %Y" %}
-  {% assign updated = include.updated | date: "%B %d, %Y" %}
-
-  {% if published %}
-    <span data-tooltip="Originally published on">
-      {% include icon.html icon="fa-regular fa-calendar" %}
-      <span>{{ published }}</span>
-    </span>
-  {% endif %}
-
-  {% if updated and updated != "" and updated != published %}
-    <span data-tooltip="Last updated on">
-      {% include icon.html icon="fa-solid fa-clock-rotate-left" %}
-      <span>{{ updated }}</span>
-    </span>
-  {% endif %} -->
 </div>
-
-<!-- {% if include.tags %}
-  {% include tags.html tags=include.tags link="blog" %}
-{% endif %} -->
-
-<!-- {% if title %}
-<div>
-  <h1>{{ title }}</h1>
-</div>
-{% endif %} -->

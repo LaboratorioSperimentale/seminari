@@ -1,10 +1,8 @@
 - title: "The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction"
-  subtitle: Johanna Miecznikowski, Elena Battaglia
+  subtitle: J. Miecznikowski, E. Battaglia
   group: "2024"
   image: images/logos/default.png
   link: seminari/tigr.html
-  description: |
-    Il corpus TIGR include conversazioni video-registrate di italiano parlato. Il seminario illustra il design del corpus; le tecniche e le fasi di trascrizione adottate; le misure di de-identificazione; il riuso dei dati; l'organizzazione dei dati e dei metadati.
   tags:
     - resource
     - risorsa
@@ -12,21 +10,19 @@
     - dati video-registrati
 
 - title: Digital Text Annotation and Analysis with CATMA 7
-  subtitle: Mari Akazawa
+  subtitle: M. Akazawa
   group: "2024"
   image: images/logos/catma1.png
   link: seminari/catma.html
-  description: CATMA è un tool di annotazione gratuito e open-source, particolarmente utile per l'annotazione manuale di testi. A differenza di altri tool, CATMA consente anche di lavorare collaborativamente su progetti condivisi.
   tags:
     - tool
     - annotazione
 
 - title: "Il progetto R per l'informatica statistica"
-  subtitle: Flavio Pisciotta
+  subtitle: F. Pisciotta
   group: "2024"
   image: images/logos/R_logo.png
   link: seminari/R_01.html
-  description: R è un linguaggio di programmazione e un ambiente per il calcolo statistico e la grafica; è open source, flessibile, facilmente utilizzabile ed estendibile tramite pacchetti.
   tags:
     - tool
     - resource
@@ -34,31 +30,28 @@
 
 
 - title: "Tu chiamale se vuoi emozioni: metodi e strumenti per l’analisi emotiva dei testi"
-  subtitle: Eliana di Palma
+  subtitle: E. di Palma
   group: "2024"
   image: images/logos/default.png
   link: seminari/emozioni.html
-  description:
   tags:
     - tool
     - resource
 
 
 - title: "Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole"
-  subtitle: Maria Montefinese
+  subtitle: M. Montefinese
   group: "2025"
   image: images/logos/default.png
   link: seminari/smallworld.html
-  description:
   tags:
     - tool
     - resource
 
 - title: "La Trascrizione del Parlato con ELAN"
-  subtitle: Silvia Ballarè
+  subtitle: S. Ballarè
   group: "2021"
   image: images/logos/logoelan.png
   link: seminari/elantrascrizione.html
-  description: Il seminario è una presentazione di alcune nozioni di base della trascrizione e del sistema Jefferson, nonché di alcun funzioni di base del software ELAN.
   tags:
     - tool

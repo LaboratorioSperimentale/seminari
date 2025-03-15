@@ -1,9 +1,37 @@
 ---
 ---
 
+{%
+  include button.html
+  type="home-page"
+  text="Laboratorio Sperimentale LILEC"
+  link="https://site.unibo.it/laboratorio-sperimentale/"
+%}
+{%
+  include button.html
+  type="address"
+  tooltip="Our location on Google Maps for easy navigation"
+  text="Dove siamo"
+  link="https://maps.app.goo.gl/uNU8UD6skxLo29V96"
+%}
+{%
+  include button.html
+  type="calendar"
+  tooltip="Il calendario eventi del Laboratorio"
+  text="Calendario"
+  link="https://outlook.office365.com/calendar/published/61a2deb19726492a81d5356649f8e8c9@unibo.it/51e45a320469475d820af1d087016d154227240899176452804/calendar.html"
+%}
+{%
+  include button.html
+  type="email"
+  text="Scrivici"
+  link="lilec.lab@unibo.it"
+%}
+
 Il **[Laboratorio Sperimentale](https://site.unibo.it/laboratorio-sperimentale/it)** del [**LILEC**](https://lingue.unibo.it/it) - **[Università Di Bologna](https://www.unibo.it/it)** è un laboratorio di ricerca dotato di attrezzatura hardware e software per l'analisi di dati linguistici.
 
 Questa pagina raccoglie gli **[eventi formativi](https://site.unibo.it/laboratorio-sperimentale/it/agenda)** organizzati nel tempo dal Laboratorio, con l’obiettivo di dotare di sostenere la diffusione di un know-how (inter)disciplinare teorico-pratico negli ambiti di propria competenza, promuovendo una riflessione metodologica ampia sulla diversità dei dati linguistici e testuali. Gli eventi formativi promossi dal Laboratorio Sperimentale comprendono seminari, scuole estive di formazione e knowledge base e sono raccolti nella tabella qui sotto. Nella tabella potrete trovare il titolo del seminario, il link al video e i materiali forniti dai relatori liberamente scaricabili. Alcuni video sono fruibili da tutti, mentre per altri l'accesso è consentito solo a utenti UniBO.
+
 La sezione [**Seminari del Laboratorio**](https://laboratoriosperimentale.github.io/seminari/seminari/) nel menu di navigazione vi porterà a una pagina contenente delle card per ogni seminario o pacchetto formativo. Ogni card è contrassegnata da dei tag, come per esempio _tool_ o _resource_, a seconda del contenuto del seminario e conduce a un testo in cui è esposta in maniera dettagliata l'argomento del seminario. I contenuti testuali che troverete in questa pagina sono stati prodotti nell'ambito dei tirocini formativi curriculari proposti presso il Laboratorio Sperimentale.
 
 {% include section.html %}
@@ -12,13 +40,17 @@ La sezione [**Seminari del Laboratorio**](https://laboratoriosperimentale.github
 
 | Data       | Titolo                 | Speaker         | Video                 | Materiali |
 | ---        | ---                    | ----            | ----                  | ---       |
+
+
+
+## In lavorazione
+
 | 30/09/2024 | Analisi dei dati linguistici con R e JASP: dalla sintesi dei dati alla statistica inferenziale | [Flavio Pisciotta](https://www.dipsumdills.it/en/teacher/flavio-pisciotta), Università degli Studi di Salerno | | [code](https://github.com/LaboratorioSperimentale/Formazione-seminario_R_Jasp) |
 | 06/09/2024 | The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction | [Johanna Miecznikowski](https://search.usi.ch/it/persone/ac8f4424bc40c3a8f9184f72ff606e46/miecznikowski-fuenfschilling-johanna), [Elena Battaglia](https://search.usi.ch/it/persone/9f04e935085ef74d0f7bbcb805b1ee27/battaglia-elena), Università della Svizzera Italiana | | |
 | 21/06/2024 | Digital Text Annotation and Analysis with CATMA 7 | [Mari Akazawa](https://www.linglit.tu-darmstadt.de/institutlinglit/mitarbeitende/akazawa_linglit/standardseite_akazawa_linglit.de.jsp), TU-Darmstadt e forText | | |
 | 21/01/2021 | La trascrizione del parlato con ELAN | Silvia Ballarè, Università di Bologna |  |
 | 21/11/2024 | Tu chiamale se vuoi emozioni: metodi e strumenti per l’analisi emotiva dei testi | [Eliana Di Palma](members/ElianadiPalma.html), Sapienza Università di Roma | | [ELIta](https://github.com/elianadipalma/ELIta)
 | 21/01/2025 | Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole | Maria Montefinese, Università di Padova |  |
-
 
 ## Coming soon
 

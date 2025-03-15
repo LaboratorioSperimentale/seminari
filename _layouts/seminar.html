@@ -14,7 +14,13 @@
       {%
         include summary-table.html
         speaker=page.speaker
+        video_title = page.video_title
+        video=page.video
+        length=page.length
+        unibo=page.unibo
       %}
+
+      {% toc %}
 
       {% include content.html content=content %}
     </main>

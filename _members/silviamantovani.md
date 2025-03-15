@@ -1,6 +1,6 @@
 ---
 name: Silvia Mantovani
-image: images/photo.jpg
+image: images/avatars/avatar silvia.png
 role: tirocinante
 affiliation: CdL in ...
 aliases:
@@ -9,11 +9,4 @@ links:
   home-page: https://janesmith.com
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
-Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
-Elit at imperdiet dui accumsan.
-Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
-Vitae elementum curabitur vitae nunc sed velit dignissim sodales.
-Lacinia at quis risus sed vulputate odio ut.
-Magna eget est lorem ipsum.
+Silvia Mantovani è una studentessa dell’Università di Bologna, iscritta al corso di laurea in Lingue, mercati e culture dell'Asia e dell'Africa Mediterranea. Nell’anno accademico 2024/2025 ha svolto il tirocinio curricolare presso il Laboratorio Sperimentale.
