@@ -96,6 +96,13 @@
   publisher: ShareTIGR
   link: https://sharetigr.usi.ch/it/news/feeds/38387
 
-- id: doi:10.3384/ecp18941
+- title: The TEI-based ISO Standard ‘Transcription of spoken language’ as an Exchange Format within CLARIN and beyond
   tigr: true
   type: article
+  doi: doi:10.3384/ecp1894
+  date: 2022-07-08
+  authors:
+    - Hanna Hedeland
+    - Thomas Schmidt
+  link: https://ecp.ep.liu.se/index.php/clarin/article/view/415
+  publisher: Linköping Electronic Conference Proceedings

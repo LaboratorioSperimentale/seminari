@@ -1,184 +1,5 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.25364/19.2023.9.5
-  title: Costruzioni evidenziali intersoggettive basate su verbi riferiti al destinatario
-    Il caso di vedi/vede/vedete+che
-  authors:
-  - Johanna Miecznikowski
-  - Elena Battaglia
-  - Christian Geddo
-  publisher: Studia linguistica romanica
-  date: '2023-01-01'
-  link: https://doi.org/g88m6k
-  orcid: 0000-0002-1786-8151
-  johanna-miecznikowski: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.pragma.2023.05.015
-  title: Epistemic and evidential markers in contexts of disagreement
-  authors:
-  - Johanna Miecznikowski
-  - "J\xE9r\xF4me Jacquin"
-  publisher: Journal of Pragmatics
-  date: '2023-08-01'
-  link: https://doi.org/g88m6m
-  orcid: 0000-0002-1786-8151
-  johanna-miecznikowski: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.pragma.2022.04.006
-  title: "Italian non vedo/non si vede + indirect wh-interrogative clause (\u2018\
-    I don't see why/what/how...\u2019) as a marker of disagreement"
-  authors:
-  - Johanna Miecznikowski
-  publisher: Journal of Pragmatics
-  date: '2022-08-01'
-  link: https://doi.org/g88m6p
-  orcid: 0000-0002-1786-8151
-  johanna-miecznikowski: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1075/jaic.00005.osw
-  title: Argumentation and meaning
-  authors:
-  - Steve Oswald
-  - Sara Greco
-  - Johanna Miecznikowski
-  - Chiara Pollaroli
-  - Andrea Rocci
-  publisher: Journal of Argumentation in Context
-  date: '2020-05-04'
-  link: https://doi.org/g88m6q
-  orcid: 0000-0002-1786-8151
-  johanna-miecznikowski: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.22329/il.v39i4.6047
-  title: Preface
-  authors:
-  - Chiara Pollaroli
-  - Sara Greco
-  - Steve Oswald
-  - Johanna Miecznikowski-Fuenfschilling
-  - Andrea Rocci
-  publisher: Informal Logic
-  date: '2019-12-11'
-  link: https://doi.org/g88m6r
-  orcid: 0000-0002-1786-8151
-  johanna-miecznikowski: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1007/978-3-319-73972-4_4
-  title: 'Evidential and Argumentative Functions of Dynamic Appearance Verbs in Italian:
-    The Example of Rivelare and Emergere'
-  authors:
-  - Johanna Miecznikowski
-  publisher: Argumentation Library
-  date: '2018-01-01'
-  link: https://doi.org/g88m6s
-  orcid: 0000-0002-1786-8151
-  johanna-miecznikowski: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1075/jaic.5.1.03pal
-  title: Predictions in economic-financial news
-  authors:
-  - Rudi Palmieri
-  - Johanna Miecznikowski
-  publisher: Journal of Argumentation in Context
-  date: '2016-03-24'
-  link: https://doi.org/g88m6t
-  orcid: 0000-0002-1786-8151
-  johanna-miecznikowski: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1007/978-3-319-21103-9_19
-  title: 'Verbs of Appearance and Argument Schemes: Italian Sembrare as an Argumentative
-    Indicator'
-  authors:
-  - Johanna Miecznikowski
-  - Elena Musi
-  publisher: Argumentation Library
-  date: '2015-01-01'
-  link: https://doi.org/g88m6v
-  orcid: 0000-0002-1786-8151
-  johanna-miecznikowski: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1007/bf03379847
-  title: Mehrsprachig leben und studieren. Die Sicht studentischer Migranten
-  authors:
-  - Johanna Miecznikowski
-  publisher: "Zeitschrift f\xFCr Literaturwissenschaft und Linguistik"
-  date: '2010-12-01'
-  link: https://doi.org/g88m6w
-  orcid: 0000-0002-1786-8151
-  johanna-miecznikowski: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1163/9789004253216_007
-  title: "Central/Peripheral Functions of allora and \u2018Overall Pragmatic Configuration\u2019\
-    : A Diachronic Perspective"
-  authors:
-  - Carla Bazzanella
-  - Johanna Miecznikowski
-  publisher: Current Trends in Diachronic Semantics and Pragmatics
-  date: '2009-01-01'
-  link: https://doi.org/g88m6x
-  orcid: 0000-0002-1786-8151
-  johanna-miecznikowski: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.pragma.2009.01.001
-  title: 'Detto non detto: Le forme della comunicazione implicita'
-  authors:
-  - Johanna Miecznikowski
-  publisher: Journal of Pragmatics
-  date: '2009-07-01'
-  link: https://doi.org/dd2tmm
-  orcid: 0000-0002-1786-8151
-  johanna-miecznikowski: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.5565/rev/catjl.122
-  title: 'Italian allora, French alors: Functions, convergences and divergences'
-  authors:
-  - Carla Bazzarella
-  - Cristina Bosco
-  - Alessandro Garcea
-  - Barbara Gili Fivela
-  - Johanna Miecznikowski
-  - Francesca Tini Brunozzi
-  publisher: Catalan Journal of Linguistics
-  date: '2007-12-01'
-  link: https://doi.org/g88m6z
-  orcid: 0000-0002-1786-8151
-  johanna-miecznikowski: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: isbn:3039103407
-  title: 'Leben mit mehreren Sprachen: Sprachbiographien'
-  authors: []
-  publisher: Lang
-  date: '2004-01-01'
-  link: ''
-  orcid: 0000-0002-1786-8151
-  johanna-miecznikowski: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.3917/rfla.051.0025
-  title: "Les activit\xE9s de traduction dans des r\xE9unions de travail plurilingues"
-  authors:
-  - Elwys De Stefani
-  - Johanna Miecznikowski
-  - Lorenza Mondada
-  publisher: "Revue fran\xE7aise de linguistique appliqu\xE9e"
-  date: '2000-06-01'
-  link: https://doi.org/g88m62
-  orcid: 0000-0002-1786-8151
-  johanna-miecznikowski: true
-  plugin: orcid.py
-  file: orcid.yaml
 - title: Composizione del TIGR
   tigr: true
   type: blog-post
@@ -293,8 +114,16 @@
   link: https://sharetigr.usi.ch/it/news/feeds/38387
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.3384/ecp18941
+- title: "The TEI-based ISO Standard \u2018Transcription of spoken language\u2019\
+    \ as an Exchange Format within CLARIN and beyond"
   tigr: true
   type: article
+  doi: doi:10.3384/ecp1894
+  date: '2022-07-08'
+  authors:
+  - Hanna Hedeland
+  - Thomas Schmidt
+  link: https://ecp.ep.liu.se/index.php/clarin/article/view/415
+  publisher: "Link\xF6ping Electronic Conference Proceedings"
   plugin: sources.py
   file: sources.yaml

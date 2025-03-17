@@ -376,11 +376,10 @@ La procedura comprende i seguenti step, elencati in ordine di precedenza:
 1. Ricongiungimento dei frammenti di parola creati ai confini dei segmenti in ELAN, che avverrà in maniera in parte automatica, grazie all'uso di un lessico estratto da ItTenTen, e in parte manuale
 2. Concatenazione dei segmenti ELAN in "contributi" (si tratta di un'approssimazione dell'unità "turno")
 3. Divisione automatica dei contributi in parole
-4. Conversione in un documento XML conforme all'[ISO/TC 37/SC 4, 2016](https://standards.clarin.eu/sis/views/view-format.xq?id=fTEISpoken)[^3]. A proposito degli standard ISO per la trascrizione della lingua parlata si cita l'articolo _The TEI-based ISO Standard ‘Transcription of spoken language’
-as an Exchange Format within CLARIN and beyond_:
+4. Conversione in un documento XML conforme all'[ISO/TC 37/SC 4, 2016](https://standards.clarin.eu/sis/views/view-format.xq?id=fTEISpoken)[^3]. A proposito degli standard ISO per la trascrizione della lingua parlata si cita l'articolo _The TEI-based ISO Standard ‘Transcription of spoken language’ as an Exchange Format within CLARIN and beyond_:
   {%
     include citation.html
-    lookup="doi:10.3384/ecp18941"
+    lookup="The TEI-based ISO Standard ‘Transcription of spoken language’ as an Exchange Format within CLARIN and beyond"
   %}
 
 [^3]: standard ISO per la trascrizione della lingua parlata
@@ -499,6 +498,3 @@ La piattaforma online, al contrario, è percepita da molti come più comoda perc
 Nel contesto del [progetto FAIR-FI-LD](https://www.liri.uzh.ch/en/projects/FAIR-FI-LD.html) condotto dall'Università di Zurigo a cui partecipa tra gli altri anche l'USI (in particolare l'Istituto di Studi Italiani, o ISI), si vuole depositare il TIGR nel [LiRI Corpus Platform (o LCP)](https://www.liri.uzh.ch/en/services/LiRI-Corpus-Platform-LCP.html). Questa piattaforma online è stata creata dal LiRI (Linguistic Research Infrastructure), un dipartimento dell'Università di Zurigo. Per saperne di più sul LiRI e di che cosa si occupa, qui è riportata la home page del sito: <https://www.liri.uzh.ch/en.html>.
 Grazie alla collaborazione con _Linguisticbits_, di cui si è parlato sopra, si sta cercando di definire una procedura di upload in LCP di trascrizioni XML tokenizzate.
 
-## References
-
-{% include list.html data="citations" component="citation" filters="tigr: true" %}
