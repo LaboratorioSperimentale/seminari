@@ -2,17 +2,17 @@
 layout: seminar
 title: "Il corpus TIGR: un corpus video per lo studio dell'italiano parlato"
 author: silviamantovani
-speaker: Johanna Miecznikowski, Elena Battaglia
+speaker: johannamiecznikowski, elenabattaglia
 video_title: "The TIGR corpus: collection, transcription, processing and management of video-recorded data"
 video: "https://liveunibo-my.sharepoint.com/personal/ludovica_pannitto_unibo_it/_layouts/15/stream.aspx?id=%2Fpersonal%2Fludovica%5Fpannitto%5Funibo%5Fit%2FDocuments%2FSEMINARI%20LAB%2FVideo%2F2024%2FThe%20TIGR%20corpus%20%2DCUT%2D%20collection%2C%20transcription%2C%20processing%20and%20management%20of%20videorecorded%20data%20for%20the%20study%20of%20Italian%20talk%20in%20interaction%20%281%29%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E8b327ce2%2D17b6%2D49a2%2Da13b%2D51095c65714c"
 length: 2h
 unibo: yes
 ---
 
+* Table of Contents
+{:toc}
+{:.no_toc}
 
-
-
-# Il corpus TIGR: un corpus video per lo studio dell'italiano parlato
 ## Introduzione al corpus TIGR
 
 Il corpus d'italiano parlato TIGR è stato raccolto negli anni 2021 e 2022  nei cantoni svizzeri Ticino e Grigioni (da qui il nome) e nasce all'interno di un progetto di ricerca condotto dall'Università della Svizzera Italiana (USI), **InfinIta - La categorizzazione delle fonti di informazione nell'interazione faccia a faccia. Una indagine basata sul corpus di italiano parlato TIGR** (per l'abstract e le pubblicazioni scientifiche: <https://data.snf.ch/grants/grant/192771>). Il progetto è stato finanziato dalla Swiss National Science Foundation (SNSF) e terminerà il 31 agosto 2025.
@@ -45,11 +45,11 @@ Sono diversi i motivi che hanno spinto alla creazione di un corpus video:
 
 1. Il video consente lo studio dell'uso integrato di mezzi verbali, mezzi multimodali e risorse situazionali (oggetti a disposizione in una situazione che diventano funzionali alla comunicazione). Nello specifico, la disponibilità di dati videoregistrati permette di:
 
-   - Individuare le **fonti in situ**, cioè le fonti delle informazioni aquisite durante l'interazione in corso grazie alla percezione diretta e alle inferenze basate su indizi percettivi: _'Hanno suonato alla porta, sarà il postino'_, _'Questo ragno si muove... sarà ancora vivo'_ sono esempi costruiti ad hoc sull'evidenzialità basati su indizi percettivi. Spesso nella letteratura sull'evidenzialità gli esempi sono costruiti a tavolino. Quando però abbiamo dei dati video a disposizione possiamo capire <ins>in modo empirico</ins> quali stimoli eventualmente presenti nella situazione diventano funzionali all'espressione della fonte.
-   - Identificare il ruolo della direzione dello sguardo e di certi gesti nel posizionamento epistemico.
-   - Comprendere la costruzione del riferimento deittico. Ad esempio, _qui_, _qua_, etc., interpretabili meglio quando sono presenti delle immagini a cui poter fare riferimento.
+   * Individuare le **fonti in situ**, cioè le fonti delle informazioni aquisite durante l'interazione in corso grazie alla percezione diretta e alle inferenze basate su indizi percettivi: _'Hanno suonato alla porta, sarà il postino'_, _'Questo ragno si muove... sarà ancora vivo'_ sono esempi costruiti ad hoc sull'evidenzialità basati su indizi percettivi. Spesso nella letteratura sull'evidenzialità gli esempi sono costruiti a tavolino. Quando però abbiamo dei dati video a disposizione possiamo capire **in modo empirico** quali stimoli eventualmente presenti nella situazione diventano funzionali all'espressione della fonte.
+   * Identificare il ruolo della direzione dello sguardo e di certi gesti nel posizionamento epistemico.
+   * Comprendere la costruzione del riferimento deittico. Ad esempio, _qui_, _qua_, etc., interpretabili meglio quando sono presenti delle immagini a cui poter fare riferimento.
 
-2. La presenza di un riferimento video consente una prospettiva più ricca e dinamica su come la grammatica funzioni e si sviluppi nel contesto di interazioni reali e multi-modali. Infatti, la grammatica (come la sintassi o i segnali discorsivi) da un lato è uno strumento che organizza l'interazione, ma dall'altro può essere influenzata o "emergere" dalle strutture sequenziali delle interazioni, cioè da come si sviluppano e si susseguono gli scambi comunicativi nel tempo. Dato che le interazioni non sono mediate solo dalle parole, ma anche dai gesti, i movimenti o le espressioni facciali, <ins>i video permettono di osservare come si sviluppano le interazioni nel loro contesto sequenziale completo</ins>. Inoltre, consentono di analizzare la **multi-attività**, cioè situazioni in cui il discorso si intreccia con altre attività parallele (ad esempio, una persona che parla mentre cucina o che gesticola durante la conversazione).
+2. La presenza di un riferimento video consente una prospettiva più ricca e dinamica su come la grammatica funzioni e si sviluppi nel contesto di interazioni reali e multi-modali. Infatti, la grammatica (come la sintassi o i segnali discorsivi) da un lato è uno strumento che organizza l'interazione, ma dall'altro può essere influenzata o "emergere" dalle strutture sequenziali delle interazioni, cioè da come si sviluppano e si susseguono gli scambi comunicativi nel tempo. Dato che le interazioni non sono mediate solo dalle parole, ma anche dai gesti, i movimenti o le espressioni facciali, _i video permettono di osservare come si sviluppano le interazioni nel loro contesto sequenziale completo_. Inoltre, consentono di analizzare la **multi-attività**, cioè situazioni in cui il discorso si intreccia con altre attività parallele (ad esempio, una persona che parla mentre cucina o che gesticola durante la conversazione).
 
 3. La variazione diafasica viene meglio studiata grazie al video. È infatti possibile studiare quelle interazioni che generalmente non vengono prese in considerazione se si dispone solamente dell'audio in quanto con la sola documentazione audio si perdono troppe informazioni. Un esempio potrebbe essere l'analisi dell'interazione durante una lezione di guida, inutile se l'interazione è documentata solo tramite registrazione audio.
 
@@ -60,7 +60,6 @@ Per conoscere la struttura del TIGR nel contesto del progetto InfinIta e lo stat
 {%
   include citation.html
   lookup="Composizione del TIGR"
-  style="rich"
 %}
 
 {%
@@ -76,7 +75,6 @@ Ci sono poi stati dei riadattamenti del design del corpus a causa dell'avvento d
 {%
   include citation.html
   lookup="Raccogliere dati linguistici ai tempi del COVID-19"
-  style="rich"
 %}
 
 Alla fine del processo sono state ottenute 23h 30' di videoregistrazione, per un totale di 23 eventi e 115 parlanti.
@@ -89,9 +87,9 @@ Alla fine del processo sono state ottenute 23h 30' di videoregistrazione, per un
 
 Per quanto riguarda i contesti didattici, sono state registrate lezioni di tre tipi:
 
-- sessioni di tutoring in architettura
-- lezioni di teatro, di musica e di restauro
-- lezioni di glottodidattica e di cultura generale nella scuola superiore in cui gli studenti si cimentavano in lavori di gruppo e presentazioni.
+* sessioni di tutoring in architettura
+* lezioni di teatro, di musica e di restauro
+* lezioni di glottodidattica e di cultura generale nella scuola superiore in cui gli studenti si cimentavano in lavori di gruppo e presentazioni.
 
 COLLEGAMENTO IPERTESTUALE AGLI ESEMPI
 
@@ -107,7 +105,6 @@ Il contatto e il reclutamento dei partecipanti sono descritti in dettaglio nel s
 {%
   include citation.html
   lookup="Il lavoro sul campo: ricerca e contatto dei partecipanti"
-  style="rich"
 %}
 
 [^1]: Nel testo dell'articolo è presente anche il link al questionario che è stato sottoposto ai parlanti.
@@ -119,7 +116,6 @@ Per un approfondimento sul questionario che i parlanti hanno dovuto compilare:
 {%
   include citation.html
   lookup="Digitisation of the TIGR participant questionnaires"
-  style="rich"
 %}
 
 #### Dichiarazioni di consenso informato: esigenze della ricerca, esigenze legali e questioni etiche
@@ -131,7 +127,6 @@ Per una riflessione approfondita sulle tematiche legali, si rimanda all'articolo
 {%
   include citation.html
   lookup="Social interaction is among people. Legal, technical, and ethical explorations about personal information and its removal in talk-in-interaction as data"
-  style="rich"
 %}
 
 Prevedere fin dall'inizio la pubblicazione dei dati (video) richiede una riflessione su due tematiche principali:
@@ -141,7 +136,7 @@ Prevedere fin dall'inizio la pubblicazione dei dati (video) richiede una rifless
 
 Qui di seguito, la struttura del documento di dichiarazione di consenso informato che è stato fatto firmare ai partecipanti.
 
-**Parte A. Documento informativo**
+##### Parte A. Documento informativo
 
 1. Introduzione
 2. Descrizione del progetto di ricerca per un pubblico non specialista
@@ -151,29 +146,28 @@ Qui di seguito, la struttura del documento di dichiarazione di consenso informat
 6. Diritti dei partecipanti allo studio
 7. Contatti
 
-**Parte B. Consenso informato**
+##### Parte B. Consenso informato
 
 Ogni partecipante registrata/o ha espresso il proprio consenso all'uso dei dati dopo essere messa/o a conoscenza degli scopi dell'indagine e delle modalità di diffusione dei dati. In caso il parlante avesse deciso di non essere riconoscibile, le opzioni di deidentificazione tra cui poteva scegliere erano due:
 
-- **default**: pseudonimi nella trascrizione, silenzi nella traccia audio, misure di deidentificazione nei metadati
-- **misure supplementari**: alterazione della voce nella traccia audio (6 richieste), applicazione di filtri nella traccia video (15 richieste)
+* **default**: pseudonimi nella trascrizione, silenzi nella traccia audio, misure di deidentificazione nei metadati
+* **misure supplementari**: alterazione della voce nella traccia audio (6 richieste), applicazione di filtri nella traccia video (15 richieste)
 
 Per saperne di più a proposito della stesura del documento di dichiarazione di consenso informato da parte del team di InfinIta, si legga l'articolo:
 
 {%
   include citation.html
   lookup="Dichiarazioni di consenso informato"
-  style="rich"
 %}
 
 #### Misure di deidentificazione dei dati
 
 Per quanto riguarda le misure di deidentificazione dei partecipanti, sono stati adottati diversi provvedimenti:
 
-- Ad ogni partecipante è stato attrbuito un codice informatore nel formato inf-N.
-- L'età è stata ridotta a un intervallo.
-- Per quanto riguarda le informazioni sul luogo di provenienza, è stato inserito lo Stato (ad esempio, Svizzera) e il cantone (o la regione nel caso dell'Italia).
-- il luogo di registrazione viene descritto solamente dal Cantone e dalle dimensioni del centro abitato (> o <10,000 abitanti).
+* Ad ogni partecipante è stato attrbuito un codice informatore nel formato inf-N.
+* L'età è stata ridotta a un intervallo.
+* Per quanto riguarda le informazioni sul luogo di provenienza, è stato inserito lo Stato (ad esempio, Svizzera) e il cantone (o la regione nel caso dell'Italia).
+* il luogo di registrazione viene descritto solamente dal Cantone e dalle dimensioni del centro abitato (> o <10,000 abitanti).
 
 Inoltre, come è riportato sul sito del corpus alla voce "Deidentificazione":
 
@@ -217,9 +211,9 @@ Qui vengono mostrati i dati specifici sulle regioni italiane e sui cantoni svizz
 In merito alla Svizzera, la maggior parte dei parlanti ha frequentato la scuola elementare nei cantoni Ticino e Grigioni.
 
 {%
-include figure.html
-image="images/seminar-images/tigr/image-16.png"
-caption="La maggior parte dei partecipanti ha frequentato la scuola elementare in Italia e in Svizzera."
+  include figure.html
+  image="images/seminar-images/tigr/image-16.png"
+  caption="La maggior parte dei partecipanti ha frequentato la scuola elementare in Italia e in Svizzera."
 %}
 
 {%
@@ -267,7 +261,6 @@ Il livello di istruzione principale è la scuola secondaria di secondo grado. Tr
   caption="Livello di istruzione"
 %}
 
-
 ## Luoghi dove sono stati registrati gli eventi del TIGR
 
 Come è stato detto, la registrazione delle interazioni è avvenuta nei cantoni Ticino e Grigioni. Le località all'interno dei due cantoni sono determinate in modo opportunistico in base alla disponibilità dei parlanti. In una seconda fase della raccolta, la presa di contatto ad hoc con le istituzioni scolastiche ha permesso di ampliare la copertura geografica del corpus.
@@ -285,12 +278,10 @@ La prassi era quella di andare sul luogo della registrazione, installare i dispo
 Una volta conclusesi le interazioni, i ricercatori venivano contattati dai partecipanti tramite Whatsapp.
 
 In particolare, come viene illustrato sul sito dell'USI alla voce "Registrazioni audio e video":
+
 >per ogni evento del TIGR sono state fatte due riprese video da angolazioni differenti, usando delle telecamere Sony HXR-NX80//C. Le tracce audio sono da due a sei, secondo il numero di partecipanti all'evento. Sono state registrate con da due a quattro registratori tascabili Tentacle Track E muniti di microfono da bavero e con un microfono esterno Sony EGM-VG1 montato su una delle telecamere. Nel caso specifico dell'interazione in classe, l'équipe ha aggiunto un ulteriore microfono, del tipo Neumann TLM 127 ni-K, collocato in posizione centrale e collegato con l'altra telecamera.
-
 >I vari dispositivi sono stati sincronizzati prima dell'inizio della registrazione per ottenere una corrispondenza più precisa possibile tra immagine e suono. A questo fine sono stati impiegati generatori di timecode della marca Tentacle. Tali generatori sono parte integrante degli audioregistratori Tentacle Track E, che registrano direttamente un timecode numerico. Con le telecamere sono invece stati usati i dispositivi esterni Tentacle Sync, collegati tramite le connessioni per microfoni delle telecamere. Essi generano del timecode acustico che durante le riprese viene registrato nel corrispondente canale audio. Una componente cruciale del sistema Tentacle è un'applicazione mobile che comunica con tutti i dispositivi tramite bluetooth e permette di sincronizzarli da remoto nonché di avviare e interrompere le registrazioni.
-
 >Dopo le riprese, i file video sono stati elaborati dal programma Tentacle Timecode Tool per Windows. Il programma legge il segnale acustico che codifica il timecode, lo converte in informazione numerica e infine lo cancella, mantenendo solo il timecode numerico. In un'ulteriore fase di post-produzione, tutti i file video e audio sono sono stati importati in un progetto Adobe Premiere, dove sono stati allineati sulla base del timecode numerico e sono stati tagliati per ottenere tracce di uguale durata.
-
 >Le impostazioni tecniche di ogni evento e altri aspetti inerenti alla collezione dei dati sono stati descritti in una scheda, talvolta corredata da fotografie. La scheda registra la data e il luogo dell'evento, elenca i dispositivi usati e i codici identificatori anonimi dei partecipanti, riporta eventuali desideri di deidentificazione e contiene appunti su altri aspetti della situazione che l'équipe sul campo giudicava potenzialmente rilevanti per l'interpretazione dei dati. Una funzione importante della scheda è di associare i codici identificatori dei parlanti a una descrizione del loro aspetto e ai nomi dei microfoni da bavero. Essa contiene, infine, appunti su eventuali problemi tecnici riscontrati durante l'elaborazione dei file tramite TTT e in Adobe Premiere.
 
 ### La trascrizione
@@ -298,15 +289,15 @@ In particolare, come viene illustrato sul sito dell'USI alla voce "Registrazioni
 Per la trascrizione è stato utilizzato il software ELAN, v. 6.7.
 È stato inoltre adottato il sistema GAT2 (Gesprächsanalytische Transkriptionssystem):
 
-- funzionale a una trascrizione tramite software e machine-readable
-- integrato in editor digitali (per esempio EXMARaLDA)
-- dotato di tre livelli di granularità: minimal script, basic script e fine script (quello più dettagliato e usato per il corpus TIGR)
+* funzionale a una trascrizione tramite software e machine-readable
+* integrato in editor digitali (per esempio EXMARaLDA)
+* dotato di tre livelli di granularità: minimal script, basic script e fine script (quello più dettagliato e usato per il corpus TIGR)
 
 Alla guida interna sono stati aggiunti:
 
-- una lista di lemmi per uniformare la grafia delle interiezioni
-- la trascrizione del raddoppiamento fonosintattico (ex., _va bbene_, _e nniente_ )
-- l'uso del simbolo ~ per le interruzioni udibili di una parola (in particolare, glottal stop), per esempio in esitazioni o ripartenze
+* una lista di lemmi per uniformare la grafia delle interiezioni
+* la trascrizione del raddoppiamento fonosintattico (ex., _va bbene_, _e nniente_ )
+* l'uso del simbolo ~ per le interruzioni udibili di una parola (in particolare, glottal stop), per esempio in esitazioni o ripartenze
 
 Di seguito sono riportate alcune delle convenzioni GAT2 utilizzate nella trascrizione delle registrazioni
 
@@ -320,7 +311,7 @@ Di seguito sono riportate alcune delle convenzioni GAT2 utilizzate nella trascri
   image="images/seminar-images/tigr/image-22.png"
 %}
 
-Da notare l'annotazione del comportamento non verbale (guarda nell'immagine sopra in  "Laughter and crying") che funziona con la logica del tag.
+Da notare l'annotazione del comportamento non verbale (guarda nell'immagine sopra in "Laughter and crying") che funziona con la logica del tag.
 
 {%
   include figure.html
@@ -348,59 +339,83 @@ COLLEGAMENTO IPERTESTUALE 1:02:14 a 1:04:03
 Come esportare la trascrizione da ELAN e creare un formato leggibile?
 Come abbiamo visto, la prima trascrizione avviene su ELAN. Da questa trascrizione possono derivate altri due tipi di trascrizione:
 
-- una trascrizione in stile "dialogo teatrale" e formato TXT, come questa:
+1. una trascrizione in stile "dialogo teatrale" e formato `txt`;
+2. una trascrizione in versione tokenizzata, di cui si parlerà nel paragrafo successivo.
 
   {%
   include figure.html
   image="images/seminar-images/tigr/image-28.png"
+  caption="trascrizione in stile 'dialogo teatrale'"
   %}
 
-  Questo tipo di trascrizione offre un'approssimazione grafica dell'organizzazione della conversazione in turni e una buona base per un'analisi sequenziale.
-  Inoltre, costituisce un input per l'annotazione delle fonti di informazione all'interno del progetto InfinIta, eseguita nel programma [INCEpTION](https://inception-project.github.io/).
-  Infine, il formato TXT è semplice e interoperabile.
+Il primo tipo di trascrizione offre un'approssimazione grafica dell'organizzazione della conversazione in turni e una buona base per un'analisi sequenziale.
+Inoltre, costituisce un input per l'annotazione delle fonti di informazione all'interno del progetto InfinIta, eseguita nel programma [INCEpTION](https://inception-project.github.io/).
+ Infine, il formato `txt` è semplice e interoperabile.
 
-  Come fare per passare da una trascrizione ELAN a una trascrizione di questo tipo?
-  Si può esportare da ELAN la trascrizione in formato testo "tradizionale", con o senza timecode e con la formattazione automatica dei turni.
-  Però sono stati riscontrati alcuni problemi, tra cui:
-  - se si intende esportare la trascrizione con il timecode, il file risulta illeggibile
-  - la messa in sequenza automatica dei turni non è sempre intuitiva
+Come fare per passare da una trascrizione ELAN a una trascrizione di questo tipo?
+Si può esportare da ELAN la trascrizione in formato testo "tradizionale", con o senza timecode e con la formattazione automatica dei turni.
+Però sono stati riscontrati alcuni problemi, tra cui: se si intende esportare la trascrizione con il timecode, il file risulta illeggibile e la messa in sequenza automatica dei turni non è sempre intuitiva.
+La soluzione è stata quella di condurre una **procedura semi-automatica (script Python)**: la trascrizione veniva esportata da ELAN come trascrizione in formato "tradizionale" e con l'allineamento verticale delle parentesi quadre. Attraverso degli script sono stati eliminati i timecode tranne quelli che segnano i tempi iniziali dei segmenti (creati su ELAN), che compaiono all'incirca ogni 10 secondi. Sono, poi, state collocate delle ancore "((TC))" nel testo, come si vede in questo esempio
 
-  La soluzione è stata quella di condurre una **procedura semi-automatica (script Python)**
-  - la trascrizione veniva esportata da ELAN come trascrizione in formato "tradizionale" e con l'allineamento verticale delle parentesi quadre
-  - Attraverso degli script sono stati eliminati i timecode tranne quelli che segnano i tempi iniziali dei segmenti (creati su ELAN), che compaiono all'incirca ogni 10 secondi. Sono, poi, state collocate delle ancore "((TC))" nel testo, come si vede in questo esempio
-
-  {%
+{%
   include figure.html
   image="images/seminar-images/tigr/image-29.png"
-  %}
-  - Sono stati eliminati i nomi di parlanti superflui e sono stati concatenati i segmenti
-  - Si è formattato manualmente le trascrizioni quando presentavano sovrapposizioni di più di due parlanti
+%}
 
-- Una trascrizione in versione tokenizzata, di cui si parlerà nel paragrafo successivo.
+Sono stati eliminati i nomi di parlanti superflui e sono stati concatenati i segmenti e si è formattato manualmente le trascrizioni quando presentavano sovrapposizioni di più di due parlanti
 
 #### Verso una versione tokenizzata delle trascrizioni
 
-I due tipi di trascrizione, quella originale in ELAN e quella in stile "dialogo teatrale" in formato TXT, non sono tokenizzate.
+I due tipi di trascrizione, quella originale in ELAN e quella in stile "dialogo teatrale" in formato `txt`, non sono tokenizzate.
 
 Cos'è la tokenizzazione? È la divisione di un testo in "token", cioè unità linguisticamente pertinenti di varia complessità. È indispensabile per l'inserimento in un database e ai fini della ricerca lessicometrica, morfo-sintattica, fonologica, ecc. Fornisce, infine, gli input per le procedure di annotazione automatica (per esempio, l'annotazione delle parti del discorso e la lemmatizzazione)
 
-Per questa procedura di tokenizzazione delle trascrizioni si sta collaborando con l'azienda _Linguisticbits_ del Dr. Thomas Schmidt.
+Per questa procedura di tokenizzazione delle trascrizioni si sta collaborando con l'azienda [_Linguisticbits_](https://linguisticbits.de/) del Dr. Thomas Schmidt.
 La procedura comprende i seguenti step, elencati in ordine di precedenza:
 
 1. Ricongiungimento dei frammenti di parola creati ai confini dei segmenti in ELAN, che avverrà in maniera in parte automatica, grazie all'uso di un lessico estratto da ItTenTen, e in parte manuale
 2. Concatenazione dei segmenti ELAN in "contributi" (si tratta di un'approssimazione dell'unità "turno")
 3. Divisione automatica dei contributi in parole
-4. Conversione in un documento XML conforme all'[ISO/TC 37/SC 4, 2016](https://standards.clarin.eu/sis/views/view-format.xq?id=fTEISpoken)[^3]. A proposito degli standard ISO per la trascrizione della lingua parlata si cita l'articolo H. Hedeland & T. Schmidt. The TEI-based ISO Standard ‘Transcription of spoken language’as an Exchange Format within CLARIN and beyond. _Selected papers from the CLARIN Annual Conference 2021._Ed. M. Monachini & M. Eskevich. Linköping Electronic Conference Proceedings 189, pp. 34-35. DOI: https://doi.org/10.3384/9789179294441
+4. Conversione in un documento XML conforme all'[ISO/TC 37/SC 4, 2016](https://standards.clarin.eu/sis/views/view-format.xq?id=fTEISpoken)[^3]. A proposito degli standard ISO per la trascrizione della lingua parlata si cita l'articolo _The TEI-based ISO Standard ‘Transcription of spoken language’
+as an Exchange Format within CLARIN and beyond_:
+  {%
+    include citation.html
+    lookup="doi:10.3384/ecp18941"
+  %}
 
 [^3]: standard ISO per la trascrizione della lingua parlata
 
 Per saperne di più sul processo di trascrizione si rimanda ai seguenti articoli presenti nel blog:
-- [Morfologia delle trascrizioni, parte I: leggibili in che modo?](https://sharetigr.usi.ch/it/news/feeds/38046)
-- [Morfologia delle trascrizioni, parte II: codificare il tempo](https://sharetigr.usi.ch/it/news/feeds/38066)
-- [Morfologia delle trascrizioni, parte III: il primo script](https://sharetigr.usi.ch/it/news/feeds/37889)
-- [Morfologia delle trascrizioni, parte IV: allineamento temporale e segmentazione](https://sharetigr.usi.ch/it/news/feeds/38075)
-- [Morfologia delle trascrizioni, parte V: gestire le sovrapposizioni](https://sharetigr.usi.ch/it/news/feeds/38294)
-- [Morfologia delle trascrizioni, parte VI: uso di script in fase di impaginazione e di revisione](https://sharetigr.usi.ch/it/news/feeds/38387)
+
+{%
+  include citation.html
+  lookup="Morfologia delle trascrizioni, parte I: leggibili in che modo?"
+%}
+
+{%
+  include citation.html
+  lookup="Morfologia delle trascrizioni, parte II: codificare il tempo"
+%}
+
+{%
+  include citation.html
+  lookup="Morfologia delle trascrizioni, parte III: il primo script"
+%}
+
+{%
+  include citation.html
+  lookup="Morfologia delle trascrizioni, parte IV: allineamento temporale e segmentazione"
+%}
+
+{%
+  include citation.html
+  lookup="Morfologia delle trascrizioni, parte V: gestire le sovrapposizioni"
+%}
+
+{%
+  include citation.html
+  lookup="Morfologia delle trascrizioni, parte VI: uso di script in fase di impaginazione e di revisione"
+%}
 
 ## Condivisione dei dati
 
@@ -429,7 +444,13 @@ L'invio di dati tramite e-mail non assicura che i dati siano reperibili e access
 
 ### Il repositorio
 
-Nel caso del corpus TIGR verrà usato il **repositorio LaRS**, la sezione linguistica del repositorio [SWISSUbase](https://www.swissubase.ch/en/). Un articolo di approfondimento in inglese per chi fosse interessato: [_Exploring LaRS @ SWISSUbase_](https://sharetigr.usi.ch/it/news/feeds/37958).
+Nel caso del corpus TIGR verrà usato il **repositorio LaRS**, la sezione linguistica del repositorio [SWISSUbase](https://www.swissubase.ch/en/). Un articolo di approfondimento in inglese per chi fosse interessato:
+
+{%
+  include citation.html
+  lookup="Exploring LaRS @ SWISSUbase"
+%}
+
 Il repositorio LaRS è organizzato secondo tre livelli gerarchici:
 
 1. Studi
@@ -451,7 +472,12 @@ L'ultimo dataset sarà un dataset di sole trascrizioni, pensando a coloro che ha
 Il repositorio assegna un DOI a ciascun dataset.
 Il dataset è l'unità scaricabile.
 
-Per conoscere in dettaglio la costruzione dei vari dataset su LaRS, si legga [Grouping the TIGR data for reuse](https://sharetigr.usi.ch/it/news/feeds/38003).
+Per conoscere in dettaglio la costruzione dei vari dataset su LaRS, si legga:
+
+{%
+  include citation.html
+  lookup="Grouping the TIGR data for reuse"
+%}
 
 #### Metadati
 
@@ -461,7 +487,6 @@ Il repositorio mette a disposizione dei campi predefiniti, alcuni obbligatori al
   include figure.html
   image="images/seminar-images/tigr/image-35.png"
 %}
-
 
 Come si vede nell'immagine per ogni singolo evento il cuore è la tabella più centrale con le caratteristiche di base dell'evento (come il numero di partecipanti, il genere di interazione, e così via). La tabella centrale rinvia poi a una serie di altre tabelle. A sinistra si vedono due tabelle con i parlanti e i luoghi del TIGR. I parlanti del TIGR sono collegati al singolo evento tramite l'elenco dei partecipanti all'evento.
 L'evento è poi associabile all'elenco dei file video, all'elenco dei file audio e all'elenco delle trascrizioni.
@@ -473,3 +498,7 @@ La piattaforma online, al contrario, è percepita da molti come più comoda perc
 
 Nel contesto del [progetto FAIR-FI-LD](https://www.liri.uzh.ch/en/projects/FAIR-FI-LD.html) condotto dall'Università di Zurigo a cui partecipa tra gli altri anche l'USI (in particolare l'Istituto di Studi Italiani, o ISI), si vuole depositare il TIGR nel [LiRI Corpus Platform (o LCP)](https://www.liri.uzh.ch/en/services/LiRI-Corpus-Platform-LCP.html). Questa piattaforma online è stata creata dal LiRI (Linguistic Research Infrastructure), un dipartimento dell'Università di Zurigo. Per saperne di più sul LiRI e di che cosa si occupa, qui è riportata la home page del sito: <https://www.liri.uzh.ch/en.html>.
 Grazie alla collaborazione con _Linguisticbits_, di cui si è parlato sopra, si sta cercando di definire una procedura di upload in LCP di trascrizioni XML tokenizzate.
+
+## References
+
+{% include list.html data="citations" component="citation" filters="tigr: true" %}

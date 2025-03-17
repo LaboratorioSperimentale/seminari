@@ -4,6 +4,9 @@ title: "Analisi dei dati linguistici con R e Jasp: dalla sintesi dei dati alla s
 author: giuliamarmo
 ---
 
+* Table of Contents
+{:toc}
+{:.no_toc}
 
 ## Introduzione: che cos'è R?
 
