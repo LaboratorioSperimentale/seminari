@@ -13,4 +13,4 @@ Johanna Miecznikowski-Fuenfschilling, dopo la laurea in Filologia italiana, Filo
 È professoressa titolare presso l'Istituto di studi italiani e l'Istituto di argomentazione, linguistica e semiotica dell'Università della Svizzera italiana, dove insegna linguistica e pragmatica del linguaggio all’interno del Bachelor e del Master in lingua, letteratura e civiltà italiana. Dirige attualmente i seguenti progetti di ricerca: "La categorizzazione delle fonti di informazione nell’interazione faccia a faccia: una indagine basata sul corpus di italiano parlato TIGR" (sussidio FNS no. 192771, 2020-2024),  "Data-sharing skills in corpus-based research on talk-in-interaction" (programma ORD di swissuniversities, in collaborazione con partner alle università di Basilea, Losanna, Neuchâtel, aprile 2023-settembre 2024), "ShareTIGR - Condivisione del corpus di italiano parlato TIGR: un caso studio ORD" (programma ORD USI, febbraio 2024-gennaio 2025).
 
 
-{% include list.html data="citations" component="citation" filters="Johanna Miecznikowski: true" %}
+{% include list.html data="citations" component="citation" filters="johanna-miecznikowski: true" %}

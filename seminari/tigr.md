@@ -27,7 +27,6 @@ In parallelo al lavoro sui dati, l'esperienza di raccolta del corpus la è stata
 Per le pubblicazioni basate sui dati del TIGR si veda:
 [Pubblicazioni e presentazioni nelle quali sono stati usati i dati TIGR](https://sharetigr.usi.ch/it/st/publications)
 
-
 ## Il progetto InfinIta: perché è stato creato il corpus TIGR?
 
 ### Le domande di ricerca
