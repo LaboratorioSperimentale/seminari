@@ -41,9 +41,39 @@ fiducia, paura, sorpresa, tristezza, disgusto, rabbia e aspettativa**. Le distri
 Al contrario di Ekman, per Plutchik queste emozioni sono combinabili. La presenza di più emozioni è definita **Diade**. 
 Esistono più diadi, più o meno probabili, che danno vita alle altre emozioni che noi conosciamo. Esistono quattro livelli di diadi: **diade primaria, diade secondaria, diade terziaria e diade opposta**. 
 
-AMORE è la combinazione di gioia e fiducia, **primary dyad**. 
+*Amore* è la combinazione di gioia e fiducia, **primary dyad**. 
+
+inserire immagine diadi
 
 ## 2. Individuare le emozioni secondo le dimensioni emotive
+
+Le emozioni possono essere individuate anche secondo delle dimensioni.
+
+Russell (1980) propone due dimensioni: **arousal** e **valence**.
+
+Con **arousal**, ovvero **attivazione**, si intende l'intensità dell'attivazione psicofisiologica di un organismo (cioè dal sonno all'eccitazione diffusa).
+
+Con **valence**, ovvero **valenza**, si va ad indicare la connaturata attrativa (**valenza positiva**) o l'avversione (**valenza negativa**) di un evento, oggetto o situazione.
+
+inserire schema 
+
+Secondo lo schema: emozioni come l'*euforia* vanno a ritrovarsi in una posizione di **high arousal** e **positive valence**, **HA/PV**.
+
+Capita a volte che emozioni diverse (*paura* e *rabbia*) si ritrovino nella stessa posizione. Per far fronte a ciò, si aggiunge quindi una terza dimensione: **dominance**, ovvero la **dominanza**. In questo caso, aggiungendo il grado di controllo che si ha verso una situazione o evento, si possono distinguere *paura* e *rabbia*: nella seconda si ha più controllo che nella prima. 
+
+Tali dimensioni, vengono definite anche dimensioni primarie del significato (Osgood et al., 1957): 
+
+- la **valenza** che corrisponde alla **valutazione** di qualcosa che può essere percepito come *buono/cattivo*.
+- la **dominanza**, ovvero la **potenza**, percezione *forte/debole*. 
+- la **attivazione** che corrisponde alla **attività**, percezione tra *passivo* e *attivo*. 
+
+### SAM (Self Assesment Manikin)
+
+Durante la fase di *annotazione* per richiedere il giudizio sulle tre dimensioni, si fa uso di SAM, il Self Assesment Manikin, di Bradley and Lang (1994).
+
+SAM vede la rappresentazione delle tre dimensioni come tre 'omini' che secondo una scala, cambiano di dimensione, per esempio: la **dominanza** è prima rappresentata come un omino molto piccolo, che va via via crescendo perchè si sente in maggior controllo. 
+
+## 3. Il rapporto tra parole ed emozioni
 
 
 
