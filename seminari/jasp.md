@@ -4,6 +4,10 @@ title: "Analisi dei dati linguistici con R e Jasp: dalla sintesi dei dati alla s
 author: esmeraldadivenere
 ---
 
+* Table of Contents
+{:toc}
+{:.no_toc}
+
 ## Analisi dei dati linguistici con Jasp
 
 > [Analisi dei dati linguistici con R e JASP dalla sintesi dei dati alla statistica inferenziale.mp4](https://liveunibo.sharepoint.com/:v:/s/Labsperimentaleprova873/EUy_5AgykQlPkkiCgUIEznkBSFPAX7H67Lx8KrVijHTMIQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RDznAe)

@@ -80,7 +80,5 @@ exclude:
   - CITATION.cff
 
 
-toc:
-  min_level: 2
-  max_level: 6
-  ordered_list: true
+kramdown:
+  toc_levels: 2..2
