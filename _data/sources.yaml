@@ -1,48 +1,108 @@
 - title: Composizione del TIGR
+  tigr: true
   type: blog-post
   date: 2024-04-04
   publisher: ShareTIGR
-  buttons:
-    - type: website
-      link: https://sharetigr.usi.ch/it/news/feeds/37812
+  link: https://sharetigr.usi.ch/it/news/feeds/37812
 
 - title: Raccogliere dati linguistici ai tempi del COVID-19
+  tigr: true
   type: blog-post
   date: 2024-08-29
   publisher: ShareTIGR
-  buttons:
-    - type: website
-      link: https://sharetigr.usi.ch/it/news/feeds/38556
+  link: https://sharetigr.usi.ch/it/news/feeds/38556
 
 - title: "Il lavoro sul campo: ricerca e contatto dei partecipanti"
+  tigr: true
   type: blog-post
   date: 2024-07-18
   publisher: ShareTIGR
-  buttons:
-    - type: website
-      link: https://sharetigr.usi.ch/it/news/feeds/38402
+  link: https://sharetigr.usi.ch/it/news/feeds/38402
 
 - title: "Digitisation of the TIGR participant questionnaires"
+  tigr: true
   type: blog-post
   date: 2024-03-21
   publisher: ShareTIGR
-  buttons:
-    - type: website
-      link: https://sharetigr.usi.ch/en/news/feeds/37690
+  link: https://sharetigr.usi.ch/en/news/feeds/37690
 
 - title: "Social interaction is among people. Legal, technical, and ethical explorations about personal information and its removal in talk-in-interaction as data"
+  tigr: true
   type: blog-post
   date: 2023-08-28
   publisher: CHORD talk in interaction
-  buttons:
-    - type: website
-      link: https://www.chord-talk-in-interaction.usi.ch/news/feeds/36387
+  link: https://www.chord-talk-in-interaction.usi.ch/news/feeds/36387
 
 - title: "Dichiarazioni di consenso informato"
+  tigr: true
   type: blog-post
   date: 2024-07-25
   publisher: ShareTIGR
-  buttons:
-    - type: website
-      link: https://sharetigr.usi.ch/it/news/feeds/38259
+  link: https://sharetigr.usi.ch/it/news/feeds/38259
 
+- title: "Grouping the TIGR data for reuse"
+  tigr: true
+  type: blog-post
+  date: 2024-04-25
+  publisher: ShareTIGR
+  link: https://sharetigr.usi.ch/it/news/feeds/38003
+
+- title: "Exploring LaRS @ SWISSUbase"
+  tigr: true
+  type: blog-post
+  date: 2024-04-18
+  publisher: ShareTIGR
+  link: https://sharetigr.usi.ch/it/news/feeds/37958
+
+- title: "Morfologia delle trascrizioni, parte I: leggibili in che modo?"
+  tigr: true
+  type: blog-post
+  date: 2024-05-02
+  publisher: ShareTIGR
+  link: https://sharetigr.usi.ch/it/news/feeds/38046
+
+- title: "Morfologia delle trascrizioni, parte II: codificare il tempo"
+  tigr: true
+  type: blog-post
+  date: 2024-05-09
+  publisher: ShareTIGR
+  link: https://sharetigr.usi.ch/it/news/feeds/38066
+
+- title: "Morfologia delle trascrizioni, parte III: il primo script"
+  tigr: true
+  type: blog-post
+  date: 2024-06-06
+  publisher: ShareTIGR
+  link: https://sharetigr.usi.ch/it/news/feeds/37889
+
+- title: "Morfologia delle trascrizioni, parte IV: allineamento temporale e segmentazione"
+  tigr: true
+  type: blog-post
+  date: 2024-06-13
+  publisher: ShareTIGR
+  link: https://sharetigr.usi.ch/it/news/feeds/38075
+
+- title: "Morfologia delle trascrizioni, parte V: gestire le sovrapposizioni"
+  tigr: true
+  type: blog-post
+  date: 2024-07-11
+  publisher: ShareTIGR
+  link: https://sharetigr.usi.ch/it/news/feeds/38294
+
+- title: "Morfologia delle trascrizioni, parte VI: uso di script in fase di impaginazione e di revisione"
+  tigr: true
+  type: blog-post
+  date: 2024-04-18
+  publisher: ShareTIGR
+  link: https://sharetigr.usi.ch/it/news/feeds/38387
+
+- title: The TEI-based ISO Standard ‘Transcription of spoken language’ as an Exchange Format within CLARIN and beyond
+  tigr: true
+  type: article
+  doi: doi:10.3384/ecp1894
+  date: 2022-07-08
+  authors:
+    - Hanna Hedeland
+    - Thomas Schmidt
+  link: https://ecp.ep.liu.se/index.php/clarin/article/view/415
+  publisher: Linköping Electronic Conference Proceedings
