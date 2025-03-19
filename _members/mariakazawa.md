@@ -1,6 +1,6 @@
 ---
 name: Mari Akazawa
-image: images/photo.jpg
+image: images/avatars/avatar_akazawa.png
 role: speaker
 affiliation: Technische Universität Darmstadt and forText lab
 links:
