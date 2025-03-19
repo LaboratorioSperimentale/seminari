@@ -47,7 +47,11 @@ Esistono più diadi, più o meno probabili, che danno vita alle altre emozioni c
 
 *Amore* è la combinazione di gioia e fiducia, **primary dyad**.
 
-inserire immagine diadi
+{%
+  include figure.html
+  image="images/seminar-images/emozioni/ruota emozioni.png"
+  caption="Le emozioni di Plutchik, sito stefanopigolotti.it "
+%}
 
 ## Individuare le emozioni secondo le dimensioni emotive
 
@@ -96,7 +100,7 @@ Esistono diverse categorie di rapporti tra parole ed emozioni:
 3. **Associazioni linguistiche**, termine con il quale si va a descrivere quelle situazioni in cui la parole si lega all'emozione durante l'uso di questa. Si parla di rapporti co-occorenti dell'**emotion label** come nelle locuzioni "ospite a sopresa": di per sè la parola *ospite* non richiama la *sorpresa* ma esistendo in questa locuzione la si lega ad emozoni come appunto la *sorpresa*. Si parla anche di rapporti co-occorenti con altre parole **emotion laden** come "futuro" in contesti positivi o negativi, parole che vanno a richiamare emozioni positive o negative in base al contesto in cui questa parola viene utilizzata.
 
    Esistono asoociazioni linguistiche date da **metafore**: quando concettualiziamo qualcosa di astratto ancoriamo l'astratto a qualcosa di più concreto, questo trammite metafore concettuali che vengono realizzate trammite **metafore linguistiche** e **lessicali**.  Dal punto di vista metaforiche le emozioni sono un territorio molto fertile, le **metafore lessicalizzate** per esempio, molte sono quelle legate alla *gioia* che la vedono come una 'luce' quindi il "sentirsi radioso". 
-   
+
 ## Metodi e strumenti dell'analisi emotiva dei testi
 
 I metodi e strumenti dell'analisi emotiva dei testi sono:
@@ -106,5 +110,5 @@ I metodi e strumenti dell'analisi emotiva dei testi sono:
 
 ### I lessici emotivi
 
-I lessici emotivi sono risorse linguistiche sviluppate annotando liste di parole in base alle emozioni ad esse associate. Le modalità di annotazione
+I lessici emotivi sono risorse linguistiche sviluppate annotando liste di parole in base alle emozioni ad esse associate. Le modalità di annotazione 
 
