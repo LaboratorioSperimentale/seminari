@@ -53,6 +53,12 @@ Esistono più diadi, più o meno probabili, che danno vita alle altre emozioni c
   caption="Le emozioni di Plutchik, sito stefanopigolotti.it "
 %}
 
+{%
+  include figure.html
+  image="images/seminar-images/emozioni/diadi.png"
+  caption="Diadi emozioni, Reddit."
+%}
+
 ## Individuare le emozioni secondo le dimensioni emotive
 
 Le emozioni possono essere individuate anche secondo delle dimensioni.
