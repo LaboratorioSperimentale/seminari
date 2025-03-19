@@ -24,7 +24,7 @@ In letteratura esistono due principali modalità per trattare le emozioni:
 - individuare e trattare il continuum emotivo a partire da poche emozioni di base
 - descrivere le emozioni utilizzando un insieme di dimensioni
 
-## 1. Individuare le emozioni di base
+## Individuare le emozioni di base
 
 Le emozioni di base sono tutte quelle emozioni che non possono essere generate da altre, ma da cui è possibile derivare tutte le altre emozioni combinandole e variandone l'intensità.
 Oltre a ciò, si definiscono sempre emozioni di base tutte quelle emozioni che vengono riscontrate nell'uomo a prescindere dalla cultura, dalle condizioni sociali e/o fisiche e che sono tali, dunque, per cause evolutive (Ekman, 1982).
@@ -49,7 +49,7 @@ Esistono più diadi, più o meno probabili, che danno vita alle altre emozioni c
 
 inserire immagine diadi
 
-## 2. Individuare le emozioni secondo le dimensioni emotive
+## Individuare le emozioni secondo le dimensioni emotive
 
 Le emozioni possono essere individuate anche secondo delle dimensioni.
 
@@ -77,7 +77,7 @@ Durante la fase di *annotazione* per richiedere il giudizio sulle tre dimensioni
 
 SAM vede la rappresentazione delle tre dimensioni come tre 'omini' che secondo una scala, cambiano di dimensione, per esempio: la **dominanza** è prima rappresentata come un omino molto piccolo, che va via via crescendo perchè si sente in maggior controllo.
 
-## 3. Il rapporto tra parole ed emozioni
+## Il rapporto tra parole ed emozioni
 
 Esistono diverse categorie di rapporti tra parole ed emozioni:
 
