@@ -49,13 +49,13 @@ Esistono più diadi, più o meno probabili, che danno vita alle altre emozioni c
 
 {%
   include figure.html
-  image="images/seminar-images/emozioni/ruota emozioni.png"
+  image="images/seminar-images/emozioni/ruota emozioni.jpg"
   caption="Le emozioni di Plutchik, sito stefanopigolotti.it "
 %}
 
 {%
   include figure.html
-  image="images/seminar-images/emozioni/diadi.png"
+  image="images/seminar-images/emozioni/diadi.webp"
   caption="Diadi emozioni, Reddit."
 %}
 
