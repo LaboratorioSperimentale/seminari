@@ -75,5 +75,23 @@ SAM vede la rappresentazione delle tre dimensioni come tre 'omini' che secondo u
 
 ## 3. Il rapporto tra parole ed emozioni
 
+Esistono diverse categorie di rapporti tra parole ed emozioni:
 
+1. **Emotion Label** (Johnson & Oatley, 1989), con questo termine si fa riferimento a tutte quelle parole che denotano le emozioni distinguendo tra sette categorie, le quali sono:
+
+   1. **Emozioni generiche**, di cui fanno parte parole come *emotions* e *sentiments*. 
+   2. **Emozioni di base**, ovvero quelle di Plutchik.
+   3. **Relazioni emotive**, parole che rappresentano la relazione tra chi subisce l'emozione e su cosa si proietta tale emozione.
+   4. **Emozioni causate**, di cui il soggetto conosce o ne conosce parzialmente la causa.
+   5. **Causativi**, ovvero quando non solo il soggetto subisce una emozione ma la può ricreare in altri soggetti.
+   6. **Obiettivi emotivi**, ovvero tutte quelle parole legate ad emozioni come il **desiderio**, quindi qualcosa che il soggetto desidera o ricerca molto. 
+   7. **Emozioni complesse**, ovvero quelle che Plutchik definisce come **diadi**. 
+
+2. **Associazioni embodied**, termine con il quale si fa riferimento sia a quelle espressioni fisiologiche o somatiche dell'emozione come "lacrime" o "risata", sia parole **emotion laden** cioè che non nominano un'emozione ma possono provocarla, evocando le emozioni in base all'attivazione di frame cognitivi, come "mamma" che viene associata gioia e rassicurazione o "guerra" che viene associata a disgusto, rabbia e tristezza.
+
+3. **Associazioni linguistiche**, termine con il quale si va a descrivere quelle situazioni in cui la parole si lega all'emozione durante l'uso di questa. Si parla di rapporti co-occorenti dell'**emotion label** come nelle locuzioni "ospite a sopresa": di per sè la parola *ospite* non richiama la *sorpresa* ma esistendo in questa locuzione la si lega ad emozoni come appunto la *sorpresa*. Si parla anche di rapporti co-occorenti con altre parole **emotion laden** come "futuro" in contesti positivi o negativi, parole che vanno a richiamare emozioni positive o negative in base al contesto in cui questa parola viene utilizzata.
+
+   Esistono asoociazioni linguistiche date da **metafore**: quando concettualiziamo qualcosa di astratto ancoriamo l'astratto a qualcosa di più concreto, questo trammite metafore concettuali che vengono realizzate trammite **metafore linguistiche** e **lessicali**.  Dal punto di vista metaforiche le emozioni sono un territorio molto fertile, le **metafore lessicalizzate** per esempio, molte sono quelle legate alla *gioia* che la vedono come una 'luce' quindi il "sentirsi radioso". 
+
+   
 
