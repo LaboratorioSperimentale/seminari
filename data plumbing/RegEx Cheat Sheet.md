@@ -1,7 +1,5 @@
 # Regular Expressions Cheat Sheet
 
-# Regular Expressions Cheat Sheet
-
 ## 1. Basic Character Matching
 Regular expressions primarily work by matching characters in a string. This section covers the most fundamental patterns used to find exact sequences, alternative characters, or any character.
 
