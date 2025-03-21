@@ -1,5 +1,40 @@
 # Regular Expressions Cheat Sheet
 
+# Regular Expressions Cheat Sheet
+
+## 1. Basic Character Matching
+Regular expressions primarily work by matching characters in a string. This section covers the most fundamental patterns used to find exact sequences, alternative characters, or any character.
+
+| Regex Command | Explanation |
+|--------------|-------------|
+| `abc`        | Matches the exact string "abc". |
+| `a|b`        | Matches either "a" or "b". |
+| `.`          | Matches any single character except a newline. |
+| `\d`         | Matches any digit (0-9). |
+| `\w`         | Matches any word character (letter, digit, underscore). |
+| `\s`         | Matches any whitespace character (space, tab, newline). |
+| `\D`         | Matches any non-digit character. |
+| `\W`         | Matches any non-word character. |
+| `\S`         | Matches any non-whitespace character. |
+
+---
+
+## 2. Character Sets and Ranges
+Character sets and ranges allow you to specify multiple possible characters at a certain position in a string. Use brackets `[ ]` to define a set of characters to match.
+
+| Regex Command | Explanation |
+|--------------|-------------|
+| `[aeiou]`    | Matches any single vowel. |
+| `[^aeiou]`   | Matches any single character that is NOT a vowel. |
+| `[a-z]`      | Matches any lowercase letter from "a" to "z". |
+| `[A-Z]`      | Matches any uppercase letter from "A" to "Z". |
+| `[0-9]`      | Matches any digit from "0" to "9". |
+| `[a-zA-Z0-9]`| Matches any letter or digit. |
+| `[13579]`    | Matches any odd digit. |
+| `[a-dm-q]`   | Matches any letter from "a" to "d" OR "m" to "q". |
+
+---
+
 ## 3. Anchors (Position-Based Matching)
 **Grammar Explanation:**
 - Anchors do not match characters but rather positions in the text.
