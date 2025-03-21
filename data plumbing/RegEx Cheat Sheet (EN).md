@@ -1,125 +1,125 @@
-# Regular Expressions Cheat Sheet 
+# Reference Sheet for Regular Expressions
 
-Use https://regex101.com/ for testing RegEx.
+## Text for Exercise:
+"Giovanni Bianchi, born on 12/11/1990, purchased the train ticket IT456 to Milan on 01/06/2025 at 08:45. He used the credit card with the number 4111-1111-1111-1111 for a total of €120. The provided email address is giovanni.bianchi@example.com. The transaction code is TXN987654321. The booking was made at 16:20 on 15/03/2025."
+
+Use the service [https://regex101.com/](https://regex101.com/) to test your regular expressions.
+
+---
 
 ## 1. Basic Character Matching
-Regular expressions primarily work by matching characters in a string. This section covers the most fundamental patterns used to find exact sequences, alternative characters, or any character.
+Basic regular expressions match exact characters or sequences of characters in the text. You can use single characters, alternations (using `|`), or the dot `.` to represent any character. Using these commands allows you to search for specific sequences of letters or numbers in the text.
 
-| Regex Command | Explanation |
-|--------------|-------------|
-| `abc`        | Matches the exact string "abc". |
-| `a|b`        | Matches either "a" or "b". |
-| `.`          | Matches any single character except a newline. |
-| `\d`         | Matches any digit (0-9). |
-| `\w`         | Matches any word character (letter, digit, underscore). |
-| `\s`         | Matches any whitespace character (space, tab, newline). |
-| `\D`         | Matches any non-digit character. |
-| `\W`         | Matches any non-word character. |
-| `\S`         | Matches any non-whitespace character. |
+| Regex Command | Explanation | Regex Result |
+|---------------|-------------|--------------|
+| `abc`         | Matches exactly the string "abc". | No result (no "abc") |
+| `a\|b`         | Matches either "a" or "b". | No result (no "a" or "b") |
+| `.`           | Matches any single character except a newline. | "G", "i", "o", "v", "a", "n", "n", "i", " ", "B", "i", "a", "n", "c", "h", "i", ",", " ", "n", "a", "t", "o", " ", "i", "l", " ", "1", "2", "/", "1", "1", "/", "1", "9", "9", "0", ","... |
+| `\d`          | Matches any digit (0-9). | "1", "2", "1", "1", "1", "9", "9", "0", "0", "1", "0", "6", "2", "0", "2", "5", "0", "8", "4", "5", "4", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "2", "0", "9", "8", "7", "6", "5", "4", "3", "2", "1", "6", "2", "0", "1", "5", "0", "3", "2", "0", "2", "5" |
+| `\w`          | Matches any word character (letter, digit, underscore). | "G", "i", "o", "v", "a", "n", "n", "i", "B", "i", "a", "n", "c", "h", "i", "1", "2", "1", "1", "1", "9", "9", "0", "1", "1", "0", "6", "2", "0", "2", "5", "0", "8", "4", "5", "4", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "2", "0", "9", "8", "7", "6", "5", "4", "3", "2", "1", "6", "2", "0", "1", "5", "0", "3", "2", "0", "2", "5" |
+| `\s`          | Matches any space character (space, tab, newline). | " ", " ", " ", " ", " ", " ", " " |
+| `\D`          | Matches any character that is not a digit. | "G", "i", "o", "v", "a", "n", "n", "i", " ", "B", "i", "a", "n", "c", "h", "i", ",", " ", "n", "a", "t", "o", " ", "i", "l", " ", "/", "/", "/", "/", ",", " ", "H", "a", " ", "a", "c", "q", "u", "i", "s", "t", "a", "t", "o", " ", "i", "l", " ", "b", "i", "g", "l", "i", "e", "t", "t", "o", " ", "d", "e", "l", " ", "t", "r", "e", "n", "o", " ", "I", "T", "f", "o", "r", " " |
+| `\W`          | Matches any non-word character. | " ", ",", ".", "@", "-", "_", "$", "€", ":" |
+| `\S`          | Matches any non-space character. | "G", "i", "o", "v", "a", "n", "n", "i", "B", "i", "a", "n", "c", "h", "i", "1", "2", "1", "1", "1", "9", "9", "0", "1", "1", "0", "6", "2", "0", "2", "5", "0", "8", "4", "5", "4", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "2", "0", "9", "8", "7", "6", "5", "4", "3", "2", "1", "6", "2", "0", "1", "5", "0", "3", "2", "0", "2", "5" |
 
 ---
 
 ## 2. Character Sets and Ranges
-Character sets and ranges allow you to specify multiple possible characters at a certain position in a string. Use brackets `[ ]` to define a set of characters to match.
+Character sets are very useful when you want to match a specific set of characters. They can also be used to define ranges, such as `a-z` for all lowercase letters. Using `[^ ]` allows you to exclude certain characters.
 
-| Regex Command | Explanation |
-|--------------|-------------|
-| `[aeiou]`    | Matches any single vowel. |
-| `[^aeiou]`   | Matches any single character that is NOT a vowel. |
-| `[a-z]`      | Matches any lowercase letter from "a" to "z". |
-| `[A-Z]`      | Matches any uppercase letter from "A" to "Z". |
-| `[0-9]`      | Matches any digit from "0" to "9". |
-| `[a-zA-Z0-9]`| Matches any letter or digit. |
-| `[13579]`    | Matches any odd digit. |
-| `[a-dm-q]`   | Matches any letter from "a" to "d" OR "m" to "q". |
+| Regex Command | Explanation | Regex Result |
+|---------------|-------------|--------------|
+| `[aeiou]`     | Matches any vowel. | "o", "a", "i", "a", "i", "o", "e", "i", "a", "o", "e", "o" |
+| `[^aeiou]`    | Matches any character that is **NOT** a vowel. | "G", "v", "n", "n", "B", "n", "c", "h", "n", "t", "l", "1", "2", "1", "1", "1", "9", "9", "0", "/", "/", "/", ".", ",", " ", " ", " ", "n", "t", "l", "b", "g", "l", "t", "t", "s" |
+| `[a-z]`       | Matches any lowercase letter from "a" to "z". | "i", "o", "v", "a", "n", "n", "i", "a", "i", "a", "i", "a", "t", "o", "i", "e", "s", "m", "a", "o", "t", "l", "i", "n", "i", "l", "i", "a", "o", "e", "o" |
+| `[A-Z]`       | Matches any uppercase letter from "A" to "Z". | "G", "B", "I", "T" |
+| `[0-9]`       | Matches any digit from "0" to "9". | "1", "2", "1", "1", "1", "9", "9", "0", "0", "1", "0", "6", "2", "0", "2", "5", "0", "8", "4", "5", "4", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "2", "0", "9", "8", "7", "6", "5", "4", "3", "2", "1", "6", "2", "0", "1", "5", "0", "3", "2", "0", "2", "5" |
+| `[a-zA-Z0-9]` | Matches any letter or digit. | "G", "i", "o", "v", "a", "n", "n", "i", "B", "i", "a", "n", "c", "h", "i", "1", "2", "1", "1", "1", "9", "9", "0", "1", "1", "0", "6", "2", "0", "2", "5", "0", "8", "4", "5", "4", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "2", "0", "9", "8", "7", "6", "5", "4", "3", "2", "1", "6", "2", "0", "1", "5", "0", "3", "2", "0", "2", "5" |
+| `[13579]`     | Matches any odd digit. | "1", "1", "1", "1", "1", "9", "9", "1", "5", "1", "3", "9", "7" |
+| `[a-dm-q]`    | Matches any character between "a" and "d" or between "m" and "q". | "a", "b", "c", "d", "m", "n", "p" |
 
 ---
 
-## 3. Anchors (Position-Based Matching)
-**Grammar Explanation:**
-- Anchors do not match characters but rather positions in the text.
-- The `^` symbol ensures that the match occurs **at the start of a string**.
-- The `$` symbol ensures that the match occurs **at the end of a string**.
-- The `\b` and `\B` symbols define **word boundaries**, allowing you to match full words.
+## 3. Special Characters
+Special characters are used to match patterns based on specific rules. These can include matching any single character, matching the beginning or end of a string, or grouping patterns.
 
-| Regex Command  | Explanation |
-|---------------|-------------|
-| `^Hello`      | Matches "Hello" at the start of a string. |
-| `world$`      | Matches "world" at the end of a string. |
-| `\bword\b`    | Matches the exact word "word" with word boundaries. |
-| `\Bword\B`    | Matches "word" only if it is NOT at a word boundary. |
+| Regex Command | Explanation | Regex Result |
+|---------------|-------------|--------------|
+| `^`           | Matches the beginning of the string. | "G" |
+| `$`           | Matches the end of the string. | "e" |
+| `*`           | Matches 0 or more occurrences of the preceding character. | "Giovanni" |
+| `+`           | Matches 1 or more occurrences of the preceding character. | "i" |
+| `?`           | Matches 0 or 1 occurrence of the preceding character. | "G" |
+| `{n}`         | Matches exactly n occurrences of the preceding character. | "12" (matches "1" |
+| `()`          | Groups expressions for applying quantifiers. | "Giovanni" (entire group matched) |
+| `|`           | Acts as an OR operator to match either expression. | "Bianchi" or "Giovanni" |
+
+---
 
 ---
 
 ## 4. Repetitions and Quantifiers
-**Grammar Explanation:**
-- **Quantifiers** determine **how many times** a character or group should appear in a match.
-- `*` means **zero or more** repetitions (e.g., `ba*` matches `b`, `ba`, `baa`, `baaa`...).
-- `+` means **one or more** repetitions (e.g., `ba+` matches `ba`, `baa`, but not `b`).
-- `?` means **zero or one** occurrence (e.g., `colou?r` matches both `color` and `colour`).
-- `{n}` specifies an **exact number** of occurrences.
-- `{n,}` means **at least** `n` occurrences.
-- `{n,m}` means **between** `n` and `m` occurrences.
+Quantifiers are used to specify how many times a character or a group of characters should be repeated. This allows you to match sequences of characters with varying lengths.
 
-| Regex Command | Explanation |
-|--------------|-------------|
-| `a*`         | Matches "a" repeated zero or more times. |
-| `a+`         | Matches "a" repeated one or more times. |
-| `a?`         | Matches "a" zero or one time. |
-| `a{3}`       | Matches exactly three "a"s (e.g., "aaa"). |
-| `a{2,4}`     | Matches between 2 and 4 "a"s (e.g., "aa", "aaa", "aaaa"). |
-| `a{2,}`      | Matches at least 2 "a"s. |
-| `a*?`        | Lazy version: matches as few "a"s as possible. |
-| `a+?`        | Lazy version: matches at least one "a", but as few as possible. |
+| Regex Command | Explanation | Regex Result |
+|---------------|-------------|--------------|
+| `a*`          | Matches zero or more occurrences of "a". | "a", "a", "a", "a", "a" |
+| `a+`          | Matches one or more occurrences of "a". | "a", "a", "a", "a" |
+| `a?`          | Matches zero or one occurrence of "a". | "a", "a", "a", "a", " " |
+| `a{3}`        | Matches exactly three occurrences of "a". | No result (no group with three consecutive "a"s) |
+| `a{2,4}`      | Matches between 2 and 4 occurrences of "a". | No result (no group with 2-4 consecutive "a"s) |
+| `a{2,}`       | Matches at least 2 occurrences of "a". | No result (no group with at least 2 consecutive "a"s) |
 
 ---
 
 ## 5. Grouping and Capturing
-**Grammar Explanation:**
-- Parentheses `( )` **group characters together** to apply quantifiers or capture matched text.
-- `(abc)` captures "abc" as a **group** for later use.
-- `(?:abc)` is a **non-capturing group**, meaning it groups text but does not store it.
-- `\1`, `\2`, etc., refer to **previously captured groups**.
-- Useful for **extracting** data from text, such as dates, phone numbers, and names.
+Capture groups allow you to group parts of a regular expression and extract them separately. Groups are useful for applying quantifiers to multiple characters at once.
 
-| Regex Command  | Explanation |
-|---------------|-------------|
-| `(abc)`       | Captures "abc" as a group. |
-| `(abc|def)`   | Matches either "abc" or "def". |
-| `(\d{3})-(\d{2})-(\d{4})` | Captures parts of a phone number (e.g., "123-45-6789"). |
-| `(?:abc)`     | Matches "abc" but does NOT capture it. |
-| `\b(\w+)\s+\1\b` | Matches repeated words (e.g., "hello hello"). |
+| Regex Command | Explanation | Regex Result |
+|---------------|-------------|--------------|
+| `(abc)`       | Captures "abc" as a group. | No result (no "abc" string) |
+| `(abc|def)`   | Matches "abc" or "def". | No result (no "abc" or "def" present) |
+| `(?:abc)`     | Matches "abc" but does **not capture** it. | No result (no "abc" string) |
 
 ---
 
-## 6. Lookaheads and Lookbehinds
-**Grammar Explanation:**
-- Lookaheads and lookbehinds **assert** that a pattern exists before or after a match **without including it in the match**.
-- `(?=...)` (positive lookahead) ensures that something **is present** after a match.
-- `(?!...)` (negative lookahead) ensures that something **is NOT present** after a match.
-- `(?<=...)` (positive lookbehind) ensures that something **is present** before a match.
-- `(?<!...)` (negative lookbehind) ensures that something **is NOT present** before a match.
+## 6. Lookahead and Lookbehind
+Lookahead and lookbehind allow matches based on a condition that occurs before or after a specific position in the text.
 
-| Regex Command       | Explanation |
-|--------------------|-------------|
-| `\d+(?= euros)`   | Matches digits followed by "euros" (e.g., "100 euros"). |
-| `\d+(?! euros)`   | Matches digits NOT followed by "euros". |
-| `(?<=\$)\d+`      | Matches digits preceded by a dollar sign (e.g., "$100"). |
-| `(?<!\$)\d+`      | Matches digits NOT preceded by a dollar sign. |
+| Regex Command    | Explanation | Regex Result |
+|------------------|-------------|--------------|
+| `\d+(?= euros)`  | Matches digits followed by "euros". | No result (no "euros" string) |
+| `(?<=@)\w+`      | Matches a sequence of letters preceded by "@" (e.g., an email domain). | "example" |
+| `(?<!\$)\d+`     | Matches digits **not preceded** by the dollar sign. | "12", "11", "1990", "01", "06", "2025", "08", "45", "4111", "1111", "1111", "1111", "120", "987654321", "16", "20", "15", "03", "2025" |
 
 ---
 
 ## 7. Escaping Special Characters
-**Grammar Explanation:**
-- Some characters (`.`, `*`, `+`, `?`, `|`, `()`, `{}`, `[]`) have **special meanings** in regex.
-- To match them **literally**, you must use a **backslash (`\`)** before them.
-- This is necessary when searching for punctuation marks, special symbols, or mathematical operators.
+Sometimes, you need to search for special symbols like the dot, asterisk, or dollar sign. In these cases, you must "escape" these characters using the backslash (`\`).
 
-| Regex Command   | Explanation |
-|---------------|-------------|
-| `\.`         | Matches a literal period "." |
-| `\*`         | Matches a literal asterisk "*" |
-| `\?`         | Matches a literal question mark "?" |
-| `\+`         | Matches a literal plus sign "+" |
-| `\|`         | Matches a literal pipe "|" |
-| `\(`, `\)`   | Matches literal parentheses "(" and ")" |
+| Regex Command | Explanation | Regex Result |
+|---------------|-------------|--------------|
+| `\.`          | Matches a literal dot ".". | "." |
+| `\*`          | Matches a literal asterisk "*". | "*" |
+| `\?`          | Matches a literal question mark "?". | "?" |
+| `\+`          | Matches a literal plus sign "+". | "+" |
+| `\|`          | Matches a literal pipe "|" symbol. | "|" |
+| `\(`, `\)`    | Matches literal parentheses "(" and ")". | "(", ")" |
+
+---
+
+## 8. Logical Operators
+Logical operators are used in regular expressions to combine multiple search conditions. The main logical operators are **OR** (alternation) and **AND** (implicit overlap). These operators allow you to create more complex expressions that can match multiple patterns simultaneously.
+
+- **OR (`|`)**: The `|` operator is used to match one of two (or more) conditions. For example, `a|b` matches "a" **or** "b".
+- **AND (implicit)**: The AND operator is not explicitly written in regular expressions. Expressions combine multiple patterns simultaneously, so a match will occur only when both patterns are present in the string. For example, `abc123` will search for both "abc" and "123" consecutively.
+
+| Regex Command | Explanation | Regex Result |
+|---------------|-------------|--------------|
+| `a|b`         | Matches "a" **or** "b". | "a", "b" |
+| `abc|def`     | Matches "abc" **or** "def". | No result (no "abc" or "def" present) |
+| `\d{3}-\d{2}-\d{4}|[A-Za-z]+` | Matches a sequence of digits in the format "xxx-xx-xxxx" **or** a sequence of letters. | "12-34-5678", "Giovanni", "Bianchi" |
+| `cat.*dog`    | Matches "cat" followed by anything and then "dog". | No result (no "cat" and "dog" together) |
+| `abc123`      | Matches exactly the string "abc123". | "abc123" |
+| `\d{2,4}|[A-Za-z]{3,5}` | Matches a number of 2-4 digits **or** a word of 3-5 letters. | "12", "1990", "abc", "john", "apple" |
+
