@@ -13,7 +13,7 @@ Le espressioni regolari di base corrispondono esattamente ai caratteri o sequenz
 | Comando Regex | Spiegazione | Risultato della Regex |
 |---------------|-------------|-----------------------|
 | `abc`         | Corrisponde esattamente alla stringa "abc". | Nessun risultato (non esiste "abc") |
-| `a|b`         | Corrisponde a "a" oppure "b". | Nessun risultato (non ci sono "a" o "b") |
+| `a\|b`        | Corrisponde a "a" oppure "b". | Seleziona tutte le occorrenze della lettera "a" e "b" nel testo |
 | `.`           | Corrisponde a qualsiasi carattere singolo tranne un ritorno a capo. | "G", "i", "o", "v", "a", "n", "n", "i", " ", "B", "i", "a", "n", "c", "h", "i", ",", " ", "n", "a", "t", "o", " ", "i", "l", " ", "1", "2", "/", "1", "1", "/", "1", "9", "9", "0", ","... |
 | `\d`          | Corrisponde a qualsiasi cifra (0-9). | "1", "2", "1", "1", "1", "9", "9", "0", "0", "1", "0", "6", "2", "0", "2", "5", "0", "8", "4", "5", "4", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "2", "0", "9", "8", "7", "6", "5", "4", "3", "2", "1", "6", "2", "0", "1", "5", "0", "3", "2", "0", "2", "5" |
 | `\w`          | Corrisponde a qualsiasi carattere di parola (lettera, cifra, trattino basso). | "G", "i", "o", "v", "a", "n", "n", "i", "B", "i", "a", "n", "c", "h", "i", "1", "2", "1", "1", "1", "9", "9", "0", "1", "1", "0", "6", "2", "0", "2", "5", "0", "8", "4", "5", "4", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "2", "0", "9", "8", "7", "6", "5", "4", "3", "2", "1", "6", "2", "0", "1", "5", "0", "3", "2", "0", "2", "5" |
