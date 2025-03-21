@@ -56,8 +56,6 @@ Special characters are used to match patterns based on specific rules. These can
 
 ---
 
----
-
 ## 4. Repetitions and Quantifiers
 Quantifiers are used to specify how many times a character or a group of characters should be repeated. This allows you to match sequences of characters with varying lengths.
 
