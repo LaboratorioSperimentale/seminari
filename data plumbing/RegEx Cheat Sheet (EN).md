@@ -111,13 +111,14 @@ Logical operators are used in regular expressions to combine multiple search con
 
 - **OR (`|`)**: The `|` operator is used to match one of two (or more) conditions. For example, `a|b` matches "a" **or** "b".
 - **AND (implicit)**: The AND operator is not explicitly written in regular expressions. Expressions combine multiple patterns simultaneously, so a match will occur only when both patterns are present in the string. For example, `abc123` will search for both "abc" and "123" consecutively.
+### Testo:
+"Giovanni Bianchi, nato il 12/11/1990, ha acquistato il biglietto del treno IT456 per Milano il 01/06/2025 alle ore 08:45. Ha utilizzato la carta di credito con il numero 4111-1111-1111-1111 per un totale di €120. L'indirizzo email fornito è giovanni.bianchi@example.com. Il codice della transazione è TXN987654321. La prenotazione è stata effettuata alle ore 16:20 del 15/03/2025."
 
-| Regex Command | Explanation | Regex Result in Practice Text |
-|---------------|-------------|--------------|
-| `a|b`         | Matches "a" **or** "b". | "a", "b" |
-| `abc|def`     | Matches "abc" **or** "def". | No result (no "abc" or "def" present) |
-| `\d{3}-\d{2}-\d{4}|[A-Za-z]+` | Matches a sequence of digits in the format "xxx-xx-xxxx" **or** a sequence of letters. | "12-34-5678", "Giovanni", "Bianchi" |
-| `cat.*dog`    | Matches "cat" followed by anything and then "dog". | No result (no "cat" and "dog" together) |
-| `abc123`      | Matches exactly the string "abc123". | "abc123" |
-| `\d{2,4}|[A-Za-z]{3,5}` | Matches a number of 2-4 digits **or** a word of 3-5 letters. | "12", "1990", "abc", "john", "apple" |
-
+| Comando Regex                     | Spiegazione                                                             | Risultato della Regex                                        |
+|------------------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------|
+| `a|b`                              | Corrisponde a "a" **o** "b".                                             | "a", "b", "a", "b", "a", "b", "a", "b", "a", "a", "b", "a", "b", "a", "b" (tutte le occorrenze di "a" e "b") |
+| `abc|def`                          | Corrisponde a "abc" **o** "def".                                        | Nessun risultato (non ci sono "abc" o "def")                  |
+| `\d{3}-\d{2}-\d{4}|[A-Za-z]+`      | Corrisponde a una sequenza di cifre nel formato "xxx-xx-xxxx" **o** a una sequenza di lettere. | "Giovanni", "Bianchi", "Milano", "giovanni", "bianchi", "example", "com" |
+| `cat.*dog`                         | Corrisponde a "cat" seguito da qualsiasi cosa e poi da "dog".            | Nessun risultato (non ci sono "cat" e "dog" insieme)         |
+| `abc123`                           | Corrisponde esattamente alla stringa "abc123".                           | Nessun risultato (non c'è "abc123" nel testo)                |
+| `\d{2,4}|[A-Za-z]{3,5}`            | Corrisponde a un numero di 2-4 cifre **o** a una parola di 3-5 lettere. | "12", "1990", "08", "456", "01", "06", "2025", "08", "45", "4111", "1111", "1111", "1111", "120", "16", "20", "15", "03", "2025" |
