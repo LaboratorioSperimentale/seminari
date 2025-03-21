@@ -13,7 +13,7 @@ Basic regular expressions match exact characters or sequences of characters in t
 | Regex Command | Explanation | Regex Result |
 |---------------|-------------|--------------|
 | `abc`         | Matches exactly the string "abc". | No result (no "abc") |
-| `a\|b`         | Matches either "a" or "b". | No result (no "a" or "b") |
+| `a\|b`         | Matches either "a" or "b". | Matches all occurrences of the letter "a" and "b" in the text |
 | `.`           | Matches any single character except a newline. | "G", "i", "o", "v", "a", "n", "n", "i", " ", "B", "i", "a", "n", "c", "h", "i", ",", " ", "n", "a", "t", "o", " ", "i", "l", " ", "1", "2", "/", "1", "1", "/", "1", "9", "9", "0", ","... |
 | `\d`          | Matches any digit (0-9). | "1", "2", "1", "1", "1", "9", "9", "0", "0", "1", "0", "6", "2", "0", "2", "5", "0", "8", "4", "5", "4", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "2", "0", "9", "8", "7", "6", "5", "4", "3", "2", "1", "6", "2", "0", "1", "5", "0", "3", "2", "0", "2", "5" |
 | `\w`          | Matches any word character (letter, digit, underscore). | "G", "i", "o", "v", "a", "n", "n", "i", "B", "i", "a", "n", "c", "h", "i", "1", "2", "1", "1", "1", "9", "9", "0", "1", "1", "0", "6", "2", "0", "2", "5", "0", "8", "4", "5", "4", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "2", "0", "9", "8", "7", "6", "5", "4", "3", "2", "1", "6", "2", "0", "1", "5", "0", "3", "2", "0", "2", "5" |
