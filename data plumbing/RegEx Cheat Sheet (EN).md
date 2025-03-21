@@ -1,6 +1,6 @@
 # Reference Sheet for Regular Expressions
 
-## Text for Exercise:
+## Practice Text:
 "Giovanni Bianchi, born on 12/11/1990, purchased the train ticket IT456 to Milan on 01/06/2025 at 08:45. He used the credit card with the number 4111-1111-1111-1111 for a total of €120. The provided email address is giovanni.bianchi@example.com. The transaction code is TXN987654321. The booking was made at 16:20 on 15/03/2025."
 
 Use the service [https://regex101.com/](https://regex101.com/) to test your regular expressions.
@@ -10,7 +10,7 @@ Use the service [https://regex101.com/](https://regex101.com/) to test your regu
 ## 1. Basic Character Matching
 Basic regular expressions match exact characters or sequences of characters in the text. You can use single characters, alternations (using `|`), or the dot `.` to represent any character. Using these commands allows you to search for specific sequences of letters or numbers in the text.
 
-| Regex Command | Explanation | Regex Result |
+| Regex Command | Explanation | Regex Result in Practice Text |
 |---------------|-------------|--------------|
 | `abc`         | Matches exactly the string "abc". | No result (no "abc") |
 | `a\|b`         | Matches either "a" or "b". | Matches all occurrences of the letter "a" and "b" in the text |
@@ -27,7 +27,7 @@ Basic regular expressions match exact characters or sequences of characters in t
 ## 2. Character Sets and Ranges
 Character sets are very useful when you want to match a specific set of characters. They can also be used to define ranges, such as `a-z` for all lowercase letters. Using `[^ ]` allows you to exclude certain characters.
 
-| Regex Command | Explanation | Regex Result |
+| Regex Command | Explanation | Regex Result in Practice Text |
 |---------------|-------------|--------------|
 | `[aeiou]`     | Matches any vowel. | "o", "a", "i", "a", "i", "o", "e", "i", "a", "o", "e", "o" |
 | `[^aeiou]`    | Matches any character that is **NOT** a vowel. | "G", "v", "n", "n", "B", "n", "c", "h", "n", "t", "l", "1", "2", "1", "1", "1", "9", "9", "0", "/", "/", "/", ".", ",", " ", " ", " ", "n", "t", "l", "b", "g", "l", "t", "t", "s" |
@@ -43,7 +43,7 @@ Character sets are very useful when you want to match a specific set of characte
 ## 3. Special Characters
 Special characters are used to match patterns based on specific rules. These can include matching any single character, matching the beginning or end of a string, or grouping patterns.
 
-| Regex Command | Explanation | Regex Result |
+| Regex Command | Explanation | Regex Result in Practice Text |
 |---------------|-------------|--------------|
 | `^`           | Matches the beginning of the string. | "G" |
 | `$`           | Matches the end of the string. | "e" |
@@ -61,7 +61,7 @@ Special characters are used to match patterns based on specific rules. These can
 ## 4. Repetitions and Quantifiers
 Quantifiers are used to specify how many times a character or a group of characters should be repeated. This allows you to match sequences of characters with varying lengths.
 
-| Regex Command | Explanation | Regex Result |
+| Regex Command | Explanation | Regex Result in Practice Text |
 |---------------|-------------|--------------|
 | `a*`          | Matches zero or more occurrences of "a". | "a", "a", "a", "a", "a" |
 | `a+`          | Matches one or more occurrences of "a". | "a", "a", "a", "a" |
@@ -75,7 +75,7 @@ Quantifiers are used to specify how many times a character or a group of charact
 ## 5. Grouping and Capturing
 Capture groups allow you to group parts of a regular expression and extract them separately. Groups are useful for applying quantifiers to multiple characters at once.
 
-| Regex Command | Explanation | Regex Result |
+| Regex Command | Explanation | Regex Result in Practice Text |
 |---------------|-------------|--------------|
 | `(abc)`       | Captures "abc" as a group. | No result (no "abc" string) |
 | `(abc|def)`   | Matches "abc" or "def". | No result (no "abc" or "def" present) |
@@ -86,7 +86,7 @@ Capture groups allow you to group parts of a regular expression and extract them
 ## 6. Lookahead and Lookbehind
 Lookahead and lookbehind allow matches based on a condition that occurs before or after a specific position in the text.
 
-| Regex Command    | Explanation | Regex Result |
+| Regex Command    | Explanation | Regex Result in Practice Text |
 |------------------|-------------|--------------|
 | `\d+(?= euros)`  | Matches digits followed by "euros". | No result (no "euros" string) |
 | `(?<=@)\w+`      | Matches a sequence of letters preceded by "@" (e.g., an email domain). | "example" |
@@ -97,7 +97,7 @@ Lookahead and lookbehind allow matches based on a condition that occurs before o
 ## 7. Escaping Special Characters
 Sometimes, you need to search for special symbols like the dot, asterisk, or dollar sign. In these cases, you must "escape" these characters using the backslash (`\`).
 
-| Regex Command | Explanation | Regex Result |
+| Regex Command | Explanation | Regex Result in Practice Text |
 |---------------|-------------|--------------|
 | `\.`          | Matches a literal dot ".". | "." |
 | `\*`          | Matches a literal asterisk "*". | "*" |
@@ -114,7 +114,7 @@ Logical operators are used in regular expressions to combine multiple search con
 - **OR (`|`)**: The `|` operator is used to match one of two (or more) conditions. For example, `a|b` matches "a" **or** "b".
 - **AND (implicit)**: The AND operator is not explicitly written in regular expressions. Expressions combine multiple patterns simultaneously, so a match will occur only when both patterns are present in the string. For example, `abc123` will search for both "abc" and "123" consecutively.
 
-| Regex Command | Explanation | Regex Result |
+| Regex Command | Explanation | Regex Result in Practice Text |
 |---------------|-------------|--------------|
 | `a|b`         | Matches "a" **or** "b". | "a", "b" |
 | `abc|def`     | Matches "abc" **or** "def". | No result (no "abc" or "def" present) |
