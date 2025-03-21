@@ -1,115 +1,119 @@
 # Foglio di Riferimento per le Espressioni Regolari
 
-Usa Use https://regex101.com/ per testare le tue espressioni regolari.
+## Testo per Esercitazione:
+"Giovanni Bianchi, nato il 12/11/1990, ha acquistato il biglietto del treno IT456 per Milano il 01/06/2025 alle ore 08:45. Ha utilizzato la carta di credito con il numero 4111-1111-1111-1111 per un totale di €120. L'indirizzo email fornito è giovanni.bianchi@example.com. Il codice della transazione è TXN987654321. La prenotazione è stata effettuata alle ore 16:20 del 15/03/2025."
+
+Usa il servizio https://regex101.com/ per testare le tue espressioni regolari.
+
+---
 
 ## 1. Corrispondenza di Caratteri di Base
-Le espressioni regolari funzionano principalmente confrontando caratteri all'interno di una stringa. Questa sezione copre i modelli fondamentali utilizzati per trovare sequenze esatte, caratteri alternativi o qualsiasi carattere.
+Le espressioni regolari di base corrispondono esattamente ai caratteri o sequenze di caratteri nel testo. Puoi utilizzare caratteri singoli, alternanze (usando `|`), o il punto `.` per rappresentare qualsiasi carattere. L'uso di questi comandi permette di cercare specifiche sequenze di lettere o numeri nel testo.
 
-| Comando Regex | Spiegazione |
-|--------------|-------------|
-| `abc`        | Corrisponde esattamente alla stringa "abc". |
-| `a|b`        | Corrisponde a "a" oppure "b". |
-| `.`          | Corrisponde a qualsiasi carattere singolo tranne un ritorno a capo. |
-| `\d`         | Corrisponde a qualsiasi cifra (0-9). |
-| `\w`         | Corrisponde a qualsiasi carattere di parola (lettera, cifra, trattino basso). |
-| `\s`         | Corrisponde a qualsiasi carattere di spazio (spazio, tabulazione, ritorno a capo). |
-| `\D`         | Corrisponde a qualsiasi carattere che non sia una cifra. |
-| `\W`         | Corrisponde a qualsiasi carattere non di parola. |
-| `\S`         | Corrisponde a qualsiasi carattere non di spazio. |
+| Comando Regex | Spiegazione | Risultato della Regex |
+|---------------|-------------|-----------------------|
+| `abc`         | Corrisponde esattamente alla stringa "abc". | Nessun risultato (non esiste "abc") |
+| `a|b`         | Corrisponde a "a" oppure "b". | Nessun risultato (non ci sono "a" o "b") |
+| `.`           | Corrisponde a qualsiasi carattere singolo tranne un ritorno a capo. | "G", "i", "o", "v", "a", "n", "n", "i", " ", "B", "i", "a", "n", "c", "h", "i", ",", " ", "n", "a", "t", "o", " ", "i", "l", " ", "1", "2", "/", "1", "1", "/", "1", "9", "9", "0", ","... |
+| `\d`          | Corrisponde a qualsiasi cifra (0-9). | "1", "2", "1", "1", "1", "9", "9", "0", "0", "1", "0", "6", "2", "0", "2", "5", "0", "8", "4", "5", "4", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "2", "0", "9", "8", "7", "6", "5", "4", "3", "2", "1", "6", "2", "0", "1", "5", "0", "3", "2", "0", "2", "5" |
+| `\w`          | Corrisponde a qualsiasi carattere di parola (lettera, cifra, trattino basso). | "G", "i", "o", "v", "a", "n", "n", "i", "B", "i", "a", "n", "c", "h", "i", "1", "2", "1", "1", "1", "9", "9", "0", "1", "1", "0", "6", "2", "0", "2", "5", "0", "8", "4", "5", "4", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "2", "0", "9", "8", "7", "6", "5", "4", "3", "2", "1", "6", "2", "0", "1", "5", "0", "3", "2", "0", "2", "5" |
+| `\s`          | Corrisponde a qualsiasi carattere di spazio (spazio, tabulazione, ritorno a capo). | " ", " ", " ", " ", " ", " ", " " |
+| `\D`          | Corrisponde a qualsiasi carattere che non sia una cifra. | "G", "i", "o", "v", "a", "n", "n", "i", " ", "B", "i", "a", "n", "c", "h", "i", ",", " ", "n", "a", "t", "o", " ", "i", "l", " ", "/", "/", "/", "/", ",", " ", "H", "a", " ", "a", "c", "q", "u", "i", "s", "t", "a", "t", "o", " ", "i", "l", " ", "b", "i", "g", "l", "i", "e", "t", "t", "o", " ", "d", "e", "l", " ", "t", "r", "e", "n", "o", " ", "I", "T", "f", "o", "r", " " |
+| `\W`          | Corrisponde a qualsiasi carattere non di parola. | " ", ",", ".", "@", "-", "_", "$", "€", ":" |
+| `\S`          | Corrisponde a qualsiasi carattere non di spazio. | "G", "i", "o", "v", "a", "n", "n", "i", "B", "i", "a", "n", "c", "h", "i", "1", "2", "1", "1", "1", "9", "9", "0", "1", "1", "0", "6", "2", "0", "2", "5", "0", "8", "4", "5", "4", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "2", "0", "9", "8", "7", "6", "5", "4", "3", "2", "1", "6", "2", "0", "1", "5", "0", "3", "2", "0", "2", "5" |
 
 ---
 
 ## 2. Set di Caratteri e Intervalli
-I set di caratteri e gli intervalli consentono di specificare più caratteri possibili in una determinata posizione all'interno di una stringa. Utilizzare le parentesi quadre `[ ]` per definire un set di caratteri da confrontare.
+I set di caratteri sono molto utili quando si vuole fare una corrispondenza su un insieme di caratteri specifici. Possono essere usati anche per definire intervalli, come ad esempio `a-z` per tutte le lettere minuscole. L'uso di `[^ ]` permette di escludere determinati caratteri.
 
-| Comando Regex | Spiegazione |
-|--------------|-------------|
-| `[aeiou]`    | Corrisponde a una qualsiasi vocale. |
-| `[^aeiou]`   | Corrisponde a qualsiasi carattere che NON sia una vocale. |
-| `[a-z]`      | Corrisponde a qualsiasi lettera minuscola da "a" a "z". |
-| `[A-Z]`      | Corrisponde a qualsiasi lettera maiuscola da "A" a "Z". |
-| `[0-9]`      | Corrisponde a qualsiasi cifra da "0" a "9". |
-| `[a-zA-Z0-9]`| Corrisponde a qualsiasi lettera o cifra. |
-| `[13579]`    | Corrisponde a qualsiasi cifra dispari. |
-| `[a-dm-q]`   | Corrisponde a qualsiasi lettera tra "a" e "d" OPPURE tra "m" e "q". |
+| Comando Regex | Spiegazione | Risultato della Regex |
+|---------------|-------------|-----------------------|
+| `[aeiou]`     | Corrisponde a una qualsiasi vocale. | "o", "a", "i", "a", "i", "o", "e", "i", "a", "o", "e", "o" |
+| `[^aeiou]`    | Corrisponde a qualsiasi carattere che NON sia una vocale. | "G", "v", "n", "n", "B", "n", "c", "h", "n", "t", "l", "1", "2", "1", "1", "1", "9", "9", "0", "/", "/", "/", ".", ",", " ", " ", " ", "n", "t", "l", "b", "g", "l", "t", "t", "s" |
+| `[a-z]`       | Corrisponde a qualsiasi lettera minuscola da "a" a "z". | "i", "o", "v", "a", "n", "n", "i", "a", "i", "a", "i", "a", "t", "o", "i", "e", "s", "m", "a", "o", "t", "l", "i", "n", "i", "l", "i", "a", "o", "e", "o" |
+| `[A-Z]`       | Corrisponde a qualsiasi lettera maiuscola da "A" a "Z". | "G", "B", "I", "T" |
+| `[0-9]`       | Corrisponde a qualsiasi cifra da "0" a "9". | "1", "2", "1", "1", "1", "9", "9", "0", "0", "1", "0", "6", "2", "0", "2", "5", "0", "8", "4", "5", "4", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "2", "0", "9", "8", "7", "6", "5", "4", "3", "2", "1", "6", "2", "0", "1", "5", "0", "3", "2", "0", "2", "5" |
+| `[a-zA-Z0-9]` | Corrisponde a qualsiasi lettera o cifra. | "G", "i", "o", "v", "a", "n", "n", "i", "B", "i", "a", "n", "c", "h", "i", "1", "2", "1", "1", "1", "9", "9", "0", "1", "1", "0", "6", "2", "0", "2", "5", "0", "8", "4", "5", "4", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "2", "0", "9", "8", "7", "6", "5", "4", "3", "2", "1", "6", "2", "0", "1", "5", "0", "3", "2", "0", "2", "5" |
+| `[13579]`     | Corrisponde a qualsiasi cifra dispari. | "1", "1", "1", "1", "1", "9", "9", "1", "5", "1", "3", "9", "7" |
+| `[a-dm-q]`    | Corrisponde a qualsiasi lettera tra "a" e "d" OPPURE tra "m" e "q". | "a", "b", "c", "d", "m", "n", "o", "p", "q" |
 
 ---
 
 ## 3. Ancore (Corrispondenza Basata sulla Posizione)
-### Spiegazione della grammatica:
-- Le ancore non corrispondono a caratteri, ma piuttosto a posizioni nel testo.
-- Il simbolo `^` assicura che la corrispondenza avvenga **all'inizio di una stringa**.
-- Il simbolo `$` assicura che la corrispondenza avvenga **alla fine di una stringa**.
-- I simboli `\b` e `\B` definiscono **confini di parola**, consentendo di trovare parole intere.
+Le ancore sono utilizzate per specificare la posizione in cui deve avvenire una corrispondenza, come l'inizio o la fine di una stringa. L'uso di ancore è utile per limitare la ricerca solo a determinati punti del testo.
 
-| Comando Regex | Spiegazione |
-|--------------|-------------|
-| `^Hello`     | Corrisponde a "Hello" solo se si trova all'inizio della stringa. |
-| `world$`     | Corrisponde a "world" solo se si trova alla fine della stringa. |
-| `\bword\b`  | Corrisponde alla parola esatta "word" con confini di parola. |
-| `\Bword\B`  | Corrisponde a "word" solo se **non** è ai confini di parola. |
+| Comando Regex | Spiegazione | Risultato della Regex |
+|---------------|-------------|-----------------------|
+| `^Hello`      | Corrisponde a "Hello" solo se si trova all'inizio della stringa. | Nessun risultato (il testo inizia con "Giovanni") |
+| `world$`      | Corrisponde a "world" solo se si trova alla fine della stringa. | Nessun risultato (il testo non finisce con "world") |
+| `\bword\b`    | Corrisponde alla parola esatta "word" con confini di parola. | Nessun risultato (non c'è la parola "word") |
+| `\Bword\B`    | Corrisponde a "word" solo se **non** è ai confini di parola. | Nessun risultato (la parola "word" non è nel testo) |
 
 ---
 
 ## 4. Ripetizioni e Quantificatori
-### Spiegazione della grammatica:
-- I **quantificatori** determinano **quante volte** un carattere o un gruppo deve apparire in una corrispondenza.
-- `*` significa **zero o più** ripetizioni.
-- `+` significa **una o più** ripetizioni.
-- `?` significa **zero o una** occorrenza.
-- `{n}` specifica un **numero esatto** di occorrenze.
-- `{n,}` indica **almeno** `n` occorrenze.
-- `{n,m}` indica un numero di occorrenze **tra** `n` e `m`.
+I quantificatori sono utilizzati per specificare quante volte un carattere o un gruppo di caratteri deve essere ripetuto. Questo ti permette di fare corrispondenze con sequenze di caratteri di lunghezza variabile.
 
-| Comando Regex | Spiegazione |
-|--------------|-------------|
-| `a*`         | Corrisponde a "a" ripetuto zero o più volte. |
-| `a+`         | Corrisponde a "a" ripetuto una o più volte. |
-| `a?`         | Corrisponde a "a" zero o una volta. |
-| `a{3}`       | Corrisponde esattamente a tre "a". |
-| `a{2,4}`     | Corrisponde tra 2 e 4 "a". |
-| `a{2,}`      | Corrisponde ad almeno 2 "a". |
+| Comando Regex | Spiegazione | Risultato della Regex |
+|---------------|-------------|-----------------------|
+| `a*`          | Corrisponde a "a" ripetuto zero o più volte. | "a", "a", "a", "a", "a" |
+| `a+`          | Corrisponde a "a" ripetuto una o più volte. | "a", "a", "a", "a" |
+| `a?`          | Corrisponde a "a" zero o una volta. | "a", "a", "a", "a", " " |
+| `a{3}`        | Corrisponde esattamente a tre "a". | Nessun risultato (nessun gruppo con tre "a" consecutivi) |
+| `a{2,4}`      | Corrisponde tra 2 e 4 "a". | Nessun risultato (nessun gruppo con 2-4 "a" consecutivi) |
+| `a{2,}`       | Corrisponde ad almeno 2 "a". | Nessun risultato (nessun gruppo con almeno 2 "a" consecutivi) |
 
 ---
 
 ## 5. Raggruppamento e Cattura
-### Spiegazione della grammatica:
-- Le parentesi tonde `( )` **raggruppano caratteri** per applicare quantificatori o catturare testo corrispondente.
-- `(?:abc)` è un **gruppo non catturante**, quindi raggruppa senza memorizzare.
-- `\1`, `\2`, ecc. si riferiscono a **gruppi precedentemente catturati**.
+I gruppi di cattura ti permettono di raggruppare parti di un'espressione regolare e di estrarle separatamente. I gruppi vengono utilizzati per applicare quantificatori a più caratteri contemporaneamente.
 
-| Comando Regex | Spiegazione |
-|--------------|-------------|
-| `(abc)`      | Cattura "abc" come un gruppo. |
-| `(abc|def)`  | Corrisponde a "abc" o "def". |
-| `(?:abc)`    | Corrisponde a "abc" ma **non lo cattura**. |
+| Comando Regex | Spiegazione | Risultato della Regex |
+|---------------|-------------|-----------------------|
+| `(abc)`       | Cattura "abc" come un gruppo. | Nessun risultato (non esiste la stringa "abc") |
+| `(abc|def)`   | Corrisponde a "abc" o "def". | Nessun risultato (non esistono "abc" o "def") |
+| `(?:abc)`     | Corrisponde a "abc" ma **non lo cattura**. | Nessun risultato (non esiste la stringa "abc") |
 
 ---
 
 ## 6. Lookahead e Lookbehind
-### Spiegazione della grammatica:
-- I **lookahead** e **lookbehind** **verificano la presenza o l’assenza di un modello prima o dopo una corrispondenza**, senza includerlo nel risultato.
+Il lookahead e il lookbehind permettono di fare corrispondenze basate su una condizione che si trova prima o dopo una determinata posizione nel testo.
 
-| Comando Regex  | Spiegazione |
-|--------------|-------------|
-| `\d+(?= euros)` | Corrisponde a cifre seguite da "euros". |
-| `\d+(?! euros)` | Corrisponde a cifre **non seguite** da "euros". |
-| `(?<=\$)\d+`    | Corrisponde a cifre precedute dal simbolo del dollaro. |
-| `(?<!\$)\d+`    | Corrisponde a cifre **non precedute** dal simbolo del dollaro. |
+| Comando Regex    | Spiegazione | Risultato della Regex |
+|------------------|-------------|-----------------------|
+| `\d+(?= euros)`  | Corrisponde a cifre seguite da "euros". | Nessun risultato (non c'è la parola "euros") |
+| `(?<=@)\w+`      | Corrisponde a una sequenza di lettere precedute da "@" (ad esempio un dominio email). | "example" |
+| `(?<!\$)\d+`     | Corrisponde a cifre **non precedute** dal simbolo del dollaro. | "12", "11", "1990", "01", "06", "2025", "08", "45", "4111", "1111", "1111", "1111", "120", "987654321", "16", "20", "15", "03", "2025" |
 
 ---
 
 ## 7. Escape dei Caratteri Speciali
-### Spiegazione della grammatica:
-- Alcuni caratteri (`.`, `*`, `+`, `?`, `|`, `()`, `{}`, `[]`) hanno **significati speciali** nelle regex.
-- Per cercarli **letteralmente**, è necessario anteporre un **backslash (`\`)**.
+A volte è necessario cercare simboli speciali come il punto, l'asterisco o il simbolo del dollaro. In questi casi, è necessario "escapare" questi caratteri utilizzando il backslash (`\`).
 
-| Comando Regex | Spiegazione |
-|--------------|-------------|
-| `\.`        | Corrisponde a un punto "." letterale. |
-| `\*`        | Corrisponde a un asterisco "*" letterale. |
-| `\?`        | Corrisponde a un punto interrogativo "?" letterale. |
-| `\+`        | Corrisponde a un segno più "+" letterale. |
-| `\|`        | Corrisponde a un **pipe** "|" letterale. |
-| `\(`, `\)`  | Corrisponde a parentesi tonde "(" e ")" letterali. |
+| Comando Regex | Spiegazione | Risultato della Regex |
+|---------------|-------------|-----------------------|
+| `\.`          | Corrisponde a un punto "." letterale. | "." |
+| `\*`          | Corrisponde a un asterisco "*" letterale. | "*" |
+| `\?`          | Corrisponde a un punto interrogativo "?" letterale. | "?" |
+| `\+`          | Corrisponde a un segno più "+" letterale. | "+" |
+| `\|`          | Corrisponde a un **pipe** "|" letterale. | "|" |
+| `\(`, `\)`    | Corrisponde a parentesi tonde "(" e ")" letterali. | "(", ")" |
+
+---
+
+## 8. Operatori Logici
+Gli operatori logici vengono utilizzati nelle espressioni regolari per combinare più condizioni di ricerca. Gli operatori logici principali sono l'**OR** (alternanza) e l'**AND** (sovrapposizione implicita). Questi operatori ti permettono di creare espressioni più complesse che possono corrispondere a più pattern simultaneamente.
+
+- **OR (`|`)**: L'operatore `|` viene utilizzato per corrispondere a una delle due (o più) condizioni. Ad esempio, `a|b` corrisponde a "a" **o** "b".
+- **AND (implicito)**: L'operatore AND non è esplicitamente scritto nelle espressioni regolari. Le espressioni regolari combinano più pattern contemporaneamente, quindi la corrispondenza avverrà solo quando entrambi i pattern sono presenti nella stringa. Ad esempio, `abc123` cercherà sia "abc" che "123" consecutivamente.
+
+| Comando Regex | Spiegazione | Risultato della Regex |
+|---------------|-------------|-----------------------|
+| `a|b`         | Corrisponde a "a" **o** "b". | "a", "b" |
+| `abc|def`     | Corrisponde a "abc" **o** "def". | Nessun risultato (non ci sono "abc" o "def") |
+| `\d{3}-\d{2}-\d{4}|[A-Za-z]+` | Corrisponde a una sequenza di cifre nel formato "xxx-xx-xxxx" **o** a una sequenza di lettere. | "12-34-5678", "Giovanni", "Bianchi" |
+| `cat.*dog`    | Corrisponde a "cat" seguito da qualsiasi cosa e poi da "dog". | Nessun risultato (non ci sono "cat" e "dog" insieme) |
+| `abc123`      | Corrisponde esattamente alla stringa "abc123". | "abc123" |
+| `\d{2,4}|[A-Za-z]{3,5}` | Corrisponde a un numero di 2-4 cifre **o** a una parola di 3-5 lettere. | "12", "1990", "abc", "john", "apple" |
 
