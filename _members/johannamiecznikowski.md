@@ -1,6 +1,6 @@
 ---
 name: Johanna Miecznikowski
-image: images/photo.jpg
+image: images/avatars/Johanna Miecznikowski-Fuenfschilling.png
 role: speaker
 affiliation: Università della Svizzera Italiana
 links:

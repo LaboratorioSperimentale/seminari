@@ -1,6 +1,6 @@
 ---
 name: Elena Battaglia
-image: images/photo.jpg
+image: images/avatars/elena battaglia.png
 role: speaker
 affiliation: Università della Svizzera Italiana
 links:
