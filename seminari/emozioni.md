@@ -116,5 +116,11 @@ I metodi e strumenti dell'analisi emotiva dei testi sono:
 
 ### I lessici emotivi
 
-I lessici emotivi sono risorse linguistiche sviluppate annotando liste di parole in base alle emozioni ad esse associate. Le modalità di annotazione 
+I lessici emotivi sono risorse linguistiche sviluppate annotando liste di parole in base alle emozioni ad esse associate. Le modalità di annotazione, di selezione del lessico e anche le emozioni prese in considerazione possono divergere a seconda dello studio e dell'obbiettivo della risorsa.
+
+Generalmente esistono delle tendenze comuni nella creazione di tali risorse:
+
+- **Annotazione manuale o automatica**: l'annotazione manuale può essere in un primo caso fatta da esperti, in un secondo caso tramite crowdsourcing, questo avviene quando chi annota è una persona anonima, in questo caso però avviene un controllo parziale e non totale degli annotatori. L'annotazione automatica invece, avviene tramite strumenti come siti e piattaforme, spesso però a pagamento. 
+
+- **Emozioni categoriali o dimensioni emotive**: 
 
