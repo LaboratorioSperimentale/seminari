@@ -1,5 +1,6 @@
 # Foglio di Riferimento per le Espressioni Regolari
 
+PHP < 7.3 + global + multiline
 
 ## Practice Text
 - _"Giovanni Bianchi, born on 12/11/1990, purchased the train ticket IT456 to Milan on 01/06/2025 at 08:45.  
