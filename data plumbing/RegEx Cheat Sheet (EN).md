@@ -1,10 +1,5 @@
 # Reference Sheet for Regular Expressions
 
-
-
-
-# Regular Expressions Reference Sheet
-
 ## Practice Text
 
 _"Giovanni Bianchi, born on 12/11/1990, purchased the train ticket IT456 to Milan on 01/06/2025 at 08:45.  
@@ -19,16 +14,18 @@ The transaction code is TXN987654321. The booking was made at 16:20 on 15/03/202
 
 - Basic regular expressions match exact characters or sequences of characters in text. You can use individual characters, alternation (`|`), or the dot (`.`) to represent any character. Using these commands allows you to search for specific sequences of letters or numbers in the text.
 
-|Regex Command|Explanation|Regex Result|
+
+|Regex Command|Explanation|Regex Result (Es: "Giovanni Bianchi, born on 12/11/1990, left at 08:45.")|
 |---|---|---|
-|`abc`|Matches exactly the string "abc".|Nessuna corrispondenza|
-|`a\|b`|Matches "a" or "b".|`a`, `b`, `b`, `a`, `b`...|
-|`.`|Matches any single character except a newline.|**All characters in the text** (excluding spaces)|
-|`\d`|Matches any digit (0-9).|`1`, `2`, `1`, `1`, `1`, `9`, `9`, `0`, `4`, `5`, `6`, `0`, `1`, `0`, `6`, `2`, `0`, `2`, `5`, `0`, `8`, `4`, `5`, `4`, `1`, `1`, `1`, `1`, `1`, `1`, `1`, `1`, `1`, `1`, `1`, `1`, `1`, `2`, `0`, `2`, `5`, `0`, `2`, `5`, `0`, `9`, `8`, `7`, `6`, `5`, `4`, `3`, `2`, `1`, `1`, `6`, `2`, `0`, `1`, `5`, `0`, `3`, `2`, `0`, `2`, `5`|
-|`\w`|Matches any word character (letter, digit, underscore).|`Giovanni`, `Bianchi`, `born`, `on`, `12`, `11`, `1990`, `purchased`, `the`, `train`, `ticket`, `IT456`, `to`, `Milan`, `on`, `01`, `06`, `2025`, `at`, `08`, `45`, `He`, `used`, `the`, `credit`, `card`, `with`, `the`, `number`, `4111`, `1111`, `1111`, `1111`, `for`, `a`, `total`, `of`, `120`, `Please`, `note`, `the`, `rentrée`, `fee`, `is`, `250`, `For`, `assistance`, `please`, `contact`, `us`, `at`, `giovanni`, `bianchi`, `example`, `com`, `ascii`, `characters`, `Japanese`, `unicode`, `characters`, `Chinese`, `unicode`, `characters`, `The`, `transaction`, `code`, `is`, `TXN987654321`, `The`, `booking`, `was`, `made`, `at`, `16`, `20`, `on`, `15`, `03`, `2025`|
-|`\s`|Matches any whitespace character.|**All spaces and line breaks**|
-|`\D`|Matches any non-digit character.|**All non-numeric characters**|
-|`\W`|Matches any non-word character.|`,`, , `,`, , , , `-`, `-`, `-`, `-`, , `€`, `.`, , `“`, `”`, `€`, `.`, `@`, `@`, `(`, `)`, `(`, `)`, `(`, `)`, `.`|
+|`abc`|Matches exactly the string "abc".|Giovanni Bianchi, born on 12/11/1990, left at 08:45. → ``No match``|
+|`a\|b`|Matches "a" or "b".|Giovanni Bi`a`nchi, `b`orn on 12/11/1990, left `a`t 08:45.|
+|`.`|Matches any single character except a newline.|`G``i``o``v``a``n``n``i` `B``i``a``n``c``h``i```,` `b``o``r``n` `o``n` `1``2``/``1``1``/``1``9``9``0```,` `l``e``f``t` `a``t` `0``8```:``4``5``.`|
+|`\d`|Matches any digit (0-9).|Giovanni Bianchi, born on `1``2`/`1``1`/`1``9``9``0`, left at `0``8`:`4``5`.|
+|`\w`|Matches any word character (letter, digit, underscore).|`Giovanni` `Bianchi`, `born` `on` `12`/`11`/`1990`, `left` `at` `08`:`45`.`|
+|`\s`|Matches any whitespace character.|`Giovanni` `Bianchi,` `born` `on` `12/11/1990,` `left` `at` `08:45.`|
+|`\D`|Matches any non-digit character.|`G``i``o``v``a``n``n``i` `B``i``a``n``c``h``i`,` `b``o``r``n` `o``n` `/` `/` `,` `l``e``f``t` `a``t` `:` `.`|
+|`\W`|Matches any non-word character.|`Giovanni` `Bianchi``,` `born` `on` `12`/`11`/`1990``,` `left` `at` `08`:`45`.`|
+
 
 ---
 
@@ -86,7 +83,7 @@ The transaction code is TXN987654321. The booking was made at 16:20 on 15/03/202
 |`(abc)`|Captures "abc" as a group.|Nessuna corrispondenza|
 |`(abc)+`|Matches one or more occurrences of "abc".|Nessuna corrispondenza|
 |`(a|b)c`|Matches "ac" or "bc".|
-|`(?:abc)`|Non-capturing group (matches "abc" but doesn't save it).|Nessuna corrispondenza|
+|`(?:abc)`|Non-capturing group (matches "abc" but doesn`t save it).|Nessuna corrispondenza|
 
 ---
 
