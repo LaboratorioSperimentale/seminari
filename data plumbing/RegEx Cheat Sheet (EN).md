@@ -1,4 +1,5 @@
-# Reference Sheet for Regular Expressions
+
+# Reference Sheet for Regular Expressions (Bash-Compatible)
 
 ## Practice Text
 
@@ -12,140 +13,122 @@ The transaction code is TXN987654321. The booking was made at 16:20 on 15/03/202
 
 ## 1. Basic Character Matching
 
-- Basic regular expressions match exact characters or sequences of characters in text. You can use individual characters, alternation (`|`), or the dot (`.`) to represent any character. Using these commands allows you to search for specific sequences of letters or numbers in the text.
-
-
-|Regex Command|Explanation|Regex Result (Es: "Giovanni Bianchi, born on 12/11/1990, left at 08:45.")|
-|---|---|---|
-|`abc`|Matches exactly the string "abc".|Giovanni Bianchi, born on 12/11/1990, left at 08:45. → ``No match``|
-|`a\|b`|Matches "a" or "b".|Giovanni Bi`a`nchi, `b`orn on 12/11/1990, left `a`t 08:45.|
-|`.`|Matches any single character except a newline.|`G``i``o``v``a``n``n``i` `B``i``a``n``c``h``i```,` `b``o``r``n` `o``n` `1``2``/``1``1``/``1``9``9``0```,` `l``e``f``t` `a``t` `0``8```:``4``5``.`|
-|`\d`|Matches any digit (0-9).|Giovanni Bianchi, born on `1``2`/`1``1`/`1``9``9``0`, left at `0``8`:`4``5`.|
-|`\w`|Matches any word character (letter, digit, underscore).|`Giovanni` `Bianchi`, `born` `on` `12`/`11`/`1990`, `left` `at` `08`:`45`.`|
-|`\s`|Matches any whitespace character.|`Giovanni` `Bianchi,` `born` `on` `12/11/1990,` `left` `at` `08:45.`|
-|`\D`|Matches any non-digit character.|`G``i``o``v``a``n``n``i` `B``i``a``n``c``h``i`,` `b``o``r``n` `o``n` `/` `/` `,` `l``e``f``t` `a``t` `:` `.`|
-|`\W`|Matches any non-word character.|`Giovanni` `Bianchi``,` `born` `on` `12`/`11`/`1990``,` `left` `at` `08`:`45`.`|
-
+| Regex Command | Explanation | Example Match (Es: "Giovanni Bianchi, born on 12/11/1990, left at 08:45.")|
+|--------------|-------------|--------------|
+| `abc` | Matches exactly "abc". | No match |
+| `a\|b` | Matches "a" or "b". | `a`, `b` |
+| `.` | Matches any single character. | Matches all characters except newlines |
+| `[0-9]` | Matches any digit (0-9). | `1`, `2`, `5` |
+| `[a-zA-Z0-9_]` | Matches any alphanumeric character. | `G`, `B`, `i`, `a` |
+| `[[:space:]]` | Matches any whitespace character. | Spaces, tabs, newlines |
+| `[^0-9]` | Matches any non-digit. | Letters, punctuation |
 
 ---
 
 ## 2. Character Sets and Ranges
 
-- Character sets are useful when you want to match a specific group of characters. You can also define ranges, such as `a-z` for all lowercase letters. Using `[^ ]` allows you to exclude certain characters.
-
-|Regex Command|Explanation|Regex Result|
-|---|---|---|
-|`[aeiou]`|Matches any vowel.|`o`, `i`, `a`, `o`, `i`, `a`, `o`, `i`, `o`, ...|
-|`[^aeiou]`|Matches any character that is NOT a vowel.|`G`, `v`, `n`, `n`, `B`, `n`, `c`, `h`, ...|
-|`[a-z]`|Matches any lowercase letter from "a" to "z".|`i`, `o`, `v`, `a`, `n`, `n`, `i`, ...|
-|`[A-Z]`|Matches any uppercase letter from "A" to "Z".|`G`, `B`, `I`, `T`, `M`, `T`, `X`, `N`|
-|`[0-9]`|Matches any digit from "0" to "9".|`1`, `2`, `1`, `1`, `1`, `9`, `9`, `0`, ...|
-|`[a-zA-Z0-9]`|Matches any letter or digit.|`G`, `i`, `o`, `v`, `a`, `n`, `n`, `i`, ...|
-|`[13579]`|Matches any odd digit.|`1`, `1`, `1`, `9`, `9`, `5`, `1`, `5`, `3`, `1`|
-|`[a-dm-q]`|Matches any letter between "a" and "d" OR between "m" and "q".|`b`, `n`, `d`, `m`, `m`, `m`, `m`, `p`, ...|
+| Regex Command | Explanation | Example Match |
+|--------------|-------------|--------------|
+| `[aeiou]` | Matches any vowel. | `o`, `i`, `a` |
+| `[^aeiou]` | Matches any character that is NOT a vowel. | `G`, `B`, `n`, `c` |
+| `[a-z]` | Matches any lowercase letter. | `a`, `b`, `c` |
+| `[A-Z]` | Matches any uppercase letter. | `G`, `B`, `I`, `T` |
+| `[0-9]` | Matches any digit. | `1`, `2`, `3` |
+| `[a-zA-Z0-9]` | Matches any letter or digit. | `G`, `i`, `o` |
+| `[13579]` | Matches any odd digit. | `1`, `3`, `5` |
 
 ---
 
 ## 3. Anchors (Position-Based Matching)
 
-- Anchors are used to specify where a match should occur, such as the start or end of a string. Using anchors helps limit searches to specific points in the text.
-
-|Regex Command|Explanation|Regex Result|
-|---|---|---|
-|`^Hello`|Matches "Hello" only if it is at the beginning of the string.|Nessuna corrispondenza|
-|`world$`|Matches "world" only if it is at the end of the string.|Nessuna corrispondenza|
-|`\bword\b`|Matches the exact word "word" with word boundaries.|Nessuna corrispondenza|
-|`\Bword\B`|Matches "word" only if **not** at word boundaries.|Nessuna corrispondenza|
+| Regex Command | Explanation | Example Match |
+|--------------|-------------|--------------|
+| `^Hello` | Matches "Hello" at the beginning of a line. | No match |
+| `world$` | Matches "world" at the end of a line. | No match |
+| `\<word\>` | Matches the word "word" with boundaries. | No match |
+| `\Bword\B` | Matches "word" NOT at word boundaries. | No match |
 
 ---
 
 ## 4. Quantifiers (Repetition Operators)
 
-- Quantifiers define how many times a character, group, or pattern should appear. They help match repeated sequences efficiently.
-
-|Regex Command|Explanation|Regex Result|
-|---|---|---|
-|`a*`|Matches "a" repeated zero or more times.|``, `a`,`` , `a`, ``, `a`, `a`,`` , ...|
-|`a+`|Matches "a" repeated one or more times.|`a`, `a`, `a`, `a`, `a`, `a`, `a`|
-|`a?`|Matches "a" zero or one time.|``, `a`,`` , `a`, ``, `a`,`` , `a`, ...|
-|`a{3}`|Matches exactly three occurrences of "a".|Nessuna corrispondenza|
-|`a{2,4}`|Matches between 2 and 4 occurrences of "a".|`aa`, `aa`|
-|`a{2,}`|Matches at least 2 occurrences of "a".|`aa`, `aaa`, `aaa`|
+| Regex Command | Explanation | Example Match |
+|--------------|-------------|--------------|
+| `a*` | Matches "a" zero or more times. | ``, `a`, `aa` |
+| `a+` | Matches "a" one or more times. | `a`, `aa` |
+| `a?` | Matches "a" zero or one time. | ``, `a` |
+| `a\{3\}` | Matches exactly three "a"s. | No match |
+| `a\{2,4\}` | Matches between 2 and 4 "a"s. | `aa`, `aaa` |
+| `a\{2,\}` | Matches at least 2 "a"s. | `aa`, `aaa` |
 
 ---
 
 ## 5. Grouping and Capturing
 
-- Parentheses `()` are used to group expressions. This allows you to apply quantifiers to entire groups and capture specific parts of a match.
-
-|Regex Command|Explanation|Regex Result|
-|---|---|---|
-|`(abc)`|Captures "abc" as a group.|Nessuna corrispondenza|
-|`(abc)+`|Matches one or more occurrences of "abc".|Nessuna corrispondenza|
-|`(a|b)c`|Matches "ac" or "bc".|
-|`(?:abc)`|Non-capturing group (matches "abc" but doesn`t save it).|Nessuna corrispondenza|
+| Regex Command | Explanation | Example Match |
+|--------------|-------------|--------------|
+| `\(abc\)` | Captures "abc" as a group. | No match |
+| `\(abc\)+` | Matches one or more occurrences of "abc". | No match |
+| `\(a\|b\)c` | Matches "ac" or "bc". | No match |
+| `\(?:abc\)` | Non-capturing group. | No match |
 
 ---
 
-## 6. Lookahead and Lookbehind
+## 6. Lookahead and Lookbehind (Not supported in Bash)
 
-- Lookarounds allow you to match patterns **before** or **after** another pattern, without including them in the final match.
-
-| Regex Command | Explanation                                                          | Regex Result                                         |
-| ------------- | -------------------------------------------------------------------- | ---------------------------------------------------- |
-| `(?=abc)`     | Positive lookahead: ensures "abc" follows but does not capture it.   | Nessuna corrispondenza                               |
-| `(?!abc)`     | Negative lookahead: ensures "abc" does **not** follow.               | Matches before every character not followed by "abc" |
-| `(?<=abc)`    | Positive lookbehind: ensures "abc" precedes but does not capture it. | Nessuna corrispondenza                               |
-| `(?<!abc)`    | Negative lookbehind: ensures "abc" does **not** precede.             | Matches after every character not preceded by "abc"  |
+Lookahead and Lookbehind are **not** natively supported in Bash regex.
 
 ---
+
 ## 7. Escaping Special Characters
 
-- Some characters (`.`, `*`, `+`, `?`, `|`, `^`, `$`, `()`, `[]`, `{}`) have special meanings. Use `\` before them to match them literally.
-
-| Regex Command | Explanation                            | Regex Result           |
-| ------------- | -------------------------------------- | ---------------------- |
-| `\.`          | Matches a literal dot `.`              | `.`, `.`, `.`          |
-| `\*`          | Matches a literal asterisk `*`.        | Nessuna corrispondenza |
-| `\?`          | Matches a literal question mark `?`.   | Nessuna corrispondenza |
-| `\|`          | Matches a literal pipe `               | `.                     |
-| `\(`          | Matches an opening parenthesis `(`.    | `(`, `(`, `(`          |
-| `\[`          | Matches an opening square bracket `[`. | Nessuna corrispondenza |
+| Regex Command | Explanation | Example Match |
+|--------------|-------------|--------------|
+| `\.` | Matches a literal dot `.` | `.` |
+| `\*` | Matches a literal asterisk `*` | `*` |
+| `\?` | Matches a literal question mark `?` | `?` |
+| `\|` | Matches a literal pipe `|` | `|` |
+| `\(` | Matches an opening parenthesis `(` | `(` |
+| `\[ ]` | Matches square brackets | `[` `]` |
 
 ---
 
 ## 8. Logical Operators
 
-- Logical operators are used in regular expressions to combine multiple search conditions. The main logical operators are **OR** (alternation) and **AND** (implicit overlap). These operators allow you to create more complex expressions that can match multiple patterns simultaneously.
-
-|Regex Command|Explanation|Regex Result|
-|---|---|---|
-|`a\|b`|Matches "a" or "b".|`a`, `b`, `b`, `a`, `b`, `b`, `b`, `a`, `a`, `b`...|
-|`abc\|def`|Matches "abc" or "def".|Nessuna corrispondenza|
-|`\d{3}-\d{2}-\d{4}\|[A-Za-z]+`|Matches a number in the format `000-00-0000` or a word with letters.|`Giovanni`, `Bianchi`, `born`, `on`, `purchased`, `the`, `train`, `ticket`, `to`, `Milan`, `on`, `at`, `He`, `used`, `the`, `credit`, `card`, `with`, `the`, `number`, `for`, `a`, `total`, `of`, `Please`, `note`, `the`, `rentrée`, `fee`, `is`, `For`, `assistance`, `please`, `contact`, `us`, `at`, `ascii`, `characters`, `Japanese`, `unicode`, `characters`, `Chinese`, `unicode`, `characters`, `The`, `transaction`, `code`, `is`, `The`, `booking`, `was`, `made`, `at`, `on`|
-|`cat.*dog`|Matches "cat" followed by anything and then "dog".|Nessuna corrispondenza|
-|`abc123`|Matches exactly the string "abc123".|Nessuna corrispondenza|
-|`\d{2,4}\|[A-Za-z]{3,5}`|Matches numbers between 2 and 4 digits or words of 3-5 letters.|`born`, `on`, `the`, `train`, `IT456`, `to`, `Milan`, `on`, `at`, `used`, `the`, `with`, `the`, `for`, `note`, `the`, `is`, `For`, `us`, `at`, `code`, `The`, `was`, `made`, `at`, `on`|
+| Regex Command | Explanation | Example Match |
+|--------------|-------------|--------------|
+| `a\|b` | Matches "a" or "b". | `a`, `b` |
+| `abc\|def` | Matches "abc" or "def". | No match |
+| `cat.*dog` | Matches "cat" followed by anything and then "dog". | No match |
+| `abc123` | Matches exactly "abc123". | No match |
 
 ---
 
-## 9. Accented Words and Non-ASCII Characters and a few more examples
+## 9. Accented Words and Non-ASCII Characters
 
-- These regex patterns allow you to detect words with accented letters or special non-ASCII characters.
+Bash regex does not support Unicode character classes (`\p{L}`), but you can match specific characters.
 
-|Regex Command|Explanation|Regex Result|
-|---|---|---|
-|`\w+`|Matches a word composed of ASCII alphanumeric characters. **Does not capture accented or non-ASCII characters.**|`Giovanni`, `Bianchi`, `born`, `on`, `purchased`, `the`, `train`, `ticket`, `IT456`, `to`, `Milan`, `on`, `at`, `He`, `used`, `the`, `credit`, `card`, `with`, `the`, `number`, `for`, `a`, `total`, `of`, `Please`, `note`, `the`, `is`, `For`, `assistance`, `please`, `contact`, `us`, `at`, `ascii`, `characters`, `Japanese`, `unicode`, `characters`, `Chinese`, `unicode`, `characters`, `The`, `transaction`, `code`, `is`, `The`, `booking`, `was`, `made`, `at`, `on`|
-|`\b\w*[éèêëàáâäôöòóùúûüçñ]\w*\b`|Matches words that contain at least one accented letter.|`rentrée`|
-|`[^\x00-\x7F]+`|Matches any non-ASCII character.|`rentrée`, `予約`, `订单号码`|
-|`\p{L}+`|Matches words that contain letters, including accented ones (Unicode support).|`Giovanni`, `Bianchi`, `born`, `on`, `purchased`, `the`, `train`, `ticket`, `IT456`, `to`, `Milan`, `on`, `at`, `He`, `used`, `the`, `credit`, `card`, `with`, `the`, `number`, `for`, `a`, `total`, `of`, `Please`, `note`, `the`, `rentrée`, `fee`, `is`, `For`, `assistance`, `please`, `contact`, `us`, `at`, `ascii`, `characters`, `Japanese`, `unicode`, `characters`, `Chinese`, `unicode`, `characters`, `The`, `transaction`, `code`, `is`, `The`, `booking`, `was`, `made`, `at`, `on`, `予約`, `订单号码`|
-|`\p{Latin}+`|Matches only Latin words (excludes Asian characters).|`Giovanni`, `Bianchi`, `born`, `on`, `purchased`, `the`, `train`, `ticket`, `IT456`, `to`, `Milan`, `on`, `at`, `He`, `used`, `the`, `credit`, `card`, `with`, `the`, `number`, `for`, `a`, `total`, `of`, `Please`, `note`, `the`, `rentrée`, `fee`, `is`, `For`, `assistance`, `please`, `contact`, `us`, `at`, `ascii`, `characters`, `Japanese`, `unicode`, `characters`, `Chinese`, `unicode`, `characters`, `The`, `transaction`, `code`, `is`, `The`, `booking`, `was`, `made`, `at`, `on`|
-|`\p{Han}+`|Matches Chinese characters.|`订单号码`|
-|`\p{Hiragana}+\|\p{Katakana}+`|Matches Japanese characters in Hiragana or Katakana.|Nessuna corrispondenza|
-|`\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b`|Matches an email address.|`giovanni.bianchi@example.com`, `予約@example.com`|
-|`\b\d{2}/\d{2}/\d{4}\b`|Matches a date in the format DD/MM/YYYY.|`12/11/1990`, `01/06/2025`, `15/03/2025`|
-|`\b\d{4}-\d{4}-\d{4}-\d{4}\b`|Matches a credit card number format.|`4111-1111-1111-1111`|
-|`\b[A-Z]{2}\d+\b`|Matches a code with two uppercase letters followed by digits.|`IT456`, `TXN987654321`|
-|`\b\d{2}:\d{2}\b`|Matches a time in HH:MM format.|`08:45`, `16:20`|
+| Regex Command | Explanation | Example Match |
+|--------------|-------------|--------------|
+| `[a-zA-Z0-9_]` | Matches a word composed of ASCII alphanumeric characters. | `Giovanni`, `Bianchi` |
+| `[éèêëàáâäôöòóùúûüçñ]` | Matches any single accented letter. | `é` in `rentrée` |
+| `[^[:ascii:]]` | Matches any non-ASCII character. | `rentrée`, `予約`, `订单号码` |
+| `[A-Za-z0-9._%+-]\+@[A-Za-z0-9.-]\+\.[A-Za-z]\{2,\}` | Matches an email address. | `giovanni.bianchi@example.com` |
+| `[0-9]\{2\}/[0-9]\{2\}/[0-9]\{4\}` | Matches a date in DD/MM/YYYY format. | `12/11/1990` |
+| `[0-9]\{4\}-[0-9]\{4\}-[0-9]\{4\}-[0-9]\{4\}` | Matches a credit card number format. | `4111-1111-1111-1111` |
+| `[A-Z]\{2\}[0-9]\+` | Matches a code with two uppercase letters followed by digits. | `IT456`, `TXN987654321` |
+| `[0-9]\{2\}:[0-9]\{2\}` | Matches a time in HH:MM format. | `08:45`, `16:20` |
 
 ---
+
+### Notes on Bash Regex Compatibility:
+
+- Bash does **not** support `\d`, `\w`, or `\s`. Instead, use `[0-9]`, `[a-zA-Z0-9_]`, and `[[:space:]]`.
+- `{}` quantifiers **must** be escaped (`\{ \}`).
+- Lookaheads and lookbehinds **are not supported** in Bash.
+- Unicode character classes (`\p{L}`) are **not supported**.
+- Use `grep -E` or `awk` for extended regex support.
+
+---
+
+This reference provides **Bash-compatible** regular expressions while maintaining the original structure. Let me know if you need any refinements! 🚀
