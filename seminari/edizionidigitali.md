@@ -1,6 +1,12 @@
 ---
+ layout: seminar 
  title: "Introduzione alle edizioni digitali"
  author: giuliamarmo
+ speaker: Roberto Rosselli Del Turco
+ videotitle: "https://liveunibo-my.sharepoint.com/:v:/g/personal/ludovica_pannitto_unibo_it/EWIMMVy9Rw9BmRGdt9X5tYIBFA-JBgyXstpwZ-zHYQSa4Q?e=63OZER&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"
+ lenght: 3:52h
+ unibo: yes 
+
 ---
 
 # Introduzione alle edizioni digitali
