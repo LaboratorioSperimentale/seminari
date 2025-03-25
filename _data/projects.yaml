@@ -55,3 +55,12 @@
   link: seminari/elantrascrizione.html
   tags:
     - tool
+
+
+- title: "Introduzione alle Edizioni Digitale"
+  subtitle: R. Rosselli del Turco
+  group: "2021"
+  image: images/logos/tei.png
+  link: seminari/edizionidigitali.html
+  tags:
+    - tool

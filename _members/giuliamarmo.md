@@ -1,10 +1,10 @@
 ---
 name: Giulia Marmo
-image: images/avatars/giulia marmo.png 
+image: images/avatars/giuliamarmo.png
 role: tirocinante
-affiliation: Cdl in Lingue e Letterature straniere
+affiliation: CdL in Lingue e Letterature straniere
 links:
-  home-page: https://janesmith.com
+  instagram: https://janesmith.com
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
