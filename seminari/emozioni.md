@@ -37,6 +37,12 @@ Sostiene che il principio di inclusione è l'universalità dell'espressione fisi
 
 Per Ekman queste emozioni sono sì primitive, ma non combinabili. Non è così per Plutchik che sostiene il contrario.
 
+{%
+  include figure.html
+  image="images/seminar-images/emozioni/emozionidibase.jpg"
+  caption="Le emozioni di base di Ekman, sito it.manuelcappello.com"
+%}
+
 ### - Le emozioni di base di Plutchik
 
 Riconosce le sei emozioni di base più altre due: **gioia,
@@ -56,7 +62,7 @@ Esistono più diadi, più o meno probabili, che danno vita alle altre emozioni c
 {%
   include figure.html
   image="images/seminar-images/emozioni/diadi.webp"
-  caption="Diadi emozioni, Reddit."
+  caption="Diadi emozioni, sito Reddit."
 %}
 
 ## Individuare le emozioni secondo le dimensioni emotive
