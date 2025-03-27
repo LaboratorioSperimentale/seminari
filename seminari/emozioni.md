@@ -55,7 +55,7 @@ Esistono più diadi, più o meno probabili, che danno vita alle altre emozioni c
 
 {%
   include figure.html
-  image="images/seminar-images/emozioni/ruota emozioni.jpg"
+  image="images/seminar-images/emozioni/ruotaemozioni.jpg"
   caption="Le emozioni di Plutchik, sito stefanopigolotti.it "
 %}
 
@@ -75,7 +75,11 @@ Con **arousal**, ovvero **attivazione**, si intende l'intensità dell'attivazion
 
 Con **valence**, ovvero **valenza**, si va ad indicare la connaturata attrativa (**valenza positiva**) o l'avversione (**valenza negativa**) di un evento, oggetto o situazione.
 
-inserire schema
+{%
+  include figure.html
+  image="images/seminar-images/emozioni/emotionalgraphic.png"
+  caption="Le dimensioni di Russell, sito google.com"
+%}
 
 Secondo lo schema: emozioni come l'*euforia* vanno a ritrovarsi in una posizione di **high arousal** e **positive valence**, **HA/PV**.
 
