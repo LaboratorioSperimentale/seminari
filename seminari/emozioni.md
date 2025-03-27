@@ -87,7 +87,7 @@ Capita a volte che emozioni diverse (*paura* e *rabbia*) si ritrovino nella stes
 
 {%
   include figure.html
-  image="images/seminar-images/emozioni/valencedominancearousal.png"
+  image="images/seminar-images/emozioni/valence.png"
   caption="Valence, arousal and dominance, sito researchgate.net"
 %}
 
@@ -102,6 +102,12 @@ Tali dimensioni, vengono definite anche dimensioni primarie del significato (Osg
 Durante la fase di *annotazione* per richiedere il giudizio sulle tre dimensioni, si fa uso di SAM, il Self Assesment Manikin, di Bradley and Lang (1994).
 
 SAM vede la rappresentazione delle tre dimensioni come tre 'omini' che secondo una scala, cambiano di dimensione, per esempio: la **dominanza** è prima rappresentata come un omino molto piccolo, che va via via crescendo perchè si sente in maggior controllo.
+
+{%
+  include figure.html
+  image="images/seminar-images/emozioni/sam.png"
+  caption="Esempio di Self Assessment Manikin, sito researchgate.net"
+%}
 
 ## Il rapporto tra parole ed emozioni
 
