@@ -122,5 +122,47 @@ Generalmente esistono delle tendenze comuni nella creazione di tali risorse:
 
 - **Annotazione manuale o automatica**: l'annotazione manuale può essere in un primo caso fatta da esperti, in un secondo caso tramite crowdsourcing, questo avviene quando chi annota è una persona anonima, in questo caso però avviene un controllo parziale e non totale degli annotatori. L'annotazione automatica invece, avviene tramite strumenti come siti e piattaforme, spesso però a pagamento. 
 
-- **Emozioni categoriali o dimensioni emotive**: 
+- **Emozioni categoriali o dimensioni emotive**: i lessici emotivi possono essere annotati secondo: la categoria delle emozioni di base di Ekman, la categoria che si rifà alla ruota di plutchik o secondo dimensioni emotive, come VAD o Sentiment (in quest ultimo caso si usa solo la dimensione della polarità delle emozioni). 
+
+La maggioranza delle risorse è creata ed utilizzata per la lingua Inglese o traduzioni dalla lingua Inglese. 
+
+Una volta raccolti i dati, i lessici vengono **aggregati per maggioranza**, in tal modo da tanti annotazioni ne deriva solo una.
+
+**Esempi di lessici emotivi** (per la lingua Inglese):
+
+- il **WordNet Affect Lexicon** (Strapparava & Valitutti, 2004) che si basa su una annotazione parzialmente manuale poi estesa automaticamente, ovvero: alcuni esperti hanno annotato un certo numero di parole, ed in seguito il lessico è stato esteso basandosi sul presupposto che se parola X e parola Y sono sinonimi, allora significa che queste due corrispondono alla stessa emozione. 
+
+- il **Fuzzy Affect Lexicon** (Subasic & Huettner, 2001), il quale contiene circa 4000 lemmi con corrispondente PoStag, annotato manualmente utilizzando ben 83 categorie affettive "basic", cioè tantissime assegnazioni tra emzione e lessici. 
+
+Il lessico emotivo utilizzato più in assoluto, sempre per l'Inglese, è: **EmoLex** (Mohammad & Turney, 2013):
+
+- Contiene più di 24.200 parole
+- L'annotazione è manuale tramite crowdsourcing, (in questo caso gli annotatori sono stati pagati)
+- Categorizzato secondo le emozioni di base di Plutchik 
+- Gli annotatori hanno selezionato parole tra diverse intensità di assocazione, le quali sono: *non associato, debolmente associato, moderatamente associato e fortemente associato*. Prima di tale associazione però, gli annotatori dovevano rispondere alla domanda '*se conoscessero o meno il significato esatto della parola*' che stavano annotando. 
+- I risultati sono stati aggregati per maggioranza 
+- La traduzione di EmoLex tramite Google Translate è disponibile per più di 100 lingue
+
+**Esempi di Lessici emotivi per la lingua Italiana**
+
+- **ANEW** (Montefinese et al., 2014) adattamento italiano delle **Affective Norms for English Words**, contiene circa 2000 parole ed ha una annotazione manuale *semi-controllata* perchè fatta da studenti, in base alle dimensioni emotive **VAD** (valence, arousal, dominance). 
+
+  Questa risorsa è stata adattata anche ad altre lingue come il Portoghese, sussiste però un problema: la selezione del lessico era secondo la lingua Inglese però nel momento in cui è stata adattata ad altre lingue, sono state perse tutte quelle parole che in una lingua sono legate ad una emozione mentre in un'altra lingua no. 
+
+  I partecipanti hanno in oltre fornito valutazioni di tre indici psicolinguistici soggettivi, che sono familiarità, immaginabilità e concretezza. A tali indici sono stati aggiunti successivamente altri cinque indici oggettivi, tra cui la frequenza della parola e la lunghezza.  
+
+- **Depeche Mood+++** (Araque et al., 2022) ad annotazione automatica, creato prima per l'Inglese poi adattato all'Italiano, in questo caso sono state utilizzate come fonte le reazioni dei lettori del Corriere della Sera: alla fine di ogni articolo il lettore poteva selezionare tra categorie diverse fornite dal questionario: '*questo articolo come ti ha reso? indignato/preoccupato/triste/divertito/soddisfatto*'. Il metodo di annotazione è stato dato dalla **moltiplicazione di matrici**, a partire dall'emozione generale del testo sono state estratte tutte quell'emozioni collegate a parole, e sono state quindi annotate diverse parole. 
+
+- **ItEM** (Passaro et al., 2015; Pollacci, Passaro & Lenci, 2016) è la prima risorsa creata effetivamente per la lingua Italiana. Costruita su annotazione parzialmente manuale, è stata costruita attraverso tre processi consecutivi: 
+  1. collezione ed annotazione di un piccolo set di cinque lemmi-semi legati alle emozioni di base di Plutchik attraverso un paradigma di elicitazione di *feature* proposto online. In questa prima fase, per quanto riguarda *rabbia*, *gioia*, *tristezza* non ci sono stati problemi, mentre *aspettativa* è stata tradotta come *attese* che ha prodotto una serie di assocazioni come *attesa-treno*. Successivamente tutte quelle parole simili a treno sono state legate alla parola *anticipation*, facendo così è stata persa di vista quella che era la vera emozione di base.  
+  2. Espansione della lista di parole tramite metodi di semantica distribuzionali. 
+  3. Estrazione automatica delle annotazioni emotive e validazioniìe di queste tramite crowdsourcing.
+
+Come conseguenza a ciò, è nata **ELIta** (progetto di dottorato della Dott.ssa Eliana di Palma). 
+
+Risorsa lessicale italiana annotata da parlanti di madrelingua italiana, conta circa 6000 parole particolarmenti aderenti all'uso della lingua Italiana. Ha una annotazione sia categoriale che dimensionale, annotata tramite crowdsourcing con un sito personalizzato per lo scopo: per esempio la possibilità di scegliere il numero di parole, o di annotare solo ciò che si conosce. A questa fase si aggiunge una fase a pagamento, con libertà di annotazione. La risorsa dispone della presenza di emoji per l'analisi di testi anche da Social Network, e a differenza di altre risorse, ELIta non prevede una aggregazione dei dati, esiste una versione anche aggregata ma tendenzialente tende a non essere aggregata. 
+
+Nella versione non aggregata, ci sono per ogni parola cinque assocazioni minime, di cui si tiene conto del genere e fascia di età. In un'altra versione vengono mantenute le cinque annotazioni a cui si aggiunge un'altra annotazione "golden standard" basata sul voto di maggioranza. Nelle versioni aggregate sussiste la ambivalenza tra sia le annotazione originali sia le annotazioni per maggioranza. 
+
+## La stessa parola attiva le medesime associazioni emotive?
 
