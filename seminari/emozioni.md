@@ -85,6 +85,12 @@ Secondo lo schema: emozioni come l'*euforia* vanno a ritrovarsi in una posizione
 
 Capita a volte che emozioni diverse (*paura* e *rabbia*) si ritrovino nella stessa posizione. Per far fronte a ciò, si aggiunge quindi una terza dimensione: **dominance**, ovvero la **dominanza**. In questo caso, aggiungendo il grado di controllo che si ha verso una situazione o evento, si possono distinguere *paura* e *rabbia*: nella seconda si ha più controllo che nella prima.
 
+{%
+  include figure.html
+  image="images/seminar-images/emozioni/valencedominancearousal.png"
+  caption="Valence, arousal and dominance, sito researchgate.net"
+%}
+
 Tali dimensioni, vengono definite anche dimensioni primarie del significato (Osgood et al., 1957):
 
 - la **valenza** che corrisponde alla **valutazione** di qualcosa che può essere percepito come *buono/cattivo*.
