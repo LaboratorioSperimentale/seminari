@@ -158,11 +158,13 @@ Il lessico emotivo utilizzato più in assoluto, sempre per l'Inglese, è: **EmoL
   2. Espansione della lista di parole tramite metodi di semantica distribuzionali. 
   3. Estrazione automatica delle annotazioni emotive e validazioniìe di queste tramite crowdsourcing.
 
-Come conseguenza a ciò, è nata **ELIta** (progetto di dottorato della Dott.ssa Eliana di Palma). 
+Come conseguenza a ciò, è nata:
 
-Risorsa lessicale italiana annotata da parlanti di madrelingua italiana, conta circa 6000 parole particolarmenti aderenti all'uso della lingua Italiana. Ha una annotazione sia categoriale che dimensionale, annotata tramite crowdsourcing con un sito personalizzato per lo scopo: per esempio la possibilità di scegliere il numero di parole, o di annotare solo ciò che si conosce. A questa fase si aggiunge una fase a pagamento, con libertà di annotazione. La risorsa dispone della presenza di emoji per l'analisi di testi anche da Social Network, e a differenza di altre risorse, ELIta non prevede una aggregazione dei dati, esiste una versione anche aggregata ma tendenzialente tende a non essere aggregata. 
+- **ELIta** (progetto di dottorato della Dott.ssa Eliana di Palma). 
 
-Nella versione non aggregata, ci sono per ogni parola cinque assocazioni minime, di cui si tiene conto del genere e fascia di età. In un'altra versione vengono mantenute le cinque annotazioni a cui si aggiunge un'altra annotazione "golden standard" basata sul voto di maggioranza. Nelle versioni aggregate sussiste la ambivalenza tra sia le annotazione originali sia le annotazioni per maggioranza. 
+  Risorsa lessicale italiana annotata da parlanti di madrelingua italiana, conta circa 6000 parole particolarmenti aderenti all'uso della lingua Italiana. Ha una annotazione sia categoriale che dimensionale, annotata tramite crowdsourcing con un sito personalizzato per lo scopo: per esempio la possibilità di scegliere il numero di parole, o di annotare solo ciò che si conosce. A questa fase si aggiunge una fase a pagamento, con libertà di annotazione. La risorsa dispone della presenza di emoji per l'analisi di testi anche da Social Network, e a differenza di altre risorse, ELIta non prevede una aggregazione dei dati, esiste una versione anche aggregata ma tendenzialente tende a non essere aggregata. 
+
+  Nella versione non aggregata, ci sono per ogni parola cinque assocazioni minime, di cui si tiene conto del genere e fascia di età. In un'altra versione vengono mantenute le cinque annotazioni a cui si aggiunge un'altra annotazione "golden standard" basata sul voto di maggioranza. Nelle versioni aggregate sussiste la ambivalenza tra sia le annotazione originali sia le annotazioni per maggioranza. 
 
 ## La stessa parola attiva le medesime associazioni emotive?
 
