@@ -196,13 +196,13 @@ Non in tutti i parlanti la stessa parola attiva la madesima associazione emotiva
 
 Con l'annotazione delle stesse parole sia tramite ANEW che ELIta è possibile individuare già certe differenze: vedi la parola "lesbica" che dieci anni fa era percepita come *negativa*, mentre ad oggi *positiva*. 
 
-inserire schema se possibile ttatto dalle slide du eliana
+inserire schema se possibile tratto dalle slide di eliana
 
 In oltre, è possibile analizzare certe parole in relazione ad **emozioni demografiche**, ovvero si parla della fiducia media che uomini e donne hanno in un relazione: in questo caso la fiducia media degli uomini verso parole come  *nozze*, *partner* o *sposo* è reltivamente più alta rispetto a quella media delle donne.
 
 inserire schema slide eliana
 
-Opportuno è ricordare che questo criterio è utilizzato anche nelle studio delle dimensioni emotive, ovvero ci sono differenze nell'annotazione di parole tra uomini e donne: le donne tendono a dare giudizi più alti e negativi rispetto alla loro controparte maschile. Tutto ciò è perfettamente coerente con i rapporti tra le tre dimensioni, una maggiore attivazione è spesso legata ad emozioni negative, vedi la *rabbia* che ha una attivazione molto più alta di altre emozioni. 
+Opportuno è ricordare che questo criterio è utilizzato anche nelle studio delle dimensioni emotive, ovvero ci sono differenze nell'annotazione di parole tra uomini e donne: le donne tendono a dare giudizi più alti e negativi rispetto alla loro controparte maschile. Tutto ciò è perfettamente coerente con i rapporti tra le dimensioni, una maggiore attivazione è spesso legata ad emozioni negative, vedi la *rabbia* che ha una attivazione molto più alta di altre emozioni. 
 
 ## Emozioni in letteratura: Utilizzo dei metodi e strumenti dell'Emotion Tetection 
 
