@@ -190,3 +190,29 @@ Come conseguenza a ciò, è nata:
 
 ## La stessa parola attiva le medesime associazioni emotive?
 
+Un ulteriore passo può essere quello di analizzare come una parola viene percepita tra i singoli parlanti. 
+
+Non in tutti i parlanti la stessa parola attiva la madesima associazione emotiva, questo avviene quando ci sono differenze sia interlinguistiche sia intralinguistiche (l'uso di differenti risorse linguistiche permette di confrotare tali differenze), ed anche quando ci sono differenze che dipendono da fattori socioculturali e demografici. 
+
+Con l'annotazione delle stesse parole sia tramite ANEW che ELIta è possibile individuare già certe differenze: vedi la parola "lesbica" che dieci anni fa era percepita come *negativa*, mentre ad oggi *positiva*. 
+
+inserire schema se possibile ttatto dalle slide du eliana
+
+In oltre, è possibile analizzare certe parole in relazione ad **emozioni demografiche**, ovvero si parla della fiducia media che uomini e donne hanno in un relazione: in questo caso la fiducia media degli uomini verso parole come  *nozze*, *partner* o *sposo* è reltivamente più alta rispetto a quella media delle donne.
+
+inserire schema slide eliana
+
+Opportuno è ricordare che questo criterio è utilizzato anche nelle studio delle dimensioni emotive, ovvero ci sono differenze nell'annotazione di parole tra uomini e donne: le donne tendono a dare giudizi più alti e negativi rispetto alla loro controparte maschile. Tutto ciò è perfettamente coerente con i rapporti tra le tre dimensioni, una maggiore attivazione è spesso legata ad emozioni negative, vedi la *rabbia* che ha una attivazione molto più alta di altre emozioni. 
+
+## Emozioni in letteratura: Utilizzo dei metodi e strumenti dell'Emotion Tetection 
+
+Con **Emotion Detection** si fa riferimento  alla metodologia che, utilizzando i metodi computazionali per l'elaborazione del linguaggio naturale, ha come scopo la determinazione ed individuazione dell'emozione. 
+
+I sistemi di rilevamento delle emozioni vengono addestrati osservando le associazioni tra parti di testo ed emozioni, per cui il lessico emotivo risulta uno degli strumenti. Il tipo di testo e la fonte possono variare (twitts su Twitter o commenti su Youtube), così come lo schema di emozioni utilizzato e il modo in cui le emozioni vengono assegnate ai testi.  
+
+Esistono diverse metodologie per l'utilizzo dell'Emotion Detection: le emozioni possono lasciare forti impronte linguistiche che definiscono il tono di un test (Johnson-Laird & Oatley, 1989), ciò richiede l'uso di diverse metodologie basate si **features linguistiche**, cioè lessici emotivi e le dimensioni, così da poter individuare le emozioni.
+
+inserire esempio slide emotion detection
+
+
+
