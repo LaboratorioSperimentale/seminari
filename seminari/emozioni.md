@@ -223,15 +223,15 @@ L'Emotion Detection è anche uno strumento per lo studio di **archi emotivi**.
 
 Un **arco emotivo** è simile ad un arco narrativo, cioè la costruzione cronologica di una trama: molto spesso, quasi tutte le storie iniziano con un momento di calma, seguito da un evento che scatena l'azione , quindi un climax, per poi concludersi con il risolvimento del problema della trama. Stessa cosa succede dal punto di vista emotivo: c'è un primo momento iniziale con un basso livello di paura, un secondo momento in cui la paura aumenta per poi diminuire di nuovo sul finaale.
 
-L'arco narrativo più famoso è staato introdotto da Freytag (1863). 
-
-**Un arco emotivo presenta picchi e valli cronologici che corrispondono al grado in cui una certa emozione viene espressa nel testo.**
+L'arco narrativo più famoso è stato introdotto da Freytag (1863). 
 
 {%
   include figure.html
   image="images/seminar-images/emozioni/freytags.jpg"
   caption="Piramide di Freytag, sito Writers.com"
 %}
+
+**Un arco emotivo presenta picchi e valli cronologici che corrispondono al grado in cui una certa emozione viene espressa nel testo.**
 
 Lo studio di come queste emozioni si dispongono lungo il tempo porta alla distinzione tra diversi generi letterari. Ogni genere letterario tende ad avere un proprio arco emotivo con distinzioni più o meno elevate: studiando la presenza di *gioia* in diverse storyline, possiamo distinguere tra generi di romance e generi di adventure. 
 
