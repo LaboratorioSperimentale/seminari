@@ -212,7 +212,10 @@ I sistemi di rilevamento delle emozioni vengono addestrati osservando le associa
 
 Esistono diverse metodologie per l'utilizzo dell'Emotion Detection: le emozioni possono lasciare forti impronte linguistiche che definiscono il tono di un test (Johnson-Laird & Oatley, 1989), ciò richiede l'uso di diverse metodologie basate su **features linguistiche**, cioè lessici emotivi e dimensioni, così da poter individuare le emozioni.
 
-inserire esempi slide emotion detection
+Alcuni esempi sono: 
+- Neviarouskaya et al. (2009): Propongono regole per formulare come nomi, verbi o aggettivi dominano l'emozione nella frase corrispondente e li combinano con modificatori.
+- Gao et al. (2014): Utilizzano caratteristiche basate sulla dipendenza per la classificazione, incluse le negazioni.
+- Agrawal e An (2012): Propongono un framework non supervisionato per l'estrazione di emozioni dalle frasi basato sulla relazione semantica tra parole e vari concetti emotivi.
 
 ### Gli archi emotivi 
 
@@ -224,7 +227,11 @@ L'arco narrativo più famoso è staato introdotto da Freytag (1863).
 
 **Un arco emotivo presenta picchi e valli cronologici che corrispondono al grado in cui una certa emozione viene espressa nel testo.**
 
-inserire foto piramide emotiva
+{%
+  include figure.html
+  image="images/seminar-images/emozioni/freytags.jpg"
+  caption="Piramide di Freytag, sito Writers.com"
+%}
 
 Lo studio di come queste emozioni si dispongono lungo il tempo porta alla distinzione tra diversi generi letterari. Ogni genere letterario tende ad avere un proprio arco emotivo con distinzioni più o meno elevate: studiando la presenza di *gioia* in diverse storyline, possiamo distinguere tra generi di romance e generi di adventure. 
 
