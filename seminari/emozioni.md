@@ -210,9 +210,109 @@ Con **Emotion Detection** si fa riferimento  alla metodologia che, utilizzando i
 
 I sistemi di rilevamento delle emozioni vengono addestrati osservando le associazioni tra parti di testo ed emozioni, per cui il lessico emotivo risulta uno degli strumenti. Il tipo di testo e la fonte possono variare (twitts su Twitter o commenti su Youtube), così come lo schema di emozioni utilizzato e il modo in cui le emozioni vengono assegnate ai testi.  
 
-Esistono diverse metodologie per l'utilizzo dell'Emotion Detection: le emozioni possono lasciare forti impronte linguistiche che definiscono il tono di un test (Johnson-Laird & Oatley, 1989), ciò richiede l'uso di diverse metodologie basate si **features linguistiche**, cioè lessici emotivi e le dimensioni, così da poter individuare le emozioni.
+Esistono diverse metodologie per l'utilizzo dell'Emotion Detection: le emozioni possono lasciare forti impronte linguistiche che definiscono il tono di un test (Johnson-Laird & Oatley, 1989), ciò richiede l'uso di diverse metodologie basate su **features linguistiche**, cioè lessici emotivi e dimensioni, così da poter individuare le emozioni.
 
-inserire esempio slide emotion detection
+inserire esempi slide emotion detection
+
+### Gli archi emotivi 
+
+L'Emotion Detection è anche uno strumento per lo studio di **archi emotivi**. 
+
+Un **arco emotivo** è simile ad un arco narrativo, cioè la costruzione cronologica di una trama: molto spesso, quasi tutte le storie iniziano con un momento di calma, seguito da un evento che scatena l'azione , quindi un climax, per poi concludersi con il risolvimento del problema della trama. Stessa cosa succede dal punto di vista emotivo: c'è un primo momento iniziale con un basso livello di paura, un secondo momento in cui la paura aumenta per poi diminuire di nuovo sul finaale.
+
+L'arco narrativo più famoso è staato introdotto da Freytag (1863). 
+
+**Un arco emotivo presenta picchi e valli cronologici che corrispondono al grado in cui una certa emozione viene espressa nel testo.**
+
+inserire foto piramide emotiva
+
+Lo studio di come queste emozioni si dispongono lungo il tempo porta alla distinzione tra diversi generi letterari. Ogni genere letterario tende ad avere un proprio arco emotivo con distinzioni più o meno elevate: studiando la presenza di *gioia* in diverse storyline, possiamo distinguere tra generi di romance e generi di adventure. 
+
+Alcuni studi hanno analizzando quelle che sono le tendenze dal punto di vista emotivo legate ai testi letterari: 
+
+- **Analisi delle emozioni nelle storie**, Reagan et al., 2016. L'obbiettivo di questo studio è stato quello di comprendere automaticamente la struttura narrativa di una storia nel suo complesso, ispirandosi al concetto di "archivi emotivi" di Kurt Vonnegut. 
+
+  Tramite la ricerca di archi emotivi, in particolare felici e tristi, quindi la ricerca di *gioia* e *tristezza*, hanno analizzato 1.327 libri popolari e hanno individuato la presenza di caratteristiche comuni tra le trame: ovvero i 6 archetipi emotivi. 
+
+     1. **Ascesa** detta anche **"Dalla miseria alla richezza"**: storie che hanno una partenza triste quindi bassa, per poi avere un incremento positivo costante fino alla fine. 
+
+     2. **Caduta** o **"Tragedia"**: storie con una partenza alta e positiva, ma con una diminuzione costante verso la fine (va sempre peggio).
+
+     3. **Caduta-ascesa** o **"Man in a hole"**: storie con un inizio positivo, interrotto da qualcosa di negativo e successivo recupero verso la fine.
+
+     4. **Ascesa-Caduta** o **"Icaro"**: in questo caso, storie con un picco a metà di felicità e poi discesa verso la fine.
+
+     5. **Ascesa-Caduta-Ascesa** o **"Cenerentola"**: in questo  caso si parla di fluttuazioni, come per l'appunto la storia di Cenerentola che ha un primo momento negativo (morte del padre), seguito da un momento positivo (ballo con il principe), seguito da un altro momento negativo (ricerca della proprietaria della scarpetta di cristallo) ed infine un finale positivo.
+
+     6. **Caduta-Ascesa-Caduta** o **"Edipo"**: fluttuazioni ma con una conclusione negativa.
+
+Gli archetipi più letti sono **Icaro**, **Edipo** e **Man in a hole**. 
+
+### Il vocabolario emotivo
+
+Queste classificazioni sono date dallo studio delle sole emozioni *gioia* e *tristezza*, ci sono però altre classificazioni dei generi letterari date dal **vocabolario emotivo**: l'indivduazione delle emozioni nei testi letterari può fornire informazioni circa il genere del testo. Le emozioni sono espresse con parole che suscitano tali emozioni (Johnson-laird & Oatley, 1989). 
+
+Analizzando le altre emozioni di base è possibile notare come i generi letterari trasmettono emozioni diverse basandosi su conoscenze comuni, quindi il genere **horror** instilla *paura*, il **mistery** evoca *aspettativa* e *rabbia*. i **romanzi rosa** trasmettono *gioia* e *amore*. 
+
+inserire foto curve dei diversi generi letterari
+
+Osservando l'immagine si piò notare come in primis, esistono delle tendenze comuni, ed in oltre come i testi più famosi rispetto ad un genere sono quelli che si distinguono di più dalla tendenza generale. 
+
+inserire immagine curve tendenze generali 
+
+### Il lieto fine
+
+L'Emotion Detection può essere utilizzata anche come strumento di **riconoscimento automatico dei "lieto fine" nei romanzi**, studio di Zehe et al., 2016.
+
+In questo si va a distinguere le storie che finisco bene da quelle che finisco male. Questo avviene grazie l'uso di lessici emotivi: quindi calcolando i valori di *sentiment* per ogni *n* segmento (di lunghezza uguale) della storia tramite il conteggio delle parole trovate. Tramite la segmentazione dei testi è possibile studiare dove c'è un picco finale di positività o negatività.
+
+inserire slide eliana
+
+Questo studio è stato applicato anche alle fiabe dei fratelli Grimm. Ogni fiaba (22 in totale) è stata divisa in cinque parti, e per ogni parte è stata calcolata la frequenza aggregata delle emozioni. Dai risultati si nota come le prime parti hanno meno emozioni, sono poi seguite da un pattern fluttuante dove trova una situazione in cui le emozioni aumentano e dimuniscono per poi concludersi con un finale a lieto fine. Nella parte finale di queste fiabe c'è anche però un aumento di negatività in quanto queste fiabe sono spesso caraterrizate da momenti di vendetta. 
+
+### Le differenze nelle emozioni tra fiabe e romanzi 
+Mohammad, (2011-2012).
+
+L'Emotion detection può essere utilizzata anche come strumento di confronto tra fiabe e romanzi su densità e traiettorie emotive. 
+
+Tramite la valutazione di frequenza delle parole emotive ogni x parole, è possibile notare come si dispongono le emozioni nei testi ed è possibile vedere come le fiabe presentano un più alto numero di parole, rispetto ai romanzi, associate a *anticipazione*, *disgusto*, *gioia* e *sorpresa*, e un numero basso di parole legate alla *fiducia* rispetto ai romanzi. 
+
+### EMoFiel: Uno strumento per analizzare le emozioni nelle storie 
+(Jhavar e Mirza, 2018).
+
+L'Emotion detection può essere utilizzata anche come strumento di rilevazione di interazioni tra personaggi di un riassunto narrativo, ne analizza il flusso emotivo e organizza queste emozioni lungo la linea temporale della storia. 
+
+EMoFiel è uno strumento capace, attraverso due approcci di modellazione delle emozioni: modelli cstegoriali e modelli dimensionali, di analizzare il rapporto emotivo tra due personaggi della stessa storia, dall'inizio alla fine di essa. Grazie a tale strumento è possbile catturare la direzionalità di una emozione, determinando quale personaggio sia dominante in ogni interazione.
+
+### Adattamento dei lessici emozionali ai testi storici 
+
+Un'altro uso dell'Emotion Detection è quello di valutazione della modifica nel tempo di un aspetto emotivo, ovvero come le emozioni vengono definite nel tempo. 
+
+Il Lavoro di buechel et al. (2017), è stato quello di creare dei lessici effettivi adattabili a testi storici. Tramite l'analisi del testo in tedesco *Deutsches Textarchiv* diviso in 7 periodi temporali di 30 anni ciascuno e con l'utilizzo del modello di Valenza-Arousal-Dominance, il rusltato è stata la creazione di 7 lessici emotivi distinti per ogni periodo. 
+
+Questo ha permesso di tracciare i cambiamenti nelle associazioni emotive delle parole nel tempo.
+
+Con l'Emotion Detection è possibile anche studiare come è cambiata la percezione di un certo luogo storico nel tempo analizzando testi di vari autori. 
+
+### Analisi delle narrazioni personali delle "comfort women" 
+(Chen et al., 2012).
+
+L'Emotion Detection è stata utilizzata in questio studio il cui obbiettivo era quello di comprendere le narrazioni personali delle "comfort women" coreane, costrette alla schiavitù sessuale dall'esercito giapponese durante la Seconda Guerra Mondiale. 
+
+Attraverso una analisi delle emozioni grazie al lessico *WorldNet-Affect*, sono state identificate delle parole chiave emotive nei racconti e sono state mappate delle frasi appartenenti a specifiche categorie emotive. 
+
+Sono state introdotte variabili di tempo e spazio per fornire un quadro unificato della memoria colletiva di questo evento storico, come testimoniato dalle vittime. 
+
+## Cosa ci permette di fare l'analisi emotiva
+
+Per riasssumere, L'Emotion Analysis ci permette di: 
+
+- **Svelare** le emozioni nascoste nei testi antichi.
+- **Confrontare** le emozioni nei diversi generi letterari, valutando gli archi emotivi.
+- **Mappare** l'evoluzione emotiva di un testo, valutare come le parole cambiano nel tempo.
+- **Analizzare** le relazione tra personaggi.
+- **Rivivere** gli eventi da una nuova prospettiva.
 
 
 
+FINE
