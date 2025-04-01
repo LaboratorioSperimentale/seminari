@@ -150,7 +150,7 @@ La maggioranza delle risorse è creata ed utilizzata per la lingua Inglese o tra
 
 Una volta raccolti i dati, i lessici vengono **aggregati per maggioranza**, in tal modo da tanti annotazioni ne deriva solo una.
 
-**Esempi di lessici emotivi** (per la lingua Inglese):
+### Esempi di lessici emotivi (per la lingua Inglese):
 
 - il **WordNet Affect Lexicon** (Strapparava & Valitutti, 2004) che si basa su una annotazione parzialmente manuale poi estesa automaticamente, ovvero: alcuni esperti hanno annotato un certo numero di parole, ed in seguito il lessico è stato esteso basandosi sul presupposto che se parola X e parola Y sono sinonimi, allora significa che queste due corrispondono alla stessa emozione. 
 
@@ -165,7 +165,7 @@ Il lessico emotivo utilizzato più in assoluto, sempre per l'Inglese, è: **EmoL
 - I risultati sono stati aggregati per maggioranza 
 - La traduzione di EmoLex tramite Google Translate è disponibile per più di 100 lingue
 
-**Esempi di Lessici emotivi per la lingua Italiana**
+### Esempi di Lessici emotivi per la lingua Italiana
 
 - **ANEW** (Montefinese et al., 2014) adattamento italiano delle **Affective Norms for English Words**, contiene circa 2000 parole ed ha una annotazione manuale *semi-controllata* perchè fatta da studenti, in base alle dimensioni emotive **VAD** (valence, arousal, dominance). 
 
@@ -204,7 +204,7 @@ inserire schema slide eliana
 
 Opportuno è ricordare che questo criterio è utilizzato anche nelle studio delle dimensioni emotive, ovvero ci sono differenze nell'annotazione di parole tra uomini e donne: le donne tendono a dare giudizi più alti e negativi rispetto alla loro controparte maschile. Tutto ciò è perfettamente coerente con i rapporti tra le dimensioni, una maggiore attivazione è spesso legata ad emozioni negative, vedi la *rabbia* che ha una attivazione molto più alta di altre emozioni. 
 
-## Emozioni in letteratura: Utilizzo dei metodi e strumenti dell'Emotion Tetection 
+## Emozioni in letteratura: Utilizzo dei metodi e strumenti dell'Emotion Detection 
 
 Con **Emotion Detection** si fa riferimento  alla metodologia che, utilizzando i metodi computazionali per l'elaborazione del linguaggio naturale, ha come scopo la determinazione ed individuazione dell'emozione. 
 
