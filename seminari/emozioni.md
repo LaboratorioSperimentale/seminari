@@ -261,11 +261,13 @@ Queste classificazioni sono date dallo studio delle sole emozioni *gioia* e *tri
 
 Analizzando le altre emozioni di base è possibile notare come i generi letterari trasmettono emozioni diverse basandosi su conoscenze comuni, quindi il genere **horror** instilla *paura*, il **mistery** evoca *aspettativa* e *rabbia*. i **romanzi rosa** trasmettono *gioia* e *amore*. 
 
-inserire foto curve dei diversi generi letterari
+{%
+  include figure.html
+  image="images/seminar-images/emozioni/curve2.jpg"
+  caption="Tendenze dei generi letterari, Investigating the Relationship between Literary Genres and Emotional Plot Development sito researchgate.net"
+%}
 
 Osservando l'immagine si piò notare come in primis, esistono delle tendenze comuni, ed in oltre come i testi più famosi rispetto ad un genere sono quelli che si distinguono di più dalla tendenza generale. 
-
-inserire immagine curve tendenze generali 
 
 ### Il lieto fine
 
@@ -273,9 +275,13 @@ L'Emotion Detection può essere utilizzata anche come strumento di **riconoscime
 
 In questo si va a distinguere le storie che finisco bene da quelle che finisco male. Questo avviene grazie l'uso di lessici emotivi: quindi calcolando i valori di *sentiment* per ogni *n* segmento (di lunghezza uguale) della storia tramite il conteggio delle parole trovate. Tramite la segmentazione dei testi è possibile studiare dove c'è un picco finale di positività o negatività.
 
-inserire slide eliana
-
 Questo studio è stato applicato anche alle fiabe dei fratelli Grimm. Ogni fiaba (22 in totale) è stata divisa in cinque parti, e per ogni parte è stata calcolata la frequenza aggregata delle emozioni. Dai risultati si nota come le prime parti hanno meno emozioni, sono poi seguite da un pattern fluttuante dove trova una situazione in cui le emozioni aumentano e dimuniscono per poi concludersi con un finale a lieto fine. Nella parte finale di queste fiabe c'è anche però un aumento di negatività in quanto queste fiabe sono spesso caraterrizate da momenti di vendetta. 
+
+{%
+  include figure.html
+  image="images/seminar-images/emozioni/grimm.png"
+  caption="Densità di parole negative nelle fiabe dei fratelli Grimm, sito researchgate.net"
+%}
 
 ### Le differenze nelle emozioni tra fiabe e romanzi 
 Mohammad, (2011-2012).
