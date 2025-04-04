@@ -1,6 +1,6 @@
 ---
 name: Flavio Pisciotta
-image: images/photo.jpg
+image: /images/avatars/flavioavatar.png
 role: speaker
 affiliation: CdL in ...
 links:
