@@ -5,6 +5,10 @@
   layout: seminar
 ---
 
+* Table of Contents
+{:toc}
+{:.no_toc}
+
 # La Trascrizione del Parlato con ELAN
 
 ## 1. Introduzione
@@ -12,12 +16,12 @@ L’obiettivo di questo workshop è quello di presentare anzitutto alcune nozion
 
 
 ## 2. Trascrizione
-Per trascrizione s'intende una forma di **rappresentazione del parlato in forma scritta**. Ciò può essere eseguito mediante diverse convenzioni, che vengono scelte in base agli obiettivi del ricercatore. Pertanto, prima di scegliere un tipo di convenzione piuttosto che un altro, è necessario tenere bene a mente il motivo stesso per cui stiamo trascrivendo. Vediamo quelli che sono gli obiettivi più comuni: 
-1.	Si vuole studiare un fenomeno; 
-2.	Si ha intenzione di documentare a livello più generale il comportamento di una comunità; 
+Per trascrizione s'intende una forma di **rappresentazione del parlato in forma scritta**. Ciò può essere eseguito mediante diverse convenzioni, che vengono scelte in base agli obiettivi del ricercatore. Pertanto, prima di scegliere un tipo di convenzione piuttosto che un altro, è necessario tenere bene a mente il motivo stesso per cui stiamo trascrivendo. Vediamo quelli che sono gli obiettivi più comuni:
+1.	Si vuole studiare un fenomeno;
+2.	Si ha intenzione di documentare a livello più generale il comportamento di una comunità;
 3.	Si vuole avere una traccia scritta di “che cosa succede” nel mio file audio.
 
-In base ai nostri obiettivi e a come decidiamo di usare il nostro programma, otterremo dei risultati diversi: 
+In base ai nostri obiettivi e a come decidiamo di usare il nostro programma, otterremo dei risultati diversi:
 1.	Un file annotato da consultare su ELAN;
 2.	Testo da consultare senza riferimento audio;
 3.	Trascrizione conversazionale;
@@ -32,20 +36,20 @@ Il nostro focus sarà principalmente riguardo la trascrizione conversazionale e 
 %}
 
 Naturalmente, prima di iniziare la trascrizione bisogna tenere a mente alcune differenze sostanziali fra le produzioni in forma parlata e in forma scritta. Vediamo le differenze più importanti:
-- **Tempo di pianificazione**: Anzitutto, il fatto che il parlato venga organizzato in diretta fa sì che ci sia poco tempo per pianificare (ad esempio, possono esserci false partenze o progetti sintattici non portati a termine). Bisogna quindi capire come rappresentare questo tipo di caratteristiche. 
+- **Tempo di pianificazione**: Anzitutto, il fatto che il parlato venga organizzato in diretta fa sì che ci sia poco tempo per pianificare (ad esempio, possono esserci false partenze o progetti sintattici non portati a termine). Bisogna quindi capire come rappresentare questo tipo di caratteristiche.
 - **Produzione e ricezione**: A differenza dello scritto, nel parlato la produzione e la ricezione sono contemporanee: pertanto, nel caso di compresenza di più parlanti all'interno di una registrazione, diverse produzioni in forma parlata possono sovrapporsi (e bisogna dunque trovare un modo per rappresentare anche questo tipo di situazioni).
 
 ### 2.2 Problemi più comuni nella trascrizione
 Vediamo alcuni dei probemi più comuni che emergono quando ci si approccia alla trascrizione:
 - **L'individuazione di unità**, ossia il corrispettivo in lingua parlata di ciò che rappresenta la frase nella lingua scritta. Discuteremo di questo punto più approfonditamente in seguito.
-- **L'intonazione**: modulando l’intonazione possiamo cambiare il significato della frase stiamo pronunciando (ad esempio, da essa dipende la distinzione fra una frase interrogativa e una frase dichiarativa). Bisogna dunque capire come trasferire queste informazioni nella trascrizione. 
+- **L'intonazione**: modulando l’intonazione possiamo cambiare il significato della frase stiamo pronunciando (ad esempio, da essa dipende la distinzione fra una frase interrogativa e una frase dichiarativa). Bisogna dunque capire come trasferire queste informazioni nella trascrizione.
 Lo stesso vale per le pause, le false partenze, le riformulazioni, i cosiddetti filler e così via: vanno rappresentati nella conversazione? Se sì, come? Possono esserci diverse soluzioni a tale problema.
 
 ### 2.3 Possibili soluzioni
-La risposta alle domande che ci siamo posti dipende dal contesto, in quanto bisogna sempre adattare le proprie risposte in base alle proprie esigenze di trascrizione. In base alle intenzioni con cui sto trascrivendo posso effettivamente decidere il sistema di trascrizione più adatto. 
-Ad ogni modo, a prescindere dall'intento, <ins>bisogna cercare di mantenere un equilibrio fra due esigenze diverse</ins>: 
+La risposta alle domande che ci siamo posti dipende dal contesto, in quanto bisogna sempre adattare le proprie risposte in base alle proprie esigenze di trascrizione. In base alle intenzioni con cui sto trascrivendo posso effettivamente decidere il sistema di trascrizione più adatto.
+Ad ogni modo, a prescindere dall'intento, <ins>bisogna cercare di mantenere un equilibrio fra due esigenze diverse</ins>:
 - **Fedeltà al parlato**: Da un lato c'è l'esigenza di trascrivere nella maniera più fedele possibile ogni aspetto del parlato (dunque anche aspetti come pause e sovrapposizioni fra parlanti);
-- **Cercabilità nel testo**: se sovraccarico la trascrizione con dei simboli per indicare tutto ciò che avviene nel parlato, c'è il rischio che il testo perda parte della propria cercabilità e leggibilità. 
+- **Cercabilità nel testo**: se sovraccarico la trascrizione con dei simboli per indicare tutto ciò che avviene nel parlato, c'è il rischio che il testo perda parte della propria cercabilità e leggibilità.
 
 In sostanza, la trascrizione è una pratica di **decision-making**: in base al sistema di convenzioni che si sceglie di adottare, di volta in volta il trascrittore deve cercare di agire in maniera più coerente possibile rispetto al modello scelto e in base agli obiettivi che vogliamo raggiungere.
 
@@ -53,10 +57,10 @@ Riassumendo, idealmente si trascrive quanto più possibile (anche le pause, i va
 
 
 ### 2.4 L’Individuazione di un’unità
-Come è stato accennato precedentemente, una delle cose più complicate per quanto riguarda la trascrizione del parlato è l'individuazione dell'unità, cioè l'individuazione della frase. Ciò accade proprio perché il livello sintattico è quello che, rispetto allo scritto, presenta più differenze. 
+Come è stato accennato precedentemente, una delle cose più complicate per quanto riguarda la trascrizione del parlato è l'individuazione dell'unità, cioè l'individuazione della frase. Ciò accade proprio perché il livello sintattico è quello che, rispetto allo scritto, presenta più differenze.
 
-A dire il vero, ai fini della trascrizione non è importante dare una definizione precisa di “frase” nel parlato: la trascrizione è uno strumento che ci serve a rappresentare il parlato, ma in un certo senso è **pre-teorica**, cioè non ci serve per l'analisi. La trascrizione deve essere sempre funzionale all'analisi, che avviene in un secondo momento. 
-Per trascrivere, si è deciso di utilizzare come unità delle **unità di trascrizione** (che non hanno nessun tipo di rilevanza per l'analisi). L'unità di trascrizione viene individuata in base a un criterio intuitivo, cioè in base a parametri come la curva intonativa e, soprattutto, le pause. 
+A dire il vero, ai fini della trascrizione non è importante dare una definizione precisa di “frase” nel parlato: la trascrizione è uno strumento che ci serve a rappresentare il parlato, ma in un certo senso è **pre-teorica**, cioè non ci serve per l'analisi. La trascrizione deve essere sempre funzionale all'analisi, che avviene in un secondo momento.
+Per trascrivere, si è deciso di utilizzare come unità delle **unità di trascrizione** (che non hanno nessun tipo di rilevanza per l'analisi). L'unità di trascrizione viene individuata in base a un criterio intuitivo, cioè in base a parametri come la curva intonativa e, soprattutto, le pause.
 
 ### 2.5 Il Sistema Jefferson
 Vediamo il sistema Jefferson, qui usato per la trascrizione. È sicuramente il **sistema di trascrizione più diffuso** (anche se non il migliore). Il sistema Jefferson permette una rappresentazione piuttosto dettagliata di molti dei fenomeni che occorrono nel parlato, tra cui:
@@ -76,7 +80,7 @@ Qui vediamo una lista dei simboli più usati nel sistema Jefferson. Bisogna per�
 **ELAN** è un **software gratuito**, la cui funzione principale è quella di permettere la **trascrizione del parlato**. Ad un livello più avanzato si può utilizzare anche per effettuare ricerche all'interno delle trascrizioni (interrogazione del corpus) e per creare annotazioni su più livelli (ad esempio, posso decidere di creare delle glosse). È uno dei software più diffusi per la trascrizione del parlato, per cui online sono reperibili molti strumenti di supporto accessibili gratuitamente (tra cui un [forum](https://archive.mpi.nl/forums/) e diversi manuali, come [questo](https://www.ling.upenn.edu/~wlabov/L560/ELAN_introduction.pdf)).
 
 ### 3.1 Scaricare il programma
-Il programma è scaricabile a questo [link](https://archive.mpi.nl/tla/elan/download). Quando si scarica il programma, il sito stesso mette a disposizione molto [materiale in PDF](https://archive.mpi.nl/tla/elan/documentation) che si può utilizzare per prendere confidenza con ELAN o per risolvere moltissimi dei problemi che possono emergere con col programma. 
+Il programma è scaricabile a questo [link](https://archive.mpi.nl/tla/elan/download). Quando si scarica il programma, il sito stesso mette a disposizione molto [materiale in PDF](https://archive.mpi.nl/tla/elan/documentation) che si può utilizzare per prendere confidenza con ELAN o per risolvere moltissimi dei problemi che possono emergere con col programma.
 
 ### 3.2 Scaricare i materiali
 In allegato è possibile trovare **un file video** che può essere utilizzato per compiere un esercizio di trascrizione e per familiarizzare con le funzioni base di ELAN. Il video in questione è un estratto di "Lady Frankenstein", un film del 1971 diretto da **Mel Welles**.
@@ -103,7 +107,7 @@ La struttura di ELAN è costruita su righe diverse, che possiamo approssimare a 
   caption="Visualizzazione dei tier"
 %}
 
-Questa è la visualizzazione che appare una volta aperto ELAN. Le righe qui riportate si chiamano **tier**: su ciascun tier (in questo caso ne sono presenti tre) bisogna trascrivere ciò che dice un singolo parlante. 
+Questa è la visualizzazione che appare una volta aperto ELAN. Le righe qui riportate si chiamano **tier**: su ciascun tier (in questo caso ne sono presenti tre) bisogna trascrivere ciò che dice un singolo parlante.
 
 Vediamo un esempio:
 {%
@@ -151,7 +155,7 @@ A questo punto la cosa da fare è creare i tier successivi in base al numero di 
 Una cosa che spesso viene fatta è scegliere un codice alfanumerico per ogni tier, mentre nello spazio “participant” scriviamo il nome vero e proprio del partecipante (nel caso in cui non volessimo poi vederlo sulla trascrizione).
 
 ### 3.8 La Trascrizione e i Comandi Essenziali
-A questo punto possiamo avviare la trascrizione vera e propria. Anzitutto bisogna precisare che tutti questi comandi qui riportati possono essere eseguiti anche col mouse. L’utilizzo della tastiera può risultare difficile all’inizio, in quanto bisogna memorizzare le diverse combinazioni di tasti per ogni specifico comando, ma risulta molto più vantaggiosa in seguito. 
+A questo punto possiamo avviare la trascrizione vera e propria. Anzitutto bisogna precisare che tutti questi comandi qui riportati possono essere eseguiti anche col mouse. L’utilizzo della tastiera può risultare difficile all’inizio, in quanto bisogna memorizzare le diverse combinazioni di tasti per ogni specifico comando, ma risulta molto più vantaggiosa in seguito.
 Vediamo dunque alcuni dei comandi che servono per la trascrizione (tra i materiali c’è un PDF in cui c’è la lista completa delle combinazioni di tasti):
 - **CTRL + Spazio**: avvia/stoppa la traccia audio.
 - **CTRL/⌘ + K**: Seleziona/deseleziona la selection mode. Per individuare la stringa di parlato che vogliamo trascrivere bisogna entrare in selection mode, che può essere attivata o disattivata anche spuntando la casella apposita. A questo punto, quando si avvia/stoppa la traccia audio, si avvia/stoppa anche la selezione.
@@ -168,7 +172,7 @@ Vediamo dunque alcuni dei comandi che servono per la trascrizione (tra i materia
 %}
 - **ALT + Mouse (in orizzontale)**: Volendo possiamo anche allargare o stringere la nostra unità con la combinazione ALT + mouse, premendo il tasto sinistro di quest'ultimo e spostando il cursore in senso orizzontale.
 - **CTRL/⌘ + su/giù**: Questa combinazione serve per spostarsi da un tier all’altro in verticale (ad esempio, quando vogliamo trascrivere ciò che dice un parlante diverso da quello associato al tier su cui ci troviamo).
-- **ALT + Mouse (in verticale)**: Può capitare di trascrivere le parole di un parlante nel tier sbagliato. Premendo ALT e il tasto destro del mouse, possiamo spostare l’unità da un tier all'altro (dunque in verticale). 
+- **ALT + Mouse (in verticale)**: Può capitare di trascrivere le parole di un parlante nel tier sbagliato. Premendo ALT e il tasto destro del mouse, possiamo spostare l’unità da un tier all'altro (dunque in verticale).
 - **SHIFT + ALT + C**: Questa combinazione serve p34 cancellare una selezione, che + uno step necessario per poter cominciare una nuova selezione.
 - **SHIFT + Spazio**: Questa combinazione serve nel caso in cui volessimo riascoltare la singola annotazione (ad esempio, può capitare che in un determinato punto l'audio non sia chiarissimo).
 
@@ -180,9 +184,9 @@ Vediamo dunque alcuni dei comandi che servono per la trascrizione (tra i materia
   caption="Cambiare le Shortcut della tastiera"
 %}
 - **Cambiare la velocità di riproduzione**: Se l’audio è troppo lento o troppo veloce, nella sezione in alto è possibile trovare il tasto “rate”, col quale si può modificare la velocità di riproduzione.
-In alcuni casi la visualizzazione di ELAN è piccola. Per ingrandire solo la visualizzazione si può cliccare col tasto destro del mouse, selezionare “font size” e regolare la grandezza del testo. 
+In alcuni casi la visualizzazione di ELAN è piccola. Per ingrandire solo la visualizzazione si può cliccare col tasto destro del mouse, selezionare “font size” e regolare la grandezza del testo.
 Un'altra cosa che può aiutare nella visualizzazione è il cursore in basso a destra, grazie al quale si può modificare la visualizzazione delle unità (restringendole o allargandole). Ciò vuol dire che la durata dell’unità si mantiene sull'asse temporale, ma diventa possibile visualizzare tutte le parole che prima non si riuscivano a vedere.
-- **Ingrandire la visualizzazione delle unità**: In alcuni casi la visualizzazione di ELAN è piccola. Per ingrandire solo il corpo della trascrizione si può cliccare col tasto destro del mouse, selezionare “*font size*” e regolare la grandezza del testo. 
+- **Ingrandire la visualizzazione delle unità**: In alcuni casi la visualizzazione di ELAN è piccola. Per ingrandire solo il corpo della trascrizione si può cliccare col tasto destro del mouse, selezionare “*font size*” e regolare la grandezza del testo.
 Un'altra cosa che può aiutare nella visualizzazione è il cursore in basso a destra, grazie al quale si può modificare la visualizzazione delle unità (restringendole o allargandole). Ciò vuol dire che la durata dell’unità si mantiene sull'asse temporale, ma diventa possibile visualizzare tutte le parole che prima non si riuscivano a vedere. In sostanza, con queste funzioni si alterà la modalità di visualizzazione delle unità, ma non le unità stesse.
 - **Cancellare l'unità creata**: Per cancellare un'unità creata bisogna selezionarla cliccandoci sopra (in tal modo, l’unità dovrebbe diventare blu), per poi cliccare su “Delete Annotation”.
 - **Il programma non legge il file mp3**: Tra i problemi che possono emergere durante la trascrizione, può capitare che ELAN non legga il file mp3 o che si blocchi. Il modo migliore per risolvere questo problema è cambiare il formato dell'audio, quindi convertirlo in formato .wav (è possibile farlo con Audacity, di cui abbiamo già parlato). Ovviamente, una volta cambiato il formato dell'audio bisogna riassociare nuovamente la trascrizione alla nuova traccia, e per fare ciò bisogna seguire questa sequenza: *Edit > Linked Files*.
@@ -199,7 +203,7 @@ ELAN permette di vedere assieme tutto ciò che abbiamo trascritto per quanto rig
 
 #### 3.10.2 La strutturazione dei tier
 I tier possono avere diversi tipi di struttura. La strutturazione più semplice dei tier è quella che prevede l’associazione di un unico tier ad ogni parlante. Tuttavia, è possibile anche creare un quadro molto più complesso: è infatti possibile creare una serie di **tier dipendenti** dal tier che abbiamo associato a un parlante, creando così dei “sotto-tier”. In sostanza, è possibile creare un’**architettura interna** dei tier. Vediamo alcuni casi in cui questa funzione può essere utile:
-- **Comunicazione non verbale**: posso fare un tier relativo solo ai movimenti del corpo di un determinato parlante. 
+- **Comunicazione non verbale**: posso fare un tier relativo solo ai movimenti del corpo di un determinato parlante.
 - **Commenti**: Questa funzione può tornare utile anche nel momento in cui decido di lasciare dei commenti, andando dunque ad inserirli proprio in un tier dipendente (usandolo come un vero e proprio block notes)
 - **IPA**: se voglio trascrivere delle parti con l’alfabeto IPA, posso farlo andando ad inserirle in un apposito tier.
 {%
@@ -210,7 +214,7 @@ I tier possono avere diversi tipi di struttura. La strutturazione più semplice 
 Vediamo un esempio. Qui abbiamo un tier complesso, in quanto vediamo una serie di “sotto-tier” associati ad un unico parlante. Tali tier contengono molti tipi di informazioni: nel primo tier vi è una trascrizione ortografica; nel secondo tier abbiamo una trascrizione in IPA; nel terzo tier abbiamo una trascrizione del linguaggio non verbale.
 
 Vediamo dunque come aggiungere dei tier dipendenti.
-La prima cosa da fare è creare un tier che segue la scansione temporale a cui voglio poi associarlo. Anzitutto andiamo su ***Type > Add New Tier Type***. Nella finestra che si apre andiamo poi su ***Stereotype*** e selezioniamo ***Time subdivision***, inserendo anche il nome del tipo.  
+La prima cosa da fare è creare un tier che segue la scansione temporale a cui voglio poi associarlo. Anzitutto andiamo su ***Type > Add New Tier Type***. Nella finestra che si apre andiamo poi su ***Stereotype*** e selezioniamo ***Time subdivision***, inserendo anche il nome del tipo.
 {%
   include figure.html
   image="images/seminar-images/elantrascrizione/18 tier dipendente.PNG"
@@ -232,7 +236,7 @@ A questo punto, ci si ritrova con tutti i tier allineati. Per avere un tipo di v
 %}
 
 #### 3.10.3 Divisione per Parola
-Possiamo anche decidere di creare un tier dipendente in cui le parole presenti nella trascrizione vengono suddivise. Per farlo, bisogna anzitutto creare un nuovo tipo di tier (*Type > Add New Tier Type*), ma questa volta in Stereotype bisogna selezionare ***Symbolic Subdivision***. 
+Possiamo anche decidere di creare un tier dipendente in cui le parole presenti nella trascrizione vengono suddivise. Per farlo, bisogna anzitutto creare un nuovo tipo di tier (*Type > Add New Tier Type*), ma questa volta in Stereotype bisogna selezionare ***Symbolic Subdivision***.
 
 {%
   include figure.html
@@ -265,7 +269,7 @@ La tokenizzazione, però, ha un problema: tutte le parole separate da un apostro
 
 #### 3.10.4 Ricerca
 ELAN permette di fare ricerche molto raffinate, anche in base a quanto è strutturata la nostra annotazione. Possiamo fare una ricerca semplice per forme all’interno della trascrizione come abbiamo già descritto nel punto precedente (quindi seguendo il percorso *Search > Find (and replace)* oppure premendo CTRL/⌘+ F), ma possiamo anche fare ricerche su più file contemporaneamente (dunque usando i file delle nostre trascrizioni come se fossero un corpus).
-Per fare ciò andiamo anzitutto su ***Search > Search Multiple EAF***; dopodiché bisogna definire il dominio della ricerca. Dopo aver creato un nuovo dominio di ricerca su New Domain, possiamo aggiungere una cartella / un file e diamo il nome al dominio in quesitone. 
+Per fare ciò andiamo anzitutto su ***Search > Search Multiple EAF***; dopodiché bisogna definire il dominio della ricerca. Dopo aver creato un nuovo dominio di ricerca su New Domain, possiamo aggiungere una cartella / un file e diamo il nome al dominio in quesitone.
 
 {%
   include figure.html
@@ -279,7 +283,7 @@ Per fare ciò andiamo anzitutto su ***Search > Search Multiple EAF***; dopodich�
   caption="Definizione del dominio"
 %}
 
-A questo punto possiamo fare la ricerca in questione: cercando una parola (nell’esempio viene cercata la parola “se”), vedremo tutte le occorrenze di quella specifica parola all’interno dei nostri file. 
+A questo punto possiamo fare la ricerca in questione: cercando una parola (nell’esempio viene cercata la parola “se”), vedremo tutte le occorrenze di quella specifica parola all’interno dei nostri file.
 {%
   include figure.html
   image="images/seminar-images/elantrascrizione/28 search.PNG"

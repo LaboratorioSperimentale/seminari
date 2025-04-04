@@ -2,16 +2,9 @@
 name: Letizia Strocchi
 image: images/avatars/letizia.png
 role: tirocinante
-affiliation: CdL in ...
+affiliation: CdL in Lingue e Letterature Straniere
 links:
-  home-page: https://janesmith.com
+  linkedin: letizia-strocchi-09b4381a5/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
-Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
-Elit at imperdiet dui accumsan.
-Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
-Vitae elementum curabitur vitae nunc sed velit dignissim sodales.
-Lacinia at quis risus sed vulputate odio ut.
-Magna eget est lorem ipsum.
+Letizia strocchi è una studentessa dell’Università di Bologna, iscritta al corso di laurea in Lingue e Letterature Straniere, in particolare Inglese e Giapponese. Nell’anno accademico 2024/2025 ha svolto il tirocinio curricolare presso il Laboratorio Sperimentale.
