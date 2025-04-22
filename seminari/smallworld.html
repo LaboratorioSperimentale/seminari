@@ -43,28 +43,28 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Analisi dei dati linguistici con R e Jasp: dalla sintesi dei dati alla statistica inferenziale | LABORATORIO SPERIMENTALE</title>
+<title>Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole | LABORATORIO SPERIMENTALE</title>
 
 <link rel="icon" href="">
 
-<meta name="title" content="Analisi dei dati linguistici con R e Jasp: dalla sintesi dei dati alla statistica inferenziale">
+<meta name="title" content="Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole">
 <meta name="description" content="Dipartimento di Lingue, Letterature e Culture Moderne. ">
 
-<meta property="og:title" content="Analisi dei dati linguistici con R e Jasp: dalla sintesi dei dati alla statistica inferenziale">
+<meta property="og:title" content="Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole">
 <meta property="og:site_title" content="LABORATORIO SPERIMENTALE">
 <meta property="og:description" content="Dipartimento di Lingue, Letterature e Culture Moderne. ">
 <meta property="og:url" content="https://laboratoriosperimentale.github.io/seminari">
 <meta property="og:image" content="">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Analisi dei dati linguistici con R e Jasp: dalla sintesi dei dati alla statistica inferenziale">
+<meta property="twitter:title" content="Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole">
 <meta property="twitter:description" content="Dipartimento di Lingue, Letterature e Culture Moderne. ">
 <meta property="twitter:url" content="https://laboratoriosperimentale.github.io/seminari">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="">
 
 
-  <meta name="author" content="esmeraldadivenere">
+  <meta name="author" content="samuelecirrito">
   <meta property="og:type" content="article">
   <meta property="og:updated_time" content="2025-04-22T14:05:06+00:00">
   <meta property="article:published_time" content="">
@@ -77,13 +77,13 @@
     "@context": "https://schema.org",
     
       "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "Analisi dei dati linguistici con R e Jasp: dalla sintesi dei dati alla statistica inferenziale" },
+      "author": { "@type": "Person", "name": "Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole" },
       "datePublished": "",
       "dateModified": "2025-04-22T14:05:06+00:00",
     
-    "name": "Analisi dei dati linguistici con R e Jasp: dalla sintesi dei dati alla statistica inferenziale",
+    "name": "Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole",
     "description": "Dipartimento di Lingue, Letterature e Culture Moderne. ",
-    "headline": "Analisi dei dati linguistici con R e Jasp: dalla sintesi dei dati alla statistica inferenziale",
+    "headline": "Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "" }
@@ -352,6 +352,32 @@
 
   
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -456,7 +482,7 @@
 
 
 <div class="portrait-wrapper">
-  <a href="/seminari/members/esmeraldadivenere.html" class="portrait" data-style="tiny" aria-label="Esmeralda Di Venere">
+  <a href="/seminari/members/samuelecirrito.html" class="portrait" data-style="tiny" aria-label="Samuele Cirrito">
     
       <i class="icon fa-solid fa-pencil"></i>
     
@@ -465,7 +491,7 @@
 
     
       <span class="portrait-name">
-        Esmeralda Di Venere
+        Samuele Cirrito
       </span>
     
 
@@ -504,7 +530,7 @@
 
 
 <div>
-  <h1>Analisi dei dati linguistici con R e Jasp: dalla sintesi dei dati alla statistica inferenziale</h1>
+  <h1>Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole</h1>
 </div>
 
 
@@ -512,8 +538,8 @@
       <div class="summary-table">
   <table>
     <tr>
-      <td>
-</td>
+      <td><span>
+Maria Montefinese</span></td>
     </tr>
     <tr>
       <td>
@@ -555,91 +581,82 @@
   
 
   <section class="background" data-size="page">
-    <ul class="no_toc" id="markdown-toc">
-  <li><a href="#analisi-dei-dati-linguistici-con-jasp" id="markdown-toc-analisi-dei-dati-linguistici-con-jasp">Analisi dei dati linguistici con Jasp</a></li>
-  <li><a href="#introduzione-cos%C3%A8-jasp" id="markdown-toc-introduzione-cosè-jasp">Introduzione: Cos’è Jasp?</a></li>
-  <li><a href="#caricare-dataset-su-jasp" id="markdown-toc-caricare-dataset-su-jasp">Caricare Dataset su Jasp</a></li>
-  <li><a href="#sintesi" id="markdown-toc-sintesi">Sintesi</a></li>
-  <li><a href="#rappresentazione" id="markdown-toc-rappresentazione">Rappresentazione</a></li>
-  <li><a href="#test" id="markdown-toc-test">Test</a></li>
+    <h2 id="il-progetto">Il progetto</h2>
+
+<p>Il progetto <strong>Small World of Words</strong> nasce nel 2005 grazie al lavoro di Simon De Deyne con un’idea sviluppata a partire da un paio di articoli pubblicati nel 1996 e nel <a href="http://web.mit.edu/cocosci/archive/Papers/03nSteyvers.pdf">2004</a> da M. Steyvers e J. B. Tenenbaum sui <strong>network small-world</strong>. Su questa base teorica, De Deyne concentra, quindi, i suoi sforzi sulla costruzione di una rete di associazioni verbali in olandese. La costruzione di questo database inizia nel 2006 e si conclude nel 2013.
+Successivamente, Marc Brysbaert incoraggia De Deyne a replicare il progetto in inglese. In questo modo nasce il secondo grande data-set.</p>
+
+<p>Nel corso degli anni sono state raccolte associazioni per 19 lingue. La collaborazione per la costruzione di un data-set in italiano inizia nel 2016. Esiste anche delle pagine sui social, <a href="https://www.instagram.com/associaparole/">instagram</a>, <a href="https://x.com/associaparole">twitter</a> e <a href="https://www.facebook.com/StudioAssociazioneDiParole">facebook</a>, per la promozione della creazione di questo data-set.</p>
+
+<p>I dati del progetto possono essere consultati su questa <a href="https://smallworldofwords.org/it/project/explore">pagina</a>. È possibile selezionare la lingua e cercare una parola. Verrano mostrare le associazioni a quella parola come parola cue (ovvero saranno mostrate le parole fornite come risposta), e le parole cue che hanno elicitato tale risposta. Su questa <a href="https://smallworldofwords.org/it/project/visualize">pagina</a> è, invece, possibile visualizzare le associazioni, attraverso tre diverse modalità di visualizzazione.</p>
+
+<p>I dati del progetto saranno resi disponibili su OSF e GitHub non appena verrà raggiunto il traguardo dei 5000 stimoli, soglia minima per ottenere associazioni affidabili è signiticative.</p>
+
+<h2 id="lo-studio-delle-associazioni-verbali">Lo studio delle associazioni verbali</h2>
+<p>La maggior parte dei lavori sulle associazioni verbali risale agli anni ‘60. Soprattutto in Russia esiste una solida tradizione di studio delle associazioni verbali integrata nella <strong>teoria della visione linguistica del mondo</strong> (secondo cui le associazioni semantiche riflettono e modellano il modo in cui percepiamo e interpretiamo il mondo attraverso il linguaggio).</p>
+
+<p>Oggi gli studi sulle associazioni verbali stanno vivendo una rinascita. Le associazioni rappresentano, infatti, un modo semplice ed efficiente per <strong>esplorare i contenuti della mente</strong> senza che questi vengano espressi attraverso strutture linguistiche complesse e discorsive. Inoltre, un altro motivo di interesse delle associazioni verbali è dato dalla loro capacità di descrivere l’esperienza dei parlanti sia come creatori che come destinatari di testi; riflettono, dunque, la struttura della comunicazione umana razionale e <strong>rappresentano l’intera esperienza verbale e non-verbale</strong> accumulata dai parlanti nativi.</p>
+
+<h2 id="analisi-delle-associazioni-verbali">Analisi delle associazioni verbali</h2>
+<p>Le associazioni verbali, sono, quindi, connessioni tra parole che il nostro cervello stabilisce sulla base dell’<strong>esperienza</strong>, del <strong>contesto</strong> e del <strong>significato</strong> delle parole.</p>
+
+<p>Da una prospettiva di rete, le associazioni, e dunque le relazioni parole di un insieme, su diversi livelli:</p>
+
+<ol>
+  <li>
+<strong>livello locale</strong>: su questo livello l’analisi si concentra sui <strong>singoli nodi</strong>, e si esaminano, quindi, connessioni individuali tra parole; l’analisi a questo livello permette di comprendere <strong>associazioni immediate e dirette</strong>;</li>
+  <li>
+<strong>livello intermedio</strong>: su questo livello l’analisi si concentra sui <strong>cluster di nodi</strong> e permette di reperire informazioni su regioni coerenti all’interno della rete (i cluster), che possono rappresentare <strong>categorie semantiche</strong>;</li>
+  <li>
+<strong>livello globale</strong>: su questo livello l’analisi si concentra sull’<strong>intera rete</strong> e permette di reperire informazioni sulla resilienza ed efficacia della rete (ad esempio, quanto velocemente si può diffondere un’informazione); l’analisi su questo livello permette, inoltre, di confrontare <strong>diversi tipi di architetture informative</strong> (tra lingue diverse, discipline diverse, persone con età diversa).</li>
+</ol>
+
+<h2 id="raccolta-e-pulizia-dei-dati">Raccolta e pulizia dei dati</h2>
+<p>Per contribuire alla ricerca, si può accedere a questa <strong><a href="https://smallworldofwords.org/en/project/home">pagina</a></strong> e selezionare la propria lingua madre. Il compito consiste nell’associare le prime tre parole che vengono in mente in risposta a 18 parole cue.</p>
+
+<p>Poiché le associazioni variano molto da persona a persona (dipendono, infatti, dall’esperienza individuale del parlante), affinché i dati vengano considerati affidabili, sono stati raccolti almeno 60 partecipanti per ciascuna parola stimolo.</p>
+
+<p>Le parole stimolo sono state selezionate attraverso un metodo di <strong>campionamento a valanga</strong>, che ha permesso di includere parole con diversa frequenza d’uso. Inoltre, anche le parole associate, quindi date come risposta a questi stimoli, sono state aggiunte gradualmente come stimoli. L’obiettivo del progetto è ottenere associazioni per un totale di 5000 parole cue.</p>
+
+<p>Per quanto riguarda la pulizia dei dati raccolti, innanzitutto verranno rimossi tutti i segni di interpunzione; il testo viene poi normalizzato.</p>
+
+<p>Per la selezione dei partecipanti sono applicati alcuni criteri. In particolare, verranno esclusi quei partecipanti che:</p>
+<ul>
+  <li>Inseriscono frequentemente risposte formate da più parole;</li>
+  <li>Hanno un’alta percentuale di risposte ripetuto;</li>
+  <li>Hanno un’alta percentuale di risposte non date;</li>
+  <li>Hanno un’alta percentuale di risposte con parole in  lingue diverse dall’italiano;</li>
+  <li>Hanno meno di 18 anni.</li>
 </ul>
 
-<h2 id="analisi-dei-dati-linguistici-con-jasp">Analisi dei dati linguistici con Jasp</h2>
+<p>I dati vengono, infine, bilanciati selezionando 60 risposte per ogni stimolo. Inoltre, viene data attenzione a bilanciare la rappresentanza di genere.</p>
 
-<blockquote>
-  <p><a href="https://liveunibo.sharepoint.com/&lt;img%20class=" emoji title=":v:" alt=":v:" raw="✌️" src="https://github.githubassets.com/images/icons/emoji/unicode/270c.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">/s/Labsperimentaleprova873/EUy_5AgykQlPkkiCgUIEznkBSFPAX7H67Lx8KrVijHTMIQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&amp;e=RDznAe"&gt;Analisi dei dati linguistici con R e JASP dalla sintesi dei dati alla statistica inferenziale.mp4</a>
-Durata intera: 04:00:00. Porzione di video su Jasp: 03:08:06-03:35:08.
-Conferenza del 21/10/2024. Speaker: Dott. Flavio Pisciotta.
-Ulteriori materiali: https://github.com/LaboratorioSperimentale/Formazione-seminario_R_Jasp</p>
-</blockquote>
+<h2 id="calcolo-delle-misure-di-associazione">Calcolo delle misure di associazione</h2>
+<p>La forza di associazionè una misura asimettrica, ovvero, l’associazione tra due parole non è reciproca. Per esempio, la probabilità di associare <em>luce</em> a <em>accecante</em> è maggiore rispetto alla probabilità di associare <em>accecante</em> a <em>luce</em>. Inoltre, questa misure non è applicabile alla maggior parte delle coppie, infatti, la maggior parte delle parole presenti nel database non viene fornita come risposta alla maggior parte dei cue.</p>
 
-<h2 id="introduzione-cosè-jasp">Introduzione: Cos’è Jasp?</h2>
+<p>è possibile anche calcolare misure di somiglianza semantica utilizzando diverse metrice a livello locale (di cluster) o globale (di rete).</p>
 
-<p><a href="https://jasp-stats.org/">JASP</a> un programma open source gratuito, supportato dall’università di Amsterdam.</p>
+<h2 id="ricerche-e-risultati">Ricerche e risultati</h2>
+<p>I risultati ottenuti dalle norme di associazione sono già stati utilizzati in letteratura per spiegare le prestazioni del partecipante in vari compiti comportamentali.</p>
 
-<p>JASP offre procedure di analisi standard sia nella forma classica che in quella bayesiana. Presenta un layout del foglio di calcolo e un’interfaccia intuitiva drag-and-drop, una divulgazione progressiva per una maggiore comprensione e un output annotato per comunicare i risultati.</p>
+<p><img src="/images/seminar-images/swow/swow1.png" alt="plain image">
+<em>Dal grafico si osserva che le misure di somiglianza derivate dalle norme di associazione per il rioplatense (in azzurro) presentano una correlazione più forte con i giudizi di somiglianza tra concetti rispetto ad altre misure ottenute da corpora.</em></p>
 
-<h2 id="caricare-dataset-su-jasp">Caricare Dataset su Jasp</h2>
+<p>In particolare, le norme di associazione si sono rivelate un indicatore più preciso rispetto ad altre fonti di dati, ad esempio i corpora, per misurare le somiglianze semantiche tra concetti. Le norme, inoltre, predicono con maggiore precisione i giudizi di somiglianza, nonché il comportamento dei partecipanti in compiti di relazione tra concetti.</p>
 
-<p>Per caricare un dataset su Jasp: cliccare le tre linee &gt; Open &gt; Computer – e da lì scegliere il proprio dataset.</p>
+<p><img src="/images/seminar-images/swow/swow2.png" alt="plain image">
+<em>I risultati derivano dalle norme di associazione per il cinese mandarino.</em></p>
 
-<p>Per effettuare modifiche, si può cliccare su “Edit Data”.</p>
+<p>Aspetto da notare è la differenza nelle prestazioni tra concetti concreti e astratti. Sembra, infatti, che l’associazione predica meglio la relazione tra concetti concreti. Osservando l’ultimo grafico, si può anche aggiungere che l’analisi delle risposte multiple (considerare, quindi non solo R1, ma anche R2 ed R3) fornisce una visione più completa delle connessioni semantiche tra concetti.</p>
 
-<p>Per assegnare un tipo diverso a una variabile, si clicca su “Analyses”.</p>
+<p>Le associazioni semantiche svolgono, inoltre, un ruolo fondamentale nel riconoscimento delle parole.
+<img src="/images/seminar-images/swow/swow3.png" alt="plain image"></p>
 
-<h2 id="sintesi">Sintesi</h2>
+<h3 id="studio-delle-differenze-culturali-e-linguistiche">Studio delle differenze culturali e linguistiche</h3>
+<p>Un altro importante utilizzo delle norme di associazione è lo studio delle differenze culturali e linguistiche, attraverso confronti diretti tra lingue utilizzando gli stessi stimoli. Queste analisi permettono di osservare similirità tra lingue e specificità culturali. Cultura e lingua, infatti, influenzano il nostro modo di associare i concetti.</p>
 
-<p>A partire da <em>Descriptives &gt; Descriptive statistics &gt; Statistics</em>, è possibile effettuare diversi tipi di sintesi, come segue.</p>
-
-<p>Media: <em>Descriptives &gt; Descriptive statistics &gt; Statistics &gt; Central Tendency &gt; Mode</em></p>
-
-<p>Mediana: <em>Descriptives &gt; Descriptive statistics &gt; Statistics &gt; Central Tendency &gt; Median</em></p>
-
-<p>Deviazione standard: <em>Descriptives &gt; Descriptive statistics &gt; Statistics &gt; Dispersion &gt; Std. Deviation</em></p>
-
-<p>Range interquartile: <em>Descriptives &gt; Descriptive statistics &gt; Statistics &gt; Dispersion &gt; IQR</em></p>
-
-<h2 id="rappresentazione">Rappresentazione</h2>
-
-<p>Per la rappresentazione delle <strong>variabili nominali</strong>, è utile la sezione Frequencies &gt; Contingency tables. I grafici per le variabili nominali non sono disponibili quando si ha un incrocio di due variabili, ma solo valore per valore delle celle.</p>
-
-<p>Per la rappresentazione delle <strong>variabili ratio</strong>, esistono diversi tipi di grafici, in base alla tipologia di variabili.</p>
-
-<p>Grafico a barre (una variabile): <em>Descriptives &gt; Flexplot (inserire solo variabile dipendente nominale)</em> oppure <em>Descriptives &gt; Descriptive statistics &gt; Basic Plots &gt; Distribution Plots</em></p>
-
-<p>Grafico a torta: <em>Descriptives &gt; Descriptive statistics &gt; Basic Plots &gt; Pie charts</em></p>
-
-<p>Istogramma: <em>Descriptives &gt; Flexplot (inserire solo variabile dipendente ratio)</em> oppure <em>Descriptives &gt; Descriptive statistics &gt; Basic Plots &gt; Distribution Plots</em></p>
-
-<p>Boxplot: <em>Descriptives &gt; Descriptive statistics &gt; Customizable Plots &gt; Boxplots</em></p>
-
-<p><em>inserire immagini???</em></p>
-
-<h2 id="test">Test</h2>
-
-<p>La sezione T-Test permette di scegliere fra diversi tipi di T-Test (Classical / Bayesan), che si usano per confrontare le medie di più gruppi, ma esistono diversi modi per effettuare test.</p>
-
-<p>Test di Shapiro-Wilk: <em>T-Tests &gt; One Sample T-Test &gt; Assumption checks &gt; Normality</em></p>
-
-<p>Chi square for Independence: <em>Frequencies &gt; Contingency tables &gt; Statistics &gt; χ2</em></p>
-
-<p>Test esatto di Fisher: <em>Frequencies &gt; Contingency tables &gt; Statistics &gt; Odds Ratio (2x2 only)</em></p>
-
-<p>One sample t-test: <em>T-Tests &gt; One Sample T-Test &gt; Tests &gt; Student</em> (Lo Student Test può essere effettuato anche come <em>paired</em> e <em>Indipendent</em>)</p>
-
-<p>One sample Wilcoxon signed-rank test: <em>T-Tests &gt; One Sample T-Test &gt; Tests &gt; Wilcoxon signed-rank</em> (Piò essere effettuato anche come <em>Paired</em>, per il confronto di misurazioni ripetute).</p>
-
-<p>Mann-Whitney U test: <em>T-Tests &gt; Independent Sample T-Test &gt; Tests &gt; Mann-Whitney</em></p>
-
-<p>One way ANOVA: <em>ANOVA</em></p>
-
-<p>Kruskal-Wallis test: <em>ANOVA &gt; Nonparametrics</em></p>
-
-<p>Coefficiente di correlazione di Pearson (r): <em>Regression &gt; Correlation &gt; Sample Correlation Coefficients &gt; Pearson’s r e Additional options &gt; Display pairwise</em></p>
-
-<p>Coefficiente di correlazione di Spearman (rho): <em>Regression &gt; Correlation &gt; Sample Correlation Coefficients &gt; Spearman’s rho e Additional options &gt; Display pairwise</em></p>
-
-<p>Coefficiente di correlazione di Kendall (tau): <em>Regression &gt; Correlation &gt; Sample Correlation Coefficients &gt; Kendall’s tau e Additional options &gt; Display pairwise</em></p>
+<p><img src="/images/seminar-images/swow/swow4.png" alt="plain image">
+<em>Dall’immagine notiamo come, a seconda della lingua, cambiano le parole più frequentemente associate al concetto <strong>Italia</strong>. Più è grande una parola, più volte questa sarà stata associata.</em></p>
   </section>
 
 
