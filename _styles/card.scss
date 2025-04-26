@@ -58,3 +58,9 @@ vertical-align: top;
   margin-top: -10px !important;
   font-style: italic;
 }
+
+.card-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  filter: grayscale(100%);
+}

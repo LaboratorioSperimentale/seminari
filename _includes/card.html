@@ -1,5 +1,6 @@
 {{ " " }}
-<div class="card" data-style="{{ include.style }}">
+<div class="card {% unless include.publish != false %}card-disabled{% endunless %}" data-style="{{ include.style }}">
+
   <a
     {% if include.link %}
       href="{{ include.link | relative_url | uri_escape }}"
@@ -44,4 +45,7 @@
       {% include tags.html tags=include.tags repo=include.repo %}
     {% endif %}
   </div>
+  {% if include.publish == false %}
+  <div class="card-ribbon">Coming Soon</div>
+{% endif %}
 </div>

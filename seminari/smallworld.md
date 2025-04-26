@@ -17,11 +17,13 @@ I dati del progetto possono essere consultati su questa [pagina](https://smallwo
 I dati del progetto saranno resi disponibili su OSF e GitHub non appena verrà raggiunto il traguardo dei 5000 stimoli, soglia minima per ottenere associazioni affidabili e signiticative.
 
 ## Lo studio delle associazioni verbali
+
 La maggior parte dei lavori sulle associazioni verbali risale agli anni '60. Soprattutto in Russia esiste una solida tradizione di studio delle associazioni verbali integrata nella **teoria della visione linguistica del mondo**,secondo cui le associazioni semantiche riflettono e modellano il modo in cui percepiamo e interpretiamo il mondo attraverso il linguaggio.
 
 Oggi gli studi sulle associazioni verbali stanno vivendo una rinascita. Le associazioni rappresentano, infatti, un modo semplice ed efficiente per **esplorare i contenuti della mente** senza che questi vengano espressi attraverso strutture linguistiche complesse e discorsive. Inoltre, un altro motivo di interesse delle associazioni verbali è dato dalla loro capacità di descrivere l'esperienza dei parlanti sia come creatori che come destinatari di testi; riflettono, dunque, la struttura della comunicazione umana razionale e **rappresentano l'intera esperienza verbale e non-verbale** accumulata dai parlanti nativi.
 
 ## Analisi delle associazioni verbali
+
 Le associazioni verbali, sono, quindi, connessioni tra parole che il nostro cervello stabilisce sulla base dell'**esperienza**, del **contesto** e del **significato** delle parole.
 
 Da una prospettiva di rete, le associazioni, e dunque le relazioni tra le parole di un insieme, possono essere analizzate su diversi livelli:
@@ -31,30 +33,34 @@ Da una prospettiva di rete, le associazioni, e dunque le relazioni tra le parole
 3. **livello globale**: su questo livello l'analisi si concentra sull'**intera rete** e permette di reperire informazioni sulla resilienza ed efficacia della rete (ad esempio, quanto velocemente si può diffondere un'informazione); l'analisi su questo livello permette, inoltre, di confrontare **diversi tipi di architetture informative** (tra lingue diverse, discipline diverse, persone con età diversa).
 
 ## Raccolta e pulizia dei dati
+
 Per contribuire alla ricerca, si può accedere a questa **[pagina](https://smallworldofwords.org/en/project/home)** e selezionare la propria lingua madre. Il compito consiste nell'associare le prime tre parole che vengono in mente in risposta a 18 parole cue.
 
 Poiché le associazioni variano molto da persona a persona (dipendono, infatti, dall'esperienza individuale del parlante), affinché i dati vengano considerati affidabili, sono stati raccolti almeno 60 partecipanti per ciascuna parola stimolo.
 
 Le parole stimolo sono state selezionate attraverso un metodo di **campionamento a valanga**, che ha permesso di includere parole con diversa frequenza d'uso. Inoltre, anche le parole associate, quindi date come risposta a questi stimoli, sono state aggiunte gradualmente come stimoli. L'obiettivo del progetto è ottenere associazioni per un totale di 5000 parole cue.
 
-Per quanto riguarda la pulizia dei dati raccolti, innanzitutto vengono rimossi tutti i segni di interpunzione; il testo viene poi normalizzato, ovvero si correggono errori di ortografia e si rimuovo le maiuscole. 
+Per quanto riguarda la pulizia dei dati raccolti, innanzitutto vengono rimossi tutti i segni di interpunzione; il testo viene poi normalizzato, ovvero si correggono errori di ortografia e si rimuovo le maiuscole.
 
 Per la selezione dei partecipanti sono applicati alcuni criteri. In particolare, verranno esclusi quei partecipanti che:
-- Inseriscono frequentemente risposte formate da più parole;
-- Hanno un'alta percentuale di risposte ripetute;
-- Hanno un'alta percentuale di risposte non date;
-- Hanno un'alta percentuale di risposte con parole in lingue diverse dall'italiano;
-- Hanno meno di 18 anni.
+
+* Inseriscono frequentemente risposte formate da più parole;
+* Hanno un'alta percentuale di risposte ripetute;
+* Hanno un'alta percentuale di risposte non date;
+* Hanno un'alta percentuale di risposte con parole in lingue diverse dall'italiano;
+* Hanno meno di 18 anni.
 
 I dati vengono, infine, bilanciati selezionando 60 risposte per ogni stimolo. Inoltre, viene data attenzione a bilanciare la rappresentanza di genere.
 
 ## Calcolo delle misure di associazione
+
 La forza di associazione è una misura asimettrica, ovvero, l'associazione tra due parole non è reciproca. Per esempio, la probabilità di associare *luce* a *accecante* è maggiore rispetto alla probabilità di associare *accecante* a *luce* (dunque, considerando p(risposta|stimolo|, p(luce|accecante|)>>p(accecante|luce)). Inoltre, questa misure non è applicabile alla maggior parte delle coppie, infatti, la maggior parte delle parole presenti nel database non viene fornita come risposta alla maggior parte dei cue.
 
 Si possono anche calcolare misure di somiglianza semantica utilizzando diverse metrice a livello locale (di cluster) o globale (di rete).
 
 ## Ricerche e risultati
-I risultati ottenuti dalle norme di associazione sono già stati utilizzati in letteratura per spiegare le prestazioni del partecipante in vari compiti comportamentali. 
+
+I risultati ottenuti dalle norme di associazione sono già stati utilizzati in letteratura per spiegare le prestazioni del partecipante in vari compiti comportamentali.
 
 ![plain image](/images/seminar-images/swow/swow1.png)
 _Dal grafico si osserva che le misure di somiglianza derivate dalle norme di associazione per il rioplatense (in azzurro) presentano una correlazione più forte con i giudizi di somiglianza tra concetti rispetto ad altre misure ottenute da corpora._
@@ -70,6 +76,7 @@ Le associazioni semantiche svolgono, inoltre, un ruolo fondamentale nel riconosc
 ![plain image](/images/seminar-images/swow/swow3.png)
 
 ### Studio delle differenze culturali e linguistiche
+
 Un altro importante utilizzo delle norme di associazione è lo studio delle differenze culturali e linguistiche, attraverso confronti diretti tra risposte fornite da parlanti lingue diverse a partire dagli stessi stimoli. Queste analisi permettono di osservare similirità tra lingue e specificità culturali. Cultura e lingua, infatti, influenzano il nostro modo di associare i concetti.
 
 ![plain image](/images/seminar-images/swow/swow4.png)
