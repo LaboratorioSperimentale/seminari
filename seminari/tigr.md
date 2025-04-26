@@ -5,6 +5,7 @@ author: silviamantovani
 speaker: johannamiecznikowski, elenabattaglia
 video_title: "The TIGR corpus: collection, transcription, processing and management of video-recorded data"
 video: "https://liveunibo-my.sharepoint.com/personal/ludovica_pannitto_unibo_it/_layouts/15/stream.aspx?id=%2Fpersonal%2Fludovica%5Fpannitto%5Funibo%5Fit%2FDocuments%2FSEMINARI%20LAB%2FVideo%2FThe%20TIGR%20corpus%20%2D%20collection%2C%20transcription%2C%20processing%20and%20management%20of%20videorecorded%20data%20for%20the%20study%20of%20Italian%20talk%20in%20interaction%20%281%29%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea314ab83%2D2921%2D41f1%2D8bcd%2Dc0355dbc2760"
+materials: materials/tigr/slides.pdf
 length: 2h
 unibo: yes
 ---
@@ -62,10 +63,13 @@ Per conoscere la struttura del TIGR nel contesto del progetto InfinIta e lo stat
   lookup="Composizione del TIGR"
 %}
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-10.png"
-  caption="Design iniziale del corpus TIGR (2020)"
+{% include pdf_card.html
+    title="Design iniziale del corpus TIGR (2020)"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="12"
+    thumb_url="/materials/tigr/thumbs/slide12.png"
 %}
 
 Secondo il disegno iniziale, l'idea era di includere diversi tipi di interazione: intervista, conversazione a tavola, preparazione di un pasto, lavori di gruppo e lezioni; per un totale di 28 ore e 39 eventi.
@@ -79,10 +83,13 @@ Ci sono poi stati dei riadattamenti del design del corpus a causa dell'avvento d
 
 Alla fine del processo sono state ottenute 23h 30' di videoregistrazione, per un totale di 23 eventi e 115 parlanti.
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-11.png"
-  caption="La versione finale del corpus TIGR"
+{% include pdf_card.html
+    title="La versione finale del corpus TIGR"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="14"
+    thumb_url="/materials/tigr/thumbs/slide14.png"
 %}
 
 Per quanto riguarda i contesti didattici, sono state registrate lezioni di tre tipi:
@@ -173,23 +180,36 @@ Inoltre, come è riportato sul sito del corpus alla voce "Deidentificazione":
 
 >in vista della loro condivisione sul repositorio, i documenti video saranno deidentificati in Adobe Premiere tramite l'applicazione di effetti video (p.es. Gaussian blur, Find edges) secondo i desideri espressi dai parlanti nelle loro dichiarazioni di consenso. Nelle tracce audio, si altereranno alcune voci secondo i desideri espressi nelle dichiarazioni di consenso e si sostituirà con rumore certi nomi e indicazioni temporali, nello specifico una serie di nomi di persone, istituzioni e luoghi nonché certe date che potrebbero facilitare l'identificazione delle e dei partecipanti. Questi interventi sono stati preparati in ELAN[^2] tramite l'annotazione dei passi problematici come _name_ in un'apposita traccia. Si userà uno script per leggere i tempi iniziali e finali dei segmenti annotati e istruire il programma Praat a elaborare l'insieme delle tracce audio negli intervalli in questione, cancellando il suono originale e inserendo frammenti di rumore. Nelle trascrizioni, l'informazione personale è stata sostituita da pseudonimi. I nomi dei partecipanti sono stati sostituiti da pseudonimi di simile lunghezza. Al posto di altre informazioni personali sono state inserite le diciture _personname_ / _institutionname_ / _placename_ / _datename_ accompagnate da indici, così da permettere riferimenti multipli alla stessa entità all'interno di una trascrizione.
 
-[^2]: Per approfondire l'utilizzo di ELAN [#TODO: inserire link ad altro seminario]
+[^2]: Per approfondire l'utilizzo di ELAN, si veda [qui](/seminari/elantrascrizione.html)
 
 Di seguito sono riportati alcuni esempi:
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-25.png"
+
+{% include pdf_card.html
+    title="Misure di de-identificazione"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="53"
+    thumb_url="/materials/tigr/thumbs/slide53.png"
 %}
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-26.png"
+{% include pdf_card.html
+    title="Misure di de-identificazione"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="54"
+    thumb_url="/materials/tigr/thumbs/slide54.png"
 %}
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-27.png"
+{% include pdf_card.html
+    title="Misure di de-identificazione"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="55"
+    thumb_url="/materials/tigr/thumbs/slide55.png"
 %}
 
 ### Dati sociolinguistici ricavati
@@ -200,9 +220,13 @@ Di seguito si riportano alcuni grafici sui principali dati sociolinguistici che 
 
 Come si può vedere dal grafico a sinistra,  il corpus è abbastanza bilanciato con una presenza femminile (53%) di poco superiore a quella maschile (47%). Nel grafico a destra vengono mostrate le fascie d'età, con una sovrarappresentazione della fascia degli studenti universitari (20-29).
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-15.png"
+{% include pdf_card.html
+    title="Dati sociolinguistici: genere e età"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="31"
+    thumb_url="/materials/tigr/thumbs/slide31.png"
 %}
 
 #### Origine dei parlanti
@@ -210,55 +234,61 @@ Come si può vedere dal grafico a sinistra,  il corpus è abbastanza bilanciato 
 Qui vengono mostrati i dati specifici sulle regioni italiane e sui cantoni svizzeri in cui i parlanti hanno frequentato la scuola elementare. Nonostante un certo bias geografico per quanto riguarda l'Italia, con Lombardia e Piemonte in testa, diverse regioni sono rappresentate, sia del centro sia del sud.
 In merito alla Svizzera, la maggior parte dei parlanti ha frequentato la scuola elementare nei cantoni Ticino e Grigioni.
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-16.png"
-  caption="La maggior parte dei partecipanti ha frequentato la scuola elementare in Italia e in Svizzera."
+{% include pdf_card.html
+    title="Dati sociolinguistici: origine dei parlanti"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="32"
+    thumb_url="/materials/tigr/thumbs/slide32.png"
 %}
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-16.png"
-%}
-
-{%
-include figure.html
-image="images/seminar-images/tigr/image-17.png"
-%}
-
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-17.png"
+{% include pdf_card.html
+    title="Dati sociolinguistici: origine dei parlanti"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="33"
+    thumb_url="/materials/tigr/thumbs/slide33.png"
 %}
 
 #### Luogo di lavoro o studio in Svizzera
 
 La maggior parte dei parlanti svolge la sua attività principale (studio o lavoro) in Ticino (64%). Al secondo posto troviamo i Grigioni (34%).
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-18.png"
-  caption="La regione di principale attività"
+{% include pdf_card.html
+    title="Dati sociolinguistici: luogo di lavoro o studio"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="34"
+    thumb_url="/materials/tigr/thumbs/slide34.png"
 %}
 
 #### Repertorio linguistico
 
 La maggior parte dei parlanti ha dichiarato di essere plurilingue (due, tre o addirittura più di quattro lingue nel proprio repertorio). La lista delle lingue conosciute dai partecipanti sono riportate nel grafico di destra.
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-19.png"
-  caption="Repertorio linguistico dei partecipanti"
+{% include pdf_card.html
+    title="Repertorio linguistico dei partecipanti"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="35"
+    thumb_url="/materials/tigr/thumbs/slide35.png"
 %}
 
 #### Istruzione e professione
 
 Il livello di istruzione principale è la scuola secondaria di secondo grado. Trattandosi per la maggio parte di studenti universitari, era l'ultimo grado di istruzione completato.
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-20.png"
-  caption="Livello di istruzione"
+{% include pdf_card.html
+    title="Livello di istruzione"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="36"
+    thumb_url="/materials/tigr/thumbs/slide36.png"
 %}
 
 ## Luoghi dove sono stati registrati gli eventi del TIGR
@@ -301,28 +331,36 @@ Alla guida interna sono stati aggiunti:
 
 Di seguito sono riportate alcune delle convenzioni GAT2 utilizzate nella trascrizione delle registrazioni
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-21.png"
+{% include pdf_card.html
+    title="Convenzioni GAT2"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="49"
+    thumb_url="/materials/tigr/thumbs/slide49.png"
 %}
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-22.png"
+{% include pdf_card.html
+    title="Convenzioni GAT2"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="50"
+    thumb_url="/materials/tigr/thumbs/slide50.png"
 %}
 
 Da notare l'annotazione del comportamento non verbale (guarda nell'immagine sopra in "Laughter and crying") che funziona con la logica del tag.
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-23.png"
-%}
 
 Inoltre, sono state adottate convenzioni di trascrizione multimodale di Modada per il tier "ambient noises", come nel seguente esempio:
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-24.png"
+{% include pdf_card.html
+    title="Ambient Noises"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="52"
+    thumb_url="/materials/tigr/thumbs/slide52.png"
 %}
 
 #### La segmentazione in Elan
@@ -342,10 +380,13 @@ Come abbiamo visto, la prima trascrizione avviene su ELAN. Da questa trascrizion
 1. una trascrizione in stile "dialogo teatrale" e formato `txt`;
 2. una trascrizione in versione tokenizzata, di cui si parlerà nel paragrafo successivo.
 
-  {%
-  include figure.html
-  image="images/seminar-images/tigr/image-28.png"
-  caption="trascrizione in stile 'dialogo teatrale'"
+  {% include pdf_card.html
+    title="Trascrizione in stile 'dialogo teatrale'"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="59"
+    thumb_url="/materials/tigr/thumbs/slide59.png"
   %}
 
 Il primo tipo di trascrizione offre un'approssimazione grafica dell'organizzazione della conversazione in turni e una buona base per un'analisi sequenziale.
@@ -357,10 +398,14 @@ Si può esportare da ELAN la trascrizione in formato testo "tradizionale", con o
 Però sono stati riscontrati alcuni problemi, tra cui: se si intende esportare la trascrizione con il timecode, il file risulta illeggibile e la messa in sequenza automatica dei turni non è sempre intuitiva.
 La soluzione è stata quella di condurre una **procedura semi-automatica (script Python)**: la trascrizione veniva esportata da ELAN come trascrizione in formato "tradizionale" e con l'allineamento verticale delle parentesi quadre. Attraverso degli script sono stati eliminati i timecode tranne quelli che segnano i tempi iniziali dei segmenti (creati su ELAN), che compaiono all'incirca ogni 10 secondi. Sono, poi, state collocate delle ancore "((TC))" nel testo, come si vede in questo esempio
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-29.png"
-%}
+  {% include pdf_card.html
+    title="Ancore"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="61"
+    thumb_url="/materials/tigr/thumbs/slide61.png"
+  %}
 
 Sono stati eliminati i nomi di parlanti superflui e sono stati concatenati i segmenti e si è formattato manualmente le trascrizioni quando presentavano sovrapposizioni di più di due parlanti
 
@@ -421,14 +466,24 @@ Per saperne di più sul processo di trascrizione si rimanda ai seguenti articoli
 La condivisione e il riuso dei dati è un ciclo: dei ricercatori producono dati per altri ricercatori che li riusano.
 I due momenti di condivisione e riuso sono rappresentati graficamente nelle immagini qui sotto:
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-31.png"
-%}
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-32.png"
-%}
+  {% include pdf_card.html
+    title="Condivisione dei dati"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="65"
+    thumb_url="/materials/tigr/thumbs/slide65.png"
+  %}
+
+  {% include pdf_card.html
+    title="Riuso dei dati"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="66"
+    thumb_url="/materials/tigr/thumbs/slide66.png"
+  %}
+
 
 Dal punto di vista tecnico le infrastrutture digitali (sono quelle che si vedono nel mezzo) sono cruciali in questo processo.
 Nella condivisione e nel riuso dei dati sono contemplati tre mezzi:
@@ -458,10 +513,14 @@ Il repositorio LaRS è organizzato secondo tre livelli gerarchici:
 
 Ad ogni livello ci sono dei metadati, alcuni obbligatori e altri facoltativi, che l'utente del repositorio deve inserire.
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-34.png"
-%}
+  {% include pdf_card.html
+    title="LaRS"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="69"
+    thumb_url="/materials/tigr/thumbs/slide69.png"
+  %}
 
 Nell'immagine sopra i dataset che verrano caricati.
 Ci sarà un dataset generale di documentazione che contiene la documentazione del corpus intero (documentazione metodologica, consensi informati, ecc.).
@@ -482,10 +541,15 @@ Per conoscere in dettaglio la costruzione dei vari dataset su LaRS, si legga:
 
 Il repositorio mette a disposizione dei campi predefiniti, alcuni obbligatori alcuni facoltativi. Si è pensato di aggiungere anche delle tabelle (in formato CSV) con i metadati per ogni singolo evento.
 
-{%
-  include figure.html
-  image="images/seminar-images/tigr/image-35.png"
-%}
+  {% include pdf_card.html
+    title="Documenti con Metadati"
+    authors="Johanna Miecznikowski, Elena Battaglia"
+    date="06/11/2024"
+    pdf_url="/materials/tigr/slides.pdf"
+    page="70"
+    thumb_url="/materials/tigr/thumbs/slide70.png"
+  %}
+
 
 Come si vede nell'immagine per ogni singolo evento il cuore è la tabella più centrale con le caratteristiche di base dell'evento (come il numero di partecipanti, il genere di interazione, e così via). La tabella centrale rinvia poi a una serie di altre tabelle. A sinistra si vedono due tabelle con i parlanti e i luoghi del TIGR. I parlanti del TIGR sono collegati al singolo evento tramite l'elenco dei partecipanti all'evento.
 L'evento è poi associabile all'elenco dei file video, all'elenco dei file audio e all'elenco delle trascrizioni.
