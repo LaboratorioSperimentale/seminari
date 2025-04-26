@@ -1,11 +1,14 @@
 ---
 layout: seminar
 title: "Il corpus TIGR: un corpus video per lo studio dell'italiano parlato"
+seminar_title: "The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction"
+date: "06.11.2024"
 author: silviamantovani
 speaker: johannamiecznikowski, elenabattaglia
 video_title: "The TIGR corpus: collection, transcription, processing and management of video-recorded data"
 video: "https://liveunibo-my.sharepoint.com/personal/ludovica_pannitto_unibo_it/_layouts/15/stream.aspx?id=%2Fpersonal%2Fludovica%5Fpannitto%5Funibo%5Fit%2FDocuments%2FSEMINARI%20LAB%2FVideo%2FThe%20TIGR%20corpus%20%2D%20collection%2C%20transcription%2C%20processing%20and%20management%20of%20videorecorded%20data%20for%20the%20study%20of%20Italian%20talk%20in%20interaction%20%281%29%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea314ab83%2D2921%2D41f1%2D8bcd%2Dc0355dbc2760"
-materials: materials/tigr/slides.pdf
+materials:
+  - materials/tigr/slides.pdf
 length: 2h
 unibo: yes
 ---
@@ -40,7 +43,7 @@ Il corpus TIGR è nato per cercare di rispondere a tre domande che riguardano la
 
 3. A livello pragmatico, come la categorizzazione delle fonti di informazione contribuisce al posizionamento epistemico?
 
-### Perché un  <ins>corpus video</ins> dell'italiano parlato?
+### Perché un  _corpus video_ dell'italiano parlato?
 
 Sono diversi i motivi che hanno spinto alla creazione di un corpus video:
 
@@ -183,7 +186,6 @@ Inoltre, come è riportato sul sito del corpus alla voce "Deidentificazione":
 [^2]: Per approfondire l'utilizzo di ELAN, si veda [qui](/seminari/elantrascrizione.html)
 
 Di seguito sono riportati alcuni esempi:
-
 
 {% include pdf_card.html
     title="Misure di de-identificazione"
@@ -351,7 +353,6 @@ Di seguito sono riportate alcune delle convenzioni GAT2 utilizzate nella trascri
 
 Da notare l'annotazione del comportamento non verbale (guarda nell'immagine sopra in "Laughter and crying") che funziona con la logica del tag.
 
-
 Inoltre, sono state adottate convenzioni di trascrizione multimodale di Modada per il tier "ambient noises", come nel seguente esempio:
 
 {% include pdf_card.html
@@ -484,7 +485,6 @@ I due momenti di condivisione e riuso sono rappresentati graficamente nelle imma
     thumb_url="/materials/tigr/thumbs/slide66.png"
   %}
 
-
 Dal punto di vista tecnico le infrastrutture digitali (sono quelle che si vedono nel mezzo) sono cruciali in questo processo.
 Nella condivisione e nel riuso dei dati sono contemplati tre mezzi:
 
@@ -550,7 +550,6 @@ Il repositorio mette a disposizione dei campi predefiniti, alcuni obbligatori al
     thumb_url="/materials/tigr/thumbs/slide70.png"
   %}
 
-
 Come si vede nell'immagine per ogni singolo evento il cuore è la tabella più centrale con le caratteristiche di base dell'evento (come il numero di partecipanti, il genere di interazione, e così via). La tabella centrale rinvia poi a una serie di altre tabelle. A sinistra si vedono due tabelle con i parlanti e i luoghi del TIGR. I parlanti del TIGR sono collegati al singolo evento tramite l'elenco dei partecipanti all'evento.
 L'evento è poi associabile all'elenco dei file video, all'elenco dei file audio e all'elenco delle trascrizioni.
 
@@ -561,4 +560,3 @@ La piattaforma online, al contrario, è percepita da molti come più comoda perc
 
 Nel contesto del [progetto FAIR-FI-LD](https://www.liri.uzh.ch/en/projects/FAIR-FI-LD.html) condotto dall'Università di Zurigo a cui partecipa tra gli altri anche l'USI (in particolare l'Istituto di Studi Italiani, o ISI), si vuole depositare il TIGR nel [LiRI Corpus Platform (o LCP)](https://www.liri.uzh.ch/en/services/LiRI-Corpus-Platform-LCP.html). Questa piattaforma online è stata creata dal LiRI (Linguistic Research Infrastructure), un dipartimento dell'Università di Zurigo. Per saperne di più sul LiRI e di che cosa si occupa, qui è riportata la home page del sito: <https://www.liri.uzh.ch/en.html>.
 Grazie alla collaborazione con _Linguisticbits_, di cui si è parlato sopra, si sta cercando di definire una procedura di upload in LCP di trascrizioni XML tokenizzate.
-

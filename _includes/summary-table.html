@@ -1,3 +1,5 @@
+{% assign languages = "en:English:🇬🇧,fr:Français:🇫🇷,it:Italiano:🇮🇹,de:Deutsch:🇩🇪,es:Español:🇪🇸" | split: "," %}
+
 <div class="summary-table">
   <table>
     <tr>
@@ -27,18 +29,21 @@
         {% endif %}
       </td>
     </tr>
+    {% if include.video %}
     <tr>
       <td colspan="2">
-        {% if include.video %}
+
           {% assign video = include.video %}
           {% if include.unibo %}
             <span><i class="fa-solid fa-video"></i> -- <a href="{{ video }}"> {{ include.video_title }} (accesso con credenziali UniBO)</a></span>
           {% else %}
             <span><a href="{{ video }}">{{ include.video_title }}</a></span>
           {% endif %}
-        {% endif %}
+
       </td>
     </tr>
+    {% endif %}
+    {% if include.length || include.materials %}
     <tr>
       <td>
         {% if include.length %}
@@ -48,10 +53,31 @@
       <td>
         {% if include.materials %}
           {% assign materials = include.materials %}
+          <!-- <b>Materiali:</b> -->
+          {% for item in include.materials %}
           <i class="fa-solid fa-bookmark"></i>
-          <b>Materiali:</b> <a href="{{ site.baseurl }}/{{ materials }}" target="_blank">{{ materials | split: '/' | last }}</a>
+          <a href="{{ site.baseurl }}/{{ item }}" target="_blank">{{ item | split: '/' | last }}</a>
+          {% endfor %}
         {% endif %}
       </td>
     </tr>
+    {% endif %}
+    {% if include.translation %}
+    <td class="translation-badges" colspan="2">
+      Page also available in:
+      {% for item in include.translation %}
+        {% assign lang =  item[0] %}
+        {% assign url = item[1] %}
+
+        {%- assign lang_info = languages | where_exp:"l","l contains lang" | first | split: ":" -%}
+        {%- assign lang_name = lang_info[1] | default: lang | upcase -%}
+        {%- assign lang_flag = lang_info[2] | default: "" -%}
+
+        <a href="{{ url }}" class="badge" title="{{ lang_name }}">
+          {{lang_flag}} {{ lang_name }}
+        </a>
+      {% endfor %}
+      </td>
+    {% endif %}
   </table>
 </div>

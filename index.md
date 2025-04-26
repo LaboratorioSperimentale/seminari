@@ -34,13 +34,19 @@ Questa pagina raccoglie gli **[eventi formativi](https://site.unibo.it/laborator
 
 La sezione [**Seminari del Laboratorio**](https://laboratoriosperimentale.github.io/seminari/seminari/) nel menu di navigazione vi porterà a una pagina contenente delle card per ogni seminario o pacchetto formativo. Ogni card è contrassegnata da dei tag, come per esempio _tool_ o _resource_, a seconda del contenuto del seminario e conduce a un testo in cui è esposta in maniera dettagliata l'argomento del seminario. I contenuti testuali che troverete in questa pagina sono stati prodotti nell'ambito dei tirocini formativi curriculari proposti presso il Laboratorio Sperimentale.
 
-{% include section.html %}
 
-## Seminari disponibili
+{% include section.html size="card"%}
+## Seminari 2025
+{% include list.html component="card" style="small" data="projects" filter="group == '2025'" %}
 
-| Data       | Titolo                 | Speaker         |
-| ---        | ---                    | ----            |
-| 06/09/2024 | The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction | [Johanna Miecznikowski](https://search.usi.ch/it/persone/ac8f4424bc40c3a8f9184f72ff606e46/miecznikowski-fuenfschilling-johanna), [Elena Battaglia](https://search.usi.ch/it/persone/9f04e935085ef74d0f7bbcb805b1ee27/battaglia-elena), Università della Svizzera Italiana |
+{% include section.html size="card" %}
+## Seminari 2024
+{% include list.html component="card" style="small" data="projects" filter="group == '2024'" %}
+
+{% include section.html size="card" %}
+## Seminari 2021
+{% include list.html component="card" style="small" data="projects" filter="group == '2021'" %}
+
 
 
 ## In lavorazione
