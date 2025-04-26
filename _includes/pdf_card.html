@@ -1,0 +1,30 @@
+<div class="pdf-card">
+	<div class="pdf-card-thumbnail">
+	  <a href="{{ include.pdf_url | relative_url | xml_escape }}#page={{ include.page }}" target="_blank">
+		<img src="{{ include.thumb_url }}" alt="Preview of {{ include.title | default: 'PDF' }} - page {{ include.page }}">
+	  </a>
+	</div>
+
+	<div class="pdf-card-text">
+	  <a
+		href="{{ include.pdf_url | relative_url | xml_escape }}#page={{ include.page }}"
+		target="_blank"
+		class="pdf-card-title"
+	  >
+		{% include icon.html icon="file-pdf" %}
+		{{ include.title | default: "[no title]" }}
+	  </a>
+
+	  <div class="pdf-card-authors">
+		{% if include.authors %}
+		  {{ include.authors | join: ", " }}
+		{% else %}
+		  [no author info]
+		{% endif %}
+	  </div>
+
+	  <div class="pdf-card-details">
+		{{ include.date | default: "[no date]" }}
+	  </div>
+	</div>
+  </div>

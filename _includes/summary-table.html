@@ -1,7 +1,12 @@
 <div class="summary-table">
   <table>
     <tr>
-      <td>
+      <th colspan="2">
+        <span>I contenuti di questa pagina sono stati elaborati a partire dal seminario tenuto presso il Laboratorio Sperimentale da</span>
+      </th>
+    </tr>
+    <tr>
+      <td colspan="2">
         {% if include.speaker %}
           {% assign speakers = include.speaker
             | join: ","
@@ -14,45 +19,39 @@
               | first
             %}
             {% if member %}
-            {% include portrait.html lookup=speaker style="tiny" %}
+              {% include portrait.html lookup=speaker style="tiny" %}
             {% else %}
-            <span>
-            </i> {{ speaker }}</span>
+              <span>{{ speaker }}</span>
             {% endif %}
           {% endfor %}
         {% endif %}
       </td>
     </tr>
     <tr>
-      <td>
+      <td colspan="2">
         {% if include.video %}
-        {% assign video = include.video %}
-        {% if include.unibo %}
-            <span><i class="fa-solid fa-video">
-            </i> -- <a href="{{ video }}"> {{include.video_title}} (accesso con credenziali UniBO)</a></span>
-        {% else %}
-        <span><a href="{{ video }}">{{include.video_title}} </a></span>
-        {% endif %}
+          {% assign video = include.video %}
+          {% if include.unibo %}
+            <span><i class="fa-solid fa-video"></i> -- <a href="{{ video }}"> {{ include.video_title }} (accesso con credenziali UniBO)</a></span>
+          {% else %}
+            <span><a href="{{ video }}">{{ include.video_title }}</a></span>
+          {% endif %}
         {% endif %}
       </td>
     </tr>
-
+    <tr>
+      <td>
         {% if include.length %}
-        <tr>
-          <td> <b>Durata:</b> {{include.length}}</td>
-        </tr>
+          <i class="fa-solid fa-hourglass-start"></i> <b>Durata:</b> {{ include.length }}
         {% endif %}
-    <!-- <tr>
-      <th>Licenza:</th>
-      <td></td>
+      </td>
+      <td>
+        {% if include.materials %}
+          {% assign materials = include.materials %}
+          <i class="fa-solid fa-bookmark"></i>
+          <b>Materiali:</b> <a href="{{ site.baseurl }}/{{ materials }}" target="_blank">{{ materials | split: '/' | last }}</a>
+        {% endif %}
+      </td>
     </tr>
-    <tr>
-      <th>Download:</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Lingua alternativa:</th>
-      <td></td>
-    </tr> -->
   </table>
 </div>
