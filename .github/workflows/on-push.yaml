@@ -4,7 +4,7 @@ run-name: on push to main
 on:
   push:
     branches:
-      - main
+      - gh-pages
 
   # run if user manually requests it
   workflow_dispatch:
