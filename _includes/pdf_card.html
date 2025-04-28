@@ -1,7 +1,7 @@
 <div class="pdf-card">
 	<div class="pdf-card-thumbnail">
 	  <a href="{{ include.pdf_url | relative_url | xml_escape }}#page={{ include.page }}" target="_blank">
-		<img src="{{ include.thumb_url }}" alt="Preview of {{ include.title | default: 'PDF' }} - page {{ include.page }}">
+		<img src="{{ include.thumb_url | relative_url | uri_escape }}" alt="Preview of {{ include.title | default: 'PDF' }} - page {{ include.page }}">
 	  </a>
 	</div>
 

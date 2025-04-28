@@ -73,7 +73,7 @@ Per conoscere la struttura del TIGR nel contesto del progetto InfinIta e lo stat
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="12"
-    thumb_url="/materials/tigr/thumbs/slide12.png"
+    thumb_url="materials/tigr/thumbs/slide12.png"
 %}
 
 Secondo il disegno iniziale, l'idea era di includere diversi tipi di interazione: intervista, conversazione a tavola, preparazione di un pasto, lavori di gruppo e lezioni; per un totale di 28 ore e 39 eventi.
@@ -93,7 +93,7 @@ Alla fine del processo sono state ottenute 23h 30' di videoregistrazione, per un
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="14"
-    thumb_url="/materials/tigr/thumbs/slide14.png"
+    thumb_url="materials/tigr/thumbs/slide14.png"
 %}
 
 Per quanto riguarda i contesti didattici, sono state registrate lezioni di tre tipi:
@@ -194,7 +194,7 @@ Di seguito sono riportati alcuni esempi:
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="53"
-    thumb_url="/materials/tigr/thumbs/slide53.png"
+    thumb_url="materials/tigr/thumbs/slide53.png"
 %}
 
 {% include pdf_card.html
@@ -203,7 +203,7 @@ Di seguito sono riportati alcuni esempi:
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="54"
-    thumb_url="/materials/tigr/thumbs/slide54.png"
+    thumb_url="materials/tigr/thumbs/slide54.png"
 %}
 
 {% include pdf_card.html
@@ -212,7 +212,7 @@ Di seguito sono riportati alcuni esempi:
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="55"
-    thumb_url="/materials/tigr/thumbs/slide55.png"
+    thumb_url="materials/tigr/thumbs/slide55.png"
 %}
 
 ### Dati sociolinguistici ricavati
@@ -229,7 +229,7 @@ Come si può vedere dal grafico a sinistra,  il corpus è abbastanza bilanciato 
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="31"
-    thumb_url="/materials/tigr/thumbs/slide31.png"
+    thumb_url="materials/tigr/thumbs/slide31.png"
 %}
 
 #### Origine dei parlanti
@@ -243,7 +243,7 @@ In merito alla Svizzera, la maggior parte dei parlanti ha frequentato la scuola 
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="32"
-    thumb_url="/materials/tigr/thumbs/slide32.png"
+    thumb_url="materials/tigr/thumbs/slide32.png"
 %}
 
 {% include pdf_card.html
@@ -252,7 +252,7 @@ In merito alla Svizzera, la maggior parte dei parlanti ha frequentato la scuola 
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="33"
-    thumb_url="/materials/tigr/thumbs/slide33.png"
+    thumb_url="materials/tigr/thumbs/slide33.png"
 %}
 
 #### Luogo di lavoro o studio in Svizzera
@@ -265,7 +265,7 @@ La maggior parte dei parlanti svolge la sua attività principale (studio o lavor
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="34"
-    thumb_url="/materials/tigr/thumbs/slide34.png"
+    thumb_url="materials/tigr/thumbs/slide34.png"
 %}
 
 #### Repertorio linguistico
@@ -278,7 +278,7 @@ La maggior parte dei parlanti ha dichiarato di essere plurilingue (due, tre o ad
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="35"
-    thumb_url="/materials/tigr/thumbs/slide35.png"
+    thumb_url="materials/tigr/thumbs/slide35.png"
 %}
 
 #### Istruzione e professione
@@ -291,7 +291,7 @@ Il livello di istruzione principale è la scuola secondaria di secondo grado. Tr
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="36"
-    thumb_url="/materials/tigr/thumbs/slide36.png"
+    thumb_url="materials/tigr/thumbs/slide36.png"
 %}
 
 ## Luoghi dove sono stati registrati gli eventi del TIGR
@@ -340,7 +340,7 @@ Di seguito sono riportate alcune delle convenzioni GAT2 utilizzate nella trascri
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="49"
-    thumb_url="/materials/tigr/thumbs/slide49.png"
+    thumb_url="materials/tigr/thumbs/slide49.png"
 %}
 
 {% include pdf_card.html
@@ -349,7 +349,7 @@ Di seguito sono riportate alcune delle convenzioni GAT2 utilizzate nella trascri
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="50"
-    thumb_url="/materials/tigr/thumbs/slide50.png"
+    thumb_url="materials/tigr/thumbs/slide50.png"
 %}
 
 Da notare l'annotazione del comportamento non verbale (guarda nell'immagine sopra in "Laughter and crying") che funziona con la logica del tag.
@@ -362,7 +362,7 @@ Inoltre, sono state adottate convenzioni di trascrizione multimodale di Modada p
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="52"
-    thumb_url="/materials/tigr/thumbs/slide52.png"
+    thumb_url="materials/tigr/thumbs/slide52.png"
 %}
 
 #### La segmentazione in Elan
@@ -388,7 +388,7 @@ Come abbiamo visto, la prima trascrizione avviene su ELAN. Da questa trascrizion
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="59"
-    thumb_url="/materials/tigr/thumbs/slide59.png"
+    thumb_url="materials/tigr/thumbs/slide59.png"
   %}
 
 Il primo tipo di trascrizione offre un'approssimazione grafica dell'organizzazione della conversazione in turni e una buona base per un'analisi sequenziale.
@@ -406,7 +406,7 @@ La soluzione è stata quella di condurre una **procedura semi-automatica (script
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="61"
-    thumb_url="/materials/tigr/thumbs/slide61.png"
+    thumb_url="materials/tigr/thumbs/slide61.png"
   %}
 
 Sono stati eliminati i nomi di parlanti superflui e sono stati concatenati i segmenti e si è formattato manualmente le trascrizioni quando presentavano sovrapposizioni di più di due parlanti
@@ -474,7 +474,7 @@ I due momenti di condivisione e riuso sono rappresentati graficamente nelle imma
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="65"
-    thumb_url="/materials/tigr/thumbs/slide65.png"
+    thumb_url="materials/tigr/thumbs/slide65.png"
   %}
 
   {% include pdf_card.html
@@ -483,7 +483,7 @@ I due momenti di condivisione e riuso sono rappresentati graficamente nelle imma
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="66"
-    thumb_url="/materials/tigr/thumbs/slide66.png"
+    thumb_url="materials/tigr/thumbs/slide66.png"
   %}
 
 Dal punto di vista tecnico le infrastrutture digitali (sono quelle che si vedono nel mezzo) sono cruciali in questo processo.
@@ -520,7 +520,7 @@ Ad ogni livello ci sono dei metadati, alcuni obbligatori e altri facoltativi, ch
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="69"
-    thumb_url="/materials/tigr/thumbs/slide69.png"
+    thumb_url="materials/tigr/thumbs/slide69.png"
   %}
 
 Nell'immagine sopra i dataset che verrano caricati.
@@ -548,7 +548,7 @@ Il repositorio mette a disposizione dei campi predefiniti, alcuni obbligatori al
     date="06/11/2024"
     pdf_url="/materials/tigr/slides.pdf"
     page="70"
-    thumb_url="/materials/tigr/thumbs/slide70.png"
+    thumb_url="materials/tigr/thumbs/slide70.png"
   %}
 
 Come si vede nell'immagine per ogni singolo evento il cuore è la tabella più centrale con le caratteristiche di base dell'evento (come il numero di partecipanti, il genere di interazione, e così via). La tabella centrale rinvia poi a una serie di altre tabelle. A sinistra si vedono due tabelle con i parlanti e i luoghi del TIGR. I parlanti del TIGR sono collegati al singolo evento tramite l'elenco dei partecipanti all'evento.
