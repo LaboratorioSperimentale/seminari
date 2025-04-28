@@ -10,7 +10,7 @@
 }
 
 .pdf-card-thumbnail {
-  flex: 0 0 600px; /* fix width: bigger thumbnail */
+  flex: 0 0 400px; /* fix width: bigger thumbnail */
 }
 
 .pdf-card-thumbnail img {
