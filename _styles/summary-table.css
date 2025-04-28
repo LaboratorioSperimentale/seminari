@@ -24,4 +24,25 @@
   background-color: #f2f2f2;
 }
 
+.translation-badges {
+  margin-top: 0.5rem;
+}
+
+.translation-badges .badge {
+  display: inline-block;
+  background: #eef2f7;
+  color: #333;
+  padding: 0.4em 0.8em;
+  margin: 0.2em;
+  border-radius: 999px;
+  font-size: 0.9em;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.3s;
+}
+
+.translation-badges .badge:hover {
+  background: #dbe2ea;
+}
+
 /*# sourceMappingURL=summary-table.css.map */
