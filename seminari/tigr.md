@@ -9,6 +9,7 @@ video_title: "The TIGR corpus: collection, transcription, processing and managem
 video: "https://liveunibo-my.sharepoint.com/personal/ludovica_pannitto_unibo_it/_layouts/15/stream.aspx?id=%2Fpersonal%2Fludovica%5Fpannitto%5Funibo%5Fit%2FDocuments%2FSEMINARI%20LAB%2FVideo%2FThe%20TIGR%20corpus%20%2D%20collection%2C%20transcription%2C%20processing%20and%20management%20of%20videorecorded%20data%20for%20the%20study%20of%20Italian%20talk%20in%20interaction%20%281%29%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea314ab83%2D2921%2D41f1%2D8bcd%2Dc0355dbc2760"
 materials:
   - materials/tigr/slides.pdf
+  - materials/tigr/slides.pdf
 length: 2h
 unibo: yes
 ---

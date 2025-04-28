@@ -4,7 +4,7 @@
   <table>
     <tr>
       <th colspan="2">
-        <span>I contenuti di questa pagina sono stati elaborati a partire dal seminario tenuto presso il Laboratorio Sperimentale da</span>
+        I contenuti di questa pagina sono stati elaborati a partire dal seminario tenuto presso il Laboratorio Sperimentale da
       </th>
     </tr>
     <tr>
@@ -47,16 +47,18 @@
     <tr>
       <td>
         {% if include.length %}
-          <i class="fa-solid fa-hourglass-start"></i> <b>Durata:</b> {{ include.length }}
+          <i class="fa-solid fa-hourglass-start"></i> <b>Durata </b> --  {{ include.length }}
         {% endif %}
       </td>
       <td>
         {% if include.materials %}
-          {% assign materials = include.materials %}
-          <!-- <b>Materiali:</b> -->
+        <i class="fa-solid fa-bookmark"></i>
+        <b>Materiali </b> --
           {% for item in include.materials %}
-          <i class="fa-solid fa-bookmark"></i>
           <a href="{{ site.baseurl }}/{{ item }}" target="_blank">{{ item | split: '/' | last }}</a>
+          {% unless forloop.last %}
+          •
+        {% endunless %}
           {% endfor %}
         {% endif %}
       </td>
