@@ -1,15 +1,18 @@
 ---
-  title: Annotazione e Analisi di Testi Digitali con CATMA 7
-  author: marcoesposito
-  speaker: mariakazawa
-  layout: seminar
+layout: seminar
+title: "Annotazione e Analisi di Testi Digitali con CATMA 7"
+seminar_title: "Digital Text Annotation and Analysis with CATMA 7"
+date: "21.06.2024"
+author: marcoesposito
+speaker: mariakazawa
+unibo: yes
+translation:
+  - ["en", "/seminari/en/catma.html"]
 ---
 
 * Table of Contents
 {:toc}
 {:.no_toc}
-
-This page is also availabe in [english](en/catma.html)
 
 ## Cos'è Catma?
 
@@ -53,7 +56,7 @@ Una volta effettuato l'accesso, sarà possibile scegliere fra *"Nuovo Progetto"*
 
 ## Modulo Progetto
 
-Una volta selezionato il progetto su cui si vuole lavorare, è possibile entrare nel **Modulo Progetto** (**_Project Module_**). In questa sezione si possono vedere e gestire le diverse parti del progetto, mostrate in riquadri differenti (*Documenti & Annotazioni*, *Tagsets*, *Membri*).
+Una volta selezionato il progetto su cui si vuole lavorare, è possibile entrare nel **Modulo Progetto** (*Project Module*). In questa sezione si possono vedere e gestire le diverse parti del progetto, mostrate in riquadri differenti (*Documenti & Annotazioni*, *Tagsets*, *Membri*).
 
 {%
   include figure.html
@@ -85,8 +88,8 @@ Ad esempio:
 
 Nell'angolo in alto a destra dello schermo è possibile trovare due importanti funzioni di CATMA:
 
-* **Tasto _Sync_**: In un lavoro di gruppo, questo pulsante consente a ogni membro del team di sincronizzare i propri progressi sul progetto, in modo da condividere i propri documenti caricati, le proprie annotazioni o i nuovi tag (in altre parole, tutto ciò che è stato fatto dall'ultima sincronizzazione).
-* **Tasto _Switch View_**: Questo pulsante  consente di alternare tra due modalità di visualizzazione, che sono *sincronizza* (che mostra lo stato attuale di tutto il lavoro che è stato integrato più tutto ciò che hai fatto in aggiunta a quello, come individuo) e *ultimo contributo* (il progetto entra in uno stato di sola lettura che ti permette di vedere cosa hanno fatto gli altri membri)
+* **Tasto Sync**: In un lavoro di gruppo, questo pulsante consente a ogni membro del team di sincronizzare i propri progressi sul progetto, in modo da condividere i propri documenti caricati, le proprie annotazioni o i nuovi tag (in altre parole, tutto ciò che è stato fatto dall'ultima sincronizzazione).
+* **Tasto Switch View**: Questo pulsante  consente di alternare tra due modalità di visualizzazione, che sono *sincronizza* (che mostra lo stato attuale di tutto il lavoro che è stato integrato più tutto ciò che hai fatto in aggiunta a quello, come individuo) e *ultimo contributo* (il progetto entra in uno stato di sola lettura che ti permette di vedere cosa hanno fatto gli altri membri)
 
 ## Modulo Tag
 
@@ -200,7 +203,7 @@ Anzitutto, bisogna creare una finestra di visualizzazione KWIC e selezionare la 
 
 {%
   include figure.html
-  image="images/seminar-images/catma_final/18 Semi Automatic Annotations.PNG"
+  image="images/seminar-images/catma_final/18 Semi Automatic Annotations.png"
 %}
 {%
   include figure.html

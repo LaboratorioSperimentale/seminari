@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2025-03-11T14:56:50+01:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///C:/Users/marco.esposito15/Desktop/trascrizione frankenstein/ladyfrankenstein.mp4" MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./ladyfrankenstein.mp4"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:a7f68be0-f853-4934-acaf-a6c2dd7adc84</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">27</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="1677"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="5999"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="8200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="9681"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="10951"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="12287"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="13609"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="15611"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="17440"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="18450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="19897"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="21203"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="25333"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="26561"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="26789"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="31957"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="33288"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="34298"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="35234"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="39565"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="39947"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="41572"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="41648"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="44000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="44628"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="46414"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="46430"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="46919"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="47956"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="47956"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="60459"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="60459"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="60558"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="62024"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="63064"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="64769"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="65621"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="66768"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="66982"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="68886"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="69622"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="80800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="81084"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="89519"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="92583"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="94352"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="94707"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="100238"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="100831"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="115394"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Dr. Charles Marshall">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>it's useless tania (.) you won't find a solution there.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>there isn't one anywhere.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>if i can.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>i cannot commit myself until i know what you consider the solution.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>tanya it took your father and me three years to construct the FIRST one</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>&gt;even if it took THREE HOURS IT WOULD BE TOO LATE&lt;</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>TWO</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts31">
+                <ANNOTATION_VALUE>i: didnt' want to tell you(.) i was in town today everyone in the village is speaking about &lt;the monster&gt;(.) &lt;That is what they call your father's life work A MONSTER! AND THEY'RE RIGHT&gt;</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" TIME_SLOT_REF1="ts38" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>[IT] WILL DO NOTHING BUT KILL</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>you don't understand (.) even without the damage to the brain the creature has the mind of a MURDERER IT KILLS FOR THE SAKE OF KILLING IT MUST BE DESTROYED (.) and HARRIS will destroy it.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23" TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>YOU'LL BE CREATING ANOTHER MONSTER?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24" TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>no it's impossible (.) even if you found the right brain for your creature (.) despite the superhuman strength induced by the lightning (.) it would need a physical body strong enough to support it (.) &lt;where would you find such a man?&gt;</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Dr. Tania Frankenstein">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>i have the solution charles.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>i'm only looking for a way to make it happen.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>will you help me?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>&lt;will you help me?&gt;</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>another creature.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>mine will take less than three weeks.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>°then there's been another killing°</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts30" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>THEY ARE NOT RIGHT</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>MY FATHER WAS A GENIUS</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25" TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts39">
+                <ANNOTATION_VALUE>and his creation [will,]</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>how can a man destroy it? (.) °no charles° (.) there's only one solution (.) to create another creature.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27" TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>not a monster (.) an executioner (.) our creature will kill my father's murderer.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

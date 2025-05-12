@@ -1,13 +1,19 @@
+- title: "Tipologia token-based in pratica: un laboratorio con '(mini)CIEP+ - a sharable parallel corpus of prose'"
+  subtitle: L. Talamo
+  group: "2025"
+  image: images/logos/default.png
+  publish: false
+
 - title: "The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction"
   subtitle: J. Miecznikowski, E. Battaglia
   group: "2024"
   image: images/logos/default.png
   link: seminari/tigr.html
   tags:
-    - resource
     - risorsa
     - corpus
-    - dati video-registrati
+    - parlato
+  publish: true
 
 - title: Digital Text Annotation and Analysis with CATMA 7
   subtitle: M. Akazawa
@@ -17,17 +23,7 @@
   tags:
     - tool
     - annotazione
-
-- title: "Il progetto R per l'informatica statistica"
-  subtitle: F. Pisciotta
-  group: "2024"
-  image: images/logos/R_logo.png
-  link: seminari/R_01.html
-  tags:
-    - tool
-    - resource
-    - programmazione
-
+  publish: true
 
 - title: "Tu chiamale se vuoi emozioni: metodi e strumenti per l’analisi emotiva dei testi"
   subtitle: E. di Palma
@@ -35,9 +31,9 @@
   image: images/logos/default.png
   link: seminari/emozioni.html
   tags:
-    - tool
-    - resource
-
+    - risorsa
+    - lessico
+  publish: false
 
 - title: "Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole"
   subtitle: M. Montefinese
@@ -45,8 +41,9 @@
   image: images/logos/default.png
   link: seminari/smallworld.html
   tags:
-    - tool
-    - resource
+    - risorsa
+    - lessico
+  publish: false
 
 - title: "La Trascrizione del Parlato con ELAN"
   subtitle: S. Ballarè
@@ -55,7 +52,7 @@
   link: seminari/elantrascrizione.html
   tags:
     - tool
-
+  publish: true
 
 - title: "Introduzione alle Edizioni Digitale"
   subtitle: R. Rosselli del Turco
@@ -64,3 +61,145 @@
   link: seminari/edizionidigitali.html
   tags:
     - tool
+  publish: false
+
+- title: "An overview of the Universal Dependencies resources and tools"
+  subtitle: M. C. de Marneffe
+  group: "2024"
+  image: images/logos/default.png
+  publish: false
+
+- title: Creare ed esplorare un corpus di testi con SketchEngine
+  subtitle: Riccardo Billero
+  group: "2019"
+  image: images/logos/default.png
+  publish: false
+
+- title: Per un uso consapevole dei software citazionali
+  subtitle: Claudio Fabbri
+  group: "2020"
+  image: images/logos/default.png
+  publish: false
+
+- title: How to use NVivo for content analysis
+  subtitle: Patrick Goethals
+  group: "2020"
+  image: images/logos/default.png
+  publish: false
+
+
+- title: Experimental methods and behavioural data in linguistics
+  subtitle: Florent Perek
+  group: "2020"
+  image: images/logos/default.png
+  publish: false
+
+- title: La trascrizione del parlato con ELAN
+  subtitle: Silvia Ballarè
+  group: "2021"
+  image: images/logos/default.png
+  publish: false
+
+- title: Introduzione a R come strumento per l’analisi statistica dei dati linguistici
+  subtitle: Claudia Roberta Combei
+  group: "2021"
+  image: images/logos/default.png
+  publish: false
+
+- title: "Words, constructions & associations: A beginner’s guide to Collostructional Analysis"
+  subtitle: Susanne Flach
+  group: "2021"
+  image: images/logos/default.png
+  publish: false
+
+- title: "Experimental methods for studying figurative language: theory and practice in ePrime and eye-tracking"
+  subtitle: Gareth Carrol
+  group: "2021"
+  image: images/logos/default.png
+  publish: false
+
+- title: Designing and building psycholinguistic experiments
+  subtitle: Laura Speed
+  group: "2021"
+  image: images/logos/default.png
+  publish: false
+
+- title: Designing and compiling parallel aligned corpora for Sketch Engine
+  subtitle: Jorge Leiva Rojo
+  group: "2021"
+  image: images/logos/default.png
+  publish: false
+
+- title: "Disrupting Digital Monolingualism: reflections"
+  subtitle: Paul Spence
+  group: "2021"
+  image: images/logos/default.png
+  publish: false
+
+- title: Qualitative Data Analysis con ATLAS.ti
+  subtitle: Carmelo Caruso
+  group: "2021"
+  image: images/logos/default.png
+  publish: false
+
+- title: "Introduzione alle edizioni digitali: preparazione con codifica XML TEI e visualizzazione con il software EVT"
+  subtitle: Roberto Rosselli Del Turco
+  group: "2021"
+  image: images/logos/default.png
+  publish: false
+
+- title: "Sentiment Analysis: methods and tools"
+  subtitle: Antonio Moreno-Ortiz
+  group: "2021"
+  publish: false
+
+- title: "Cosa significa? Annotare informazione semantica nei corpora di lingua scritta"
+  subtitle: Tommaso Caselli
+  group: "2021"
+  publish: false
+
+- title: "Quando un risultato è significativo: verifica del test d'ipotesi in linguistica"
+  subtitle: Claudia Roberta Combei
+  group: "2021"
+  publish: false
+
+- title: "Deep Learning e linguaggio: miti, incomprensioni ed opportunità "
+  subtitle: Alessandro Lenci
+  group: "2021"
+  publish: false
+
+- title: Introduzione alla programmazione in Python per la ricerca umanistica
+  subtitle: Ludovica Pannitto
+  group: "2021"
+  publish: false
+
+- title: Text analysis & topic models per la ricerca umanistica
+  subtitle: Claudia Roberta Combei
+  group: "2021"
+  publish: false
+
+- title: "Valutazione automatica della leggibilità e profilazione linguistica di corpora testuali: metodi e strumenti"
+  subtitle: Giulia Venturi
+  group: "2021"
+  publish: false
+
+- title: "Traduzione del parlato: la rivoluzione del modello diretto"
+  subtitle: Marco Turchi
+  group: "2021"
+  publish: false
+
+- title: "Computational stylometry: Counting words and rhythms using R and Python"
+  subtitle: Simon Kroll
+  group: "2021"
+  publish: false
+
+- title: "Fairness in machine learning: a general overview"
+  subtitle: Emma Lopez
+  group: "2021"
+  publish: false
+
+- title: Graph Rewriting for corpus development and maintenance
+  subtitle: Bruno Guillaume
+  group: "2024"
+  image: images/logos/grew.jpeg
+  publish: false
