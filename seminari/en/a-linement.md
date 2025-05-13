@@ -29,7 +29,7 @@ immagine interfaccia vitucci
 
 A-linement si presenta con una interfaccia principalmente bianca caratterizzata da diversi tasti verdi, al disotto di questi ci sono varie colonne (dieci per l'esattezza) in cui verrano poi inserite le varie traduzioni in lingue diverse.
 
-### I *pulsanti* di A-linement e come utilizzarli
+## I *pulsanti* di A-linement e come utilizzarli
 
 - "**Convert to table**": motore del tool, è il pulsante tramite il quale è possibile convertire i dati in tabella, tabella che verrà poi importata su Execel, e che sarà possibile utilizzarla nel medesimo istante per la propria ricerca.
 
@@ -39,7 +39,7 @@ importare i dati all'interno di A-linement, questo è possibile grazie al pulsan
   Successivamente cliccando sul pulsante "**Convert subs file**" apparirà una finestra contenente il "**Conversion output**" ovvero il testo da analizzare. (Con testo si intende il dialogo di qualsiasi contenuto audiovisivo.) Tramite il pulsante "**Copy subtitles**" verrà copiato l'intero contenuto, nel caso si volesse andare a studiare solo una parte di testo, basta selezionarla e copiarla con Ctrl+C. 
 
 *Secondo Step*: 
-incollare il contenuto sulla prima colonna di A-linement con Ctrl+V. Le colonne possono essere rinominate, per esempio: Column1 in , Column2 in , Column3 in , e così via. 
+incollare il contenuto sulla prima colonna di A-linement con Ctrl+V. Le colonne possono essere rinominate, per esempio: Column1 in JAP CC, Column2 in ENG SUB, Column3 in ITA SUB, e così via. 
 
   Se si vuole già trasformare questo contenuto in tabella serve utilizzare il pulsante "**Convert to table**", ma facendo ciò il passaggio da una stringa di testo ad un'altra viene letto come un'ulteriore nuova stringa, che in tabella viene visualizzata come una stringa vuota. 
 
@@ -61,4 +61,44 @@ Altri comandi:
 
 - "**Export json**": per creare un file di salvataggio esportabile da spostare tra device diversi o da condividere a qualcuno. Cliccando sul pulsante, viene chiesto di salvare il file con estension .json e per caricarlo sul programma cliccare "**Scegli il file**" ed in seguito "**Convert subs file**". 
 
-## Come importare grandi quantità di file su A-linement 
+Sia il comando "**Replace newline**" che "**Bold**" possono essere inseriti manualmente. 
+
+## Come importare da A-linement ad Excel
+
+Per importare grandi quantità di file i passaggi iniziali sono sempre li stessi: scegliere il proprio file, cliccare su "**Convert subs file**", copiare ed incollare il contenuto nella prima colonna. Questo processo va ripetuto per tutte le sottotitolazioni possedute, alla fine si avrà un vario numero di colonne nella quali sarà presente lo stesso testo ma in lingue diverse.
+
+Importante è ricordarsi di eliminare sempre la prima stringa intitolata "**Conversion output**" che è irrilevante allo studio.
+
+Segue il passaggio di "**Replace newline**" così da eliminare gli spazi tra le stringhe, ed infine "**Convert to table**". 
+
+Il risultato sarà una tabella numerata di tutte le traduzioni. 
+
+- Il passaggio successivo è copiare la tabella col pulsante "**Copy table**", aprire Excel e alla coordinata **A1** incollare la tabella. 
+
+Un passaggio intermedio, prima di trasportare il file su Excel, può essere quello di rendere in grassetto stringhe specifiche, così da ritrovarle più facilmente per eventuali future indagini.
+
+Il prodotto finale sarà una tabella perfettamente numerata ed allineata, al numero 1 la prima stringa di testo, al numero 2 la seconda stringa di testo, e così via dicendo. Su questo prodotto sarà poi possibile uno studio più specifico. 
+
+immagine tabella su excel
+
+## Cosa fare se le stringe su Excel non sono allineate 
+
+Nel caso di eventuali stringhe (della stessa frase ma di sottotitolazioni diverse) non allineate, i passaggi sono i seguenti: 
+
+- selezionare la stringa sbagliata e con il tasto destro selezionare "**Inserisci**" e in seguito "**Sposta celle in basso**". 
+
+Così facendo si andrà a creare una cella vuota dove prima c'era la stringa errata. 
+
+## Cosa sono i pop up 
+
+I pop up sono gli approfondimenti monoculturali che si trovano solitamento in alto rispetto al sottotitolo. 
+
+Rendendoli in "**Bold**" è possibile ritrovarli più facilemente in un eventuale studio solo sui pop up dei sottotitoli. 
+
+## Il risultato finale
+
+immagini tabelle da vitucci mostrate al min 43 circa
+
+Grazie al tool di A-linement è stato possibile intercettare delle disparità nell'allinamento, come nello studio incentrato sull'analisi interpuntiva, ovvero l'uso della punteggiatura in lingue diverse. 
+
+Grazie ad A-linment è oggi possibile uno studio più approfondito delle diverse sottotitolazioni. 
