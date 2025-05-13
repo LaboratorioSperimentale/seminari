@@ -9,7 +9,7 @@ speaker: Francesco Vitucci, Michele Zangheri
 
 ## Che cos'è A-linement
 
-A-linement è un software, che esiste in versione open access online, utilizzato nell'ambito della traduzione audiovisiva interlinguistica.
+**A-linement** è un software, che nasce nel 2022 grazie al lavoro di Francesco Vitucci, professore associato in Lingua e Linguistica Giapponese presso il Dipartimento di Lingue, Letterature e Culture Moderne dell'Alma Mater Studiorum Università di Bologna, Michele Zangheri, dottore ed esperto in traduzione televisiva e con l'aiuto di Paolo Pierruccio, informatico. A-linement viene utilizzato nell'ambito della traduzione audiovisiva interlinguistica.
 
 A-linement è un **tool** che aiuta, chi lo utilizza, nell'analisi qualitativa e poi quantitativa delle traduzioni interlinguistiche. Questo strumento nasce dalla necessità di concentrarsi su alcuni aspetti delle lingue, in particolare sulle traduzioni e sottotitolazioni interlinguistiche. A-linement si concentra anche, in modo particolare, sull'analisi comparativa della punteggiatura tra lingue diverse.
 
