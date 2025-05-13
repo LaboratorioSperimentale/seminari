@@ -9,7 +9,7 @@ speaker: Francesco Vitucci, Michele Zangheri
 
 ## Che cos'è A-linement
 
-**A-linement** è un software, che nasce nel 2022 grazie al lavoro di Francesco Vitucci, professore associato in Lingua e Linguistica Giapponese presso il Dipartimento di Lingue, Letterature e Culture Moderne dell'Alma Mater Studiorum Università di Bologna, Michele Zangheri, dottore ed esperto in traduzione televisiva e con l'aiuto di Paolo Pierruccio, informatico. A-linement viene utilizzato nell'ambito della traduzione audiovisiva interlinguistica.
+**A-linement** è un software per l'analisi dei sottotitoli, che nasce nel 2022 grazie al lavoro di Francesco Vitucci, professore associato in Lingua e Linguistica Giapponese presso il Dipartimento di Lingue, Letterature e Culture Moderne dell'Alma Mater Studiorum Università di Bologna, Michele Zangheri, dottore ed esperto in traduzione televisiva e con l'aiuto di Paolo Pierruccio, informatico. A-linement viene utilizzato nell'ambito della traduzione audiovisiva interlinguistica.
 
 A-linement è un **tool** che aiuta, chi lo utilizza, nell'analisi qualitativa e poi quantitativa delle traduzioni interlinguistiche. Questo strumento nasce dalla necessità di concentrarsi su alcuni aspetti delle lingue, in particolare sulle traduzioni e sottotitolazioni interlinguistiche. A-linement si concentra anche, in modo particolare, sull'analisi comparativa della punteggiatura tra lingue diverse.
 
@@ -101,4 +101,11 @@ immagini tabelle da vitucci mostrate al min 43 circa
 
 Grazie al tool di A-linement è stato possibile intercettare delle disparità nell'allinamento, come nello studio incentrato sull'analisi interpuntiva, ovvero l'uso della punteggiatura in lingue diverse. 
 
-Grazie ad A-linment è oggi possibile uno studio più approfondito delle diverse sottotitolazioni. 
+Con A-linment è oggi possibile uno studio più approfondito delle diverse sottotitolazioni e anche uno studio più apporofondito a livello diacronico, ovvero una comparazioni di diversi dataset. 
+
+Questo tool è stato recentemente utilizzato per l'analisi sulla manipolazione sull'ideologia linguistica. Lo studio si incentrava sull'analisi di violetti stereotipati, violetti creati all'interno delle traduzioni audiovisive che però non rispecchiano il vero parlato e l'dentità femminile giapponese. Grazie ad A-linement è stato possibile studiare come questo veniva riproposto nel tempo facendo comparazioni dello stesso film distribuito più volte sul mercato. 
+
+
+link ad A-linement https://nocoldiz.github.io/a-linement/ 
+
+50:15 taglio fine 
