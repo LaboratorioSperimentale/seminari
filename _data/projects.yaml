@@ -16,7 +16,7 @@
   publish: true
 
 - title: Digital Text Annotation and Analysis with CATMA 7
-  subtitle: M. Akazawa
+  subtitle: Mari Akazawa
   group: "2024"
   image: images/logos/catma1.png
   link: seminari/catma.html
@@ -26,7 +26,7 @@
   publish: true
 
 - title: "Tu chiamale se vuoi emozioni: metodi e strumenti per l’analisi emotiva dei testi"
-  subtitle: E. di Palma
+  subtitle: Eliana Di Palma
   group: "2024"
   image: images/logos/default.png
   link: seminari/emozioni.html
@@ -36,7 +36,7 @@
   publish: false
 
 - title: "Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole"
-  subtitle: M. Montefinese
+  subtitle: Maria Montefinese
   group: "2025"
   image: images/logos/default.png
   link: seminari/smallworld.html
@@ -64,7 +64,7 @@
   publish: false
 
 - title: "An overview of the Universal Dependencies resources and tools"
-  subtitle: M. C. de Marneffe
+  subtitle: Marie-Catherine de Marneffe
   group: "2024"
   image: images/logos/default.png
   publish: false
@@ -215,55 +215,51 @@
   publish: false
 
 
-
-
-
-
 - title: "Epistemology and methodology of linguistic data"
-  subtitle:
-  group: "2021"
+  subtitle: Christian Lehmann
+  group: "2022"
   image: images/logos/default.png
   publish: false
 
 - title: "Cast the net wide - corpus as a slice of life"
-  subtitle:
-  group: "2021"
+  subtitle: Jackoi & Giorgia Troiani
+  group: "2022"
   image: images/logos/default.png
   publish: false
 
 - title: "From child language to linguistic typology - developing methods and expanding perspectives"
-  subtitle:
-  group: "2021"
+  subtitle: Slobin handout
+  group: "2022"
   image: images/logos/default.png
   publish: false
 
 - title: "Sociolinguistic fieldwork - The art of talking to people"
-  subtitle:
-  group: "2021"
+  subtitle: Sali Tagliamonte
+  group: "2022"
   image: images/logos/default.png
   publish: false
 
 - title: "Collaborative methods in language documentation"
-  subtitle:
-  group: "2021"
+  subtitle: Mark Post
+  group: "2022"
   image: images/logos/default.png
   publish: false
 
 - title: "The Montclair Map Task Spoken Language Corpus"
-  subtitle:
-  group: "2021"
+  subtitle: Jennifer Pardo
+  group: "2022"
   image: images/logos/default.png
   publish: false
 
 - title: "Integrating data in comparative linguistics"
-  subtitle:
-  group: "2021"
+  subtitle: Mattis List
+  group: "2022"
   image: images/logos/default.png
   publish: false
 
 - title: "A-linement - Tool importazione e allineamento sottotitoli per ricerca scientifica"
-  subtitle:
-  group: "2021"
+  subtitle: Francesco Vitucci e Michele Zangheri
+  group: "2022"
   image: images/logos/default.png
   publish: false
 
@@ -274,45 +270,44 @@
   publish: false
 
 - title: "Resources and challenges for studying linguistic diversity"
-  subtitle:
-  group: "2021"
+  subtitle: Harald Hammarström
+  group: "2022"
   image: images/logos/default.png
   publish: false
 
 - title: "Multi-method approach to sensory language"
-  subtitle:
-  group: "2021"
+  subtitle: Asifa Majid
+  group: "2022"
   image: images/logos/default.png
   publish: false
 
 - title: "Analisi dei dati linguistici con R e JASP dalla sintesi dei dati alla statistica inferenziale"
-  subtitle:
-  group: "2021"
+  subtitle: Flavio Pisciotta
+  group: "2024"
   image: images/logos/default.png
   publish: false
 
 - title: "CLARIN per la gestione FAIR dei dati linguistici"
-  subtitle:
-  group: "2021"
+  subtitle: Franceca Frontini e Giulia Pedonese
+  group: "2024"
   image: images/logos/default.png
   publish: false
 
 - title: "Conducting priming experiments with PCIbex"
-  subtitle:
-  group: "2021"
+  subtitle: Alice Blumenthal-Dramé
   image: images/logos/default.png
   publish: false
 
 - title: "Focus on eye-tracking - Part I"
-  subtitle:
-  group: "2021"
+  subtitle: Davide Crepaldi e Joh W. Carr
+  group: "2024"
   image: images/logos/default.png
   publish: false
 
 
 - title: "Focus on eye-tracking - Part II"
-  subtitle:
-  group: "2021"
+  subtitle: Davide Crepaldi e Joh W. Carr
+  group: "2024"
   image: images/logos/default.png
   publish: false
 
@@ -322,22 +317,9 @@
   image: images/logos/default.png
   publish: false
 
-
-- title: "Graph Rewriting for corpus development and maintenance-20240702_135138-Meeting Recording"
-  subtitle:
-  group: "2021"
-  image: images/logos/default.png
-  publish: false
-
 - title: "Modeling and Evaluation for Perspectivist NLP"
-  subtitle:
-  group: "2021"
-  image: images/logos/default.png
-  publish: false
-
-- title: "Pannitto_notebooks_unibo-20240416T094703Z-001"
-  subtitle:
-  group: "2021"
+  subtitle: Valerio Basile
+  group: "2025"
   image: images/logos/default.png
   publish: false
 
@@ -347,26 +329,15 @@
   image: images/logos/default.png
   publish: false
 
-- title: "Slobin handout - From Child Language to Linguistic Typology"
-  subtitle:
-  group: "2021"
-  image: images/logos/default.png
-  publish: false
-
-- title: "Small World of Words mappare le Reti Semantiche attraverso le associazioni libere di parole-20250121_155252-Meeting Recording"
-  subtitle:
-  group: "2021"
-  image: images/logos/default.png
-  publish: false
 
 - title: "Tipologia token-based in pratica un laboratorio con (mini)CIEP+ - a sharable parallel corpus of prose-20250408_154232-Meeting Recording"
-  subtitle:
-  group: "2021"
+  subtitle: Luigi Talamo
+  group: "2025"
   image: images/logos/default.png
   publish: false
 
 - title: "The TIGR corpus - collection, transcription, processing and management of videorecorded data for the study of Italian talk in interaction - copy"
-  subtitle:
-  group: "2021"
+  subtitle:  Johanna Miecznikowski e Elena Battaglia
+  group: "2024"
   image: images/logos/default.png
   publish: false
