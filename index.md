@@ -55,6 +55,13 @@ La sezione [**Seminari del Laboratorio**](https://laboratoriosperimentale.github
 ## Seminari 2021
 {% include list.html component="card" style="small" data="projects" filter="group == '2021'" %}
 
+{% include section.html size="card" %}
+## Seminari 2020
+{% include list.html component="card" style="small" data="projects" filter="group == '2020'" %}
+
+{% include section.html size="card" %}
+## Seminari 2019
+{% include list.html component="card" style="small" data="projects" filter="group == '2019'" %}
 
 <!--
 {% capture text %}
