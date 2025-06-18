@@ -44,7 +44,10 @@ La sezione [**Seminari del Laboratorio**](https://laboratoriosperimentale.github
 {% include list.html component="card" style="small" data="projects" filter="group == '2024'" %}
 
 
-
+{%
+  include post-excerpt.html
+  lookup="example-blog-post-1"
+%}
 
 
 {% include section.html size="card" %}
