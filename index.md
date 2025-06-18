@@ -43,9 +43,9 @@ La sezione [**Seminari del Laboratorio**](https://laboratoriosperimentale.github
 ## Seminari 2024
 {% include list.html component="card" style="small" data="projects" filter="group == '2024'" %}
 
-{% include section.html size="card" %}
-## Seminari 2023
-{% include list.html component="card" style="small" data="projects" filter="group == '2023'" %}
+
+
+
 
 {% include section.html size="card" %}
 ## Seminari 2022
