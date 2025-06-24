@@ -3,7 +3,10 @@ layout: seminar
 title: La Trascrizione del Parlato con ELAN
 author: marcoesposito
 speaker: silviaballare
+video_title: La Trascrizione del Parlato con ELAN
+video: "https://liveunibo-my.sharepoint.com/personal/ludovica_pannitto_unibo_it/_layouts/15/stream.aspx?id=%2Fpersonal%2Fludovica%5Fpannitto%5Funibo%5Fit%2FDocuments%2FSEMINARI%20LAB%2FVideo%2FLa%20Trascrizione%20del%20Parlato%20con%20ELAN%20%28Silvia%20Ballar%C3%A8%29%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6de32167%2Da3c0%2D4ff0%2D9f13%2D978bc7696a4c"
 length: 2h
+unibo: yes
 materials:
   - materials/trascrizione-parlato/ladyfrankenstein.eaf
   - materials/trascrizione-parlato/ladyfrankenstein.mp4
@@ -182,17 +185,17 @@ Vediamo dunque alcuni dei comandi che servono per la trascrizione (tra i materia
 
 * **CTRL + Spazio**: avvia/stoppa la traccia audio.
 * **CTRL/⌘ + K**: Seleziona/deseleziona la selection mode. Per individuare la stringa di parlato che vogliamo trascrivere bisogna entrare in selection mode, che può essere attivata o disattivata anche spuntando la casella apposita. A questo punto, quando si avvia/stoppa la traccia audio, si avvia/stoppa anche la selezione.
-  {%
-    include figure.html
-    image="images/seminar-images/elantrascrizione/13 Select Mode.PNG"
-    caption="Casella di Selection Mode"
-  %}
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/13 Select Mode.PNG"
+  caption="Casella di Selection Mode"
+%}
 * **ALT + N**: A tal punto dobbiamo creare la nostra unità. Ciò significa che dobbiamo individuare quella che noi consideriamo essere un'unità di parlato che vogliamo trascrivere e selezionarla con la selection mode che abbiamo visto; dopodiché, una volta che abbiamo selezionato lo spazio che vogliamo trascrivere, dobbiamo *creare una sorta di campo di testo all'interno di quello spazio selezionato*, così che possiamo scriverci dentro quello che vogliamo. Per creare il campo di testo nello spazio selezionato, usiamo la combinazione ALT + N (oppure, una volta selezionato lo spazio, si può cliccare col tasto destro del mouse e premere su “New Annotation”). Premendo invio, l’unità trascritta si salva.
-  {%
-    include figure.html
-    image="images/seminar-images/elantrascrizione/14 selezione.PNG"
-    caption="Inserire una casella di testo"
-  %}
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/14 selezione.PNG"
+  caption="Inserire una casella di testo"
+%}
 * **ALT + Mouse (in orizzontale)**: Volendo possiamo anche allargare o stringere la nostra unità con la combinazione ALT + mouse, premendo il tasto sinistro di quest'ultimo e spostando il cursore in senso orizzontale.
 * **CTRL/⌘ + su/giù**: Questa combinazione serve per spostarsi da un tier all’altro in verticale (ad esempio, quando vogliamo trascrivere ciò che dice un parlante diverso da quello associato al tier su cui ci troviamo).
 * **ALT + Mouse (in verticale)**: Può capitare di trascrivere le parole di un parlante nel tier sbagliato. Premendo ALT e il tasto destro del mouse, possiamo spostare l’unità da un tier all'altro (dunque in verticale).
@@ -202,11 +205,11 @@ Vediamo dunque alcuni dei comandi che servono per la trascrizione (tra i materia
 ### I Problemi più comuni
 
 * **Cambiare le combinazioni di tasti**: In alcuni casi, le combinazioni di tasti precedentemente viste possono non funzionare, in quanto non tutte le tastiere funzionano allo stesso modo. In molti casi il problema può essere risolto svolgendo semplicemente l’azione col mouse, ma volendo ELAN offre anche l’opportunità di modificare le combinazioni di tasti associate a specifici comandi. Ad esempio, supponiamo che con la combinazione ALT + N io non riesca a creare il campo di testo nell’area selezionata: eseguendo il percorso *Edit > Preferences > Edit Shortcuts*, possiamo vedere quale combinazione di tasti è associata a quella specifica funzione ed eventualmente possiamo cambiarla a nostro piacimento.
-  {%
-    include figure.html
-    image="images/seminar-images/elantrascrizione/image-16.png"
-    caption="Cambiare le Shortcut della tastiera"
-  %}
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/image-16.png"
+  caption="Cambiare le Shortcut della tastiera"
+%}
 * **Cambiare la velocità di riproduzione**: Se l’audio è troppo lento o troppo veloce, nella sezione in alto è possibile trovare il tasto “rate”, col quale si può modificare la velocità di riproduzione. In alcuni casi la visualizzazione di ELAN è piccola. Per ingrandire solo la visualizzazione si può cliccare col tasto destro del mouse, selezionare “font size” e regolare la grandezza del testo. Un'altra cosa che può aiutare nella visualizzazione è il cursore in basso a destra, grazie al quale si può modificare la visualizzazione delle unità (restringendole o allargandole). Ciò vuol dire che la durata dell’unità si mantiene sull'asse temporale, ma diventa possibile visualizzare tutte le parole che prima non si riuscivano a vedere.
 * **Ingrandire la visualizzazione delle unità**: In alcuni casi la visualizzazione di ELAN è piccola. Per ingrandire solo il corpo della trascrizione si può cliccare col tasto destro del mouse, selezionare “*font size*” e regolare la grandezza del testo. Un'altra cosa che può aiutare nella visualizzazione è il cursore in basso a destra, grazie al quale si può modificare la visualizzazione delle unità (restringendole o allargandole). Ciò vuol dire che la durata dell’unità si mantiene sull'asse temporale, ma diventa possibile visualizzare tutte le parole che prima non si riuscivano a vedere. In sostanza, con queste funzioni si alterà la modalità di visualizzazione delle unità, ma non le unità stesse.
 * **Cancellare l'unità creata**: Per cancellare un'unità creata bisogna selezionarla cliccandoci sopra (in tal modo, l’unità dovrebbe diventare blu), per poi cliccare su “Delete Annotation”.
@@ -230,11 +233,11 @@ I tier possono avere diversi tipi di struttura. La strutturazione più semplice 
 * **Comunicazione non verbale**: posso fare un tier relativo solo ai movimenti del corpo di un determinato parlante.
 * **Commenti**: Questa funzione può tornare utile anche nel momento in cui decido di lasciare dei commenti, andando dunque ad inserirli proprio in un tier dipendente (usandolo come un vero e proprio block notes)
 * **IPA**: se voglio trascrivere delle parti con l’alfabeto IPA, posso farlo andando ad inserirle in un apposito tier.
-  {%
-    include figure.html
-    image="images/seminar-images/elantrascrizione/tiercomplesso.png"
-    caption="Esempio di tier complesso"
-  %}
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/tiercomplesso.png"
+  caption="Esempio di tier complesso"
+%}
 
 Vediamo un esempio. Qui abbiamo un tier complesso, in quanto vediamo una serie di “sotto-tier” associati ad un unico parlante. Tali tier contengono molti tipi di informazioni: nel primo tier vi è una trascrizione ortografica; nel secondo tier abbiamo una trascrizione in IPA; nel terzo tier abbiamo una trascrizione del linguaggio non verbale.
 
@@ -287,11 +290,11 @@ La tokenizzazione, però, ha un problema: tutte le parole separate da un apostro
 
 * Mettiamo uno spazio dopo ogni apostrofo (in modo da separare le due parole e risolvere il problema a monte):
 * Possiamo inserire lo spazio in un secondo momento: per farlo, seguiamo anzitutto il percorso *Search > Find (and replace)*. Dopodiché clicchiamo sull’icona del foglio con l’asterisco: da qui, nello spazio “that matches” cerchiamo tutti gli apostrofi e li sostituiamo con la combinazione apostrofo + spazio. A questo punto non ci resta che ri-tokenizzare il tier. Alla fine di ciò, troveremo le parole separate da un apostrofo conteggiate come due token distinti (N.B.: in alcuni casi, può capitare che la ricerca dell’apostrofo non dia risultati. Per risolvere questo problema bisogna spuntare la casella chiamata “Regular Expression”).
-  {%
-    include figure.html
-    image="images/seminar-images/elantrascrizione/24 divisione per parola.PNG"
-    caption="Sostituzione dell'apostrofo con la combinazione 'apostrofo + spazio'"
-  %}
+{%
+  include figure.html
+  image="images/seminar-images/elantrascrizione/24 divisione per parola.PNG"
+  caption="Sostituzione dell'apostrofo con la combinazione 'apostrofo + spazio'"
+%}
 
 ### Ricerca
 

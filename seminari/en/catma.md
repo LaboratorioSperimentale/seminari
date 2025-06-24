@@ -1,8 +1,16 @@
 ---
-  layout: seminar
-  title: Digital Text Annotation and Analysis with CATMA 7
-  author: esmeraldadivenere
-  speaker: Mari Akazawa
+layout: seminar
+title: "Annotazione e Analisi di Testi Digitali con CATMA 7"
+seminar_title: "Digital Text Annotation and Analysis with CATMA 7"
+date: "21.06.2024"
+author: esmeraldadivenere
+speaker: mariakazawa
+video_title: "Digital Text Annotation and Analysis with CATMA 7"
+video: "https://liveunibo-my.sharepoint.com/personal/ludovica_pannitto_unibo_it/_layouts/15/stream.aspx?id=%2Fpersonal%2Fludovica%5Fpannitto%5Funibo%5Fit%2FDocuments%2FSEMINARI%20LAB%2FVideo%2FDigital%20Text%20Annotation%20and%20Analysis%20with%20CATMA%207%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E29d9f385%2D5185%2D490a%2D8cc3%2Dba9f215993da"
+length: 2h
+unibo: yes
+translation:
+  - ["en", "/seminari/en/catma.html"]
 ---
 
 ### Table of contents
