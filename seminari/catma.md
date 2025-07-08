@@ -5,9 +5,10 @@ seminar_title: "Digital Text Annotation and Analysis with CATMA 7"
 date: "21.06.2024"
 author: marcoesposito
 speaker: mariakazawa
+video_title: "Digital Text Annotation and Analysis with CATMA 7"
+video: "https://liveunibo-my.sharepoint.com/personal/ludovica_pannitto_unibo_it/_layouts/15/stream.aspx?id=%2Fpersonal%2Fludovica%5Fpannitto%5Funibo%5Fit%2FDocuments%2FSEMINARI%20LAB%2FVideo%2FDigital%20Text%20Annotation%20and%20Analysis%20with%20CATMA%207%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E29d9f385%2D5185%2D490a%2D8cc3%2Dba9f215993da"
+length: 2h
 unibo: yes
-translation:
-  - ["en", "/seminari/en/catma.html"]
 ---
 
 * Table of Contents
@@ -16,7 +17,7 @@ translation:
 
 ## Cos'è Catma?
 
-[CATMA](https://catma.de/) (Computer Assisted Text Markup Analysis) è un **tool di annotazione gratuito e open-source**, particolarmente utile per l'annotazione manuale di testi. A differenza di altri tool, CATMA consente anche di lavorare su progetti di gruppo. I testi e le annotazioni possono essere analizzati con diversi criteri e query, quali ad esempio la frequenza di una parola, la categoria di annotazione o la prossimità fra parole.
+[CATMA](https://catma.de/) (Computer Assisted Text Markup Analysis) è un **tool di annotazione gratuito e open-source**, particolarmente utile per l'annotazione manuale di testi. A differenza di altri tool, CATMA consente anche di lavorare in modo collaborativo. I testi e le annotazioni possono essere analizzati con diversi criteri e query, quali ad esempio la frequenza di una parola, la categoria di annotazione o la prossimità fra parole.
 
 {%
   include figure.html
@@ -67,11 +68,12 @@ Una volta selezionato il progetto su cui si vuole lavorare, è possibile entrare
 Vediamo le funzioni principali di ciascun riquadro:
 
 * **Documenti & Annotazioni**: In questo riquadro è possibile caricare testi dal computer o aggiungere un URL (cliccando sul pulsante "+"), così come esportare o eliminare raccolte di annotazioni o documenti. Da questa sezione è anche possibile creare la propria raccolta personale di annotazioni in un progetto di gruppo. Per annotare i documenti bisogna sempre creare prima una raccolta di annotazioni (che consiste in una sorta di copia del testo da annotare). Le annotazioni su CATMA sono conservate separatamente rispetto al testo originale. Si può anche vedere quale membro ha creato una determinata risorsa.
-  {%
-    include figure.html
-    image="images/seminar-images/catma_final/5 Add documents to your project.PNG"
-    caption="Aggiungere un nuovo documento su CATMA"
-  %}
+{%
+  include figure.html
+  image="images/seminar-images/catma_final/5 Add documents to your project.PNG"
+  caption="Aggiungere un nuovo documento su CATMA"
+%}
+
 * **Tagsets**: Nel secondo riquadro è possibile vedere quali tagset sono stati creati per un determinato progetto. Da questa sezione si possono creare o eliminare tagset, ma bisogna necessariamente andare nel *Modulo Tag* per aggiungere dei tag a un tagset esistente. Ciononostante, nel *Modulo Progetto* è possibile caricare un tagset esistente in formato `xml`.
 * **Membri**: In questo riquadro vengono mostrati i membri del progetto. Se il proprio ruolo lo consente, è possibile aggiungere nuovi membri al progetto: lo si può fare manualmente (tramite lo username) o tramite invito in tempo reale. Se si sceglie quest'ultima opzione, apparirà un pop-up con un codice; tutte le persone che hanno accesso a tale codice potranno unirsi al progetto. Il codice sarà valido finché si tiene la finestra pop-up aperta, dopodiché non sarà più valido. Inoltre, da questo riquadro è possibile eliminare dei membri o modificarne il ruolo.
 
@@ -142,21 +144,22 @@ In questa sezione si possono esplorare i testi e le annotazioni con le **query**
 Le query ti permettono di analizzare, esplorare o valutare dati relativi al testo o alle annotazioni. Per [eseguire una query](https://catma.de/how-to/query-language/) sui documenti o sulle raccolte di annotazioni hai tre opzioni:
 
 * Si può selezionare una **query predefinita**, come mostrato nella figura in basso: ad esempio, la query *Wordlist (freq0)* mostrerà tutte le parole del documento analizzato la cui frequenza è superiore a zero (dunque otterrai tutti i token nel tuo testo e le loro frequenze corrispondenti).
-  {%
-    include figure.html
-    image="images/seminar-images/catma_final/10 Existing Queries.png"
-    caption="Selezionare una query predefinita"
-  %}
+{%
+  include figure.html
+  image="images/seminar-images/catma_final/10 Existing Queries.png"
+  caption="Selezionare una query predefinita"
+%}
+
 * Si può usare il **query builder** sul lato sinistro dello schermo per creare la tua query. Questa opzione è particolarmente utile quanto vuoi analizzare dei insdati molto specifici riguardo il tuo testo (ad esempio: le parole che appaiono più di 20 volte nel tuo documento, quante volte appare una parola specifica, quante volte appare un tag e così via). Si può usare il query builder sulla base di 5 criteri: per modello di parola o frase, per grado di somiglianza, per tag, per collocazione o per frequenza. Con questa funzione, CATMA offre la possibilità di creare query anche molto complesse (ad esempio, quante volte una specifica parola appare in prossimità di un'altra).
-  {%
-    include figure.html
-    image="images/seminar-images/catma_final/12 Build your query.PNG"
-  %}
-  {%
-    include figure.html
-    image="images/seminar-images/catma_final/13 Query about collocation.PNG"
-    caption="Crea la tua query (in questo caso, ho creato una query per collocazione in modo da vedere quante volte la parola 'he' appare in prossimità della parola 'has' in un intervallo di 5 token)"
-  %}
+{%
+  include figure.html
+  image="images/seminar-images/catma_final/12 Build your query.PNG"
+%}
+{%
+  include figure.html
+  image="images/seminar-images/catma_final/13 Query about collocation.PNG"
+  caption="Crea la tua query (in questo caso, ho creato una query per collocazione in modo da vedere quante volte la parola 'he' appare in prossimità della parola 'has' in un intervallo di 5 token)"
+%}
 * Si può **scrivere direttamente una query**, se hai una certa familiarità con il linguaggio delle query su CATMA. Ad esempio, se si ha intenzione di vedere solo le parole del documento con una frequenza maggiore di 20, bisogna semplicemente digitare *freq20* nell'apposito spazio.
 
 Dopo aver scelto una query o averne creata una, i risultati appariranno in un riquadro al di sotto del campo delle query. Tale riquadro ha anche un titolo che contiene la query stessa, un marcatore temporale e il numero totale di risultati.
@@ -171,29 +174,29 @@ Dopo aver scelto una query o averne creata una, i risultati appariranno in un ri
 CATMA offre quattro diverse possibilità di visualizzazione per i risultati della query (che appaiono sul lato destro dello schermo in questo modulo):
 
 * **Visualizzazione KeyWord in Context (KWIC)**: Quest'opzione mostra i tuoi risultati nel loro contesto testuale (sia a destra che a sinistra) sotto forma di tabella. Cliccando due volte su una riga della tabella KWIC, puoi passare direttamente al Modulo Annotazione per vedere quel passaggio specifico. Puoi anche usare la visualizzazione KWIC per creare annotazioni semi-automaticamente (ne parleremo più nel dettaglio in seguito). Assicurati di selezionare la query esatta sul lato sinistro dello schermo.
-  {%
-    include figure.html
-    image="images/seminar-images/catma_final/14 KeyWord in Context.PNG"
-    caption="Visualizzazione KWIC"
-  %}
+{%
+  include figure.html
+  image="images/seminar-images/catma_final/14 KeyWord in Context.PNG"
+  caption="Visualizzazione KWIC"
+%}
 * **Visualizzazione di Distribuzione**: è un grafico che mostra la distribuzione dei risultati della query attraverso il testo. Per esempio, puoi creare la tua query (magari riguardo le occorrenze di una specifica parola o di un tag) e vedere con un grafico quante volte tali entità appaiono nel testo. CATMA permette anche di salvare il grafico in formato SVG o PNG.
-  {%
-    include figure.html
-    image="images/seminar-images/catma_final/14 Distribution Graph.PNG"
-    caption="Visualizzazione di Distribuzione"
-  %}
+{%
+  include figure.html
+  image="images/seminar-images/catma_final/15 Distribution Graph.PNG"
+  caption="Visualizzazione di Distribuzione"
+%}
 * **Visualizzazione Wordcloud**: Quanto più alta è la frequenza della parola nel documento, tanto più grande apparirà nel Wordclous. Proprio come nel punto precedente, puoi salvare l'immagine in formato SVG o PNG.
-  {%
-    include figure.html
-    image="images/seminar-images/catma_final/16 Wordcloud.PNG"
-    caption="Visualizzazione Wordcloud"
-  %}
+{%
+  include figure.html
+  image="images/seminar-images/catma_final/16 Wordcloud.PNG"
+  caption="Visualizzazione Wordcloud"
+%}
 * **Visualizzazione Doubletree**: Mostra la parola chiave e il suo contesto come un albero, i cui rami corrispondono al contesto della parola sia a destra che a sinistra. Il Doubletree può anche dispiegarsi, mostrando più contesto su entrambi i lati della parola.
-  {%
-    include figure.html
-    image="images/seminar-images/catma_final/17 Doubletree.PNG"
-    caption="Visualizzazione Doubletree"
-  %}
+{%
+  include figure.html
+  image="images/seminar-images/catma_final/17 Doubletree.PNG"
+  caption="Visualizzazione Doubletree"
+%}
 
 ### Annotazione Semi-Automatica
 

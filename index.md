@@ -35,6 +35,18 @@ Questa pagina raccoglie gli **[eventi formativi](https://site.unibo.it/laborator
 La sezione [**Seminari del Laboratorio**](https://laboratoriosperimentale.github.io/seminari/seminari/) nel menu di navigazione vi porterà a una pagina contenente delle card per ogni seminario o pacchetto formativo. Ogni card è contrassegnata da dei tag, come per esempio _tool_ o _resource_, a seconda del contenuto del seminario e conduce a un testo in cui è esposta in maniera dettagliata l'argomento del seminario. I contenuti testuali che troverete in questa pagina sono stati prodotti nell'ambito dei tirocini formativi curriculari proposti presso il Laboratorio Sperimentale.
 
 
+{%
+  include post-excerpt.html
+  lookup="example-blog-post-1"
+%}
+
+
+
+{% include section.html size="card"%}
+## Seminari 2025
+{% include list.html component="post-excerpt-car" data="projects" filter="group == '2025'" %}
+
+
 {% include section.html size="card"%}
 ## Seminari 2025
 {% include list.html component="card" style="small" data="projects" filter="group == '2025'" %}
@@ -44,8 +56,23 @@ La sezione [**Seminari del Laboratorio**](https://laboratoriosperimentale.github
 {% include list.html component="card" style="small" data="projects" filter="group == '2024'" %}
 
 {% include section.html size="card" %}
+## Seminari 2022
+{% include list.html component="card" style="small" data="projects" filter="group == '2022'" %}
+
+{% include section.html size="card" %}
 ## Seminari 2021
 {% include list.html component="card" style="small" data="projects" filter="group == '2021'" %}
+
+{% include section.html size="card" %}
+## Seminari 2020
+{% include list.html component="card" style="small" data="projects" filter="group == '2020'" %}
+
+{% include section.html size="card" %}
+## Seminari 2019
+{% include list.html component="card" style="small" data="projects" filter="group == '2019'" %}
+
+
+
 
 <!--
 {% capture text %}
