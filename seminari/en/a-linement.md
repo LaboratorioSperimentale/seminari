@@ -108,4 +108,3 @@ Questo tool è stato recentemente utilizzato per l'analisi sulla manipolazione s
 
 link ad A-linement https://nocoldiz.github.io/a-linement/ 
 
-50:15 taglio fine 
