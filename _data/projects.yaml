@@ -1,15 +1,3 @@
-- Title: 
-  subtitle: 
-  group: 
-  image: 
-  link: 
-  tags:
-    -   
-  publish: 
-
-
-
-
 - title: "Tipologia token-based in pratica: un laboratorio con '(mini)CIEP+ - a sharable parallel corpus of prose'"
   subtitle: Luigi Talamo
   group: "2025"
@@ -80,6 +68,12 @@
   group: "2024"
   image: images/logos/default.png
   publish: false
+
+- title: "Doing corpus-based syntactic typology with spoken language corpora"
+  subtitle: Geoffrey Haig
+  group: "2021"
+  image: images/logos/default.png
+  publish: true
 
 - title: Creare ed esplorare un corpus di testi con SketchEngine
   subtitle: Riccardo Billero
