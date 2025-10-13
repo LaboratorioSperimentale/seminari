@@ -41,11 +41,11 @@ La sezione [**Seminari del Laboratorio**](https://laboratoriosperimentale.github
 %}
 
 
-
+<!--
 {% include section.html size="card"%}
 ## Seminari 2025
 {% include list.html component="post-excerpt-card" data="projects" filter="group == '2025'" %}
-
+-->
 
 {% include section.html size="card"%}
 ## Seminari 2025
