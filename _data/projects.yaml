@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 - title: "Universal Dependencies come standard per corpora di L2 seminario"
   subtitle: Arianna Masciolini
   group: "2025"
@@ -11,7 +9,6 @@
     - L2
   publish: true
 
->>>>>>> 2eef2bb (allineamento)
 - title: "Tipologia token-based in pratica: un laboratorio con '(mini)CIEP+ - a sharable parallel corpus of prose'"
   subtitle: Luigi Talamo
   group: "2025"
