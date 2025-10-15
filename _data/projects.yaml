@@ -1,5 +1,5 @@
 - title: "Universal Dependencies come standard per corpora di L2 seminario"
-  subtitle: Arianna Masciolini -- 
+  subtitle: Arianna Masciolini
   group: "2025"
   image: images/logos/default.png
   link: seminari/UD-per-Corpora-L2.html
@@ -8,6 +8,22 @@
     - Corpora
     - L2
   publish: true
+
+- title: "Enhancing Literary Translation Through Technology"
+  subtitle: Núria Molines Galarza
+  group: "2025"
+  image: images/logos/default.png
+  link: seminari/Enhancing-Literary-Translation-Through-Technology.html
+  tags:
+  publish: false
+
+- title: "Modeling and Evaluation for Perspectivist NLP"
+  subtitle: Valerio Basile
+  group: "2025"
+  image: images/logos/default.png
+  link: seminari/Modeling-Evaluation-Perspectivist-NLP.html
+  tags:
+  publish: false
 
 - title: "Tipologia token-based in pratica: un laboratorio con '(mini)CIEP+ - a sharable parallel corpus of prose'"
   subtitle: Luigi Talamo
