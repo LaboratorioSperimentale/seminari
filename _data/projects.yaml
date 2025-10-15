@@ -15,7 +15,7 @@
   image: images/logos/default.png
   link: seminari/Enhancing-Literary-Translation-Through-Technology.html
   tags:
-  publish: false
+  publish: true
 
 - title: "Modeling and Evaluation for Perspectivist NLP"
   subtitle: Valerio Basile
