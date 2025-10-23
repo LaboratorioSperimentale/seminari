@@ -23,7 +23,7 @@
   image: images/logos/default.png
   link: seminari/Modeling-Evaluation-Perspectivist-NLP.html
   tags:
-  publish: false
+  publish: true
 
 - title: "Tipologia token-based in pratica: un laboratorio con '(mini)CIEP+ - a sharable parallel corpus of prose'"
   subtitle: Luigi Talamo
