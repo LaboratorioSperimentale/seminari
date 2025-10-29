@@ -3,6 +3,7 @@
   group: "2025"
   image: images/logos/default.png
   link: seminari/UD-per-Corpora-L2.html
+  held: "05-2025"
   tags:
     - UD
     - Corpora
@@ -14,6 +15,7 @@
   group: "2025"
   image: images/logos/default.png
   link: seminari/Enhancing-Literary-Translation-Through-Technology.html
+  held: "05-2025"
   tags:
   publish: true
 
@@ -22,17 +24,20 @@
   group: "2025"
   image: images/logos/default.png
   link: seminari/Modeling-Evaluation-Perspectivist-NLP.html
+  held: "05-2025"
   tags:
   publish: true
 
 - title: "Tipologia token-based in pratica: un laboratorio con '(mini)CIEP+ - a sharable parallel corpus of prose'"
   subtitle: Luigi Talamo
+  held: "05-2025"
   group: "2025"
   image: images/logos/default.png
   publish: false
 
-- title: "The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction"
+- title: "The TIGR corpus"
   subtitle: J. Miecznikowski, E. Battaglia
+  held: "05-2025"
   group: "2024"
   image: images/logos/default.png
   link: seminari/tigr.html
@@ -161,8 +166,9 @@
 - title: Designing and compiling parallel aligned corpora for Sketch Engine
   subtitle: Jorge Leiva Rojo
   group: "2021"
+  link: seminari/parallel-corpora.html
   image: images/logos/default.png
-  publish: false
+  publish: true
 
 - title: "Disrupting Digital Monolingualism: reflections"
   subtitle: Paul Spence
