@@ -499,40 +499,11 @@
 
 <p>La sezione <a href="https://laboratoriosperimentale.github.io/seminari/seminari/"><strong>Seminari del Laboratorio</strong></a> nel menu di navigazione vi porterà a una pagina contenente delle card per ogni seminario o pacchetto formativo. Ogni card è contrassegnata da dei tag, come per esempio <em>tool</em> o <em>resource</em>, a seconda del contenuto del seminario e conduce a un testo in cui è esposta in maniera dettagliata l’argomento del seminario. I contenuti testuali che troverete in questa pagina sono stati prodotti nell’ambito dei tirocini formativi curriculari proposti presso il Laboratorio Sperimentale.</p>
 
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-
-    <div class="post-excerpt-text">
-      <a href=""></a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-
-  
-</div>
-
-
-
-
-
-
-      
-      
-      <p data-search="">
-        
-      </p>
-    </div>
-  </div>
+<div class="search-box">
+  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
+  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
+    <i class="icon fa-solid fa-magnifying-glass"></i>
+  </button>
 </div>
   </section>
 
@@ -547,8 +518,6 @@
   <size>card</size>
 -->
 
-<h2 id="seminari-2025">Seminari 2025</h2>
-
 <div class="card " data-style="small">
 
   <a href="/seminari/seminari/UD-per-Corpora-L2.html" aria-label="Universal Dependencies come standard per corpora di L2 seminario" class="card-image">
@@ -560,6 +529,11 @@
       <a href="/seminari/seminari/UD-per-Corpora-L2.html" class="card-title">
         Universal Dependencies come standard per corpora di L2 seminario
     </a>
+    
+    
+
+    
+      <p class="card-ribbon"> 05-2025</p>
     
 
     
@@ -591,7 +565,6 @@
 
     
   </div>
-  
 </div>
 
 <div class="card " data-style="small">
@@ -606,6 +579,11 @@
         Enhancing Literary Translation Through Technology
     </a>
     
+    
+
+    
+      <p class="card-ribbon"> 05-2025</p>
+    
 
     
       <span class="card-subtitle">Núria Molines Galarza</span>
@@ -615,7 +593,6 @@
 
     
   </div>
-  
 </div>
 
 <div class="card " data-style="small">
@@ -630,6 +607,11 @@
         Modeling and Evaluation for Perspectivist NLP
     </a>
     
+    
+
+    
+      <p class="card-ribbon"> 05-2025</p>
+    
 
     
       <span class="card-subtitle">Valerio Basile</span>
@@ -639,7 +621,6 @@
 
     
   </div>
-  
 </div>
 
 <div class="card card-disabled" data-style="small">
@@ -654,100 +635,12 @@
         Tipologia token-based in pratica: un laboratorio con '(mini)CIEP+ - a sharable parallel corpus of prose'
     </a>
     
-
     
-      <span class="card-subtitle">Luigi Talamo</span>
-    
-
+      <p class="card-ribbon">(Coming Soon)</p>
     
 
     
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a href="/seminari/seminari/smallworld.html" aria-label="Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a href="/seminari/seminari/smallworld.html" class="card-title">
-        Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole
-    </a>
-    
-
-    
-      <span class="card-subtitle">Maria Montefinese</span>
-    
-
-    
-
-    
-      
-
-
-  <div class="tags" data-link="/seminari/">
-    
-      <a href="/?search=%22tag:%20risorsa%22" class="tag" data-tooltip='Show items with the tag "risorsa"'>
-        risorsa
-      </a>
-    
-      <a href="/?search=%22tag:%20lessico%22" class="tag" data-tooltip='Show items with the tag "lessico"'>
-        lessico
-      </a>
-    
-  </div>
-
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Modeling and Evaluation for Perspectivist NLP" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Modeling and Evaluation for Perspectivist NLP" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Modeling and Evaluation for Perspectivist NLP
-    </a>
-    
-
-    
-      <span class="card-subtitle">Valerio Basile</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Tipologia token-based in pratica un laboratorio con mini CIEP - a sharable parallel corpus of prose-20250408 154232-Meeting Recording" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Tipologia token-based in pratica un laboratorio con mini CIEP - a sharable parallel corpus of prose-20250408 154232-Meeting Recording" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Tipologia token-based in pratica un laboratorio con (mini)CIEP+ - a sharable parallel corpus of prose-20250408_154232-Meeting Recording
-    </a>
+      <p class="card-ribbon"> 05-2025</p>
     
 
     
@@ -758,36 +651,24 @@
 
     
   </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
 </div>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="card">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size>card</size>
--->
-
-<h2 id="seminari-2024">Seminari 2024</h2>
 
 <div class="card " data-style="small">
 
-  <a href="/seminari/seminari/tigr.html" aria-label="The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  <a href="/seminari/seminari/tigr.html" aria-label="The TIGR corpus" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="The TIGR corpus" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
   </a>
 
   <div class="card-text">
     
       <a href="/seminari/seminari/tigr.html" class="card-title">
-        The TIGR corpus: collection, transcription, processing and management of videorecorded data for the study of Italian talk-in-interaction
+        The TIGR corpus
     </a>
+    
+    
+
+    
+      <p class="card-ribbon"> 05-2025</p>
     
 
     
@@ -819,7 +700,6 @@
 
     
   </div>
-  
 </div>
 
 <div class="card " data-style="small">
@@ -833,6 +713,9 @@
       <a href="/seminari/seminari/catma.html" class="card-title">
         Digital Text Annotation and Analysis with CATMA 7
     </a>
+    
+    
+
     
 
     
@@ -860,7 +743,6 @@
 
     
   </div>
-  
 </div>
 
 <div class="card card-disabled" data-style="small">
@@ -874,6 +756,11 @@
       <a href="/seminari/seminari/emozioni.html" class="card-title">
         Tu chiamale se vuoi emozioni: metodi e strumenti per l’analisi emotiva dei testi
     </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
     
 
     
@@ -901,480 +788,52 @@
 
     
   </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
 </div>
 
 <div class="card card-disabled" data-style="small">
 
-  <a aria-label="An overview of the Universal Dependencies resources and tools" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="An overview of the Universal Dependencies resources and tools" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  <a href="/seminari/seminari/smallworld.html" aria-label="Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
   </a>
 
   <div class="card-text">
     
-      <a class="card-title">
-        An overview of the Universal Dependencies resources and tools
+      <a href="/seminari/seminari/smallworld.html" class="card-title">
+        Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole
     </a>
     
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
 
     
-      <span class="card-subtitle">Marie-Catherine de Marneffe</span>
+
+    
+      <span class="card-subtitle">Maria Montefinese</span>
     
 
     
+
+    
+      
+
+
+  <div class="tags" data-link="/seminari/">
+    
+      <a href="/?search=%22tag:%20risorsa%22" class="tag" data-tooltip='Show items with the tag "risorsa"'>
+        risorsa
+      </a>
+    
+      <a href="/?search=%22tag:%20lessico%22" class="tag" data-tooltip='Show items with the tag "lessico"'>
+        lessico
+      </a>
+    
+  </div>
+
 
     
   </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
 </div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Graph Rewriting for corpus development and maintenance" class="card-image">
-    <img src="/seminari/images/logos/grew.jpeg" alt="Graph Rewriting for corpus development and maintenance" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Graph Rewriting for corpus development and maintenance
-    </a>
-    
-
-    
-      <span class="card-subtitle">Bruno Guillaume</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Analisi dei dati linguistici con R e JASP dalla sintesi dei dati alla statistica inferenziale" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Analisi dei dati linguistici con R e JASP dalla sintesi dei dati alla statistica inferenziale" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Analisi dei dati linguistici con R e JASP dalla sintesi dei dati alla statistica inferenziale
-    </a>
-    
-
-    
-      <span class="card-subtitle">Flavio Pisciotta</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="CLARIN per la gestione FAIR dei dati linguistici" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="CLARIN per la gestione FAIR dei dati linguistici" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        CLARIN per la gestione FAIR dei dati linguistici
-    </a>
-    
-
-    
-      <span class="card-subtitle">Franceca Frontini e Giulia Pedonese</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Focus on eye-tracking - Part I" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Focus on eye-tracking - Part I" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Focus on eye-tracking - Part I
-    </a>
-    
-
-    
-      <span class="card-subtitle">Davide Crepaldi e Joh W. Carr</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Focus on eye-tracking - Part II" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Focus on eye-tracking - Part II" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Focus on eye-tracking - Part II
-    </a>
-    
-
-    
-      <span class="card-subtitle">Davide Crepaldi e Joh W. Carr</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="The TIGR corpus - collection, transcription, processing and management of videorecorded data for the study of Italian talk in interaction - copy" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="The TIGR corpus - collection, transcription, processing and management of videorecorded data for the study of Italian talk in interaction - copy" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        The TIGR corpus - collection, transcription, processing and management of videorecorded data for the study of Italian talk in interaction - copy
-    </a>
-    
-
-    
-      <span class="card-subtitle">Johanna Miecznikowski e Elena Battaglia</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="card">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size>card</size>
--->
-
-<h2 id="seminari-2022">Seminari 2022</h2>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Epistemology and methodology of linguistic data" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Epistemology and methodology of linguistic data" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Epistemology and methodology of linguistic data
-    </a>
-    
-
-    
-      <span class="card-subtitle">Christian Lehmann</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Cast the net wide - corpus as a slice of life" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Cast the net wide - corpus as a slice of life" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Cast the net wide - corpus as a slice of life
-    </a>
-    
-
-    
-      <span class="card-subtitle">Jackoi &amp; Giorgia Troiani</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="From child language to linguistic typology - developing methods and expanding perspectives" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="From child language to linguistic typology - developing methods and expanding perspectives" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        From child language to linguistic typology - developing methods and expanding perspectives
-    </a>
-    
-
-    
-      <span class="card-subtitle">Slobin handout</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Sociolinguistic fieldwork - The art of talking to people" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Sociolinguistic fieldwork - The art of talking to people" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Sociolinguistic fieldwork - The art of talking to people
-    </a>
-    
-
-    
-      <span class="card-subtitle">Sali Tagliamonte</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Collaborative methods in language documentation" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Collaborative methods in language documentation" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Collaborative methods in language documentation
-    </a>
-    
-
-    
-      <span class="card-subtitle">Mark Post</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="The Montclair Map Task Spoken Language Corpus" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="The Montclair Map Task Spoken Language Corpus" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        The Montclair Map Task Spoken Language Corpus
-    </a>
-    
-
-    
-      <span class="card-subtitle">Jennifer Pardo</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Integrating data in comparative linguistics" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Integrating data in comparative linguistics" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Integrating data in comparative linguistics
-    </a>
-    
-
-    
-      <span class="card-subtitle">Mattis List</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="A-linement - Tool importazione e allineamento sottotitoli per ricerca scientifica" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="A-linement - Tool importazione e allineamento sottotitoli per ricerca scientifica" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        A-linement - Tool importazione e allineamento sottotitoli per ricerca scientifica
-    </a>
-    
-
-    
-      <span class="card-subtitle">Francesco Vitucci e Michele Zangheri</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Resources and challenges for studying linguistic diversity" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Resources and challenges for studying linguistic diversity" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Resources and challenges for studying linguistic diversity
-    </a>
-    
-
-    
-      <span class="card-subtitle">Harald Hammarström</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Multi-method approach to sensory language" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Multi-method approach to sensory language" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Multi-method approach to sensory language
-    </a>
-    
-
-    
-      <span class="card-subtitle">Asifa Majid</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="card">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size>card</size>
--->
-
-<h2 id="seminari-2021">Seminari 2021</h2>
 
 <div class="card " data-style="small">
 
@@ -1387,6 +846,9 @@
       <a href="/seminari/seminari/elantrascrizione.html" class="card-title">
         La Trascrizione del Parlato con ELAN
     </a>
+    
+    
+
     
 
     
@@ -1410,7 +872,6 @@
 
     
   </div>
-  
 </div>
 
 <div class="card card-disabled" data-style="small">
@@ -1424,6 +885,11 @@
       <a href="/seminari/seminari/edizionidigitali.html" class="card-title">
         Introduzione alle Edizioni Digitale
     </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
     
 
     
@@ -1447,9 +913,34 @@
 
     
   </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
+</div>
 
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="An overview of the Universal Dependencies resources and tools" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="An overview of the Universal Dependencies resources and tools" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        An overview of the Universal Dependencies resources and tools
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Marie-Catherine de Marneffe</span>
+    
+
+    
+
+    
+  </div>
 </div>
 
 <div class="card " data-style="small">
@@ -1464,6 +955,9 @@
         Doing corpus-based syntactic typology with spoken language corpora
     </a>
     
+    
+
+    
 
     
       <span class="card-subtitle">Geoffrey Haig</span>
@@ -1473,588 +967,35 @@
 
     
   </div>
-  
 </div>
 
 <div class="card card-disabled" data-style="small">
 
-  <a aria-label="La trascrizione del parlato con ELAN" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="La trascrizione del parlato con ELAN" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  <a aria-label="Creare ed esplorare un corpus di testi con SketchEngine" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Creare ed esplorare un corpus di testi con SketchEngine" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
   </a>
 
   <div class="card-text">
     
       <a class="card-title">
-        La trascrizione del parlato con ELAN
+        Creare ed esplorare un corpus di testi con SketchEngine
     </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
     
 
     
-      <span class="card-subtitle">Silvia Ballarè</span>
+
+    
+      <span class="card-subtitle">Riccardo Billero</span>
     
 
     
 
     
   </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
 </div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Introduzione a R come strumento per l analisi statistica dei dati linguistici" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Introduzione a R come strumento per l analisi statistica dei dati linguistici" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Introduzione a R come strumento per l’analisi statistica dei dati linguistici
-    </a>
-    
-
-    
-      <span class="card-subtitle">Claudia Roberta Combei</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Words, constructions associations: A beginner s guide to Collostructional Analysis" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Words, constructions associations: A beginner s guide to Collostructional Analysis" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Words, constructions &amp; associations: A beginner’s guide to Collostructional Analysis
-    </a>
-    
-
-    
-      <span class="card-subtitle">Susanne Flach</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Experimental methods for studying figurative language: theory and practice in ePrime and eye-tracking" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Experimental methods for studying figurative language: theory and practice in ePrime and eye-tracking" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Experimental methods for studying figurative language: theory and practice in ePrime and eye-tracking
-    </a>
-    
-
-    
-      <span class="card-subtitle">Gareth Carrol</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Designing and building psycholinguistic experiments" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Designing and building psycholinguistic experiments" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Designing and building psycholinguistic experiments
-    </a>
-    
-
-    
-      <span class="card-subtitle">Laura Speed</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Designing and compiling parallel aligned corpora for Sketch Engine" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Designing and compiling parallel aligned corpora for Sketch Engine" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Designing and compiling parallel aligned corpora for Sketch Engine
-    </a>
-    
-
-    
-      <span class="card-subtitle">Jorge Leiva Rojo</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Disrupting Digital Monolingualism: reflections" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Disrupting Digital Monolingualism: reflections" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Disrupting Digital Monolingualism: reflections
-    </a>
-    
-
-    
-      <span class="card-subtitle">Paul Spence</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Qualitative Data Analysis con ATLAS.ti" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Qualitative Data Analysis con ATLAS.ti" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Qualitative Data Analysis con ATLAS.ti
-    </a>
-    
-
-    
-      <span class="card-subtitle">Carmelo Caruso</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Introduzione alle edizioni digitali: preparazione con codifica XML TEI e visualizzazione con il software EVT" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Introduzione alle edizioni digitali: preparazione con codifica XML TEI e visualizzazione con il software EVT" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Introduzione alle edizioni digitali: preparazione con codifica XML TEI e visualizzazione con il software EVT
-    </a>
-    
-
-    
-      <span class="card-subtitle">Roberto Rosselli Del Turco</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Sentiment Analysis: methods and tools" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Sentiment Analysis: methods and tools" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Sentiment Analysis: methods and tools
-    </a>
-    
-
-    
-      <span class="card-subtitle">Antonio Moreno-Ortiz</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Cosa significa Annotare informazione semantica nei corpora di lingua scritta" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Cosa significa Annotare informazione semantica nei corpora di lingua scritta" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Cosa significa? Annotare informazione semantica nei corpora di lingua scritta
-    </a>
-    
-
-    
-      <span class="card-subtitle">Tommaso Caselli</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Quando un risultato è significativo: verifica del test d ipotesi in linguistica" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Quando un risultato è significativo: verifica del test d ipotesi in linguistica" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Quando un risultato è significativo: verifica del test d'ipotesi in linguistica
-    </a>
-    
-
-    
-      <span class="card-subtitle">Claudia Roberta Combei</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Deep Learning e linguaggio: miti, incomprensioni ed opportunità" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Deep Learning e linguaggio: miti, incomprensioni ed opportunità" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Deep Learning e linguaggio: miti, incomprensioni ed opportunità 
-    </a>
-    
-
-    
-      <span class="card-subtitle">Alessandro Lenci</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Introduzione alla programmazione in Python per la ricerca umanistica" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Introduzione alla programmazione in Python per la ricerca umanistica" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Introduzione alla programmazione in Python per la ricerca umanistica
-    </a>
-    
-
-    
-      <span class="card-subtitle">Ludovica Pannitto</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Text analysis topic models per la ricerca umanistica" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Text analysis topic models per la ricerca umanistica" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Text analysis &amp; topic models per la ricerca umanistica
-    </a>
-    
-
-    
-      <span class="card-subtitle">Claudia Roberta Combei</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Valutazione automatica della leggibilità e profilazione linguistica di corpora testuali: metodi e strumenti" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Valutazione automatica della leggibilità e profilazione linguistica di corpora testuali: metodi e strumenti" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Valutazione automatica della leggibilità e profilazione linguistica di corpora testuali: metodi e strumenti
-    </a>
-    
-
-    
-      <span class="card-subtitle">Giulia Venturi</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Traduzione del parlato: la rivoluzione del modello diretto" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Traduzione del parlato: la rivoluzione del modello diretto" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Traduzione del parlato: la rivoluzione del modello diretto
-    </a>
-    
-
-    
-      <span class="card-subtitle">Marco Turchi</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Computational stylometry: Counting words and rhythms using R and Python" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Computational stylometry: Counting words and rhythms using R and Python" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Computational stylometry: Counting words and rhythms using R and Python
-    </a>
-    
-
-    
-      <span class="card-subtitle">Simon Kroll</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Fairness in machine learning: a general overview" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Fairness in machine learning: a general overview" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Fairness in machine learning: a general overview
-    </a>
-    
-
-    
-      <span class="card-subtitle">Emma Lopez</span>
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Introduzione all uso del software Tobii Pro Lab, Eye-Tracking" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Introduzione all uso del software Tobii Pro Lab, Eye-Tracking" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Introduzione all'uso del software Tobii Pro Lab, Eye-Tracking
-    </a>
-    
-
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Graph Rewriting for corpus development and maintenance-20240702 134003-Meeting Recording" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Graph Rewriting for corpus development and maintenance-20240702 134003-Meeting Recording" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Graph Rewriting for corpus development and maintenance-20240702_134003-Meeting Recording
-    </a>
-    
-
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-
-<div class="card card-disabled" data-style="small">
-
-  <a aria-label="Seminario di Tecnologie del Linguaggio - Tutorial su ELAN Parte 2" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Seminario di Tecnologie del Linguaggio - Tutorial su ELAN Parte 2" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Seminario di Tecnologie del Linguaggio - Tutorial su ELAN Parte 2
-    </a>
-    
-
-    
-
-    
-
-    
-  </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
-</div>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="card">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size>card</size>
--->
-
-<h2 id="seminari-2020">Seminari 2020</h2>
 
 <div class="card card-disabled" data-style="small">
 
@@ -2068,6 +1009,11 @@
         Per un uso consapevole dei software citazionali
     </a>
     
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
 
     
       <span class="card-subtitle">Claudio Fabbri</span>
@@ -2077,9 +1023,6 @@
 
     
   </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
 </div>
 
 <div class="card card-disabled" data-style="small">
@@ -2094,6 +1037,11 @@
         How to use NVivo for content analysis
     </a>
     
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
 
     
       <span class="card-subtitle">Patrick Goethals</span>
@@ -2103,9 +1051,6 @@
 
     
   </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
 </div>
 
 <div class="card card-disabled" data-style="small">
@@ -2120,6 +1065,11 @@
         Experimental methods and behavioural data in linguistics
     </a>
     
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
 
     
       <span class="card-subtitle">Florent Perek</span>
@@ -2129,49 +1079,1146 @@
 
     
   </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
-
 </div>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="card">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size>card</size>
--->
-
-<h2 id="seminari-2019">Seminari 2019</h2>
 
 <div class="card card-disabled" data-style="small">
 
-  <a aria-label="Creare ed esplorare un corpus di testi con SketchEngine" class="card-image">
-    <img src="/seminari/images/logos/default.png" alt="Creare ed esplorare un corpus di testi con SketchEngine" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  <a aria-label="La trascrizione del parlato con ELAN" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="La trascrizione del parlato con ELAN" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
   </a>
 
   <div class="card-text">
     
       <a class="card-title">
-        Creare ed esplorare un corpus di testi con SketchEngine
+        La trascrizione del parlato con ELAN
     </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
     
 
     
-      <span class="card-subtitle">Riccardo Billero</span>
+
+    
+      <span class="card-subtitle">Silvia Ballarè</span>
     
 
     
 
     
   </div>
-  
-  <div class="card-ribbon">Coming Soon</div>
+</div>
 
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Introduzione a R come strumento per l analisi statistica dei dati linguistici" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Introduzione a R come strumento per l analisi statistica dei dati linguistici" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Introduzione a R come strumento per l’analisi statistica dei dati linguistici
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Claudia Roberta Combei</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Words, constructions associations: A beginner s guide to Collostructional Analysis" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Words, constructions associations: A beginner s guide to Collostructional Analysis" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Words, constructions &amp; associations: A beginner’s guide to Collostructional Analysis
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Susanne Flach</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Experimental methods for studying figurative language: theory and practice in ePrime and eye-tracking" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Experimental methods for studying figurative language: theory and practice in ePrime and eye-tracking" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Experimental methods for studying figurative language: theory and practice in ePrime and eye-tracking
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Gareth Carrol</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Designing and building psycholinguistic experiments" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Designing and building psycholinguistic experiments" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Designing and building psycholinguistic experiments
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Laura Speed</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card " data-style="small">
+
+  <a href="/seminari/seminari/parallel-corpora.html" aria-label="Designing and compiling parallel aligned corpora for Sketch Engine" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Designing and compiling parallel aligned corpora for Sketch Engine" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="/seminari/seminari/parallel-corpora.html" class="card-title">
+        Designing and compiling parallel aligned corpora for Sketch Engine
+    </a>
+    
+    
+
+    
+
+    
+      <span class="card-subtitle">Jorge Leiva Rojo</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Disrupting Digital Monolingualism: reflections" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Disrupting Digital Monolingualism: reflections" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Disrupting Digital Monolingualism: reflections
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Paul Spence</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Qualitative Data Analysis con ATLAS.ti" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Qualitative Data Analysis con ATLAS.ti" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Qualitative Data Analysis con ATLAS.ti
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Carmelo Caruso</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Introduzione alle edizioni digitali: preparazione con codifica XML TEI e visualizzazione con il software EVT" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Introduzione alle edizioni digitali: preparazione con codifica XML TEI e visualizzazione con il software EVT" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Introduzione alle edizioni digitali: preparazione con codifica XML TEI e visualizzazione con il software EVT
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Roberto Rosselli Del Turco</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Sentiment Analysis: methods and tools" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Sentiment Analysis: methods and tools" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Sentiment Analysis: methods and tools
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Antonio Moreno-Ortiz</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Cosa significa Annotare informazione semantica nei corpora di lingua scritta" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Cosa significa Annotare informazione semantica nei corpora di lingua scritta" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Cosa significa? Annotare informazione semantica nei corpora di lingua scritta
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Tommaso Caselli</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Quando un risultato è significativo: verifica del test d ipotesi in linguistica" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Quando un risultato è significativo: verifica del test d ipotesi in linguistica" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Quando un risultato è significativo: verifica del test d'ipotesi in linguistica
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Claudia Roberta Combei</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Deep Learning e linguaggio: miti, incomprensioni ed opportunità" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Deep Learning e linguaggio: miti, incomprensioni ed opportunità" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Deep Learning e linguaggio: miti, incomprensioni ed opportunità 
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Alessandro Lenci</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Introduzione alla programmazione in Python per la ricerca umanistica" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Introduzione alla programmazione in Python per la ricerca umanistica" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Introduzione alla programmazione in Python per la ricerca umanistica
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Ludovica Pannitto</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Text analysis topic models per la ricerca umanistica" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Text analysis topic models per la ricerca umanistica" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Text analysis &amp; topic models per la ricerca umanistica
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Claudia Roberta Combei</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Valutazione automatica della leggibilità e profilazione linguistica di corpora testuali: metodi e strumenti" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Valutazione automatica della leggibilità e profilazione linguistica di corpora testuali: metodi e strumenti" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Valutazione automatica della leggibilità e profilazione linguistica di corpora testuali: metodi e strumenti
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Giulia Venturi</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Traduzione del parlato: la rivoluzione del modello diretto" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Traduzione del parlato: la rivoluzione del modello diretto" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Traduzione del parlato: la rivoluzione del modello diretto
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Marco Turchi</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Computational stylometry: Counting words and rhythms using R and Python" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Computational stylometry: Counting words and rhythms using R and Python" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Computational stylometry: Counting words and rhythms using R and Python
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Simon Kroll</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Fairness in machine learning: a general overview" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Fairness in machine learning: a general overview" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Fairness in machine learning: a general overview
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Emma Lopez</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Graph Rewriting for corpus development and maintenance" class="card-image">
+    <img src="/seminari/images/logos/grew.jpeg" alt="Graph Rewriting for corpus development and maintenance" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Graph Rewriting for corpus development and maintenance
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Bruno Guillaume</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Epistemology and methodology of linguistic data" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Epistemology and methodology of linguistic data" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Epistemology and methodology of linguistic data
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Christian Lehmann</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Cast the net wide - corpus as a slice of life" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Cast the net wide - corpus as a slice of life" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Cast the net wide - corpus as a slice of life
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Jackoi &amp; Giorgia Troiani</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="From child language to linguistic typology - developing methods and expanding perspectives" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="From child language to linguistic typology - developing methods and expanding perspectives" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        From child language to linguistic typology - developing methods and expanding perspectives
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Slobin handout</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Sociolinguistic fieldwork - The art of talking to people" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Sociolinguistic fieldwork - The art of talking to people" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Sociolinguistic fieldwork - The art of talking to people
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Sali Tagliamonte</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Collaborative methods in language documentation" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Collaborative methods in language documentation" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Collaborative methods in language documentation
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Mark Post</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="The Montclair Map Task Spoken Language Corpus" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="The Montclair Map Task Spoken Language Corpus" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        The Montclair Map Task Spoken Language Corpus
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Jennifer Pardo</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Integrating data in comparative linguistics" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Integrating data in comparative linguistics" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Integrating data in comparative linguistics
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Mattis List</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="A-linement - Tool importazione e allineamento sottotitoli per ricerca scientifica" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="A-linement - Tool importazione e allineamento sottotitoli per ricerca scientifica" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        A-linement - Tool importazione e allineamento sottotitoli per ricerca scientifica
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Francesco Vitucci e Michele Zangheri</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Introduzione all uso del software Tobii Pro Lab, Eye-Tracking" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Introduzione all uso del software Tobii Pro Lab, Eye-Tracking" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Introduzione all'uso del software Tobii Pro Lab, Eye-Tracking
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Resources and challenges for studying linguistic diversity" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Resources and challenges for studying linguistic diversity" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Resources and challenges for studying linguistic diversity
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Harald Hammarström</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Multi-method approach to sensory language" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Multi-method approach to sensory language" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Multi-method approach to sensory language
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Asifa Majid</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Analisi dei dati linguistici con R e JASP dalla sintesi dei dati alla statistica inferenziale" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Analisi dei dati linguistici con R e JASP dalla sintesi dei dati alla statistica inferenziale" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Analisi dei dati linguistici con R e JASP dalla sintesi dei dati alla statistica inferenziale
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Flavio Pisciotta</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="CLARIN per la gestione FAIR dei dati linguistici" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="CLARIN per la gestione FAIR dei dati linguistici" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        CLARIN per la gestione FAIR dei dati linguistici
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Franceca Frontini e Giulia Pedonese</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Conducting priming experiments with PCIbex" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Conducting priming experiments with PCIbex" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Conducting priming experiments with PCIbex
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Alice Blumenthal-Dramé</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Focus on eye-tracking - Part I" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Focus on eye-tracking - Part I" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Focus on eye-tracking - Part I
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Davide Crepaldi e Joh W. Carr</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Focus on eye-tracking - Part II" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Focus on eye-tracking - Part II" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Focus on eye-tracking - Part II
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Davide Crepaldi e Joh W. Carr</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Graph Rewriting for corpus development and maintenance-20240702 134003-Meeting Recording" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Graph Rewriting for corpus development and maintenance-20240702 134003-Meeting Recording" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Graph Rewriting for corpus development and maintenance-20240702_134003-Meeting Recording
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Modeling and Evaluation for Perspectivist NLP" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Modeling and Evaluation for Perspectivist NLP" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Modeling and Evaluation for Perspectivist NLP
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Valerio Basile</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Seminario di Tecnologie del Linguaggio - Tutorial su ELAN Parte 2" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Seminario di Tecnologie del Linguaggio - Tutorial su ELAN Parte 2" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Seminario di Tecnologie del Linguaggio - Tutorial su ELAN Parte 2
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="Tipologia token-based in pratica un laboratorio con mini CIEP - a sharable parallel corpus of prose-20250408 154232-Meeting Recording" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="Tipologia token-based in pratica un laboratorio con mini CIEP - a sharable parallel corpus of prose-20250408 154232-Meeting Recording" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Tipologia token-based in pratica un laboratorio con (mini)CIEP+ - a sharable parallel corpus of prose-20250408_154232-Meeting Recording
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Luigi Talamo</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card card-disabled" data-style="small">
+
+  <a aria-label="The TIGR corpus - collection, transcription, processing and management of videorecorded data for the study of Italian talk in interaction - copy" class="card-image">
+    <img src="/seminari/images/logos/default.png" alt="The TIGR corpus - collection, transcription, processing and management of videorecorded data for the study of Italian talk in interaction - copy" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        The TIGR corpus - collection, transcription, processing and management of videorecorded data for the study of Italian talk in interaction - copy
+    </a>
+    
+    
+      <p class="card-ribbon">(Coming Soon)</p>
+    
+
+    
+
+    
+      <span class="card-subtitle">Johanna Miecznikowski e Elena Battaglia</span>
+    
+
+    
+
+    
+  </div>
 </div>
 
 <!--

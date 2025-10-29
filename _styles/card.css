@@ -21,7 +21,12 @@
 }
 
 .card[data-style=small] {
-  width: 250px;
+  width: 150px;
+}
+
+.card-image {
+  width: 50%;
+  margin-top: 10px;
 }
 
 .card-image img {
@@ -37,7 +42,7 @@
   flex-direction: column;
   gap: 20px;
   max-width: 100%;
-  padding: 20px;
+  padding: 10px;
 }
 
 .card-text > * {
@@ -47,17 +52,24 @@
 .card-title {
   font-family: var(--heading);
   font-weight: var(--semi-bold);
+  font-size: 0.8rem;
 }
 
 .card-subtitle {
   margin-top: -10px !important;
   font-style: italic;
+  font-size: 0.7rem;
 }
 
 .card-disabled {
   opacity: 0.5;
   pointer-events: none;
   filter: grayscale(100%);
+}
+
+.card-ribbon {
+  font-size: 0.5rem;
+  margin-top: -20px !important;
 }
 
 /*# sourceMappingURL=card.css.map */

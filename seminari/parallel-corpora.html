@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Designing and compiling parallel aligned corpora for SketchEngine | LABORATORIO SPERIMENTALE</title>
+
+<link rel="icon" href="">
+
+<meta name="title" content="Designing and compiling parallel aligned corpora for SketchEngine">
+<meta name="description" content="Dipartimento di Lingue, Letterature e Culture Moderne. ">
+
+<meta property="og:title" content="Designing and compiling parallel aligned corpora for SketchEngine">
+<meta property="og:site_title" content="LABORATORIO SPERIMENTALE">
+<meta property="og:description" content="Dipartimento di Lingue, Letterature e Culture Moderne. ">
+<meta property="og:url" content="https://laboratoriosperimentale.github.io/seminari">
+<meta property="og:image" content="">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="Designing and compiling parallel aligned corpora for SketchEngine">
+<meta property="twitter:description" content="Dipartimento di Lingue, Letterature e Culture Moderne. ">
+<meta property="twitter:url" content="https://laboratoriosperimentale.github.io/seminari">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="">
+
+
+  <meta name="author" content="silviamantovani">
+  <meta property="og:type" content="article">
+  <meta property="og:updated_time" content="2025-10-29T11:19:24+00:00">
+  <meta property="article:published_time" content="2021-04-16T00:00:00+00:00">
+  <meta property="article:modified_time" content="2025-10-29T11:19:24+00:00">
+  <meta name="revised" content="2025-10-29T11:19:24+00:00">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "BlogPosting",
+      "author": { "@type": "Person", "name": "Designing and compiling parallel aligned corpora for SketchEngine" },
+      "datePublished": "2021-04-16T00:00:00+00:00",
+      "dateModified": "2025-10-29T11:19:24+00:00",
+    
+    "name": "Designing and compiling parallel aligned corpora for SketchEngine",
+    "description": "Dipartimento di Lingue, Letterature e Culture Moderne. ",
+    "headline": "Designing and compiling parallel aligned corpora for SketchEngine",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "" }
+    },
+    "url": "https://laboratoriosperimentale.github.io/seminari"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="https://laboratoriosperimentale.github.io/seminari/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/seminari/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/details.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/pdf_card.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/post-excerpt-car.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/summary-table.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/seminari/_styles/util.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/seminari/_scripts/anchors.js"></script>
+
+  <script src="/seminari/_scripts/dark-mode.js"></script>
+
+  <script src="/seminari/_scripts/fetch-tags.js"></script>
+
+  <script src="/seminari/_scripts/search.js"></script>
+
+  <script src="/seminari/_scripts/site-search.js"></script>
+
+  <script src="/seminari/_scripts/table-wrap.js"></script>
+
+  <script src="/seminari/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+<header class="background" style="--image: url('/seminari/images/orizzontale%20bande%20bianche.png')" data-dark="true">
+  <a href="/seminari/" class="home">
+    
+    
+      <span class="title-text" data-tooltip="Home">
+        
+          <span class="title">LABORATORIO SPERIMENTALE</span>
+        
+        
+          <span class="subtitle">Dipartimento di Lingue, Letterature e Culture Moderne</span>
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a href="/seminari/data%20plumbing/" data-tooltip="Software, datasets, and more">
+          Data Plumbing
+        </a>
+      
+    
+      
+        <a href="/seminari/relatori/" data-tooltip="About our speakers">
+          Relatori
+        </a>
+      
+    
+      
+        <a href="/seminari/chi-siamo/" data-tooltip="Email, address, and location">
+          Chi siamo
+        </a>
+      
+    
+      
+        <a href="/seminari/tirocinanti/" data-tooltip="About our team">
+          Tirocinanti
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <div class="post-info">
+  
+    
+    
+      
+      
+        
+
+
+
+<div class="portrait-wrapper">
+  <a href="/seminari/members/silviamantovani.html" class="portrait" data-style="tiny" aria-label="Silvia Mantovani">
+    
+      <i class="icon fa-solid fa-pencil"></i>
+    
+
+    <img src="/seminari/images/avatars/avatarsilvia.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Silvia Mantovani
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Tirocinante
+      </span>
+    
+
+    
+      <span class="portrait-affiliation">
+        CdL in Lingue, mercati e culture dell'Asia e dell'Africa Mediterranea
+      </span>
+    
+  </a>
+</div>
+
+      
+    
+  
+
+  
+  
+
+  
+
+  
+    <span data-tooltip="Last updated on">
+      <i class="icon fa-solid fa-clock-rotate-left"></i>
+      <span>October 29, 2025</span>
+    </span>
+  
+</div>
+
+
+
+
+<div>
+  <h1>Designing and compiling parallel aligned corpora for SketchEngine</h1>
+</div>
+
+
+
+      
+
+<div class="summary-table">
+  <table>
+    <tr>
+      <th colspan="2">I contenuti di questa pagina sono stati elaborati a partire dal seminario tenuto presso il Laboratorio Sperimentale da</th>
+    </tr>
+    <tr>
+      <td colspan="2">
+<div class="portrait-wrapper">
+<a href="/seminari/members/jorgeleiva.html" class="portrait" data-style="tiny" aria-label="Jorge Leiva Rojo">
+<i class="icon fa-solid fa-graduation-cap"></i><img src="/seminari/images/avatars/jorge-leiva.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+<span class="portrait-name">
+Jorge Leiva Rojo
+</span>
+<span class="portrait-description">
+Relatore
+</span>
+<span class="portrait-affiliation">
+Universidad de Màlaga
+</span>
+</a>
+</div>
+</td>
+    </tr>
+    
+    <tr>
+      <td colspan="2"><span><i class="fa-solid fa-video"></i> – <a href=""> Designing and compiling parallel aligned corpora for SketchEngine (accesso con credenziali UniBO)</a></span></td>
+    </tr>
+    
+    
+    <tr>
+      <td>
+<i class="fa-solid fa-hourglass-start"></i> <b>Durata </b> –  4h</td>
+      <td>
+</td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+      
+
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <h4 id="table-of-contents">Table of Contents</h4>
+<ul>
+  <li>
+<a href="#designing-and-compiling-parallel-aligned-corpora-for-sketch-engine">Designing and compiling parallel aligned corpora for Sketch Engine</a>
+    <ul>
+      <li>
+<a href="#basic-considerations">Basic considerations</a>
+        <ul>
+          <li><a href="#parallel-aligned-or-translation-corpora">Parallel aligned (or translation corpora)</a></li>
+          <li>
+<a href="#already-compiled-corpus-or-diy-corpus">Already-compiled corpus or DIY corpus?</a>
+            <ul>
+              <li><a href="#already-compiled-corpus-disadvantages">Already-compiled corpus: Disadvantages</a></li>
+              <li><a href="#already-compiled-corpus-advantages">Already-compiled corpus: Advantages</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+<a href="#using-already-compiled-corpora-in-sketch-engine-for-translators">Using already-compiled corpora in Sketch Engine for translators</a>
+        <ul>
+          <li><a href="#review-of-tasks-with-monolingual-corpora-in-sketch-engine">Review of tasks with monolingual corpora in Sketch Engine</a></li>
+          <li><a href="#available-corpora-in-sketch-engine">Available corpora in Sketch Engine</a></li>
+        </ul>
+      </li>
+      <li>
+<a href="#introduction">Introduction</a>
+        <ul>
+          <li>
+<a href="#main-advantages-and-drawbacks">Main advantages and drawbacks</a>
+            <ul>
+              <li><a href="#compiling-your-own-parallel-corpus-advantages">Compiling your own parallel corpus: Advantages</a></li>
+              <li><a href="#compiling-your-own-parallel-corpus-disadvantages">Compiling your own parallel corpus: Disadvantages</a></li>
+            </ul>
+          </li>
+          <li><a href="#setting-the-basis-for-corpus-compilation">Setting the basis for corpus compilation</a></li>
+          <li>
+<a href="#some-conditioning-factors-and-text-types">Some conditioning factors and text types</a>
+            <ul>
+              <li><a href="#literary-texts">Literary texts</a></li>
+              <li><a href="#journalistic-texts">Journalistic texts</a></li>
+              <li><a href="#websites">Websites</a></li>
+              <li><a href="#user-manuals-and-online-help-files">User manuals and online help files</a></li>
+              <li><a href="#tweets">Tweets</a></li>
+              <li><a href="#subtitles">Subtitles</a></li>
+              <li><a href="#press-releases">Press releases</a></li>
+              <li><a href="#translation-memories">Translation memories</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+<a href="#compiling-a-parallel-corpus">Compiling a parallel corpus</a>
+        <ul>
+          <li>
+<a href="#selecting-and-finding-your-texts">Selecting and finding your texts</a>
+            <ul>
+              <li><a href="#a-case-study-a-parallel-corpus-of-museum-texts">A case study: a parallel corpus of museum texts</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="designing-and-compiling-parallel-aligned-corpora-for-sketch-engine">Designing and compiling parallel aligned corpora for Sketch Engine</h1>
+
+<h2 id="basic-considerations">Basic considerations</h2>
+
+<h3 id="parallel-aligned-or-translation-corpora">Parallel aligned (or translation corpora)</h3>
+<p>According to Baker, parallel corpora consist “of original, source language texts in language A and their translated versions in language B” (Baker, 1995: 230). For that reason, parallel corpora are also called “translation corpora”. In this workshop, language A will be Italian and language B will be English.
+Currently, <strong>corpus linguistics</strong> is a relevant methodology in Translation Studies research, as revealed by Fantinuoli and Zanettin: “in the last ten years or so about 1 out of 10 publications in the field [of Translation Studies] has been concerned with or informed by corpus linguistics methods” (Fantinuoli and Zanettin, 2015:8). Despite the relevance of parallel corpora, available tools either have limited features or have been developed for specific, not-accessible research or projects.
+Furthermore, aligned parallel corpora are not frequently addressed  by research in corpus linguistics.
+<!-- We will explore the reasons for this later. -->
+Beyond the challenges of finding suitable tools, another obstacle in the creation of parallel corpora is <strong>alignment</strong>. One of the first definitions of alignment is “finding correspondences, in bilingual parallel corpora, between textual segments that are translation equivalents” (Kraif, 2002:273). This means that, for example, if one extracts text from a brochure from a museum and it says “Informazione sulla mostra”, one will have to align it to the corresponding translation equivalent, namely “Information on the exhibition”.</p>
+
+<p>Although not new, Kraif’s definition is still valid.
+However, it’s important to note that alignment does not necessarily have to be only bilingual: parallel corpora can include more than two languages (EAGLES, 1996: 9; Frankenberg-Garcia, 2009: 57; Zanettin, 2012: 150).
+If the corpus is bilingual (such as in this seminar), then the text resulting from alignment will be a “bitext” (Harris, 1988), even though “bilingual text” or “aligned text” are also acceptable.</p>
+
+<p>Different degrees of parallelism (alignment) are possible: since correspondence on a text level to correspondence on a word level (Véronis, 2000: 6-ff; Zanettin, 2012: 149; Faya Ornia, 2025: 352).</p>
+
+<ul>
+  <li>
+    <p><strong>Text-level alignment</strong> involves matching entire texts. For example, considering the museum brochure mentioned earlier, this would mean aligning the entire Italian text with the entire English text. In general, this approach is not preferred because it is often too coarse for research purposes. Finer alignment is generally required.</p>
+  </li>
+  <li>
+    <p><strong>Paragraph-level alignment</strong> matches corresponding paragraphs. For instance, paragraph one in Italian would be aligned with paragraph one in English, paragraph two with paragraph two, and so on. This provides a more refined alignment than text-level, but may still lack precision.</p>
+  </li>
+  <li>
+    <p><strong>Sentence-level alignment</strong> matches individual sentences. This is a common and often effective approach.</p>
+  </li>
+</ul>
+
+<p>Word-level alignment seeks to match individual words and even though it is also considered, it may not yield reliable results, due to linguistic differences and ambiguities. linguistic or structural differences??</p>
+
+<p>Among these, sentence-level alignment is widely recognized as the <em>de facto</em> standard (Zanettin, 2012: 155). In translation memory terminology, this corresponds to alignment at the translation unit or segment level, depending on the specific translation software employed. This type of alignment will be the focus of today’s demonstration.</p>
+
+<p>Since the first work on sentence-level alignment performed by Kay and Röscheisen in 1987 (Kay, 2000: XV), a number of tools and increasingly automated processes has emerged (cf. Section 4.2 in this seminar).</p>
+
+<p>Complexity of the process results from the type of alignment desired or, in other words, “[t]he finer the alignment, the more complex it becomes” (Frankenberg-Garcia, 2009:61).
+But the complexity of the alignment process is also due to the type of text involved. Consider, for instance, the alignment of an Italian-English user guide. In this case, the alignment is usually easier because the target text closely mirrors the source text, with near-complete correspondence. However, when the translated text has missing paragraphs or some of the paragraphs are summaries of the source text content, the alignment procedure will be more challenging.</p>
+
+<h3 id="already-compiled-corpus-or-diy-corpus">Already-compiled corpus or DIY corpus?</h3>
+
+<p>When using parallel corpora, is it preferable to use an already-compiled corpus or to build one by scratch (a sort of DIY corpus)? This section will explain the perks and drawbacks of both approaches.</p>
+
+<h4 id="already-compiled-corpus-disadvantages">Already-compiled corpus: Disadvantages</h4>
+
+<p>One primary drawback of already-compiled corpora is their limited availability (Granger, 2010: 5; Zanettin, 2012: 153-154), a consequence of the effort required for their compilation (Véronis, 2000b: 15; Sharoff, 2002: 449). The complexity and time-consuming nature of creating parallel corpora, compared to monolingual corpora, result in fewer available options.
+Furthermore, parallel corpora are usually smaller compared to monolingual and comparable corpora for the following reasons:</p>
+
+<ul>
+  <li>compilation time: the process of sourcing and aligning parallel texts is exceptionally time-consuming.</li>
+  <li>domain specialization: the more specialized the domain is, the smaller the corpus will be (Zanettin, 2012: 152). For example, while a corpus of translated literature might be extensive, a corpus focusing on 19th-century Philippine literature translations will be considerably more limited.</li>
+  <li>translation dependency: the nature of the texts themselves, since they are translations, is a determinant factor (Nádvorníková, 2017: 3). Even though parallel corpora require both source and translated texts, the availability of translations is often restricted, with only a small fraction (1% or less) of texts being translated, thus affecting corpus size.</li>
+</ul>
+
+<h4 id="already-compiled-corpus-advantages">Already-compiled corpus: Advantages</h4>
+
+<p>Already-compiled corpus: Advantages
+Creating parallel corpora is difficult and not many people do it.
+Furthermore, the increasing availability of texts in specialized domains, alongside advancements in technology, has made the creation of corpora focused on less common areas more accesible/achievable/possible to achieve than previously (McEnery and Hardie, 2012: 4; Fantinuolli and Zanettin, 2015: 1).
+A significant shift in corpus linguistics is the reduced emphasis on corpus size. While large corpora were once considered essential, recent research indicates that size is less critical than initially believed. Consequently, the smaller size of parallel corpora, due to their nature, is no longer considered a significant drawback.
+Being specialized and aligned corpora, they will be smaller than general or monolingual corpora. Current trend not to prevail the size of corpora (Anthony, 2013: 146; Scheer, 2013: 1; Rojo, 2015: 376, Nádvorníková, 2017: 3-ff). In fact, Arbach y Ali very clearly mention the “necessité de corpus moins grands, plus spécifiques” (2013: 11).
+One of the advances in corpos linguistics that we could not foresee was that corpora were going to be not only bigger but also smaller.</p>
+
+<h2 id="using-already-compiled-corpora-in-sketch-engine-for-translators">Using already-compiled corpora in Sketch Engine for translators</h2>
+
+<h3 id="review-of-tasks-with-monolingual-corpora-in-sketch-engine">Review of tasks with monolingual corpora in Sketch Engine</h3>
+
+<p>Sketch Engine offers a variety of options. Some of them are listed below (<a href="https://www.sketchengine.eu/quick-start-guide/">documentazione</a>):</p>
+
+<ul>
+  <li>Word sketch: to analyze a word, for example “exhibition”, and find out adjectives, nouns, or verbs that are usually associated with that word;</li>
+  <li>Word sketch difference: to compare two similar words within our corpus, e.g. “exhibition” and “exhibit”, and to identify the frequency with which the two words are associated with certain verbs, adjectives, nouns, etc.</li>
+  <li>Thesaurus: to generate a synonym-based glossary;</li>
+  <li>Corpus creation: enabling the creation of both monolingual and bilingual corpora;</li>
+  <li>Single word keywords and multi-word terms (available for user-created corpora);</li>
+  <li>Word lists: to identify frequent words, and to filter by specific word categories (e.g., frequent adjectives) due to Sketch Engine’s text tagging.</li>
+  <li>Concordance: to view keywords in context.</li>
+</ul>
+
+<h3 id="available-corpora-in-sketch-engine">Available corpora in Sketch Engine</h3>
+
+<p>Select corpus &gt; Advanced &gt; Corpus Category: Parallel</p>
+
+<p>Primary: Italian
+Aligned: English</p>
+
+<p>9 already-compiled corpora available on Sketch Engine to date
+<!-- (magari può essere la didascalia allo screenshot con tutti i parallel corpora dall'italiano all'inglese??) -->
+If you change the order, from English into Italian, you’re going to have the same because Sketch Engine doesn’t really care about the direction of the translations, which might be a problem. It’s not the same to have Italian as the source language and Italian as a target language.</p>
+
+<p>By clicking on one of them, for example EUR-Lex 2/2016 parallel – Italian, you will access a new feature, “Parallel Concordance”, which is not available for monolingual corpora. Selecting this feature redirects you to this page (inserisci screenshot). In the “Search” box you can enter a word in Italian, e.g. “scadenza”, and find out its English equivalent. Make sure the source language is set to Italian and the target language to English, then click on ‘Search’.</p>
+
+<p>The time needed for the page to load depends on the size of the corpus. In this case the corpus is quite large as it contains 606,070,097 words. Once the page has loaded, it’s possible to know the number of occurrences or “hits” in the box at the upper left corner (71,311 for “scadenza”).</p>
+
+<p>Sketch Engine highlights the suggested English equivalent in yellow. Once “scadenza” appears in Italian “date” is a recurring word appearing in the English translation.
+<!-- Also, note that the alignment in this corpus is not precise as it often matches multiple Italian sentences with multiple English sentences, rather than a one-to-one correspondence. -->
+<!-- forse al posto di "not precise" potrei mettere "non è molto utile ai fini della ricerca" o una cosa del genere, perché per essere preciso sembra preciso. ?? --></p>
+
+<p>If you wish to examine the English translations of ‘scadenza’ within this parallel corpus, use the filter function. Given the 71,311 results, manually reviewing each occurrence is impractical.</p>
+
+<!-- To use a more limited and therefore manageable corpus, we are going to switch to [purtroppo il corpus indicato dal professore non è stato ancora reso pubblico. Non so se mettere le slide del suo esempio oppure cercare un altro esempio in italiano poiché l'esempio in spagnolo non potrebbero vederlo nella pratica??]
+
+- the recall releases corpus created by professor Jorge Leiva, called "Alertas alimentarias 2020, English" , even though it is not accessible yet and we can share only some screenshots of it.
+For example, let's say I want to see how "beef" is translated into Spanish. There are 2661 occurrences of "beef" translated as "carne".
+But often there is also "res" together with "carne", in the expression "carne molida de res", which means "ground beef" in English. "Res" is as they call beef in Mexico and other parts of Latin America and instead of "ternera". If I want to see how many equivalents of "beef" are in Spanish... [qui non ha spiegato come si fa] -->
+
+<!-- - the EUR-Lex judgments 12/2016 parallel – English.
+
+Un'altra opzione sarebbe di riportare l'esempio, o del corpus del professore o del corpus EUR-Lex judgments 12/2016 parallel – English, già dall'inizio, escludendo l'esempio di scadenza dato che le hits erano troppe. Per il corpus EUR-Lex judgments 12/2016 parallel – English posso portare l'esempio di "beef", come fatto dal professore, ma anche di altre parole.
+altra cosa: le parole come res, ternera ecc. sarebbe meglio metterle tra virgolette o in corsivo? -->
+
+<!--
+the corpus is: MUSA21, 07.04.2021, English [anche questo corpus non c'è perché il professore non lo ha reso disponibile, ad ogni modo per questo va benissimo anche un corpus monolingue] -->
+<p>To identify the adjectives commonly associated with “exhibition,” particularly those that immediately come before the term, you can use the “Frequency” feature. By selecting the lemmas of the first word to the left, it becomes possible to determine the most frequently used adjectives. Upon doing so, the results reveal that the most common adjective paired with “exhibition” is “special,” followed by “major,” “new,” and others in descending frequency.
+When identifying the Spanish equivalents of “exhibition”, you’ll notice there are mainly two possible words, “exposición” and “exhibición”. frequency analysis feature is accessible for the English side of the corpus but does not function for the Spanish side. Even though it is not possible to arrange the Spanish translations by frequency, filtering remains an option. In  is also essential to consider the total number of occurrences, which in this case amounts to 2902.  We can filter by asking Sketch Engine to tell me how many times “exposición” appears but also how many times it doesn’t appear because I know there are going to be many occurrences. So I can select “does NOT contain”, so filter by paragraphs not containing “exposición” and I have to substract the number of hits with a result. Now exposición is gone and I can have all the occurrences not cointaining “exposición”, which are 991. So the occurrences of “exposición” are 2902-991, which is 1911. And I can do the same with “exhibition”.</p>
+
+<!-- (Copilot)
+When identifying the Spanish equivalents of "exhibition," you'll notice two primary options: "exposición" and "exhibición." While the frequency analysis feature is available for the English side of the corpus, it doesn't work for the Spanish side. This means we can't rank Spanish translations by frequency, though filtering is possible. It's also important to consider the total number of occurrences, which in this case is 2902.
+To filter, Sketch Engine can show how many times "exposición" appears and how many times it doesn't. Since "exposición" is expected to have numerous occurrences, you can choose the "does NOT contain" filter to exclude paragraphs containing "exposición." By subtracting the filtered results from the total hits, you can determine the remaining occurrences. For example, excluding "exposición" leaves 991 occurrences. Subtracting this from the total 2902 occurrences reveals that "exposición" appears 1911 times. A similar approach can be applied to analyze "exhibition."
+
+
+When seeking the Spanish equivalents of "exhibition," two primary options emerge: "exposición" and "exhibición." Although the frequency analysis feature is available for the English side of the corpus, it does not function for the Spanish side. Consequently, while it is not possible to arrange the Spanish translations by frequency, filtering remains an option. It is also essential to consider the total number of occurrences, which in this case amounts to 2902.
+To apply filtering, Sketch Engine can indicate how many times "exposición" appears and how many times it does not. Since "exposición" is expected to occur frequently, one can utilize the "does NOT contain" filter to exclude paragraphs that include "exposición." By subtracting the filtered results from the total occurrences, the number of instances of "exposición" can be determined. For example, excluding "exposición" results in 991 occurrences. Subtracting this figure from the total of 2902 reveals that "exposición" appears 1911 times. A similar method can be employed to analyze "exhibition."
+I hope this strikes the right balance! Let me know if you'd like me to refine it further.
+
+Ci ritorno più avanti 47:08 fino a 53:36
+
+Qui spiega l'utilità di tre dei corpora che si trovano su Sketch Engine quando si cerca un corpus parallelo dall'Italiano all'Inglese (o viceversa). Il problema è che ho trovato corpora con nomi diversi e non so quindi se siano gli stessi.
+
+56:08
+
+59:13 comincia a spiegare come compilare un corpus parallelo per proprio conto -->
+
+<h2 id="introduction">Introduction</h2>
+
+<h3 id="main-advantages-and-drawbacks">Main advantages and drawbacks</h3>
+
+<h4 id="compiling-your-own-parallel-corpus-advantages">Compiling your own parallel corpus: Advantages</h4>
+
+<p>Firstly, <strong>the design is entirely customizable</strong>, allowing researchers to precisely define the desired characteristics of the data. For instance, one could specifically curate texts originating from the Philippines during the 19th century and translated by female individuals.
+Consequently, this approach facilitates the <strong>exploration of less-studied domains</strong>, in contrast to well-researched areas such as legal discourse.  While the study of legal discourse remains valuable, creating a new corpus for it may only be necessary for highly specific sub-fields.</p>
+
+<h4 id="compiling-your-own-parallel-corpus-disadvantages">Compiling your own parallel corpus: Disadvantages</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Advantages</th>
+      <th>Disadvantages</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tailor-made design</td>
+      <td>Related literature is scarse</td>
+    </tr>
+    <tr>
+      <td>Exploration of new domains</td>
+      <td>The corpus size will generally be small</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Time-consuming task</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Design problems can (partially or entirely) ruin your research, making a good design technique and procedure necessary</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="setting-the-basis-for-corpus-compilation">Setting the basis for corpus compilation</h3>
+
+<p>Here are listed some of the literature on the necessary procedures for building a parallel corpus:</p>
+
+<ul>
+  <li>Frankenberg-Garcia (2009) -&gt; Frankenberg-Garcia, A. (2009). Cross-language corpus query systems. Text, Speech and Technology (now Language Resources and Evaluation), 43(4), 371-391.</li>
+  <li>Fantinuoli and Zanettin (2015) -&gt; Fantinuoli, C., &amp; Zanettin, F. (2015). Parallel Corpora. In Y. Gambier &amp; L. van Doorslaer (Eds.), Handbook of Translation Studies (Vol. 5, pp. 97-104). John Benjamins Publishing Company.</li>
+  <li>Serón Ordóñez (2015) -&gt; Serón Ordóñez, M. (2015). La explotación de corpus paralelos en la investigación traductológica: recursos y aplicaciones. Onomázein, Número especial 2, 299-322.</li>
+  <li>Zubillaga, Sanz and Uribarri (2015) -&gt; Zubillaga, A., Sanz, I., &amp; Uribarri, I. (2015). Developing comparable and parallel corpora for under-resourced languages: The case of Basque. In Proceedings of the 9th Workshop on Asian Language Resources (pp. 11-18).</li>
+  <li>Molés-Cases (2016) -&gt; Molés-Cases, T. (2016). Corpus-based translation studies: Research and applications. Íkala, Revista de Lenguaje y Cultura, 21(1), 11-30.</li>
+</ul>
+
+<p>If possible, free and easily-operated software will be used, as opposed to frequent methods and tools used for corpus compilation: they “require considerable computational expertise, which most researchers in descriptive translation studies and translators probably do not possess” (Zanettin, 2012: 161).</p>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/seminari/images/seminar-images/designing-parallel/alignment.png" style="
+        width: 400px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      
+
+    </figcaption>
+  
+</figure>
+
+<p>When selecting texts for alignment and corpus compilation, it’s necessary to have both the source text and its translation. In this case, we will be using Sketch Engine, which supports specific file formats, including TMX, XLS, XLIFF, CSV, TVS, and XLSX.
+Since the plan is to upload a TMX file to Sketch Engine, a translation memory is required. In general, a translation memory (TM) is essential for text alignment, whether using TMX or other formats, as it helps manage and structure bilingual content effectively. For text alignment purposes, using translation memory software—such as <strong>Trados</strong>—or an alignment tool like <strong>LF Aligner</strong> is recommended. If working with Trados, this process is straightforward. LF Aligner requires users to manually align source and target texts before creating a TM. Also, it primarily supports file formats such as DOC, TXT, RTF and DOCX.
+In cases where the available text is in a different format—such as HTML, PDF, or database exports—it must first be converted to DOC. This conversion makes sure the text is compatible for alignment, allowing the creation of a bitext, which can then be uploaded to Sketch Engine.</p>
+
+<h3 id="some-conditioning-factors-and-text-types">Some conditioning factors and text types</h3>
+
+<p>We are still in the process of selecting the texts for our corpus, and several key factors will influence our choices:</p>
+
+<ul>
+  <li>Translation availability: To ensure a broad and diverse corpus, we should prioritize texts that have been widely translated. This will allow for a more extensive lexical range and a greater volume of words.</li>
+  <li>Text length: The size of the texts plays a critical role in processing efficiency. A single text containing 10,000 words is much faster to process than ten texts of 1,000 words each. In the latter case, additional time is required for data entry, file saving, and format conversion.</li>
+  <li>Digital vs. printed format: Digital texts are preferable to printed ones. If a text is available only in print (qui io metterei in printed form), it must first be converted into a digital format, adding an extra step to the process.</li>
+  <li>File format considerations: Whether a text is in DOC, PDF, or HTML affects processing. If the text is in PDF or HTML, it must be converted to DOC before alignment, requiring an additional stage.</li>
+  <li>Source and target identification: How easily can the source text be distinguished from the target text? Is this distinction relevant to the corpus’s usability?</li>
+  <li>Machine translation influence: Has the text been translated manually or by a machine? If machine-translated, does this affect its quality and suitability for the corpus?</li>
+  <li>Domain and text type: Even when a topic seems appropriate, certain limitations may arise—such as a lack of available translations or restricted access to relevant texts due to geographical constraints. These factors may impact the compilation approach, possibly necessitating a shift to an alternative domain that remains valuable for research purposes.
+The following sections will present various domains and fields for consideration, listed in no particular order.</li>
+</ul>
+
+<h4 id="literary-texts">Literary texts</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Advantages</th>
+      <th>Disadvantages</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Usually easy to find</td>
+      <td>If they are printed and not copyright-free, a lot of scanning is required</td>
+    </tr>
+    <tr>
+      <td>Generally long</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>ST/TT are easy to identify</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Machine translation is not involved on a regular basis</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="journalistic-texts">Journalistic texts</h4>
+
+<p>Here are the advantages of using journalistic texts in parallel corpora:</p>
+
+<ul>
+  <li>if they are web-based they are going to be typically .html, which is positive because it’s a easily convertible format;</li>
+  <li>usually the translation has been done by humans, so it’s not a machine-based translation</li>
+</ul>
+
+<p>The disadvantages are:</p>
+
+<ul>
+  <li>
+    <p>Bitexts are not easy to find, except for some specific cases:</p>
+
+    <ul>
+      <li>
+<em>Project Syndicate</em> (not free)</li>
+      <li>LENA (<em>Leading European Newspaper Alliance</em>): <em>El País</em>, <em>Le Figaro</em>, <em>Le Soir</em>, <em>Die Welt</em>, <em>Tribune de Genève</em>, <em>Tages Anzeiger</em>, <em>La Repubblica</em>, <em>Gazzetta</em>, <em>Wyborcza</em>
+</li>
+      <li>Airline in-flight magazines</li>
+    </ul>
+  </li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Advantages</th>
+      <th>Disadvantages</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>If web-based, texts are typically going to be in <strong>HTML</strong>, which is positive  because it’s a <strong>easily convertible format</strong>.</td>
+      <td>
+<strong>Bitexts are not easy to find</strong>,  except for some specific cases: &lt;ul&gt;&lt;li&gt;<em>Projetc Syndicate</em> (not free)&lt;/li&gt;&lt;li&gt;LENA (<em>Leading European Newspaper Alliance</em>): <em>El País</em>, <em>Le Figaro</em>, <em>Le Soir</em>, <em>Die Welt</em>, <em>Tribune de Genève</em>, <em>Tages Anzeiger</em>, <em>La Repubblica</em>, <em>Gazzetta</em>, <em>Wyborcza</em>.&lt;/li&gt;&lt;/ul&gt;  Airline in-flight magazines are great because it’s easy to find them online and to identify what the target and the source texts are, although they cannot be labeled as “journalistic”.</td>
+    </tr>
+    <tr>
+      <td>Usually <strong>human-based translation</strong>
+</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- inoltre non se aggiungere il contributo della ricercatrice che lavora in questo campo (dott.ssa Gaia Aragrande) e quindi specificare all'inizio che questa pagina è il frutto del lavoro del prof. Leiva e di quelli che sono intervenuti durante il seminario?? -->
+
+<!-- Contributo della dott.ssa Aragrande: -->
+
+<!-- - I found that usually journalistic texts do not acknowledge the translator -->
+<!-- - You can find repositories of multilingual journalism but you cannot align text because they don't really lend themselves to alignment. -->
+<!-- - What you can do, though, is finding voluntary-based translation if semi-journalistic texts like Global Voices or similar platforms that provide bilingual and, usually, alignable texts. -->
+<!-- - What I find the most effective with this type of texts is using  comparable corpora and investigating the same news item under different perspectives. This way you can pinpoint translation but they are not alignable. -->
+
+<!-- (i primi due punti sono due svantaggi, il terzo e il quarto sono due vantaggi dati dall'uso di testi linguistici per la costruzione di corpora paralleli) -->
+
+<!-- Poi il prof. Leiva ha aggiunto che si potrebbe utilizzare _Project Syndicate_: -->
+<!-- The main issue is that it's not free (per la verità alcuni articoli sono accessibili liberamente) and you don't really know what the source text was. -->
+
+<!-- Non dice nulla sull'ultimo punto segnalato dal punto interrogativo: "Medium-lenght texts" -->
+
+<h4 id="websites">Websites</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Advantages</th>
+      <th>Disadvantages</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ideal for <strong>electronic corpora</strong>
+</td>
+      <td>We don’t know whether <strong>machine translation</strong> was used</td>
+    </tr>
+    <tr>
+      <td>If properly selected, these texts are usually <strong>long</strong>
+</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>
+<strong>ST/TT</strong> are usually <strong>easy to identify</strong>
+</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The format is usually <strong>.html</strong>
+</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>We need to define clear selection criteria, otherwise the amount of texts may become unmanageably large. Also, the texts would not be homogenous.</p>
+
+<h4 id="user-manuals-and-online-help-files">User manuals and online help files</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Advantages</th>
+      <th>Disadvantages</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>They are <strong>everywhere</strong>
+</td>
+      <td>
+<strong>Machine translation/post-editing</strong> might have been used</td>
+    </tr>
+    <tr>
+      <td>ST/TT are not difficult to identify</td>
+      <td>If the manuals are paper-based, a lot of scanning is needed</td>
+    </tr>
+    <tr>
+      <td>This text type is perfect for terminology</td>
+      <td>If the manuals are online in .pdf format graphic normalization is necessary</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>If the manuals are in .chm format, some technical knowledge to extract them is required</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>English is usually involved in ST</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Dice che mostrerà la "graphic normalization" più tardi (??) -->
+<!-- Poi non capisco perché abbia messo "perfect for terminology" nelle cose a cui prestare attenzione piuttosto che nei vantaggi (??) -->
+
+<h4 id="tweets">Tweets</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Advantages</th>
+      <th>Disadvantages</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A <em>trending topic</em> in research</td>
+      <td>It is difficult to find the same text written in two languages</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Extremely short texts: building an adequately large corpus is really time-consuming</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="subtitles">Subtitles</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Advantages</th>
+      <th>Disadvantages</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Easy to find</td>
+      <td>It requires some technical knowledge to extract/download subtitles</td>
+    </tr>
+    <tr>
+      <td>Usually long</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>ST/TT are typically easy to identify</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Interesting studies have been carried out in the last few years (e.g. Ortiz-Boix, 2016)</p>
+
+<h4 id="press-releases">Press releases</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Advantages</th>
+      <th>Disadvantages</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>They are easy to find because the press section on websites are usually well organized</td>
+      <td>Possible use of manchine translation/post-editing</td>
+    </tr>
+    <tr>
+      <td>Very interesting text types</td>
+      <td>They are generally not too long</td>
+    </tr>
+    <tr>
+      <td>Format of texts: .html or .pdf</td>
+      <td>Too many repetitions</td>
+    </tr>
+    <tr>
+      <td>ST/TT are usually easy to identify</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Some of these pros and cons could also be applied to abstracts of academic papers.</p>
+
+<h4 id="translation-memories">Translation memories</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Advantages</th>
+      <th>Disadvantages</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Aligned bitexts resemble translation memory files → no time needed for processing</td>
+      <td>Machine translation/post-editing may have been used</td>
+    </tr>
+    <tr>
+      <td>Possibly vast amount of words</td>
+      <td>Companies/agencies and translator are not eager to share them</td>
+    </tr>
+    <tr>
+      <td>ST/TT can be easily identified</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="compiling-a-parallel-corpus">Compiling a parallel corpus</h2>
+
+<!-- PAUSA DA TAGLIARE [1:22:00 - 1:28:00] -->
+<p>Here are the four main stages of compiling a parallel corpus:</p>
+
+<ol>
+  <li>Selecting and finding your texts</li>
+  <li>Digitazion/graphic normalization and saving the texts</li>
+  <li>Aligning</li>
+  <li>Corpus compilation and management</li>
+</ol>
+
+<h3 id="selecting-and-finding-your-texts">Selecting and finding your texts</h3>
+
+<!-- 1:29:19 -->
+
+<p>When compiling your corpus, you need to answer these questions:</p>
+
+<ul>
+  <li>What am I compiling my corpus for? E.g. unless specifically tagged, orthotypography cannot be studied in SketchEngine [è abbastanza chiaro il senso di questo esempio??]</li>
+  <li>What are the limits of my corpus?
+    <ul>
+      <li>Text type/domain (as seen in previous section)?</li>
+      <li>Is the difference between ST and TT important?</li>
+      <li>Do I need texts from a specific location or can I work with texts from different geographical areas? E.g. Just Italy, or texts in Italian (e.g. Switzerland)?</li>
+      <li>Do I need texts from a specific timeframe or can I include all the material available regardless of the time they were made?</li>
+      <li>Just one author/ brand/company? Two of each to ease comparison? Everything?</li>
+    </ul>
+  </li>
+</ul>
+
+<!-- [altra cosa: qui ho preferito scrivere tipo "you/your" ma ho paura di aver scritto "we/our" prima-> controlla e uniforma] -->
+
+<p>Please, also note:</p>
+
+<ul>
+  <li>A questionable selection of sources for the corpus (being inaccurate, wrong or partial) can ruin days or weeks of your work</li>
+  <li>Amount of resources: “It’s not always possible to find translations of all texts, either beacuse of the text type -letters and email messages, for instance, are not usually translated- or because there are more translations in one direction (English to Chinese, for instance) then in another (Chinese to English)”.
+(Granger, 2010:5)</li>
+</ul>
+
+<blockquote>
+  <p><strong>The good news is I can always make my corpus bigger or change it partially if necessary</strong></p>
+</blockquote>
+
+<p>Some of the items needed at this point are:</p>
+
+<ul>
+  <li>a good search strategy (also in Google) -&gt; tips on how to do it later (questo l’ho aggiunto io)</li>
+  <li>A file where to keep track of all the steps given</li>
+  <li>A record of websites visited</li>
+  <li>A logical and adequate coding strategy</li>
+</ul>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/seminari/images/seminar-images/designing-parallel/passaggi%20corpus%20parallelo.png" style="
+        width: 400px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      
+
+    </figcaption>
+  
+</figure>
+
+<h4 id="a-case-study-a-parallel-corpus-of-museum-texts">A case study: a parallel corpus of museum texts</h4>
+
+<!-- 1:38:51 -->
+
+<p>In this section it will be taken into consideration a specific parallel aligned corpus:</p>
+
+<ul>
+  <li>Gender (??): language of written museum texts</li>
+  <li>Time: the corpus was compiled between 2006 and 2021, while the texts span from 1993 to 2021</li>
+  <li>Place: electronic texts from museums and art centers from the United States (ST:English, TT:Spanish)</li>
+  <li>Retrieved from appropriate websites</li>
+  <li>Presumably human-translated (not MT), as translators are generally not indicated. (se vuoi rendere l’idea di “probabile ma non sicuro”)</li>
+  <li>Almost 500 texts with 1.5 milion words for the English subcorpus and 1.7 milion words for the Spanish subcorpus</li>
+</ul>
+
+<p>Search strategy</p>
+
+<ul>
+  <li>Manual navigation of the websites of 77 museums (website navigation and search options within each site).</li>
+  <li>
+<strong>TL/TT as the starting point</strong> (Toury, 1995). When building a parallel corpus, it makes sense to start from the target language, since that’s usually the trickiest part.</li>
+</ul>
+
+<!-- Search strategy (cont'd) io lo metterei qua anche -->
+
+<p>Now, we move on to the practical part of the work. Let’s imagine  we want to build a corpus from English to Italian using texts from museums in the USA and more specifically the Met (Metropolitan Museum of Art). Please go to <a href="https://www.metmuseum.org">the Met website</a> to follow the steps.</p>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/seminari/images/seminar-images/designing-parallel/met%20homepage.png" style="
+        width: 600px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      
+
+    </figcaption>
+  
+</figure>
+
+<p>First of all, we need to check whether a language option is available.
+*Depending on the country, translation may be clearly visible or hidden. As for the United States, for instance, translation is almost always hidden. Instead, Italian museums - such as the Vatican Museums - usually make the language menu easy to find on their websites.</p>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="On the upper right corner, you can clearly see the language option.">
+    <img src="/seminari/images/seminar-images/designing-parallel/musei%20vaticani.png" style="
+        width: 600px;
+        max-height: unset;
+      " alt="On the upper right corner, you can clearly see the language option." loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      On the upper right corner, you can clearly see the language option.
+
+    </figcaption>
+  
+</figure>
+
+<p>If this option is available, that’s great, as it makes it much easier to locate translated texts.</p>
+
+<p>Going back to the Met, as there is no language option clearly visible, we need to use the search bar.</p>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/seminari/images/seminar-images/designing-parallel/met%20searchbar.png" style="
+        width: 600px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      
+
+    </figcaption>
+  
+</figure>
+
+<p>Since we are looking for texts in Italian, we need to type “Italiano” in the search bar. If we search for “Italian” instead, the results will be related to Italy or Italian masters, but not to texts actually written in Italian.</p>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/seminari/images/seminar-images/designing-parallel/met%20italiano.png" style="
+        width: 600px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/seminari/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      
+
+    </figcaption>
+  
+</figure>
+
+<!-- Dato che poi dirà che questa strategia non funziona, è necessario riportarne tutto il processo?? -->
+
+<p>However, while browsing through the results you probably noticed that they were scarce and incomplete.
+This is not only the case for the Met but also for other museum websites. Sometimes a website doesn’t even have a search bar, so you need to navigate through it and try to come across some translations in other ways.</p>
+
+<!-- 1:44:38 -->
+
+<!-- One effective way is:
+
+1. Go to Google.com
+2. In the bottom right corner of the page click on ""
+3.
+4.
+1. copy paste: the website adress of the Metropolitan (https://www.metmuseum.org/) on Google search
+ -->
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/seminari/images/orizzontale%20bande%20bianche.png')" data-dark="true" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://site.unibo.it/laboratorio-sperimentale/it/" data-tooltip="Home page" data-style="bare" aria-label="Home page">
+      <i class="icon fa-solid fa-house-user"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/LaboratorioSperimentale" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:lilec.lab@unibo.it" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    © 2025
+    LABORATORIO SPERIMENTALE
+      |   Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>
