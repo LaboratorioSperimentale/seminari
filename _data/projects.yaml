@@ -1,36 +1,41 @@
+- title: "Gathering and analyzing data on social media"
+  subtitle: Vincenzo Amendolara
+  group: "2025"
+  image: images/logos/default.png
+  held: "23-10-2025"
+  publish: false
+
 - title: "Universal Dependencies come standard per corpora di L2 seminario"
   subtitle: Arianna Masciolini
   group: "2025"
-  image: images/logos/default.png
+  image: images/logos/logo-ud.png
   link: seminari/UD-per-Corpora-L2.html
-  held: "05-2025"
+  held: "04-09-2025"
   tags:
-    - UD
-    - Corpora
-    - L2
+    - corpus
   publish: true
 
-- title: "Enhancing Literary Translation Through Technology"
+- title: "Enhancing literary translation through technology"
   subtitle: Núria Molines Galarza
   group: "2025"
   image: images/logos/default.png
   link: seminari/Enhancing-Literary-Translation-Through-Technology.html
-  held: "05-2025"
+  held: "25-06-2025"
   tags:
   publish: true
 
-- title: "Modeling and Evaluation for Perspectivist NLP"
+- title: "Modeling and evaluation for perspectivist NLP"
   subtitle: Valerio Basile
   group: "2025"
   image: images/logos/default.png
   link: seminari/Modeling-Evaluation-Perspectivist-NLP.html
-  held: "05-2025"
+  held: "06-06-2025"
   tags:
   publish: true
 
-- title: "Tipologia token-based in pratica: un laboratorio con '(mini)CIEP+ - a sharable parallel corpus of prose'"
+- title: "Tipologia token-based in pratica"
   subtitle: Luigi Talamo
-  held: "05-2025"
+  held: "08-04-2025"
   group: "2025"
   image: images/logos/default.png
   publish: false
@@ -43,11 +48,19 @@
   link: seminari/tigr.html
   tags:
     - risorsa
-    - corpus
-    - parlato
   publish: true
 
-- title: Digital Text Annotation and Analysis with CATMA 7
+- title: "Small world of words"
+  subtitle: Maria Montefinese
+  group: "21-01-2025"
+  image: images/logos/default.png
+  link: seminari/smallworld.html
+  tags:
+    - risorsa
+    - lessico
+  publish: false
+
+- title: "Digital Text Annotation and Analysis with CATMA 7"
   subtitle: Mari Akazawa
   group: "2024"
   image: images/logos/catma1.png
@@ -67,15 +80,7 @@
     - lessico
   publish: false
 
-- title: "Small World of Words: mappare le Reti Semantiche attraverso le associazioni libere di parole"
-  subtitle: Maria Montefinese
-  group: "2025"
-  image: images/logos/default.png
-  link: seminari/smallworld.html
-  tags:
-    - risorsa
-    - lessico
-  publish: false
+
 
 - title: "La Trascrizione del Parlato con ELAN"
   subtitle: S. Ballarè
@@ -98,7 +103,7 @@
 - title: "An overview of the Universal Dependencies resources and tools"
   subtitle: Marie-Catherine de Marneffe
   group: "2024"
-  image: images/logos/default.png
+  image: images/logos/logo-ud.png
   publish: false
 
 - title: "Doing corpus-based syntactic typology with spoken language corpora"
@@ -167,7 +172,7 @@
   subtitle: Jorge Leiva Rojo
   group: "2021"
   link: seminari/parallel-corpora.html
-  image: images/logos/default.png
+  image: images/logos/sketchengine.jpg
   publish: true
 
 - title: "Disrupting Digital Monolingualism: reflections"
