@@ -373,16 +373,3 @@
   group: "2021"
   image: images/logos/default.png
   publish: false
-
-
-- title: "Tipologia token-based in pratica un laboratorio con (mini)CIEP+ - a sharable parallel corpus of prose-20250408_154232-Meeting Recording"
-  subtitle: Luigi Talamo
-  group: "2025"
-  image: images/logos/default.png
-  publish: false
-
-- title: "The TIGR corpus - collection, transcription, processing and management of videorecorded data for the study of Italian talk in interaction - copy"
-  subtitle:  Johanna Miecznikowski e Elena Battaglia
-  group: "2024"
-  image: images/logos/default.png
-  publish: false

@@ -36,6 +36,8 @@ La sezione [**Seminari del Laboratorio**](https://laboratoriosperimentale.github
 
 {% include search-box.html%}
 
+{% include tags.html tags="corpus, ud"%}
+
 {% include section.html size="card"%}
 {% include list.html component="card" style="small" data="projects"%}
 
