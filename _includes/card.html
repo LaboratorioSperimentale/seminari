@@ -30,6 +30,13 @@
         {{ include.title }}
     </a>
     {% endif %}
+    {% if include.publish == false %}
+      <p class="card-ribbon">(Coming Soon)</p>
+    {% endif %}
+
+    {% if include.held %}
+      <p class="card-ribbon"> {{include.held}}</p>
+    {% endif %}
 
     {% if include.subtitle %}
       <span class="card-subtitle">{{ include.subtitle }}</span>
@@ -45,7 +52,4 @@
       {% include tags.html tags=include.tags repo=include.repo %}
     {% endif %}
   </div>
-  {% if include.publish == false %}
-  <div class="card-ribbon">Coming Soon</div>
-{% endif %}
 </div>
