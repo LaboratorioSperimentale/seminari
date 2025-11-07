@@ -48,7 +48,24 @@ Infine, si può incontrare il problema della traduzione vincolata, come nel caso
 
 ## Approccio classico: il cascade
 
-Nel modello detto a cascata noi mettiamo in moto una sequenza di processi che permettono di passare da un audio in una lingua ad un auditesto in un'altra lingua. 
+Nel modello detto a cascata si mettono in moto una sequenza di processi che permettono di passare da un audio in una lingua ad un testo in un'altra lingua. 
 
-Questi processi si possono dividere in due blocchi: quello del riconoscimento del parlato e uno è quello della traduzione testuale. Questi modelli si sono sviluppati a partire dagli anni 80, affinandosi nel tempo e al giorno d'oggi entrambi usano l'intelligenza artificiale.
+Questi processi si possono dividere in due blocchi: quello del riconoscimento del parlato e uno è quello della traduzione testuale. Questi modelli si sono sviluppati a partire dagli anni 80, affinandosi nel tempo e al giorno d'oggi entrambi usano l'intelligenza artificiale. 
+
+Nel caso del riconoscimento del parlato, si ha una conversione del parlato in testo nella stessa lingua. La difficoltà è che l audio è un continuum, cioè non risulta diviso in segmenti di parole ben definiti. L' audio è un continuum nel tempo e il sistema deve capire come isolare le parole.
+
+La cosa positiva nel riconoscimento del parlato è che abbiamo una relazione temporale fissa, monotonica, tra l'audio e il testo.
+
+Per quanto riguarda invece la machine translation vengono convertite le trascrizioni automatiche in un testo nella lingua target.
+
+A differenza del riconoscimento del parlato, il testo è diviso a parole, però non c' è un rapporto monotonico tra il testo sorgente e target perchè possiamo incontrare regole grammaticali diverse fra le due lingue.  
+
+## I pro e i contro del cascade
+
+Un vantaggio è che ormai si tratta di un approccio consolidato nel tempo e si conosce come organizzare i sistemi di traduzione. Inoltre, essendo il riconoscimento del parlato e la machine translation due aree di ricerca molto grandi si possono sfruttare grosse quantità di dati per addestrare il sistema.
+
+Purtroppo però ci sono anche diversi problemi:
+- il primo è senza dubbio la propagazione dell errore, ovvero se un sistema di riconoscimento sbaglia, soprattutto con le parole omofone, si ottiene qualcosa di completamente diverso dall input;
+- un altro problema è la perdita di informazioni dall audio, ovvero che quando un sistema di machine translation traduce ha perso ogni contatto con l audio che invece ci può dare informazioni anche a livello di prosodia. Per esempio, c'è molta differenza se io dico una cosa sottovoce o urlando e questo può aiutare il sitema a capire come modulare la traduzione; 
+- Infine, avendo molti moduli la latenza è molto alta e inoltre questi necessitano di manutenzione che ovviamente ha un costo.  
 
