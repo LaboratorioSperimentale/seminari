@@ -67,5 +67,32 @@ Un vantaggio è che ormai si tratta di un approccio consolidato nel tempo e si c
 Purtroppo però ci sono anche diversi problemi:
 - il primo è senza dubbio la propagazione dell errore, ovvero se un sistema di riconoscimento sbaglia, soprattutto con le parole omofone, si ottiene qualcosa di completamente diverso dall input;
 - un altro problema è la perdita di informazioni dall audio, ovvero che quando un sistema di machine translation traduce ha perso ogni contatto con l audio che invece ci può dare informazioni anche a livello di prosodia. Per esempio, c'è molta differenza se io dico una cosa sottovoce o urlando e questo può aiutare il sitema a capire come modulare la traduzione; 
-- Infine, avendo molti moduli la latenza è molto alta e inoltre questi necessitano di manutenzione che ovviamente ha un costo.  
+- Infine, avendo molti moduli la latenza è molto alta e inoltre questi necessitano di manutenzione che ovviamente ha un costo.
+
+## Il modello diretto
+
+Il modello diretto non deve avere rappresentazioni discrete intermedie, come ad esempio le trascrizioni nel Cascade ma soprattutto tutti i parametri usati per tradurre devono essere addestrati all' unisono. 
+Il modello diretto si appoggia sui modelli a sequenza dove si ha un encoder che prende l audio e lo trasforma in una sequenza di numeri e un decoder che partendo da questa sequenza genera un testo. 
+Questi modelli sono stati arricchiti dal modello di attenzione che permette al decoder  di guardare nell' audio ogni volta che deve tradurre una parola per capire qual' è l' nformazione più funzionale per tradurre quella parola.
+
+## I pro e i contro del modello diretto
+
+Uno dei vantaggi più grossi è che si ha un accesso diretto all' audio durante la traduzione, poichè il decoder è direttamente collegato all' encoder. Ma soprattutto non c'è propagazione dell'errore perchè non ci sono rappresentazioni intermedie discrete. Infine, un altro vantaggio è che in fase di produzione si ha un solo sistema da gestire.
+
+Tuttavia anche con il modello diretto si riscontrano delle problematiche.
+Innanzitutto, si tratta di una tecnologia non ancora consolidata come il Cascade, ma soprattutto si ha ancora una scarsità di dati di training.
+Inoltre, il modello diretto non allinea in maniera monotonica l'audio e le parole, quindi in fase di produzione, oltre alla comprensione dell' audio, bisogna anche procedere ad un riordino delle parole.
+
+Per migliorare la comprensione dell' audio, sono state sviluppate delle tecniche che riducono l'audio tramite l'uso di CNN. Oppure sono state sviluppate strategie specifiche basate sull'attenzione, in cui non si guarda tutto l' input perchè troppo lungo, ma ci si focalizza su delle zone ben precise. 
+
+## Cascade vs Modello Diretto
+
+Secondo la Campagna di Valutazione IWSLT, nel giro di tre anni, dal 2018 al 2020, il Modello Diretto è stato sviluppato e migliorato al punto da colmare il gap di performance che inizialmente aveva con il cascade.
+
+La maggior parte degli articoli sul modello diretto parlano dei seguenti vantaggi, dandoli un po' per scontato, rispetto al cascade:
+- non c'è propagazione dell'errore;
+- c'è un accesso diretto all'audio, che permette una manipolazione migliore delle informazioni paralinguistiche e non-linguistiche durante la traduzione (es. la prosodia).
+Tuttavia, la correttezza di queste due affermazioni non sono mai state verificate empiricamente. Da qui, l'importanza di studiare le vere differenze, se ci sono, tra il cascade e il Diretto.
+
+
 
