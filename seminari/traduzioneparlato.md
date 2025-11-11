@@ -92,7 +92,21 @@ Secondo la Campagna di Valutazione IWSLT, nel giro di tre anni, dal 2018 al 2020
 La maggior parte degli articoli sul modello diretto parlano dei seguenti vantaggi, dandoli un po' per scontato, rispetto al cascade:
 - non c'è propagazione dell'errore;
 - c'è un accesso diretto all'audio, che permette una manipolazione migliore delle informazioni paralinguistiche e non-linguistiche durante la traduzione (es. la prosodia).
-Tuttavia, la correttezza di queste due affermazioni non sono mai state verificate empiricamente. Da qui, l'importanza di studiare le vere differenze, se ci sono, tra il cascade e il Diretto.
+Tuttavia, la correttezza di queste due affermazioni non sono mai state verificate empiricamente. Da qui, l'importanza di studiare le vere differenze, se ci sono, tra il cascade e il Diretto, che è il vero obiettivo di questa presentazione.
 
+## Primo caso d'uso: il bias di genere
 
+Quando si parla di Machine Bias, si fa riferimento a quei sistemi automatici che sistematicamente e in modo ingiusto discriminano contro certi individui o gruppi di individui in favore di altri. Lo stesso natural language processing (NLP), non è esente da questo problema, anzi questi algoritmi tendono ad amplificare le differenze di tanti bias e uno di questi e il genere.  
+Ovviamente, questa situazione ha creato notevoli problemi sia dal punto di vista etico sia dal punto di vista di chi sviluppa questi sistemi.
 
+Ma perchè questi sistemi tendono a com piere questi errori? Perchè loro sono quello che imparano dai dati. 
+Ad esempio, nei dibattiti del Parlamento Europeo, che è una delle fonti principali di dati per addestrare i sistemi per la traduzione del parlato, il 70 % sono speaker maschi. Quindi succede che questi sistemi imparano che il 70% delle volte devono produrre una traduzione che è maschile o tendente al maschile, discriminando in maniera evidente la clase femminile.
+
+## Gender e traduzione
+
+Come gestiscono il genere le lingue? Esistono lingue gender neutral come l'inglese che tendono a non marcare il genere nella maggior parte dei casi, mentre altre, come l'italiano e lo spagnolo, sono lingue che marcano in ogni loro essenza il genere. Quindi ci sono notevoli parti del discorso dove cambia la forma della parola a seconda che ci si riferisce ad un maschio o ad una femmina.
+I sistemi, traducendo dall'inglese frasi come "i'm a good friend", tendenzialmente lo renderanno al maschile. Questo avviene perchè è già presente un bias nei dati di training che spinge i sistemi verso una forma maschile di default, amplificando le asimmetrie sociali.
+
+## Perchè analizzare il gender bias?
+
+Perchè, mentre nella Machine Translation il testo sorgente non sempre fornisce informazioni sul genere, nella Speech Translation(ST), l'audio ci può aiutare a capire se si deve tradurre al maschile o al femminile.  
