@@ -100,7 +100,7 @@ Quando si parla di Machine Bias, si fa riferimento a quei sistemi automatici che
 Ovviamente, questa situazione ha creato notevoli problemi sia dal punto di vista etico sia dal punto di vista di chi sviluppa questi sistemi.
 
 Ma perchè questi sistemi tendono a com piere questi errori? Perchè loro sono quello che imparano dai dati. 
-Ad esempio, nei dibattiti del Parlamento Europeo, che è una delle fonti principali di dati per addestrare i sistemi per la traduzione del parlato, il 70 % sono speaker maschi. Quindi succede che questi sistemi imparano che il 70% delle volte devono produrre una traduzione che è maschile o tendente al maschile, discriminando in maniera evidente la clase femminile.
+Ad esempio, nei dibattiti del Parlamento Europeo, che è una delle fonti principali di dati per addestrare i sistemi per la traduzione del parlato, il 70 % sono speaker maschi. Quindi succede che questi sistemi imparano che il 70% delle volte devono produrre una traduzione che è maschile o tendente al maschile, discriminando in maniera evidente la classe femminile.
 
 ## Gender e traduzione
 

@@ -36,4 +36,39 @@ Then, we have the issue of how much data do we need to represent one language an
 ## Types of data
 
 When we are gathering data, the first question is how much content control do we want. The maximum degree of content control is a translation. The alternative is to let people speak or write whatever they want, that would be content independent. And in the middle there are the so-called parallax corpora, that are based on non-verbal stimulus.
-The second thing is the medium. Are we going to go written or spoken? And if we have spoken data are we going to have monologues or conversations?   
+The second thing is the medium. Are we going to go written or spoken? And if we have spoken data are we going to have monologues or conversations?
+
+### Multi-CAST (Multilingual Corpus of Annotated Spoken Tests)
+
+In this particular corpus we have six levels of annotation. We start with a transcription of actual recording that are segmented into utterance units and time-aligned with the sound file. Than there's a second layer of morpheme for morpheme glossing. Finally, there'll be an idiomatic translation in English. This are the three principal tiers that when we take a text into multicultural corpus is pretty well what we assumed we'll already have.
+And then we add three tiers to it. The first one is the so-called GRAID (Grammatical Relations and Animacy in Discourse). The second is Refind (Referent indexing), that assigns a unique numerical index to each referent. And the third one is ISNRef that is only used for newly introduced referents.
+
+EXAMPLE: Northern Kurdish 
+
+### Annotations with GRAID: Form classes of referring expressions 
+
+In this kind of annotations we distinguish three (main) form classes of NP (noun phrase). The first one is a 0, so there is a referential expression that is recoverable from context, but there's no overt noun phrase which expresses it. The second one is a pronoun (pro), and finally we can have a full noun phrase with a lexical head. Subsequently, this main classes are combined with an indicator of person and animacy (first person, second person, H, which is third person human). 
+When we annotate the form, we also need to say something about what that item is doing in the clause. So it has some sort of syntactic function.
+
+TAGS FOR FUNCTION
+
+### WOWA: Word Order in Western Asia
+
+WOWA is a new project that has a different aim to Multi-CAST but there are also a number of similitaries. First of of all, we are working with content-independent, spoken, monological data. Secondly, we have unrestricted accessibility of all data. And finally, we have a similar size of individual corpora.
+On the other side we have also some difference between this two systems. The first is that WOWA is not typology on a global scale and the choice of documents is aereally restricted. In WOWA the focus is on the word order typology rather than discourse and grammar. But the fundamental difference is that in WOWA we don't have a comprehensive annotation. The focus here is on certain tokens of interest in the text and we a codification of them, while the rest is left uncoded. And that means that is used a spreadsheet format, and not ELAN. 
+The big advantage is that data can be annotated much more quickly, the analysis is simpler, and there is less pre-processing because it's in a table format. 
+On the other side we have some disadvantages. For example, the data in WOWA are less versatile and that means that there will be more restrictions on future re-usability. The other disadvantage is that the categories are predefined more than in Multi-CAST, rather than building up categories from the data.
+
+### Work flow with WOWA
+
+Firstly, we select a doculect and we go through a rough segmentation into utterance units. Secondly, we enter them into spread-sheet, so each utterance unit goes into a single cell in a spread-sheet. Usually we apply a translation and then we identify all the non-subject constituents in the text, and we enter them into spread-sheet: these are the tokens. Finally, we code each for a variety of features and we can analyze them in R. 
+
+### Summary
+
+If you want to compare usage rather than grammars across typologically diverse languages, you have to do a huge laborious task of collection, transcription and translation of the material from a typologically diverse range of languages. Moreover, you have to annotate them in a way that comparison across different languages is meaningful and practicable. This work is only worth if it's done in such a way that your labour is preserved for future research, even though you have no idea what future researchers will be interested in.
+
+### Recommendations by Geoffrey Haig
+
+Firstly, it's important to pick a research question that initially guide your practice, without imposing too many restrictions on future output. Secondly, you need to work bottom-up and incrementally and above all work collaboratively with socio-linguists, corpus linguists, statisticians and modellers, and so on. Another important thing is that annotation is always work-in-progress, you never finish. Finally, is fundamental to keep it simple.
+
+FINE
