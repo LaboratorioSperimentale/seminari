@@ -98,8 +98,7 @@ Tuttavia, la correttezza di queste due affermazioni non sono mai state verificat
 
 Quando si parla di Machine Bias, si fa riferimento a quei sistemi automatici che sistematicamente e in modo ingiusto discriminano contro certi individui o gruppi di individui in favore di altri. Lo stesso natural language processing (NLP), non è esente da questo problema, anzi questi algoritmi tendono ad amplificare le differenze di tanti bias e uno di questi e il genere.  
 Ovviamente, questa situazione ha creato notevoli problemi sia dal punto di vista etico sia dal punto di vista di chi sviluppa questi sistemi.
-
-Ma perchè questi sistemi tendono a com piere questi errori? Perchè loro sono quello che imparano dai dati. 
+Ma perchè questi sistemi tendono a compiere questi errori? Perchè loro sono quello che imparano dai dati. 
 Ad esempio, nei dibattiti del Parlamento Europeo, che è una delle fonti principali di dati per addestrare i sistemi per la traduzione del parlato, il 70 % sono speaker maschi. Quindi succede che questi sistemi imparano che il 70% delle volte devono produrre una traduzione che è maschile o tendente al maschile, discriminando in maniera evidente la classe femminile.
 
 ## Gender e traduzione
@@ -109,4 +108,15 @@ I sistemi, traducendo dall'inglese frasi come "i'm a good friend", tendenzialmen
 
 ## Perchè analizzare il gender bias?
 
-Perchè, mentre nella Machine Translation il testo sorgente non sempre fornisce informazioni sul genere, nella Speech Translation(ST), l'audio ci può aiutare a capire se si deve tradurre al maschile o al femminile.  
+Perchè, mentre nella Machine Translation (MT) il testo sorgente non sempre fornisce informazioni sul genere, nella Speech Translation(ST), l'audio ci può aiutare a capire se si deve tradurre al maschile o al femminile.
+
+## MuST-SHE
+
+Ma quindi i sistemi del parlato sfruttano l' audio per tradurre il gender? Per rispondere a questa domanda è stato creato un nuovo sistema chiamato MuST-SHE, che valuta la traduzione del gender in MT e ST. Questo test set risulta essere bilanciato sia nelle forme di gender sia nel numero di segmenti e parole che marcano il gender. Con questo nuovo approccio quindi non si valuta solo la qualità della traduzione in generale, ma anche la traduzione del gender, combinando differenti metriche (BLUE e accuracy).
+
+### Secondo caso d'uso: il sottotitolaggio
+
+Il sottotitolo si divide in due componenti principali:
+- la componente temporale, che ci dice quando il testo deve essere mostrato sullo schermo;
+- la componente testuale, che ci dice cosa deve essere mostrato sullo schermo.
+Il sottotitolaggio è un processo multimodale perchè dipende dal suono, ma anche dalle immagini, dai movimenti dei personaggi e dalle lingue. Inoltre il sottotitolaggio è un processo sottoposto a vincoli spaziali e temporali. 
