@@ -13,15 +13,16 @@ The transaction code is TXN987654321. The booking was made at 16:20 on 15/03/202
 
 ## 1. Basic Character Matching
 
-| Regex Command | Explanation | Example Match (Es: "Giovanni Bianchi, born on 12/11/1990, left at 08:45.")|
-|--------------|-------------|--------------|
-| `abc` | Matches exactly "abc". | No match |
-| `a\|b` | Matches "a" or "b". | `a`, `b` |
-| `.` | Matches any single character. | Matches all characters except newlines |
-| `[0-9]` | Matches any digit (0-9). | `1`, `2`, `5` |
-| `[a-zA-Z0-9_]` | Matches any alphanumeric character. | `G`, `B`, `i`, `a` |
-| `[[:space:]]` | Matches any whitespace character. | Spaces, tabs, newlines |
-| `[^0-9]` | Matches any non-digit. | Letters, punctuation |
+| Regex Command     | Explanation                           | Example Match (Es: "Giovanni Bianchi, born on 12/11/1990, left at 08:45.") |
+|------------------|---------------------------------------|------------------------------------------------------------------------------|
+| `abc`            | Matches exactly "abc".                | No match (la stringa non contiene "abc")                                    |
+| `a\|b`           | Matches "a" or "b".                   | `a` (in "Giovanni"), `a` (in "Bianchi"), `b` (in "born")                    |
+| `.`              | Matches any single character.         | `G`, `i`, `,`, ` ` (uno spazio), `1`, ecc.                                  |
+| `[0-9]`          | Matches any digit (0-9).              | `1` (di "12"), `9` (di "1990"), `0` (di "08"), `4` (di "45")                |
+| `[a-zA-Z0-9_]`   | Matches any alphanumeric character.   | `G` (di "Giovanni"), `B` (di "Bianchi"), `1` (di "12")                      |
+| `[[:space:]]`    | Matches any whitespace character.     | lo spazio dopo "Giovanni", lo spazio dopo la virgola, lo spazio dopo "on"   |
+| `[^0-9]`         | Matches any non-digit.                | `G`, `i`, ` ` (spazio), `,`, `B`, `o`, ecc.                                 |
+
 
 ---
 
